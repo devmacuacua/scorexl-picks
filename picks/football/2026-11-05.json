@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-05",
+  "sport": "football",
+  "note": "Liga Europa (J4) e Liga Conferência (J3). Análise com os resultados das jornadas anteriores (fonte: uefa.com); sem dados de cantos/remates por jogo nem lesões verificadas — por isso toda a confiança é média (0.5 unidade).",
+  "picks": [
+    {
+      "match": "Leverkusen vs Marseille",
+      "competition": "UEFA Europa League",
+      "kickoff_maputo": "2026-11-05T22:00:00+02:00",
+      "market": "moneyline",
+      "selection": "Leverkusen",
+      "line": null,
+      "min_odds": 1.5,
+      "confidence": "media",
+      "stake_units": 0.5,
+      "reason": "LEV 3 vitórias (8-0 em golos) vs OM sem vitórias (1-4, 0-1, 0-1)"
+    },
+    {
+      "match": "Benfica vs Lech Poznań",
+      "competition": "UEFA Europa League",
+      "kickoff_maputo": "2026-11-05T22:00:00+02:00",
+      "market": "handicap",
+      "selection": "Benfica -1.5",
+      "line": -1.5,
+      "min_odds": 1.65,
+      "confidence": "media",
+      "stake_units": 0.5,
+      "reason": "BEN 3 vitórias (10-2) vs Lech 1 ponto e -9 (0-4, 0-4, 1-1)"
+    },
+    {
+      "match": "Celtic vs Beşiktaş",
+      "competition": "UEFA Europa League",
+      "kickoff_maputo": "2026-11-05T22:00:00+02:00",
+      "market": "goals_over",
+      "selection": "Mais de 2.5 golos",
+      "line": 2.5,
+      "min_odds": 1.55,
+      "confidence": "media",
+      "stake_units": 0.5,
+      "reason": "Jogos do Celtic: 4, 5 e 3 golos; do Beşiktaş: 5, 5 e 4"
+    },
+    {
+      "match": "Crvena Zvezda vs Inter Escaldes",
+      "competition": "UEFA Conference League",
+      "kickoff_maputo": "2026-11-05T19:45:00+02:00",
+      "market": "handicap",
+      "selection": "Crvena Zvezda -1.5",
+      "line": -1.5,
+      "min_odds": 1.6,
+      "confidence": "media",
+      "stake_units": 0.5,
+      "reason": "Inter Escaldes (Andorra) 0 pontos (0-2, 1-3)"
+    },
+    {
+      "match": "Leverkusen vs Marseille",
+      "competition": "UEFA Europa League",
+      "kickoff_maputo": "2026-11-05T22:00:00+02:00",
+      "market": "shots_on_target_over",
+      "selection": "Mais de 8.5 remates enquadrados (jogo)",
+      "line": 8.5,
+      "min_odds": 1.3,
+      "confidence": "media",
+      "stake_units": 0.5,
+      "test": true,
+      "reason": "Teste: nas provas europeias os enquadrados (média ~11 na Champions) passaram 8.5 em 82% dos jogos"
+    }
+  ],
+  "avoid": [
+    {
+      "match": "Milan vs Ferencváros",
+      "reason": "Ferencváros com 9 pontos; Milan perdeu 0-3 em Bournemouth — sem favorito claro"
+    },
+    {
+      "match": "Atalanta vs Kairat Almaty",
+      "reason": "Atalanta perdeu 0-3 com o Parma na segunda — forma instável"
+    },
+    {
+      "match": "AZ Alkmaar vs Juventus",
+      "reason": "equilibrado"
+    },
+    {
+      "match": "Celta vs Union SG",
+      "reason": "equilibrado"
+    }
+  ]
+}

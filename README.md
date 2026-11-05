@@ -77,3 +77,12 @@ Todos os dias, a mesma tarefa liquida os palpites do dia anterior.
 ```
 
 `status` = `win` | `loss` | `push` | `pending`. Lucro calculado em unidades com `odds_ref` = cota mínima recomendada (a cota real na casa pode ser maior).
+
+## Futebol
+
+- `picks/football/AAAA-MM-DD.json` — mesmo formato base, com campos extra:
+  - `competition` (ex.: "UEFA Europa League"), `kickoff_maputo` (ISO 8601 com offset)
+  - `market` = `moneyline` | `handicap` | `goals_over` | `corners_over` | `shots_on_target_over`
+  - `line` (linha do mercado, ou `null` no moneyline), `test: true` nas entradas de teste (mercados 20%)
+  - `win_prob` pode faltar quando não há probabilidade de modelo
+- Mercados sempre no **total do jogo** (não por equipa).
