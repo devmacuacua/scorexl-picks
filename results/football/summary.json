@@ -1,0 +1,87 @@
+{
+  "sport": "football",
+  "days_processed": [
+    "2026-11-05"
+  ],
+  "totals": {
+    "bets": 4,
+    "wins": 2,
+    "losses": 2,
+    "pushes": 0,
+    "pending": 1
+  },
+  "hit_rate": 0.5,
+  "staked_units": 2.0,
+  "profit_units": -0.4,
+  "roi": -0.2,
+  "by_confidence": {
+    "media": {
+      "bets": 4,
+      "wins": 2,
+      "losses": 2,
+      "pushes": 0,
+      "staked_units": 2.0,
+      "profit_units": -0.4,
+      "roi": -0.2
+    }
+  },
+  "by_market": {
+    "moneyline": {
+      "bets": 1,
+      "wins": 0,
+      "losses": 1,
+      "pushes": 0,
+      "staked_units": 0.5,
+      "profit_units": -0.5,
+      "roi": -1.0
+    },
+    "handicap": {
+      "bets": 2,
+      "wins": 1,
+      "losses": 1,
+      "pushes": 0,
+      "staked_units": 1.0,
+      "profit_units": -0.175,
+      "roi": -0.175
+    },
+    "goals_over": {
+      "bets": 1,
+      "wins": 1,
+      "losses": 0,
+      "pushes": 0,
+      "staked_units": 0.5,
+      "profit_units": 0.275,
+      "roi": 0.55
+    }
+  },
+  "last_10": [
+    {
+      "date": "2026-11-05",
+      "match": "Leverkusen vs Marseille",
+      "market": "moneyline",
+      "status": "loss",
+      "profit_units": -0.5
+    },
+    {
+      "date": "2026-11-05",
+      "match": "Benfica vs Lech Poznań",
+      "market": "handicap",
+      "status": "win",
+      "profit_units": 0.325
+    },
+    {
+      "date": "2026-11-05",
+      "match": "Celtic vs Beşiktaş",
+      "market": "goals_over",
+      "status": "win",
+      "profit_units": 0.275
+    },
+    {
+      "date": "2026-11-05",
+      "match": "Crvena Zvezda vs Inter Escaldes",
+      "market": "handicap",
+      "status": "loss",
+      "profit_units": -0.5
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-06",
+  "sport": "football",
+  "note": "Sexta-feira: só 5 jogos nas grandes ligas e nenhum cumpre o perfil (super favorito vs adversário fraco). Sem fetch_sports_data nesta execução, por isso não há médias de cantos por equipa para calcular o esperado — sem entradas de cantos. Fontes: calciomagazine, laliga.com, sportsmole, anstosszeiten.",
+  "picks": [],
+  "avoid": [
+    {
+      "match": "Everton vs Coventry City",
+      "reason": "7.º vs 16.º mas Everton marca pouco (vitórias por 1-0) e Coventry ganhou 2 dos últimos 3 confrontos — sem favorito claro"
+    },
+    {
+      "match": "Venezia vs Udinese",
+      "reason": "últimos dois classificados (3 e 5 pontos) — jogo equilibrado, Udinese com treinador novo"
+    },
+    {
+      "match": "Hamburger SV vs Borussia Mönchengladbach",
+      "reason": "Gladbach último com treinador novo, mas sem dados de força do HSV — equilibrado"
+    },
+    {
+      "match": "Sevilla vs Alavés",
+      "reason": "equilibrado, sem dados de classificação/cantos"
+    },
+    {
+      "match": "Toulouse vs Strasbourg",
+      "reason": "separados por poucos pontos — equilibrado"
+    }
+  ]
+}
