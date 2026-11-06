@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-05",
+  "sport": "football",
+  "results": [
+    {
+      "match": "Leverkusen vs Marseille",
+      "competition": "UEFA Europa League",
+      "market": "moneyline",
+      "selection": "Leverkusen",
+      "line": null,
+      "final_score": "0-1",
+      "final_stat": null,
+      "status": "loss",
+      "stake_units": 0.5,
+      "odds_ref": 1.5,
+      "profit_units": -0.5
+    },
+    {
+      "match": "Benfica vs Lech Poznań",
+      "competition": "UEFA Europa League",
+      "market": "handicap",
+      "selection": "Benfica -1.5",
+      "line": -1.5,
+      "final_score": "3-1",
+      "final_stat": null,
+      "status": "win",
+      "stake_units": 0.5,
+      "odds_ref": 1.65,
+      "profit_units": 0.325
+    },
+    {
+      "match": "Celtic vs Beşiktaş",
+      "competition": "UEFA Europa League",
+      "market": "goals_over",
+      "selection": "Mais de 2.5 golos",
+      "line": 2.5,
+      "final_score": "3-2",
+      "final_stat": 5,
+      "status": "win",
+      "stake_units": 0.5,
+      "odds_ref": 1.55,
+      "profit_units": 0.275
+    },
+    {
+      "match": "Crvena Zvezda vs Inter Escaldes",
+      "competition": "UEFA Conference League",
+      "market": "handicap",
+      "selection": "Crvena Zvezda -1.5",
+      "line": -1.5,
+      "final_score": "2-1",
+      "final_stat": null,
+      "status": "loss",
+      "stake_units": 0.5,
+      "odds_ref": 1.6,
+      "profit_units": -0.5
+    },
+    {
+      "match": "Leverkusen vs Marseille",
+      "competition": "UEFA Europa League",
+      "market": "shots_on_target_over",
+      "selection": "Mais de 8.5 remates enquadrados (jogo)",
+      "line": 8.5,
+      "final_score": "0-1",
+      "final_stat": null,
+      "status": "pending",
+      "stake_units": 0.5,
+      "odds_ref": 1.3,
+      "profit_units": 0
+    }
+  ],
+  "day": {
+    "bets": 4,
+    "wins": 2,
+    "losses": 2,
+    "pushes": 0,
+    "profit_units": -0.4
+  }
+}
