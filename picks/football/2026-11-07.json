@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-07",
+  "sport": "football",
+  "note": "Sem fetch_sports_data nesta execução: sem médias de cantos por equipa, por isso nenhuma entrada de cantos. A maioria dos sites de estatísticas/classificações bloqueou o acesso (footballwebpages, foresportia, betmgm, betfred). Probabilidades de Dimers (Arsenal) e Kalshi (Bayern); contexto de bets.co.za e docsports. Hora do Arsenal vs Hull não confirmada (assumida 15:00 GMT). Confiança média e stake 0.5 em tudo. La Liga, Serie A e Ligue 1 não analisadas por falta de dados.",
+  "picks": [
+    {
+      "match": "Arsenal vs Hull City",
+      "competition": "Premier League",
+      "kickoff_maputo": "2026-11-07T17:00:00+02:00",
+      "market": "handicap",
+      "selection": "Arsenal -1.5",
+      "line": -1.5,
+      "min_odds": 1.85,
+      "win_prob": 0.803,
+      "confidence": "media",
+      "stake_units": 0.5,
+      "reason": "Arsenal 80% de vitória (Dimers), 6 vitórias em 8; Hull recém-promovido sem vitórias em 8. Vitória simples abaixo de 1.40, por isso handicap -1.5. Risco: Hull perdeu só 3 desses 8 e sempre por 1 golo."
+    },
+    {
+      "match": "Mainz 05 vs Bayern Munich",
+      "competition": "Bundesliga",
+      "kickoff_maputo": "2026-11-07T16:30:00+02:00",
+      "market": "handicap",
+      "selection": "Bayern -1.5",
+      "line": -1.5,
+      "min_odds": 1.80,
+      "win_prob": 0.77,
+      "confidence": "media",
+      "stake_units": 0.5,
+      "reason": "Bayern invicto (5V-3E), saldo +19 contra 0 do Mainz (3V-1E-4D, 17 sofridos). Kalshi: Bayern 77%, vitória por 2+ 57%. Vitória simples sem valor (~1.30)."
+    }
+  ],
+  "avoid": [
+    {"match": "Borussia Dortmund vs SV Elversberg", "reason": "favorito claro, mas sem probabilidades/cotas fiáveis e Elversberg marcou 4 em cada um dos últimos 3 jogos — sem margem para handicap"},
+    {"match": "Leeds vs Tottenham", "reason": "equilibrado (tip de Spurs a 2.40)"},
+    {"match": "Fulham vs Newcastle", "reason": "duas equipas perto da descida — equilibrado"},
+    {"match": "Nottingham Forest vs Manchester City", "reason": "Forest em boa forma (4V-1E nos últimos 5) — fora do perfil"},
+    {"match": "RB Leipzig vs Augsburg", "reason": "Leipzig favorito mas jogou a meio da semana na Champions; sem dados de cantos"},
+    {"match": "Stuttgart vs Werder Bremen", "reason": "Bremen invicto em 7 de 8 — equilibrado"},
+    {"match": "Paderborn vs Eintracht Frankfurt", "reason": "sem favorito claro"}
+  ]
+}

@@ -1,7 +1,8 @@
 {
   "sport": "football",
   "days_processed": [
-    "2026-11-05"
+    "2026-11-05",
+    "2026-11-06"
   ],
   "totals": {
     "bets": 4,
