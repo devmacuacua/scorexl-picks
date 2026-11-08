@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-08",
+  "sport": "football",
+  "note": "Sem fetch_sports_data nesta execução: sem médias de cantos por equipa, por isso nenhuma entrada de cantos. Classificações da ESPN e páginas da Premier League (dimers, footballpredictions) bloqueadas; Sunderland vs Chelsea e Crystal Palace vs Liverpool não analisados. Dados de dimers (Villarreal) e footballpredictions.com; calendário da ESPN. Hora do Villarreal vs Getafe com pequena divergência entre fontes (17:30 UTC assumido). Confiança média, stake 0.5.",
+  "picks": [
+    {
+      "match": "Villarreal vs Getafe",
+      "competition": "La Liga",
+      "kickoff_maputo": "2026-11-08T19:30:00+02:00",
+      "market": "moneyline",
+      "selection": "Villarreal",
+      "line": null,
+      "min_odds": 1.65,
+      "win_prob": 0.605,
+      "confidence": "media",
+      "stake_units": 0.5,
+      "reason": "Getafe com saldo -8 (8 marcados em 11 jogos) e 5 derrotas em 5 fora; sem Juanmi, Uche, Romero e com Martín e Mojica suspensos. Dimers: Villarreal 60.5%. Atenção: mercado ~1.45 (-220) — só apostar se a cota for >= 1.65; handicap -1.5 sem margem (resultado mais provável 1-0)."
+    }
+  ],
+  "avoid": [
+    {
+      "match": "Atlético Madrid vs Barcelona",
+      "reason": "jogo grande e equilibrado"
+    },
+    {
+      "match": "Inter vs Como",
+      "reason": "2.º contra 4.º (saldo +13 vs +10) — equilibrado"
+    },
+    {
+      "match": "Hoffenheim vs Schalke 04",
+      "reason": "Hoffenheim com saldo negativo (-2) e muitas baixas — não é super favorito"
+    },
+    {
+      "match": "Le Mans vs Monaco",
+      "reason": "Monaco só +2 de saldo e irregular fora; cotas ~1.80 sem desequilíbrio claro"
+    },
+    {
+      "match": "FC Köln vs Bayer Leverkusen",
+      "reason": "dérbi do Reno"
+    },
+    {
+      "match": "Napoli vs Lazio / Fiorentina vs Juventus",
+      "reason": "jogos equilibrados entre equipas de topo"
+    },
+    {
+      "match": "Sunderland vs Chelsea / Crystal Palace vs Liverpool",
+      "reason": "sem dados (fontes bloqueadas)"
+    }
+  ]
+}

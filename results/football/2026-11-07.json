@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-07",
+  "sport": "football",
+  "results": [
+    {
+      "match": "Arsenal vs Hull City",
+      "competition": "Premier League",
+      "market": "handicap",
+      "selection": "Arsenal -1.5",
+      "line": -1.5,
+      "final_score": "1-0",
+      "final_stat": "margem 1",
+      "status": "loss",
+      "stake_units": 0.5,
+      "odds_ref": 1.85,
+      "profit_units": -0.5
+    },
+    {
+      "match": "Mainz 05 vs Bayern Munich",
+      "competition": "Bundesliga",
+      "market": "handicap",
+      "selection": "Bayern -1.5",
+      "line": -1.5,
+      "final_score": "2-1",
+      "final_stat": "Bayern perdeu",
+      "status": "loss",
+      "stake_units": 0.5,
+      "odds_ref": 1.8,
+      "profit_units": -0.5
+    }
+  ],
+  "day": {
+    "bets": 2,
+    "wins": 0,
+    "losses": 2,
+    "pushes": 0,
+    "profit_units": -1.0
+  }
+}
