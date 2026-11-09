@@ -3,39 +3,40 @@
   "days_processed": [
     "2026-11-05",
     "2026-11-06",
-    "2026-11-07"
+    "2026-11-07",
+    "2026-11-08"
   ],
   "totals": {
-    "bets": 6,
-    "wins": 2,
+    "bets": 7,
+    "wins": 3,
     "losses": 4,
     "pushes": 0,
     "pending": 1
   },
-  "hit_rate": 0.333,
-  "staked_units": 3.0,
-  "profit_units": -1.4,
-  "roi": -0.467,
+  "hit_rate": 0.429,
+  "staked_units": 3.5,
+  "profit_units": -1.075,
+  "roi": -0.307,
   "by_confidence": {
     "media": {
-      "bets": 6,
-      "wins": 2,
+      "bets": 7,
+      "wins": 3,
       "losses": 4,
       "pushes": 0,
-      "staked_units": 3.0,
-      "profit_units": -1.4,
-      "roi": -0.467
+      "staked_units": 3.5,
+      "profit_units": -1.075,
+      "roi": -0.307
     }
   },
   "by_market": {
     "moneyline": {
-      "bets": 1,
-      "wins": 0,
+      "bets": 2,
+      "wins": 1,
       "losses": 1,
       "pushes": 0,
-      "staked_units": 0.5,
-      "profit_units": -0.5,
-      "roi": -1.0
+      "staked_units": 1.0,
+      "profit_units": -0.175,
+      "roi": -0.175
     },
     "handicap": {
       "bets": 4,
@@ -98,6 +99,13 @@
       "market": "handicap",
       "status": "loss",
       "profit_units": -0.5
+    },
+    {
+      "date": "2026-11-08",
+      "match": "Villarreal vs Getafe",
+      "market": "moneyline",
+      "status": "win",
+      "profit_units": 0.325
     }
   ]
 }

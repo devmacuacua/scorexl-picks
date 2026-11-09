@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-08",
+  "sport": "football",
+  "results": [
+    {
+      "match": "Villarreal vs Getafe",
+      "competition": "La Liga",
+      "market": "moneyline",
+      "selection": "Villarreal",
+      "line": null,
+      "final_score": "2-0",
+      "final_stat": "Villarreal venceu",
+      "status": "win",
+      "stake_units": 0.5,
+      "odds_ref": 1.65,
+      "profit_units": 0.325
+    }
+  ],
+  "day": {
+    "bets": 1,
+    "wins": 1,
+    "losses": 0,
+    "pushes": 0,
+    "profit_units": 0.325
+  }
+}
