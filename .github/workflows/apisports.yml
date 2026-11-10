@@ -1,0 +1,48 @@
+name: Dados api-sports
+
+on:
+  schedule:
+    - cron: "45 5 * * *"   # 07h45 Maputo: futebol (antes da tarefa das 08h54) + NBA
+    - cron: "0 19 * * *"   # 21h00 Maputo: NBA com odds atualizadas (antes da tarefa das 21h39)
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Data AAAA-MM-DD (vazio = hoje em Maputo)"
+        required: false
+      only:
+        description: "nba, football ou vazio para ambos"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: apisports
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Recolher dados
+        env:
+          APISPORTS_KEY: ${{ secrets.APISPORTS_KEY }}
+        run: |
+          ARGS=""
+          if [ -n "${{ github.event.inputs.date }}" ]; then ARGS="$ARGS --date ${{ github.event.inputs.date }}"; fi
+          if [ -n "${{ github.event.inputs.only }}" ]; then ARGS="$ARGS --only ${{ github.event.inputs.only }}"; fi
+          if [ -z "${{ github.event.inputs.only }}" ] && [ "${{ github.event.schedule }}" = "0 19 * * *" ]; then ARGS="$ARGS --only nba"; fi
+          python scripts/fetch_apisports.py $ARGS
+      - name: Publicar
+        run: |
+          git config user.name "scorexl-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then echo "Sem alterações"; exit 0; fi
+          git commit -m "Dados api-sports $(TZ=Africa/Maputo date +%F)"
+          for i in 1 2 3; do git pull --rebase origin main && git push origin HEAD:main && break; sleep 5; done

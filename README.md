@@ -86,3 +86,14 @@ Todos os dias, a mesma tarefa liquida os palpites do dia anterior.
   - `line` (linha do mercado, ou `null` no moneyline), `test: true` nas entradas de teste (mercados 20%)
   - `win_prob` pode faltar quando não há probabilidade de modelo
 - Mercados sempre no **total do jogo** (não por equipa).
+
+## Dados brutos (api-sports.io)
+
+A GitHub Action `.github/workflows/apisports.yml` recolhe dados da api-sports.io e grava-os em `data/`:
+
+- `data/football/AAAA-MM-DD.json`: jogos do dia (hora de Maputo) nas 5 grandes ligas, Champions, Liga Europa e Conferência, com classificação, previsão, odds (1xBet quando disponível), lesões, médias dos últimos 5 jogos de cada equipa (cantos, remates enquadrados, golos, a favor e contra) e resultados com estatísticas de D-1.
+- `data/nba/AAAA-MM-DD.json`: jogos da data americana D (madrugada de D+1 em Maputo), odds, back-to-back, classificação e resultados de D-1.
+
+Horários: 07h45 (futebol + NBA) e 21h00 (NBA com odds atualizadas), hora de Maputo. Também corre à mão em Actions → "Dados api-sports" → Run workflow.
+
+Requer o secret `APISPORTS_KEY` (Settings → Secrets and variables → Actions). As tarefas de análise usam estes ficheiros como fonte principal.
