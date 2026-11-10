@@ -1,0 +1,48 @@
+{
+ "date": "2026-11-10",
+ "sport": "NBA",
+ "season": "2026-2027",
+ "note": "date = data americana; tipoff_maputo é a madrugada seguinte em Maputo",
+ "games": [],
+ "yesterday_results": [],
+ "standings": [],
+ "generated_at": "2026-11-10T07:17:56+00:00",
+ "source": "api-sports.io",
+ "api_calls": 3,
+ "errors": [
+  {
+   "url": "https://v1.basketball.api-sports.io/games",
+   "params": {
+    "league": 12,
+    "season": "2026-2027",
+    "date": "2026-11-10",
+    "timezone": "America/New_York"
+   },
+   "error": {
+    "plan": "Free plans do not have access to this season, try from 2022 to 2024."
+   }
+  },
+  {
+   "url": "https://v1.basketball.api-sports.io/games",
+   "params": {
+    "league": 12,
+    "season": "2026-2027",
+    "date": "2026-11-09",
+    "timezone": "America/New_York"
+   },
+   "error": {
+    "plan": "Free plans do not have access to this season, try from 2022 to 2024."
+   }
+  },
+  {
+   "url": "https://v1.basketball.api-sports.io/standings",
+   "params": {
+    "league": 12,
+    "season": "2026-2027"
+   },
+   "error": {
+    "plan": "Free plans do not have access to this season, try from 2022 to 2024."
+   }
+  }
+ ]
+}
