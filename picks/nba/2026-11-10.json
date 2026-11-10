@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-10",
+  "sport": "NBA",
+  "note": "Fonte: data/nba/2026-11-10.json (api-sports, odds da manhã, 09h23 Maputo). fetch_sports_data indisponível nesta sessão; lesões não confirmadas na web (resultados de pesquisa desatualizados) — por isso só confiança média. Odd real abaixo da odd mínima teórica nos dois palpites: confirmar na 1xBet e só entrar se igual ou superior. Ontem (2026-11-09) sem palpites, nada a liquidar.",
+  "picks": [
+    {
+      "match": "New York Knicks vs Milwaukee Bucks",
+      "tipoff_maputo": "2026-11-11T02:30:00+02:00",
+      "market": "handicap",
+      "selection": "New York Knicks -12.5",
+      "min_odds": 1.65,
+      "odds_ref": 1.56,
+      "bookmaker": "1xBet",
+      "win_prob": 0.61,
+      "confidence": "media",
+      "stake_units": 0.5,
+      "reason": "Mercado dá NYK 92% (1.05/12.10) e linha ~-16; MIL 1-9 (-13 pts/jogo), sem back-to-back. Linha 3-4 pts abaixo do mercado, em casa. Estado de Giannis/Brunson não confirmado."
+    },
+    {
+      "match": "Utah Jazz vs Miami Heat",
+      "tipoff_maputo": "2026-11-11T04:00:00+02:00",
+      "market": "handicap",
+      "selection": "Miami Heat -6.5",
+      "min_odds": 1.59,
+      "odds_ref": 1.50,
+      "bookmaker": "Bet365",
+      "win_prob": 0.63,
+      "confidence": "media",
+      "stake_units": 0.5,
+      "reason": "Mercado dá MIA ~80% (1.20/4.75) e linha ~-10.5; UTA 1-9 (-11.7 pts/jogo). Favorito fora: linha curta -6.5 (4 pts abaixo do mercado). Sem back-to-back; lesões não confirmadas."
+    }
+  ],
+  "avoid": [
+    {"match": "Sacramento Kings vs Orlando Magic", "reason": "Magic ~67% fora de casa, balanço 2-7: abaixo do perfil."},
+    {"match": "Phoenix Suns vs Los Angeles Clippers", "reason": "Sem odds; Suns em back-to-back, equipas 3-6 e 2-7."},
+    {"match": "Philadelphia 76ers vs Boston Celtics", "reason": "~50/50 (Celtics 53%)."},
+    {"match": "Portland Trail Blazers vs Oklahoma City Thunder", "reason": "~50/50 (Thunder 53%) — mercado sugere ausências na OKC."}
+  ]
+}
