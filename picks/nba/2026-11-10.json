@@ -1,7 +1,7 @@
 {
   "date": "2026-11-10",
   "sport": "NBA",
-  "note": "Fonte: data/nba/2026-11-10.json (api-sports, odds da manhã, 09h23 Maputo). fetch_sports_data indisponível nesta sessão; lesões não confirmadas na web (resultados de pesquisa desatualizados) — por isso só confiança média. Odd real abaixo da odd mínima teórica nos dois palpites: confirmar na 1xBet e só entrar se igual ou superior. Ontem (2026-11-09) sem palpites, nada a liquidar.",
+  "note": "Revisto às 21h47 Maputo. Fonte: data/nba/2026-11-10.json (api-sports, odds das 09h23 — a atualização das 21h00 não chegou ao repositório). fetch_sports_data indisponível; lesões não confirmadas na web (resultados desatualizados) — só confiança média. Odd real abaixo da odd mínima teórica nos dois palpites: confirmar na 1xBet e só entrar se igual ou superior. Ontem (2026-11-09) sem palpites, nada a liquidar.",
   "picks": [
     {
       "match": "New York Knicks vs Milwaukee Bucks",
@@ -22,7 +22,7 @@
       "market": "handicap",
       "selection": "Miami Heat -6.5",
       "min_odds": 1.59,
-      "odds_ref": 1.50,
+      "odds_ref": 1.5,
       "bookmaker": "Bet365",
       "win_prob": 0.63,
       "confidence": "media",
@@ -31,9 +31,21 @@
     }
   ],
   "avoid": [
-    {"match": "Sacramento Kings vs Orlando Magic", "reason": "Magic ~67% fora de casa, balanço 2-7: abaixo do perfil."},
-    {"match": "Phoenix Suns vs Los Angeles Clippers", "reason": "Sem odds; Suns em back-to-back, equipas 3-6 e 2-7."},
-    {"match": "Philadelphia 76ers vs Boston Celtics", "reason": "~50/50 (Celtics 53%)."},
-    {"match": "Portland Trail Blazers vs Oklahoma City Thunder", "reason": "~50/50 (Thunder 53%) — mercado sugere ausências na OKC."}
+    {
+      "match": "Sacramento Kings vs Orlando Magic",
+      "reason": "Magic ~67% fora de casa, balanço 2-7: abaixo do perfil."
+    },
+    {
+      "match": "Phoenix Suns vs Los Angeles Clippers",
+      "reason": "Sem odds; Suns em back-to-back, equipas 3-6 e 2-7."
+    },
+    {
+      "match": "Philadelphia 76ers vs Boston Celtics",
+      "reason": "~50/50 (Celtics 53%)."
+    },
+    {
+      "match": "Portland Trail Blazers vs Oklahoma City Thunder",
+      "reason": "~50/50 (Thunder 53%) — mercado sugere ausências na OKC."
+    }
   ]
 }

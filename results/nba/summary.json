@@ -1,0 +1,33 @@
+{
+  "sport": "NBA",
+  "since": "2026-11-05",
+  "updated": "2026-11-10",
+  "bets": 0,
+  "wins": 0,
+  "losses": 0,
+  "pushes": 0,
+  "hit_rate": 0.0,
+  "staked_units": 0,
+  "profit_units": 0,
+  "roi": 0.0,
+  "by_confidence": {
+    "alta": {
+      "bets": 0,
+      "wins": 0,
+      "profit_units": 0
+    },
+    "media": {
+      "bets": 0,
+      "wins": 0,
+      "profit_units": 0
+    }
+  },
+  "last_10": [],
+  "days_processed": [
+    "2026-11-05",
+    "2026-11-06",
+    "2026-11-07",
+    "2026-11-08",
+    "2026-11-09"
+  ]
+}
