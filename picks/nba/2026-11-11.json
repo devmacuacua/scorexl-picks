@@ -1,7 +1,7 @@
 {
   "date": "2026-11-11",
   "sport": "NBA",
-  "note": "Sem palpites válidos. Fonte: data/nba/2026-11-11.json (api-sports/1xBet, gerado 14h56 Maputo — tarefa correu às 15h22, antes da atualização das 21h00). fetch_sports_data indisponível nesta sessão. Os únicos favoritos >=70% são visitantes com linhas >= -12.5 ou em back-to-back. A observar: Lakers -6.5 em Milwaukee (1xBet 1.42, mínima 1.45) — só se a odd subir para >=1.45.",
+  "note": "Revisto às 21h47 Maputo: data/nba/2026-11-11.json continua com odds das 14h56 (atualização das 21h00 ainda não chegou ao repositório); fetch_sports_data indisponível; web sem relatório de lesões atualizado. Sem palpites válidos: favoritos >=70% são visitantes com linhas >= -12.5 ou em back-to-back. A observar: Lakers -6.5 em Milwaukee (1xBet 1.42, mínima 1.45) — só entrar se a odd subir para >=1.45.",
   "picks": [],
   "avoid": [
     {
