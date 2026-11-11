@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-11",
+  "sport": "NBA",
+  "note": "Sem palpites válidos. Fonte: data/nba/2026-11-11.json (api-sports/1xBet, gerado 14h56 Maputo — tarefa correu às 15h22, antes da atualização das 21h00). fetch_sports_data indisponível nesta sessão. Os únicos favoritos >=70% são visitantes com linhas >= -12.5 ou em back-to-back. A observar: Lakers -6.5 em Milwaukee (1xBet 1.42, mínima 1.45) — só se a odd subir para >=1.45.",
+  "picks": [],
+  "avoid": [
+    {
+      "match": "Milwaukee Bucks vs Los Angeles Lakers",
+      "reason": "Perfil quase ideal (LAL 83%, 10-2; MIL 1-10 em back-to-back), mas favorito fora: Lakers -6.5 paga 1.42 < mínima 1.45 (P cobrir ~69%, mercado -12.5) e ML 1.16 < 1.30. Entrar só se -6.5 >= 1.45."
+    },
+    {
+      "match": "Chicago Bulls vs San Antonio Spurs",
+      "reason": "SAS 88% mas fora com linha -15.5; -10.5 (1.46) viola regra de favorito fora; ML 1.10 < 1.30."
+    },
+    {
+      "match": "Toronto Raptors vs Boston Celtics",
+      "reason": "Celtics 72% mas favorito em back-to-back e fora."
+    },
+    {
+      "match": "Houston Rockets vs Golden State Warriors",
+      "reason": "HOU 68% (<70%) contra adversário 8-3."
+    },
+    {
+      "match": "New York Knicks vs Cleveland Cavaliers",
+      "reason": "NYK 63% e em back-to-back."
+    },
+    {
+      "match": "New Orleans Pelicans vs Brooklyn Nets",
+      "reason": "NOP 63%, equipa 4-7."
+    },
+    {
+      "match": "Indiana Pacers vs Washington Wizards",
+      "reason": "~60/40 entre equipas fracas."
+    },
+    {
+      "match": "Memphis Grizzlies vs Denver Nuggets / Utah Jazz vs Orlando Magic / Portland vs OKC",
+      "reason": "Jogos 50-65%."
+    }
+  ]
+}

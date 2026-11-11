@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-10",
+  "sport": "NBA",
+  "results": [
+    {
+      "match": "New York Knicks vs Milwaukee Bucks",
+      "selection": "New York Knicks -12.5",
+      "final_score": "NYK 117-85 MIL",
+      "margin": 32,
+      "status": "win",
+      "stake_units": 0.5,
+      "odds_ref": 1.56,
+      "profit_units": 0.28
+    },
+    {
+      "match": "Utah Jazz vs Miami Heat",
+      "selection": "Miami Heat -6.5",
+      "final_score": "UTA 109-115 MIA",
+      "margin": 6,
+      "status": "loss",
+      "stake_units": 0.5,
+      "odds_ref": 1.5,
+      "profit_units": -0.5
+    }
+  ],
+  "day": {
+    "bets": 2,
+    "wins": 1,
+    "losses": 1,
+    "pushes": 0,
+    "profit_units": -0.22
+  }
+}
