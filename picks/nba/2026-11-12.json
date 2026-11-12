@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-12",
+  "sport": "NBA",
+  "note": "Só 4 jogos (data/nba/2026-11-12.json, odds 1xBet das 15h58 Maputo; atualização das 21h00 ainda não chegou). Sem palpites válidos: o único favorito >=70% em casa (76ers) tem Embiid e LeBron James em dúvida; Pistons é favorito fora com ML 1.26 < 1.30 e -6.5 a 1.53 abaixo da mínima 1.67. fetch_sports_data indisponível.",
+  "picks": [],
+  "avoid": [
+    {
+      "match": "Philadelphia 76ers vs Toronto Raptors",
+      "reason": "PHI 75% em casa vs TOR 5-6 em back-to-back (perfil ideal), mas Joel Embiid e LeBron James questionáveis. Linhas curtas: -5.5 a 1.46 (mín. 1.55), -6.5 a 1.54 (mín. 1.63; mercado ~-10)."
+    },
+    {
+      "match": "Washington Wizards vs Detroit Pistons",
+      "reason": "DET 76% (7-3) vs WAS 4-8 em back-to-back, mas favorito fora: ML 1.26 < 1.30 e -6.5 a 1.53 < mínima 1.67 (mercado -9.5)."
+    },
+    {
+      "match": "Minnesota Timberwolves vs Dallas Mavericks",
+      "reason": "MIN 66% contra DAL 7-4 (balanço positivo)."
+    },
+    {
+      "match": "Phoenix Suns vs Charlotte Hornets",
+      "reason": "PHX 68% (<70%) e com balanço negativo (4-6)."
+    }
+  ]
+}
