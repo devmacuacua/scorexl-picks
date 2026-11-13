@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-13",
+  "sport": "NBA",
+  "note": "Odds de data/nba/2026-11-13.json só para Pacers-Knicks (Betano, recolha 01h57; atualização das 21h00 ainda não disponível). Probabilidades por moneylines de MyBookie/Bovada/BetOnline (bettingpicks.net) e linha Rockets -17 (BetOnline via TheRX); lesões via Covers/TheRX. odds_ref = odd mínima: odds alternativas reais não verificadas, confirmar na 1xBet. fetch_sports_data indisponível nesta sessão.",
+  "picks": [
+    {
+      "match": "Houston Rockets vs Utah Jazz",
+      "tipoff_maputo": "2026-11-14T03:30:00+02:00",
+      "market": "handicap",
+      "selection": "Houston Rockets -12.5",
+      "min_odds": 1.55,
+      "odds_ref": 1.55,
+      "bookmaker": "a confirmar (1xBet); mercado BetOnline -17",
+      "win_prob": 0.89,
+      "confidence": "media",
+      "stake_units": 0.5,
+      "reason": "HOU 89% (ML -1429/+800) em casa, 9-3 (+8.9/jogo) vs UTA 1-11 (-11.5) sem Markkanen, Jaren Jackson Jr. e Nurkic. -12.5 = 4.5 abaixo de -17: P(cobrir)≈65%. HOU sem Adams, Capela e Smart (suspenso) → media."
+    },
+    {
+      "match": "Orlando Magic vs Milwaukee Bucks",
+      "tipoff_maputo": "2026-11-14T02:00:00+02:00",
+      "market": "handicap",
+      "selection": "Orlando Magic -4.5",
+      "min_odds": 1.59,
+      "odds_ref": 1.59,
+      "bookmaker": "a confirmar (1xBet); mercado ~-8.5 (ML -385)",
+      "win_prob": 0.76,
+      "confidence": "media",
+      "stake_units": 0.5,
+      "reason": "ORL 76% em casa vs MIL 1-11 (-14.6/jogo). -4.5 = 4 abaixo da linha estimada -8.5: P(cobrir)≈63%. Media: ORL 4-7 e Jalen Suggs em dúvida."
+    }
+  ],
+  "avoid": [
+    {
+      "match": "San Antonio Spurs vs Golden State Warriors",
+      "reason": "SAS ~85% em casa (Curry fora), mas GSW 8-4 não é adversário fraco nem está em back-to-back."
+    },
+    {
+      "match": "Sacramento Kings vs Portland Trail Blazers",
+      "reason": "POR ~80% mas favorito fora: ML ~1.20 < 1.30; -6.5 só se odd real >= 1.67 (mercado ~-9.5)."
+    },
+    {
+      "match": "Los Angeles Clippers vs Oklahoma City Thunder",
+      "reason": "OKC 72% fora: ML ~1.36-1.38 abaixo da mínima 1.39; Ajay Mitchell em dúvida."
+    },
+    {
+      "match": "Chicago Bulls vs Atlanta Hawks",
+      "reason": "ATL 72% fora: ML ~1.37 < 1.39 e -6.5 é a linha do mercado (odd ~1.91 > 1.80)."
+    },
+    {
+      "match": "Indiana Pacers vs New York Knicks",
+      "reason": "NYK 72% fora: ML 1.38-1.57 (Betano 1.57 mas mercado -3.5 contraditório com -7 dos EUA); dados inconsistentes."
+    },
+    {
+      "match": "Miami Heat vs Cleveland Cavaliers",
+      "reason": "MIA ~57%: jogo equilibrado (Mobley fora)."
+    },
+    {
+      "match": "New Orleans Pelicans vs Memphis Grizzlies",
+      "reason": "MEM ~61% fora: faixa 50-65%."
+    }
+  ]
+}
