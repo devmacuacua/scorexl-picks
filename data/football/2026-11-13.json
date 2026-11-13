@@ -1,0 +1,12 @@
+{
+ "date": "2026-11-13",
+ "sport": "football",
+ "season": 2026,
+ "note": "kickoff em hora de Maputo; team_form = médias dos últimos 5 jogos (todas as provas)",
+ "fixtures": [],
+ "yesterday_results": [],
+ "generated_at": "2026-11-13T13:26:03+00:00",
+ "source": "api-sports.io",
+ "api_calls": 16,
+ "errors": []
+}
