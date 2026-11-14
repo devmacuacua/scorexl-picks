@@ -1,0 +1,1053 @@
+{
+ "date": "2026-11-14",
+ "sport": "NBA",
+ "season": "2026-2027",
+ "note": "date = data americana; tipoff_maputo é a madrugada seguinte em Maputo",
+ "games": [
+  {
+   "id": 519716,
+   "home": "New Orleans Pelicans",
+   "away": "Denver Nuggets",
+   "tipoff_maputo": "2026-11-15T02:00+02:00",
+   "status": "NS",
+   "back_to_back": {
+    "home": true,
+    "away": false
+   },
+   "odds": null,
+   "bookmakers_available": []
+  },
+  {
+   "id": 519717,
+   "home": "Cleveland Cavaliers",
+   "away": "Dallas Mavericks",
+   "tipoff_maputo": "2026-11-15T02:30+02:00",
+   "status": "NS",
+   "back_to_back": {
+    "home": true,
+    "away": false
+   },
+   "odds": null,
+   "bookmakers_available": []
+  },
+  {
+   "id": 519718,
+   "home": "Memphis Grizzlies",
+   "away": "Brooklyn Nets",
+   "tipoff_maputo": "2026-11-15T03:00+02:00",
+   "status": "NS",
+   "back_to_back": {
+    "home": true,
+    "away": false
+   },
+   "odds": null,
+   "bookmakers_available": []
+  },
+  {
+   "id": 519719,
+   "home": "Miami Heat",
+   "away": "Detroit Pistons",
+   "tipoff_maputo": "2026-11-15T03:00+02:00",
+   "status": "NS",
+   "back_to_back": {
+    "home": true,
+    "away": false
+   },
+   "odds": null,
+   "bookmakers_available": []
+  },
+  {
+   "id": 519720,
+   "home": "Minnesota Timberwolves",
+   "away": "Chicago Bulls",
+   "tipoff_maputo": "2026-11-15T03:00+02:00",
+   "status": "NS",
+   "back_to_back": {
+    "home": false,
+    "away": true
+   },
+   "odds": null,
+   "bookmakers_available": []
+  }
+ ],
+ "yesterday_results": [
+  {
+   "id": 519707,
+   "home": "Indiana Pacers",
+   "away": "New York Knicks",
+   "status": "NS",
+   "score_home": null,
+   "score_away": null
+  },
+  {
+   "id": 519708,
+   "home": "Orlando Magic",
+   "away": "Milwaukee Bucks",
+   "status": "NS",
+   "score_home": null,
+   "score_away": null
+  },
+  {
+   "id": 519709,
+   "home": "Chicago Bulls",
+   "away": "Atlanta Hawks",
+   "status": "NS",
+   "score_home": null,
+   "score_away": null
+  },
+  {
+   "id": 519710,
+   "home": "Miami Heat",
+   "away": "Cleveland Cavaliers",
+   "status": "NS",
+   "score_home": null,
+   "score_away": null
+  },
+  {
+   "id": 519711,
+   "home": "New Orleans Pelicans",
+   "away": "Memphis Grizzlies",
+   "status": "NS",
+   "score_home": null,
+   "score_away": null
+  },
+  {
+   "id": 519712,
+   "home": "Houston Rockets",
+   "away": "Utah Jazz",
+   "status": "NS",
+   "score_home": null,
+   "score_away": null
+  },
+  {
+   "id": 519713,
+   "home": "San Antonio Spurs",
+   "away": "Golden State Warriors",
+   "status": "NS",
+   "score_home": null,
+   "score_away": null
+  },
+  {
+   "id": 519714,
+   "home": "Sacramento Kings",
+   "away": "Portland Trail Blazers",
+   "status": "NS",
+   "score_home": null,
+   "score_away": null
+  },
+  {
+   "id": 519715,
+   "home": "Los Angeles Clippers",
+   "away": "Oklahoma City Thunder",
+   "status": "NS",
+   "score_home": null,
+   "score_away": null
+  }
+ ],
+ "standings": [
+  {
+   "team": "Los Angeles Lakers",
+   "group": "Western Conference",
+   "position": 1,
+   "won": 11,
+   "lost": 2,
+   "points_for": 1588,
+   "points_against": 1485,
+   "form": null
+  },
+  {
+   "team": "San Antonio Spurs",
+   "group": "Western Conference",
+   "position": 2,
+   "won": 10,
+   "lost": 2,
+   "points_for": 1430,
+   "points_against": 1296,
+   "form": null
+  },
+  {
+   "team": "Minnesota Timberwolves",
+   "group": "Western Conference",
+   "position": 3,
+   "won": 9,
+   "lost": 3,
+   "points_for": 1432,
+   "points_against": 1271,
+   "form": null
+  },
+  {
+   "team": "Houston Rockets",
+   "group": "Western Conference",
+   "position": 4,
+   "won": 9,
+   "lost": 3,
+   "points_for": 1385,
+   "points_against": 1278,
+   "form": null
+  },
+  {
+   "team": "Portland Trail Blazers",
+   "group": "Western Conference",
+   "position": 5,
+   "won": 8,
+   "lost": 3,
+   "points_for": 1315,
+   "points_against": 1235,
+   "form": null
+  },
+  {
+   "team": "Golden State Warriors",
+   "group": "Western Conference",
+   "position": 6,
+   "won": 8,
+   "lost": 4,
+   "points_for": 1432,
+   "points_against": 1338,
+   "form": null
+  },
+  {
+   "team": "Oklahoma City Thunder",
+   "group": "Western Conference",
+   "position": 7,
+   "won": 8,
+   "lost": 4,
+   "points_for": 1333,
+   "points_against": 1283,
+   "form": null
+  },
+  {
+   "team": "Memphis Grizzlies",
+   "group": "Western Conference",
+   "position": 8,
+   "won": 7,
+   "lost": 4,
+   "points_for": 1297,
+   "points_against": 1231,
+   "form": null
+  },
+  {
+   "team": "Denver Nuggets",
+   "group": "Western Conference",
+   "position": 9,
+   "won": 6,
+   "lost": 4,
+   "points_for": 1145,
+   "points_against": 1133,
+   "form": null
+  },
+  {
+   "team": "Dallas Mavericks",
+   "group": "Western Conference",
+   "position": 10,
+   "won": 7,
+   "lost": 5,
+   "points_for": 1358,
+   "points_against": 1346,
+   "form": null
+  },
+  {
+   "team": "Phoenix Suns",
+   "group": "Western Conference",
+   "position": 11,
+   "won": 5,
+   "lost": 6,
+   "points_for": 1229,
+   "points_against": 1277,
+   "form": null
+  },
+  {
+   "team": "New Orleans Pelicans",
+   "group": "Western Conference",
+   "position": 12,
+   "won": 4,
+   "lost": 8,
+   "points_for": 1403,
+   "points_against": 1491,
+   "form": null
+  },
+  {
+   "team": "Los Angeles Clippers",
+   "group": "Western Conference",
+   "position": 13,
+   "won": 2,
+   "lost": 8,
+   "points_for": 1122,
+   "points_against": 1181,
+   "form": null
+  },
+  {
+   "team": "Sacramento Kings",
+   "group": "Western Conference",
+   "position": 14,
+   "won": 1,
+   "lost": 10,
+   "points_for": 1191,
+   "points_against": 1331,
+   "form": null
+  },
+  {
+   "team": "Utah Jazz",
+   "group": "Western Conference",
+   "position": 15,
+   "won": 1,
+   "lost": 11,
+   "points_for": 1279,
+   "points_against": 1417,
+   "form": null
+  },
+  {
+   "team": "Boston Celtics",
+   "group": "Eastern Conference",
+   "position": 1,
+   "won": 10,
+   "lost": 2,
+   "points_for": 1371,
+   "points_against": 1237,
+   "form": null
+  },
+  {
+   "team": "Philadelphia 76ers",
+   "group": "Eastern Conference",
+   "position": 2,
+   "won": 10,
+   "lost": 3,
+   "points_for": 1445,
+   "points_against": 1422,
+   "form": null
+  },
+  {
+   "team": "Detroit Pistons",
+   "group": "Eastern Conference",
+   "position": 3,
+   "won": 8,
+   "lost": 3,
+   "points_for": 1271,
+   "points_against": 1186,
+   "form": null
+  },
+  {
+   "team": "Atlanta Hawks",
+   "group": "Eastern Conference",
+   "position": 4,
+   "won": 7,
+   "lost": 5,
+   "points_for": 1419,
+   "points_against": 1394,
+   "form": null
+  },
+  {
+   "team": "New York Knicks",
+   "group": "Eastern Conference",
+   "position": 5,
+   "won": 6,
+   "lost": 5,
+   "points_for": 1213,
+   "points_against": 1138,
+   "form": null
+  },
+  {
+   "team": "Cleveland Cavaliers",
+   "group": "Eastern Conference",
+   "position": 6,
+   "won": 6,
+   "lost": 6,
+   "points_for": 1397,
+   "points_against": 1372,
+   "form": null
+  },
+  {
+   "team": "Miami Heat",
+   "group": "Eastern Conference",
+   "position": 7,
+   "won": 5,
+   "lost": 6,
+   "points_for": 1273,
+   "points_against": 1320,
+   "form": null
+  },
+  {
+   "team": "Toronto Raptors",
+   "group": "Eastern Conference",
+   "position": 8,
+   "won": 5,
+   "lost": 7,
+   "points_for": 1371,
+   "points_against": 1354,
+   "form": null
+  },
+  {
+   "team": "Orlando Magic",
+   "group": "Eastern Conference",
+   "position": 9,
+   "won": 4,
+   "lost": 7,
+   "points_for": 1193,
+   "points_against": 1254,
+   "form": null
+  },
+  {
+   "team": "Indiana Pacers",
+   "group": "Eastern Conference",
+   "position": 10,
+   "won": 4,
+   "lost": 8,
+   "points_for": 1339,
+   "points_against": 1368,
+   "form": null
+  },
+  {
+   "team": "Charlotte Hornets",
+   "group": "Eastern Conference",
+   "position": 11,
+   "won": 4,
+   "lost": 8,
+   "points_for": 1183,
+   "points_against": 1315,
+   "form": null
+  },
+  {
+   "team": "Washington Wizards",
+   "group": "Eastern Conference",
+   "position": 12,
+   "won": 4,
+   "lost": 9,
+   "points_for": 1430,
+   "points_against": 1505,
+   "form": null
+  },
+  {
+   "team": "Brooklyn Nets",
+   "group": "Eastern Conference",
+   "position": 13,
+   "won": 3,
+   "lost": 8,
+   "points_for": 1212,
+   "points_against": 1268,
+   "form": null
+  },
+  {
+   "team": "Chicago Bulls",
+   "group": "Eastern Conference",
+   "position": 14,
+   "won": 1,
+   "lost": 9,
+   "points_for": 1133,
+   "points_against": 1288,
+   "form": null
+  },
+  {
+   "team": "Milwaukee Bucks",
+   "group": "Eastern Conference",
+   "position": 15,
+   "won": 1,
+   "lost": 11,
+   "points_for": 1281,
+   "points_against": 1456,
+   "form": null
+  },
+  {
+   "team": "Boston Celtics",
+   "group": "Atlantic Division",
+   "position": 1,
+   "won": 10,
+   "lost": 2,
+   "points_for": 1371,
+   "points_against": 1237,
+   "form": null
+  },
+  {
+   "team": "Philadelphia 76ers",
+   "group": "Atlantic Division",
+   "position": 2,
+   "won": 10,
+   "lost": 3,
+   "points_for": 1445,
+   "points_against": 1422,
+   "form": null
+  },
+  {
+   "team": "New York Knicks",
+   "group": "Atlantic Division",
+   "position": 3,
+   "won": 6,
+   "lost": 5,
+   "points_for": 1213,
+   "points_against": 1138,
+   "form": null
+  },
+  {
+   "team": "Toronto Raptors",
+   "group": "Atlantic Division",
+   "position": 4,
+   "won": 5,
+   "lost": 7,
+   "points_for": 1371,
+   "points_against": 1354,
+   "form": null
+  },
+  {
+   "team": "Brooklyn Nets",
+   "group": "Atlantic Division",
+   "position": 5,
+   "won": 3,
+   "lost": 8,
+   "points_for": 1212,
+   "points_against": 1268,
+   "form": null
+  },
+  {
+   "team": "Atlanta Hawks",
+   "group": "Southeast Division",
+   "position": 1,
+   "won": 7,
+   "lost": 5,
+   "points_for": 1419,
+   "points_against": 1394,
+   "form": null
+  },
+  {
+   "team": "Miami Heat",
+   "group": "Southeast Division",
+   "position": 2,
+   "won": 5,
+   "lost": 6,
+   "points_for": 1273,
+   "points_against": 1320,
+   "form": null
+  },
+  {
+   "team": "Orlando Magic",
+   "group": "Southeast Division",
+   "position": 3,
+   "won": 4,
+   "lost": 7,
+   "points_for": 1193,
+   "points_against": 1254,
+   "form": null
+  },
+  {
+   "team": "Charlotte Hornets",
+   "group": "Southeast Division",
+   "position": 4,
+   "won": 4,
+   "lost": 8,
+   "points_for": 1183,
+   "points_against": 1315,
+   "form": null
+  },
+  {
+   "team": "Washington Wizards",
+   "group": "Southeast Division",
+   "position": 5,
+   "won": 4,
+   "lost": 9,
+   "points_for": 1430,
+   "points_against": 1505,
+   "form": null
+  },
+  {
+   "team": "Detroit Pistons",
+   "group": "Central Division",
+   "position": 1,
+   "won": 8,
+   "lost": 3,
+   "points_for": 1271,
+   "points_against": 1186,
+   "form": null
+  },
+  {
+   "team": "Cleveland Cavaliers",
+   "group": "Central Division",
+   "position": 2,
+   "won": 6,
+   "lost": 6,
+   "points_for": 1397,
+   "points_against": 1372,
+   "form": null
+  },
+  {
+   "team": "Indiana Pacers",
+   "group": "Central Division",
+   "position": 3,
+   "won": 4,
+   "lost": 8,
+   "points_for": 1339,
+   "points_against": 1368,
+   "form": null
+  },
+  {
+   "team": "Chicago Bulls",
+   "group": "Central Division",
+   "position": 4,
+   "won": 1,
+   "lost": 9,
+   "points_for": 1133,
+   "points_against": 1288,
+   "form": null
+  },
+  {
+   "team": "Milwaukee Bucks",
+   "group": "Central Division",
+   "position": 5,
+   "won": 1,
+   "lost": 11,
+   "points_for": 1281,
+   "points_against": 1456,
+   "form": null
+  },
+  {
+   "team": "Minnesota Timberwolves",
+   "group": "Northwest Division",
+   "position": 1,
+   "won": 9,
+   "lost": 3,
+   "points_for": 1432,
+   "points_against": 1271,
+   "form": null
+  },
+  {
+   "team": "Portland Trail Blazers",
+   "group": "Northwest Division",
+   "position": 2,
+   "won": 8,
+   "lost": 3,
+   "points_for": 1315,
+   "points_against": 1235,
+   "form": null
+  },
+  {
+   "team": "Oklahoma City Thunder",
+   "group": "Northwest Division",
+   "position": 3,
+   "won": 8,
+   "lost": 4,
+   "points_for": 1333,
+   "points_against": 1283,
+   "form": null
+  },
+  {
+   "team": "Denver Nuggets",
+   "group": "Northwest Division",
+   "position": 4,
+   "won": 6,
+   "lost": 4,
+   "points_for": 1145,
+   "points_against": 1133,
+   "form": null
+  },
+  {
+   "team": "Utah Jazz",
+   "group": "Northwest Division",
+   "position": 5,
+   "won": 1,
+   "lost": 11,
+   "points_for": 1279,
+   "points_against": 1417,
+   "form": null
+  },
+  {
+   "team": "Los Angeles Lakers",
+   "group": "Pacific Division",
+   "position": 1,
+   "won": 11,
+   "lost": 2,
+   "points_for": 1588,
+   "points_against": 1485,
+   "form": null
+  },
+  {
+   "team": "Golden State Warriors",
+   "group": "Pacific Division",
+   "position": 2,
+   "won": 8,
+   "lost": 4,
+   "points_for": 1432,
+   "points_against": 1338,
+   "form": null
+  },
+  {
+   "team": "Phoenix Suns",
+   "group": "Pacific Division",
+   "position": 3,
+   "won": 5,
+   "lost": 6,
+   "points_for": 1229,
+   "points_against": 1277,
+   "form": null
+  },
+  {
+   "team": "Los Angeles Clippers",
+   "group": "Pacific Division",
+   "position": 4,
+   "won": 2,
+   "lost": 8,
+   "points_for": 1122,
+   "points_against": 1181,
+   "form": null
+  },
+  {
+   "team": "Sacramento Kings",
+   "group": "Pacific Division",
+   "position": 5,
+   "won": 1,
+   "lost": 10,
+   "points_for": 1191,
+   "points_against": 1331,
+   "form": null
+  },
+  {
+   "team": "San Antonio Spurs",
+   "group": "Southwest Division",
+   "position": 1,
+   "won": 10,
+   "lost": 2,
+   "points_for": 1430,
+   "points_against": 1296,
+   "form": null
+  },
+  {
+   "team": "Houston Rockets",
+   "group": "Southwest Division",
+   "position": 2,
+   "won": 9,
+   "lost": 3,
+   "points_for": 1385,
+   "points_against": 1278,
+   "form": null
+  },
+  {
+   "team": "Memphis Grizzlies",
+   "group": "Southwest Division",
+   "position": 3,
+   "won": 7,
+   "lost": 4,
+   "points_for": 1297,
+   "points_against": 1231,
+   "form": null
+  },
+  {
+   "team": "Dallas Mavericks",
+   "group": "Southwest Division",
+   "position": 4,
+   "won": 7,
+   "lost": 5,
+   "points_for": 1358,
+   "points_against": 1346,
+   "form": null
+  },
+  {
+   "team": "New Orleans Pelicans",
+   "group": "Southwest Division",
+   "position": 5,
+   "won": 4,
+   "lost": 8,
+   "points_for": 1403,
+   "points_against": 1491,
+   "form": null
+  },
+  {
+   "team": "Memphis Grizzlies",
+   "group": "Western Conference",
+   "position": 1,
+   "won": 3,
+   "lost": 1,
+   "points_for": 470,
+   "points_against": 443,
+   "form": null
+  },
+  {
+   "team": "Utah Jazz",
+   "group": "Western Conference",
+   "position": 2,
+   "won": 3,
+   "lost": 1,
+   "points_for": 453,
+   "points_against": 439,
+   "form": null
+  },
+  {
+   "team": "New Orleans Pelicans",
+   "group": "Western Conference",
+   "position": 3,
+   "won": 3,
+   "lost": 1,
+   "points_for": 442,
+   "points_against": 441,
+   "form": null
+  },
+  {
+   "team": "Golden State Warriors",
+   "group": "Western Conference",
+   "position": 4,
+   "won": 4,
+   "lost": 2,
+   "points_for": 683,
+   "points_against": 638,
+   "form": null
+  },
+  {
+   "team": "Houston Rockets",
+   "group": "Western Conference",
+   "position": 5,
+   "won": 2,
+   "lost": 1,
+   "points_for": 366,
+   "points_against": 338,
+   "form": null
+  },
+  {
+   "team": "Portland Trail Blazers",
+   "group": "Western Conference",
+   "position": 6,
+   "won": 2,
+   "lost": 1,
+   "points_for": 351,
+   "points_against": 344,
+   "form": null
+  },
+  {
+   "team": "Los Angeles Clippers",
+   "group": "Western Conference",
+   "position": 7,
+   "won": 2,
+   "lost": 1,
+   "points_for": 332,
+   "points_against": 325,
+   "form": null
+  },
+  {
+   "team": "Denver Nuggets",
+   "group": "Western Conference",
+   "position": 8,
+   "won": 3,
+   "lost": 2,
+   "points_for": 578,
+   "points_against": 571,
+   "form": null
+  },
+  {
+   "team": "Minnesota Timberwolves",
+   "group": "Western Conference",
+   "position": 9,
+   "won": 3,
+   "lost": 3,
+   "points_for": 697,
+   "points_against": 709,
+   "form": null
+  },
+  {
+   "team": "San Antonio Spurs",
+   "group": "Western Conference",
+   "position": 10,
+   "won": 2,
+   "lost": 3,
+   "points_for": 572,
+   "points_against": 544,
+   "form": null
+  },
+  {
+   "team": "Los Angeles Lakers",
+   "group": "Western Conference",
+   "position": 11,
+   "won": 2,
+   "lost": 3,
+   "points_for": 534,
+   "points_against": 559,
+   "form": null
+  },
+  {
+   "team": "Dallas Mavericks",
+   "group": "Western Conference",
+   "position": 12,
+   "won": 1,
+   "lost": 3,
+   "points_for": 457,
+   "points_against": 486,
+   "form": null
+  },
+  {
+   "team": "Phoenix Suns",
+   "group": "Western Conference",
+   "position": 13,
+   "won": 1,
+   "lost": 4,
+   "points_for": 545,
+   "points_against": 573,
+   "form": null
+  },
+  {
+   "team": "Oklahoma City Thunder",
+   "group": "Western Conference",
+   "position": 14,
+   "won": 1,
+   "lost": 4,
+   "points_for": 549,
+   "points_against": 585,
+   "form": null
+  },
+  {
+   "team": "Sacramento Kings",
+   "group": "Western Conference",
+   "position": 15,
+   "won": 0,
+   "lost": 5,
+   "points_for": 514,
+   "points_against": 588,
+   "form": null
+  },
+  {
+   "team": "Boston Celtics",
+   "group": "Eastern Conference",
+   "position": 1,
+   "won": 4,
+   "lost": 0,
+   "points_for": 507,
+   "points_against": 432,
+   "form": null
+  },
+  {
+   "team": "Atlanta Hawks",
+   "group": "Eastern Conference",
+   "position": 2,
+   "won": 4,
+   "lost": 1,
+   "points_for": 613,
+   "points_against": 586,
+   "form": null
+  },
+  {
+   "team": "Brooklyn Nets",
+   "group": "Eastern Conference",
+   "position": 3,
+   "won": 3,
+   "lost": 1,
+   "points_for": 497,
+   "points_against": 464,
+   "form": null
+  },
+  {
+   "team": "Orlando Magic",
+   "group": "Eastern Conference",
+   "position": 4,
+   "won": 3,
+   "lost": 1,
+   "points_for": 495,
+   "points_against": 468,
+   "form": null
+  },
+  {
+   "team": "Detroit Pistons",
+   "group": "Eastern Conference",
+   "position": 5,
+   "won": 3,
+   "lost": 1,
+   "points_for": 474,
+   "points_against": 452,
+   "form": null
+  },
+  {
+   "team": "Chicago Bulls",
+   "group": "Eastern Conference",
+   "position": 6,
+   "won": 3,
+   "lost": 2,
+   "points_for": 610,
+   "points_against": 574,
+   "form": null
+  },
+  {
+   "team": "Miami Heat",
+   "group": "Eastern Conference",
+   "position": 7,
+   "won": 3,
+   "lost": 2,
+   "points_for": 640,
+   "points_against": 612,
+   "form": null
+  },
+  {
+   "team": "Washington Wizards",
+   "group": "Eastern Conference",
+   "position": 8,
+   "won": 2,
+   "lost": 2,
+   "points_for": 453,
+   "points_against": 455,
+   "form": null
+  },
+  {
+   "team": "Toronto Raptors",
+   "group": "Eastern Conference",
+   "position": 9,
+   "won": 2,
+   "lost": 3,
+   "points_for": 612,
+   "points_against": 584,
+   "form": null
+  },
+  {
+   "team": "Milwaukee Bucks",
+   "group": "Eastern Conference",
+   "position": 10,
+   "won": 2,
+   "lost": 3,
+   "points_for": 547,
+   "points_against": 599,
+   "form": null
+  },
+  {
+   "team": "Cleveland Cavaliers",
+   "group": "Eastern Conference",
+   "position": 11,
+   "won": 1,
+   "lost": 2,
+   "points_for": 348,
+   "points_against": 361,
+   "form": null
+  },
+  {
+   "team": "Indiana Pacers",
+   "group": "Eastern Conference",
+   "position": 12,
+   "won": 1,
+   "lost": 3,
+   "points_for": 479,
+   "points_against": 473,
+   "form": null
+  },
+  {
+   "team": "Philadelphia 76ers",
+   "group": "Eastern Conference",
+   "position": 13,
+   "won": 1,
+   "lost": 3,
+   "points_for": 454,
+   "points_against": 480,
+   "form": null
+  },
+  {
+   "team": "Charlotte Hornets",
+   "group": "Eastern Conference",
+   "position": 14,
+   "won": 1,
+   "lost": 3,
+   "points_for": 386,
+   "points_against": 444,
+   "form": null
+  },
+  {
+   "team": "New York Knicks",
+   "group": "Eastern Conference",
+   "position": 15,
+   "won": 1,
+   "lost": 4,
+   "points_for": 530,
+   "points_against": 621,
+   "form": null
+  }
+ ],
+ "generated_at": "2026-11-14T00:09:04+00:00",
+ "source": "api-sports.io",
+ "api_calls": 8,
+ "errors": []
+}
