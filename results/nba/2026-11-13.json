@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-13",
+  "sport": "NBA",
+  "results": [
+    {
+      "match": "Houston Rockets vs Utah Jazz",
+      "selection": "Houston Rockets -12.5",
+      "final_score": "HOU 125-118 UTA",
+      "margin": 7,
+      "status": "loss",
+      "stake_units": 0.5,
+      "odds_ref": 1.51,
+      "profit_units": -0.5
+    },
+    {
+      "match": "Chicago Bulls vs Atlanta Hawks",
+      "selection": "Atlanta Hawks -4.5",
+      "final_score": "CHI 125-117 ATL",
+      "margin": -8,
+      "status": "loss",
+      "stake_units": 0.5,
+      "odds_ref": 1.63,
+      "profit_units": -0.5
+    },
+    {
+      "match": "Orlando Magic vs Milwaukee Bucks",
+      "selection": "Orlando Magic -6",
+      "final_score": "ORL 107-99 MIL",
+      "margin": 8,
+      "status": "win",
+      "stake_units": 0.5,
+      "odds_ref": 1.58,
+      "profit_units": 0.29
+    }
+  ],
+  "day": {
+    "bets": 3,
+    "wins": 1,
+    "losses": 2,
+    "pushes": 0,
+    "profit_units": -0.71
+  }
+}

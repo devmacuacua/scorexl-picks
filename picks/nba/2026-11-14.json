@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-14",
+  "sport": "NBA",
+  "note": "Só 5 jogos. data/nba/2026-11-14.json é da recolha das 14h29 (a das 21h00 não chegou) e só tem odds 1xBet para MEM-BKN; linhas de mercado tiradas da web (FanDuel/TheSpread/Covers). Sem odd 1xBet para as linhas escolhidas: odds_ref null — confirmar na 1xBet e só apostar se odd >= min_odds. fetch_sports_data indisponível. P(cobrir)=Φ((linha_mercado−linha)/12).",
+  "picks": [
+    {
+      "match": "Minnesota Timberwolves vs Chicago Bulls",
+      "tipoff_maputo": "2026-11-15T03:00:00+02:00",
+      "market": "handicap",
+      "selection": "Minnesota Timberwolves -10.5",
+      "min_odds": 1.59,
+      "odds_ref": null,
+      "bookmaker": "n/d (confirmar 1xBet)",
+      "win_prob": 0.87,
+      "confidence": "media",
+      "stake_units": 0.5,
+      "reason": "MIN 87% (ML -952) em casa, 9-3 (+13.4/jogo) vs CHI 2-9 (-13.4) em back-to-back após prolongamento com ATL. Mercado -14.5; -10.5 = 4 abaixo, P(cobrir)≈63%. Media: Anthony Edwards aparentemente fora (já no preço), confirmar; sem odd real."
+    },
+    {
+      "match": "New Orleans Pelicans vs Denver Nuggets",
+      "tipoff_maputo": "2026-11-15T02:00:00+02:00",
+      "market": "handicap",
+      "selection": "Denver Nuggets -6.5",
+      "min_odds": 1.51,
+      "odds_ref": null,
+      "bookmaker": "n/d (confirmar 1xBet)",
+      "win_prob": 0.82,
+      "confidence": "media",
+      "stake_units": 0.5,
+      "reason": "DEN 82% (ML -600) fora vs NOP 4-9 (-9.1/jogo) em back-to-back (perdeu por 31 com MEM) e sem Dejounte Murray e Trey Murphy. Favorito fora → linha curta: -6.5 = 5 abaixo do mercado (-11.5), P(cobrir)≈66%. ML ~1.17 < 1.30. Jokic e Murray disponíveis."
+    }
+  ],
+  "avoid": [
+    {
+      "match": "Memphis Grizzlies vs Brooklyn Nets",
+      "reason": "MEM favorito (~60%, 1xBet 1.60) em back-to-back."
+    },
+    {
+      "match": "Cleveland Cavaliers vs Dallas Mavericks",
+      "reason": "CLE -2.5 e em back-to-back: jogo equilibrado."
+    },
+    {
+      "match": "Miami Heat vs Detroit Pistons",
+      "reason": "DET -4.5 fora (~65%): faixa a evitar."
+    }
+  ]
+}
