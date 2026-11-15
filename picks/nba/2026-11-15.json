@@ -1,90 +1,58 @@
 {
   "date": "2026-11-15",
   "sport": "NBA",
-  "note": "Fonte: data/nba/2026-11-15.json (api-sports, recolha 14h57 Maputo; a das 21h00 ainda não existia quando a tarefa correu às ~15h). Odds 1xBet. fetch_sports_data indisponível nesta sessão; pesquisa web de lesões sem resultados de 2026 — lesões não confirmadas, todos 'media'. Odds 1xBet abaixo de min_odds (margem do bookmaker): confirmar antes de apostar. P(cobrir)=Φ((linha_mercado−linha)/12). Overs (total_over) adicionados a pedido do Francisco: total estimado pelas médias pontos marcados/sofridos, σ≈18; só se estimado ≥ mercado+3 (ou o jogo pedido), linha 2-3 abaixo, odd 1.45-1.80, máx 2/dia, 0.5u.",
+  "note": "Versão odd mínima 1.80 (pedido do Francisco às 16h). Odds 1xBet da recolha das 14h57 (a das 21h00 ainda não existia). Handicaps com odd ≥1.80 ficam colados à linha do mercado (P≈50-53%, P×odd 0.95-0.97): nenhum entra. Só Overs com P×odd ≥1.03: total estimado = médias pontos marcados/sofridos (Conference), P(Over)=Φ((estimado−linha)/18). Lesões não confirmadas (web sem dados de 2026). Substitui a versão anterior (4 handicaps + 2 Overs com odds 1.47-1.73).",
   "picks": [
-    {
-      "match": "Boston Celtics vs Dallas Mavericks",
-      "tipoff_maputo": "2026-11-16T01:00:00+02:00",
-      "market": "handicap",
-      "selection": "Boston Celtics -9.5",
-      "min_odds": 1.59,
-      "odds_ref": 1.52,
-      "bookmaker": "1xBet",
-      "win_prob": 0.85,
-      "confidence": "media",
-      "stake_units": 0.5,
-      "reason": "BOS 85% (1xBet ML 1.13) em casa, 10-2 (+11.2/jogo) vs DAL 7-6 (+0.2) em back-to-back. Mercado -13.5; -9.5 = 4 abaixo. Media: DAL não tem balanço negativo e odd 1.52 < min_odds. P(cobrir)≈63%."
-    },
-    {
-      "match": "Washington Wizards vs Houston Rockets",
-      "tipoff_maputo": "2026-11-16T02:00:00+02:00",
-      "market": "handicap",
-      "selection": "Houston Rockets -5.5",
-      "min_odds": 1.59,
-      "odds_ref": 1.48,
-      "bookmaker": "1xBet",
-      "win_prob": 0.77,
-      "confidence": "media",
-      "stake_units": 0.5,
-      "reason": "HOU 77% (ML 1.26) fora, 10-3 (+8.8) vs WAS 4-9 (-5.8). Favorito fora → linha curta: -5.5 = 4 abaixo do mercado (-9.5). ML 1.26 < 1.30. P(cobrir)≈63%."
-    },
-    {
-      "match": "Sacramento Kings vs Oklahoma City Thunder",
-      "tipoff_maputo": "2026-11-16T04:00:00+02:00",
-      "market": "handicap",
-      "selection": "Oklahoma City Thunder -6.5",
-      "min_odds": 1.59,
-      "odds_ref": 1.47,
-      "bookmaker": "1xBet",
-      "win_prob": 0.79,
-      "confidence": "media",
-      "stake_units": 0.5,
-      "reason": "OKC 79% (ML 1.22) fora, 8-5 (+3.8) vs SAC 1-11 (-12.8). Favorito fora → -6.5 = 4 abaixo do mercado (-10.5). ML 1.22 < 1.30. P(cobrir)≈63%."
-    },
-    {
-      "match": "Milwaukee Bucks vs Atlanta Hawks",
-      "tipoff_maputo": "2026-11-16T03:00:00+02:00",
-      "market": "handicap",
-      "selection": "Atlanta Hawks -3.5",
-      "min_odds": 1.59,
-      "odds_ref": 1.47,
-      "bookmaker": "1xBet",
-      "win_prob": 0.71,
-      "confidence": "media",
-      "stake_units": 0.5,
-      "reason": "ATL 71% (ML 1.35) fora, 7-6 vs MIL 1-12 (-14.1). Favorito fora → -3.5 = 4 abaixo do mercado (-7.5). Alternativa: ML 1.35. P(cobrir)≈63%."
-    },
-    {
-      "match": "Utah Jazz vs San Antonio Spurs",
-      "tipoff_maputo": "2026-11-16T00:00:00+02:00",
-      "market": "total_over",
-      "selection": "Over 220.5",
-      "line": 220.5,
-      "min_odds": 1.62,
-      "odds_ref": 1.73,
-      "bookmaker": "1xBet",
-      "win_prob": 0.62,
-      "confidence": "media",
-      "stake_units": 0.5,
-      "reason": "Total estimado 225.9 (SAS marca 119.5, UTA sofre 118.6; UTA marca 107.5, SAS sofre 106.2) vs mercado 222.5. Linha 2 abaixo. P(Over)=Φ((226−220.5)/18)≈62%."
-    },
     {
       "match": "Phoenix Suns vs Los Angeles Lakers",
       "tipoff_maputo": "2026-11-15T23:00:00+02:00",
       "market": "total_over",
-      "selection": "Over 225.5",
-      "line": 225.5,
-      "min_odds": 1.55,
-      "odds_ref": 1.68,
+      "selection": "Over 227.5",
+      "line": 227.5,
+      "min_odds": 1.8,
+      "odds_ref": 1.83,
       "bookmaker": "1xBet",
-      "win_prob": 0.64,
+      "win_prob": 0.6,
       "confidence": "media",
       "stake_units": 0.5,
-      "reason": "Total estimado 232.1 vs mercado 228.5 (+3.6). Linha 3 abaixo. P(Over)=Φ((232.1−225.5)/18)≈64%."
+      "reason": "Total estimado 232.1 vs mercado 226 (+6.1). P(Over)=Φ((232.1−227.5)/18)≈60%, P×odd=1.10."
+    },
+    {
+      "match": "Los Angeles Clippers vs Charlotte Hornets",
+      "tipoff_maputo": "2026-11-15T23:30:00+02:00",
+      "market": "total_over",
+      "selection": "Over 213.5",
+      "line": 213.5,
+      "min_odds": 1.8,
+      "odds_ref": 1.8,
+      "bookmaker": "1xBet",
+      "win_prob": 0.62,
+      "confidence": "media",
+      "stake_units": 0.5,
+      "reason": "Total estimado 219.0 vs mercado 216 (+3.0). P(Over)=Φ((219−213.5)/18)≈62%, P×odd=1.12."
     }
   ],
   "avoid": [
+    {
+      "match": "Boston Celtics vs Dallas Mavericks",
+      "reason": "Handicap ≥1.80 só na linha do mercado (-13/-13.5, P×odd ≤0.96). Over 217.5 @1.82 (P×odd 1.09) é reserva: DAL em back-to-back e máx. 2 Overs/dia."
+    },
+    {
+      "match": "Washington Wizards vs Houston Rockets",
+      "reason": "HOU -8.5 @1.82: P≈53%, P×odd 0.97."
+    },
+    {
+      "match": "Sacramento Kings vs Oklahoma City Thunder",
+      "reason": "OKC -9.5 @1.80: P≈53%, P×odd 0.96."
+    },
+    {
+      "match": "Milwaukee Bucks vs Atlanta Hawks",
+      "reason": "ATL -6.5 @1.82: P≈53%, P×odd 0.97; total estimado abaixo do mercado."
+    },
+    {
+      "match": "Utah Jazz vs San Antonio Spurs",
+      "reason": "SAS -15.5 @1.81: favorito fora com linha longa. Over: estimado só +1.9 vs mercado."
+    },
     {
       "match": "Philadelphia 76ers vs Indiana Pacers",
       "reason": "PHI 69% (< 70%)."
@@ -100,10 +68,6 @@
     {
       "match": "Los Angeles Clippers vs Charlotte Hornets",
       "reason": "~52%: jogo equilibrado."
-    },
-    {
-      "match": "Utah Jazz vs San Antonio Spurs (handicap/ML)",
-      "reason": "SAS fora com mercado -17: ML 1.07, -6.5 a 1.20. Só o Over."
     }
   ]
 }
