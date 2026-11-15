@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-14",
+  "sport": "NBA",
+  "note": "odds_ref null nos palpites: lucro calculado com min_odds.",
+  "results": [
+    {
+      "match": "Minnesota Timberwolves vs Chicago Bulls",
+      "selection": "Minnesota Timberwolves -10.5",
+      "final_score": "MIN 106-117 CHI",
+      "margin": -11,
+      "status": "loss",
+      "stake_units": 0.5,
+      "odds_ref": null,
+      "profit_units": -0.5
+    },
+    {
+      "match": "New Orleans Pelicans vs Denver Nuggets",
+      "selection": "Denver Nuggets -6.5",
+      "final_score": "NOP 108-116 DEN",
+      "margin": 8,
+      "status": "win",
+      "stake_units": 0.5,
+      "odds_ref": null,
+      "profit_units": 0.255
+    }
+  ],
+  "day": {
+    "bets": 2,
+    "wins": 1,
+    "losses": 1,
+    "pushes": 0,
+    "profit_units": -0.245
+  }
+}
