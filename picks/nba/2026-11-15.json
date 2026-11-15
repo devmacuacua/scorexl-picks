@@ -1,7 +1,7 @@
 {
   "date": "2026-11-15",
   "sport": "NBA",
-  "note": "Versão odd mínima 1.80 (pedido do Francisco às 16h). Odds 1xBet da recolha das 14h57 (a das 21h00 ainda não existia). Handicaps com odd ≥1.80 ficam colados à linha do mercado (P≈50-53%, P×odd 0.95-0.97): nenhum entra. Só Overs com P×odd ≥1.03: total estimado = médias pontos marcados/sofridos (Conference), P(Over)=Φ((estimado−linha)/18). Lesões não confirmadas (web sem dados de 2026). Substitui a versão anterior (4 handicaps + 2 Overs com odds 1.47-1.73).",
+  "note": "Versão odd mínima 1.80 (pedido do Francisco às 16h). Odds 1xBet da recolha das 14h57 (a das 21h00 ainda não existia). Handicaps com odd ≥1.80 ficam colados à linha do mercado (P≈50-53%, P×odd 0.95-0.97): nenhum entra. Só Overs com P×odd ≥1.03: total estimado = médias pontos marcados/sofridos (Conference), P(Over)=Φ((estimado−linha)/18). Lesões não confirmadas (web sem dados de 2026). Substitui a versão anterior (4 handicaps + 2 Overs com odds 1.47-1.73). Revisto na corrida das 21h47: data/nba/2026-11-15.json continua a ser a recolha das 14h57 (a das 21h00 não chegou) — mesmos palpites; PHI-IND (20h00) já começou. Lesões 2026 não encontradas na web.",
   "picks": [
     {
       "match": "Phoenix Suns vs Los Angeles Lakers",
