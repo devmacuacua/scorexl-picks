@@ -31,7 +31,7 @@ Feed diário de palpites gerado automaticamente para o ScoreXL.
 }
 ```
 
-Campos: `market` = `handicap` | `moneyline`; `confidence` = `alta` | `media`; `stake_units` = unidades (1 unidade = 3% da banca).
+Campos: `market` = `handicap` | `moneyline` | `total_over` (Over no total de pontos do jogo, com `line`; ganha se total > line, inclui prolongamento); `confidence` = `alta` | `media`; `stake_units` = unidades (1 unidade = 3% da banca).
 
 Leitura raw: `https://raw.githubusercontent.com/devmacuacua/scorexl-picks/main/picks/nba/AAAA-MM-DD.json`
 

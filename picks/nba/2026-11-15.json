@@ -1,7 +1,7 @@
 {
   "date": "2026-11-15",
   "sport": "NBA",
-  "note": "Fonte: data/nba/2026-11-15.json (api-sports, recolha 14h57 Maputo; a das 21h00 ainda não existia quando a tarefa correu às ~15h). Odds 1xBet. fetch_sports_data indisponível nesta sessão; pesquisa web de lesões sem resultados de 2026 — lesões não confirmadas, todos 'media'. Odds 1xBet abaixo de min_odds (margem do bookmaker): confirmar antes de apostar. P(cobrir)=Φ((linha_mercado−linha)/12).",
+  "note": "Fonte: data/nba/2026-11-15.json (api-sports, recolha 14h57 Maputo; a das 21h00 ainda não existia quando a tarefa correu às ~15h). Odds 1xBet. fetch_sports_data indisponível nesta sessão; pesquisa web de lesões sem resultados de 2026 — lesões não confirmadas, todos 'media'. Odds 1xBet abaixo de min_odds (margem do bookmaker): confirmar antes de apostar. P(cobrir)=Φ((linha_mercado−linha)/12). Overs (total_over) adicionados a pedido do Francisco: total estimado pelas médias pontos marcados/sofridos, σ≈18; só se estimado ≥ mercado+3 (ou o jogo pedido), linha 2-3 abaixo, odd 1.45-1.80, máx 2/dia, 0.5u.",
   "picks": [
     {
       "match": "Boston Celtics vs Dallas Mavericks",
@@ -54,13 +54,37 @@
       "confidence": "media",
       "stake_units": 0.5,
       "reason": "ATL 71% (ML 1.35) fora, 7-6 vs MIL 1-12 (-14.1). Favorito fora → -3.5 = 4 abaixo do mercado (-7.5). Alternativa: ML 1.35. P(cobrir)≈63%."
+    },
+    {
+      "match": "Utah Jazz vs San Antonio Spurs",
+      "tipoff_maputo": "2026-11-16T00:00:00+02:00",
+      "market": "total_over",
+      "selection": "Over 220.5",
+      "line": 220.5,
+      "min_odds": 1.62,
+      "odds_ref": 1.73,
+      "bookmaker": "1xBet",
+      "win_prob": 0.62,
+      "confidence": "media",
+      "stake_units": 0.5,
+      "reason": "Total estimado 225.9 (SAS marca 119.5, UTA sofre 118.6; UTA marca 107.5, SAS sofre 106.2) vs mercado 222.5. Linha 2 abaixo. P(Over)=Φ((226−220.5)/18)≈62%."
+    },
+    {
+      "match": "Phoenix Suns vs Los Angeles Lakers",
+      "tipoff_maputo": "2026-11-15T23:00:00+02:00",
+      "market": "total_over",
+      "selection": "Over 225.5",
+      "line": 225.5,
+      "min_odds": 1.55,
+      "odds_ref": 1.68,
+      "bookmaker": "1xBet",
+      "win_prob": 0.64,
+      "confidence": "media",
+      "stake_units": 0.5,
+      "reason": "Total estimado 232.1 vs mercado 228.5 (+3.6). Linha 3 abaixo. P(Over)=Φ((232.1−225.5)/18)≈64%."
     }
   ],
   "avoid": [
-    {
-      "match": "Utah Jazz vs San Antonio Spurs",
-      "reason": "SAS 90% fora mas mercado -17: ML 1.07 e -6.5 a 1.20 (< 1.30/1.45). Sem linha válida para favorito fora."
-    },
     {
       "match": "Philadelphia 76ers vs Indiana Pacers",
       "reason": "PHI 69% (< 70%)."
@@ -76,6 +100,10 @@
     {
       "match": "Los Angeles Clippers vs Charlotte Hornets",
       "reason": "~52%: jogo equilibrado."
+    },
+    {
+      "match": "Utah Jazz vs San Antonio Spurs (handicap/ML)",
+      "reason": "SAS fora com mercado -17: ML 1.07, -6.5 a 1.20. Só o Over."
     }
   ]
 }
