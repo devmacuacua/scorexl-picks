@@ -2,8 +2,10 @@ name: Dados api-sports
 
 on:
   schedule:
-    - cron: "45 5 * * *"   # 07h45 Maputo: futebol (antes da tarefa das 08h54) + NBA
-    - cron: "0 19 * * *"   # 21h00 Maputo: NBA com odds atualizadas (antes da tarefa das 21h39)
+    # De 2 em 2 horas (minuto 17 para fugir à hora certa, quando o GitHub mais atrasa):
+    # 00h17, 02h17, ..., 22h17 Maputo. Cada recolha completa gasta ~30 pedidos
+    # (futebol ~16 + NBA ~11) → ~330 pedidos/dia no total.
+    - cron: "17 */2 * * *"
   workflow_dispatch:
     inputs:
       date:
@@ -36,7 +38,6 @@ jobs:
           ARGS=""
           if [ -n "${{ github.event.inputs.date }}" ]; then ARGS="$ARGS --date ${{ github.event.inputs.date }}"; fi
           if [ -n "${{ github.event.inputs.only }}" ]; then ARGS="$ARGS --only ${{ github.event.inputs.only }}"; fi
-          if [ -z "${{ github.event.inputs.only }}" ] && [ "${{ github.event.schedule }}" = "0 19 * * *" ]; then ARGS="$ARGS --only nba"; fi
           python scripts/fetch_apisports.py $ARGS
       - name: Publicar
         run: |
