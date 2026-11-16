@@ -1,23 +1,8 @@
 {
   "date": "2026-11-16",
   "sport": "NBA",
-  "note": "Atualizado às 14h40 de Maputo após recolha manual da api-sports (generated_at 2026-11-16T12:39Z, 11 pedidos). O cron das 07h45 do GitHub não tinha corrido (os crons do GitHub atrasam várias horas). Odds 1xBet só em 3 jogos (BKN-PHI, MIN-POR, NOP-GSW); os outros 5 ainda sem odds — a recolha das 21h00 pode completar. Handicaps: nenhum jogo com odds cumpre o perfil (≥70%, favorito sem B2B). Over NOP-GSW: estimado 234.9 vs mercado 227 (+7.9). Lesões 2026 não confirmadas na web. Candidatos a rever às 21h47 com odds: CLE vs CHI (CLE ~77%) e Over CLE-CHI (estimado 236.9, só se mercado ≤ 233.5).",
-  "picks": [
-    {
-      "match": "New Orleans Pelicans vs Golden State Warriors",
-      "tipoff_maputo": "2026-11-17T03:00:00+02:00",
-      "market": "total_over",
-      "selection": "Over 226.5",
-      "line": 226.5,
-      "min_odds": 1.8,
-      "odds_ref": 1.9,
-      "bookmaker": "1xBet",
-      "win_prob": 0.68,
-      "confidence": "media",
-      "stake_units": 0.5,
-      "reason": "Total estimado 234.9 (médias pontos marcados/sofridos, Conference) vs mercado 227 (+7.9). P(Over)=Φ((234.9−226.5)/18)≈68%, P×odd=1.29. Nenhuma equipa em B2B. Lesões não confirmadas."
-    }
-  ],
+  "note": "Atualizado às 14h40 de Maputo após recolha manual da api-sports (generated_at 2026-11-16T12:39Z, 11 pedidos). O cron das 07h45 do GitHub não tinha corrido (os crons do GitHub atrasam várias horas). Odds 1xBet só em 3 jogos (BKN-PHI, MIN-POR, NOP-GSW); os outros 5 ainda sem odds — a recolha das 21h00 pode completar. Handicaps: nenhum jogo com odds cumpre o perfil (≥70%, favorito sem B2B). Over NOP-GSW: estimado 234.9 vs mercado 227 (+7.9). Lesões 2026 não confirmadas na web. Candidatos a rever às 21h47 com odds: CLE vs CHI (CLE ~77%) e Over CLE-CHI (estimado 236.9, só se mercado ≤ 233.5). Revisão 16h: Over NOP-GSW retirado — Curry fora (regra: evitar Overs com estrela ausente/em dúvida). Sem palpites até à recolha com odds dos restantes jogos.",
+  "picks": [],
   "avoid": [
     {
       "match": "Boston Celtics vs Orlando Magic",
@@ -41,7 +26,7 @@
     },
     {
       "match": "New Orleans Pelicans vs Golden State Warriors",
-      "reason": "Handicap: GSW ~64% fora (faixa 50-65%). Só o Over entra."
+      "reason": "Stephen Curry FORA (lesão abdominal, WDSU/Heavy). Over 226.5 retirado: total estimado 234.9 assumia GSW com Curry. Handicap GSW ~64% (faixa a evitar)."
     },
     {
       "match": "Denver Nuggets vs Phoenix Suns",
