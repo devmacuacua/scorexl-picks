@@ -1,10 +1,38 @@
 {
   "date": "2026-11-15",
   "sport": "NBA",
-  "note": "Liquidação feita às 08h17 de 16/11 (Maputo). data/nba/2026-11-16.json (recolha 01h18) só tem PHI-IND final; PHX-LAL ia 101-116 no Q4 e LAC-CHA 68-75 no Q3. Web sem resultado final confirmado. Fica pending: dia NÃO entra em days_processed — reliquidar na próxima corrida.",
+  "note": "Reliquidado a 16/11 às 11h23 (Maputo) com resultados finais via web (ESPN/AP): LAL 131-123 em PHX; LAC 113-105 CHA.",
   "results": [
-    {"match": "Phoenix Suns vs Los Angeles Lakers", "market": "total_over", "selection": "Over 227.5", "final_score": null, "margin": null, "total_points": null, "status": "pending", "stake_units": 0.5, "odds_ref": 1.83, "profit_units": 0},
-    {"match": "Los Angeles Clippers vs Charlotte Hornets", "market": "total_over", "selection": "Over 213.5", "final_score": null, "margin": null, "total_points": null, "status": "pending", "stake_units": 0.5, "odds_ref": 1.8, "profit_units": 0}
+    {
+      "match": "Phoenix Suns vs Los Angeles Lakers",
+      "market": "total_over",
+      "selection": "Over 227.5",
+      "final_score": "PHX 123-131 LAL",
+      "margin": -8,
+      "total_points": 254,
+      "status": "win",
+      "stake_units": 0.5,
+      "odds_ref": 1.83,
+      "profit_units": 0.415
+    },
+    {
+      "match": "Los Angeles Clippers vs Charlotte Hornets",
+      "market": "total_over",
+      "selection": "Over 213.5",
+      "final_score": "LAC 113-105 CHA",
+      "margin": 8,
+      "total_points": 218,
+      "status": "win",
+      "stake_units": 0.5,
+      "odds_ref": 1.8,
+      "profit_units": 0.4
+    }
   ],
-  "day": {"bets": 0, "wins": 0, "losses": 0, "pushes": 0, "profit_units": 0}
+  "day": {
+    "bets": 2,
+    "wins": 2,
+    "losses": 0,
+    "pushes": 0,
+    "profit_units": 0.815
+  }
 }
