@@ -1,7 +1,7 @@
 {
   "date": "2026-11-15",
   "sport": "NBA",
-  "note": "Reliquidado a 16/11 às 11h23 (Maputo) com resultados finais via web (ESPN/AP): LAL 131-123 em PHX; LAC 113-105 CHA.",
+  "note": "Reliquidado a 16/11 (Maputo). Inclui os 6 palpites da 1.ª versão (retirados às 16h21 com a odd mínima 1.80, mas já publicados no site) — contam no registo por decisão do Francisco. Resultados via ESPN/AP/Field Level Media/Yahoo.",
   "results": [
     {
       "match": "Phoenix Suns vs Los Angeles Lakers",
@@ -26,13 +26,85 @@
       "stake_units": 0.5,
       "odds_ref": 1.8,
       "profit_units": 0.4
+    },
+    {
+      "match": "Phoenix Suns vs Los Angeles Lakers",
+      "market": "total_over",
+      "selection": "Over 225.5",
+      "final_score": "PHX 123-131 LAL",
+      "margin": -8,
+      "total_points": 254,
+      "status": "win",
+      "stake_units": 0.5,
+      "odds_ref": 1.68,
+      "profit_units": 0.34
+    },
+    {
+      "match": "Utah Jazz vs San Antonio Spurs",
+      "market": "total_over",
+      "selection": "Over 220.5",
+      "final_score": "UTA 102-110 SAS",
+      "margin": -8,
+      "total_points": 212,
+      "status": "loss",
+      "stake_units": 0.5,
+      "odds_ref": 1.73,
+      "profit_units": -0.5
+    },
+    {
+      "match": "Boston Celtics vs Dallas Mavericks",
+      "market": "handicap",
+      "selection": "Boston Celtics -9.5",
+      "final_score": "BOS 131-94 DAL",
+      "margin": 37,
+      "total_points": 225,
+      "status": "win",
+      "stake_units": 0.5,
+      "odds_ref": 1.52,
+      "profit_units": 0.26
+    },
+    {
+      "match": "Washington Wizards vs Houston Rockets",
+      "market": "handicap",
+      "selection": "Houston Rockets -5.5",
+      "final_score": "WAS 119-147 HOU",
+      "margin": 28,
+      "total_points": 266,
+      "status": "win",
+      "stake_units": 0.5,
+      "odds_ref": 1.48,
+      "profit_units": 0.24
+    },
+    {
+      "match": "Milwaukee Bucks vs Atlanta Hawks",
+      "market": "handicap",
+      "selection": "Atlanta Hawks -3.5",
+      "final_score": "MIL 106-113 ATL",
+      "margin": 7,
+      "total_points": 219,
+      "status": "win",
+      "stake_units": 0.5,
+      "odds_ref": 1.47,
+      "profit_units": 0.235
+    },
+    {
+      "match": "Sacramento Kings vs Oklahoma City Thunder",
+      "market": "handicap",
+      "selection": "Oklahoma City Thunder -6.5",
+      "final_score": "SAC 103-125 OKC",
+      "margin": 22,
+      "total_points": 228,
+      "status": "win",
+      "stake_units": 0.5,
+      "odds_ref": 1.47,
+      "profit_units": 0.235
     }
   ],
   "day": {
-    "bets": 2,
-    "wins": 2,
-    "losses": 0,
+    "bets": 8,
+    "wins": 7,
+    "losses": 1,
     "pushes": 0,
-    "profit_units": 0.815
+    "profit_units": 1.625
   }
 }

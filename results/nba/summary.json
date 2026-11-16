@@ -2,14 +2,14 @@
   "sport": "NBA",
   "since": "2026-11-05",
   "updated": "2026-11-16",
-  "bets": 9,
-  "wins": 5,
-  "losses": 4,
+  "bets": 15,
+  "wins": 10,
+  "losses": 5,
   "pushes": 0,
-  "hit_rate": 0.556,
-  "staked_units": 4.5,
-  "profit_units": -0.36,
-  "roi": -0.08,
+  "hit_rate": 0.667,
+  "staked_units": 7.5,
+  "profit_units": 0.45,
+  "roi": 0.06,
   "by_confidence": {
     "alta": {
       "bets": 0,
@@ -17,18 +17,19 @@
       "profit_units": 0
     },
     "media": {
-      "bets": 9,
-      "wins": 5,
-      "profit_units": -0.36
+      "bets": 15,
+      "wins": 10,
+      "profit_units": 0.45
     }
   },
   "last_10": [
-    "win",
-    "loss",
-    "loss",
     "loss",
     "win",
+    "win",
+    "win",
+    "win",
     "loss",
+    "win",
     "win",
     "win",
     "win"
@@ -48,9 +49,9 @@
   ],
   "by_market": {
     "handicap": {
-      "bets": 7,
-      "wins": 3,
-      "profit_units": -1.175
+      "bets": 11,
+      "wins": 7,
+      "profit_units": -0.205
     },
     "moneyline": {
       "bets": 0,
@@ -58,9 +59,9 @@
       "profit_units": 0
     },
     "total_over": {
-      "bets": 2,
-      "wins": 2,
-      "profit_units": 0.815
+      "bets": 4,
+      "wins": 3,
+      "profit_units": 0.655
     }
   },
   "pending_days": []
