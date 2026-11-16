@@ -1,7 +1,7 @@
 {
   "date": "2026-11-16",
   "sport": "NBA",
-  "note": "Atualizado às 14h40 de Maputo após recolha manual da api-sports (generated_at 2026-11-16T12:39Z, 11 pedidos). O cron das 07h45 do GitHub não tinha corrido (os crons do GitHub atrasam várias horas). Odds 1xBet só em 3 jogos (BKN-PHI, MIN-POR, NOP-GSW); os outros 5 ainda sem odds — a recolha das 21h00 pode completar. Handicaps: nenhum jogo com odds cumpre o perfil (≥70%, favorito sem B2B). Over NOP-GSW: estimado 234.9 vs mercado 227 (+7.9). Lesões 2026 não confirmadas na web. Candidatos a rever às 21h47 com odds: CLE vs CHI (CLE ~77%) e Over CLE-CHI (estimado 236.9, só se mercado ≤ 233.5). Revisão 16h: Over NOP-GSW retirado — Curry fora (regra: evitar Overs com estrela ausente/em dúvida). Sem palpites até à recolha com odds dos restantes jogos.",
+  "note": "Atualizado às 14h40 de Maputo após recolha manual da api-sports (generated_at 2026-11-16T12:39Z, 11 pedidos). O cron das 07h45 do GitHub não tinha corrido (os crons do GitHub atrasam várias horas). Odds 1xBet só em 3 jogos (BKN-PHI, MIN-POR, NOP-GSW); os outros 5 ainda sem odds — a recolha das 21h00 pode completar. Handicaps: nenhum jogo com odds cumpre o perfil (≥70%, favorito sem B2B). Over NOP-GSW: estimado 234.9 vs mercado 227 (+7.9). Lesões 2026 não confirmadas na web. Candidatos a rever às 21h47 com odds: CLE vs CHI (CLE ~77%) e Over CLE-CHI (estimado 236.9, só se mercado ≤ 233.5). Revisão 16h: Over NOP-GSW retirado — Curry fora (regra: evitar Overs com estrela ausente/em dúvida). Sem palpites até à recolha com odds dos restantes jogos. Revisão 15h30 (recolha 13h28Z): odds 1xBet ainda só em 3 jogos. Lesões: Curry, Mobley, Edwards e Morant fora. Sem palpites; DEN vs PHX e Over MIA-HOU a rever às 21h47 com odds.",
   "picks": [],
   "avoid": [
     {
@@ -10,7 +10,7 @@
     },
     {
       "match": "Washington Wizards vs Memphis Grizzlies",
-      "reason": "MEM ~66% fora; WAS em B2B mas faixa 50-65%/linha a confirmar."
+      "reason": "MEM ~66% fora e Ja Morant fora (TalkBasket); Edey em dúvida. Faixa a evitar."
     },
     {
       "match": "Brooklyn Nets vs Philadelphia 76ers",
@@ -31,6 +31,10 @@
     {
       "match": "Denver Nuggets vs Phoenix Suns",
       "reason": "DEN ~68% (< 70%)."
+    },
+    {
+      "match": "Cleveland Cavaliers vs Chicago Bulls",
+      "reason": "Evan Mobley FORA (dedo do pé) — estrela do favorito ausente: handicap e Over (est. 236.9 com Mobley) evitados. Sem odds às 15h28."
     }
   ]
 }
