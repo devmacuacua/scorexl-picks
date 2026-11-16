@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-16",
+  "sport": "NBA",
+  "note": "Sem palpites. Esta corrida foi às 08h17 de Maputo, antes da recolha das 21h00: data/nba/2026-11-16.json (generated_at 2026-11-15T23:18Z, anterior às 21h00 de D) tem odds = null em todos os 8 jogos e bookmakers_available vazio. Regra odd real 1.80-2.00 e P×odd ≥1.03 não é verificável → picks []. fetch_sports_data indisponível; lesões não verificadas. Candidatos a confirmar quando houver odds: Cavaliers vs Bulls (CLE ~77% pelo balanço/pontos, em casa, CHI 3-9; Over: total estimado 236.9 — só se mercado ≤233.5).",
+  "picks": [],
+  "avoid": [
+    {
+      "match": "Boston Celtics vs Orlando Magic",
+      "reason": "BOS ~80% mas em back-to-back (favorito em B2B)."
+    },
+    {
+      "match": "Washington Wizards vs Memphis Grizzlies",
+      "reason": "MEM ~66% fora; WAS em B2B mas faixa 50-65%/linha a confirmar."
+    },
+    {
+      "match": "Brooklyn Nets vs Philadelphia 76ers",
+      "reason": "PHI ~56% e em back-to-back."
+    },
+    {
+      "match": "Miami Heat vs Houston Rockets",
+      "reason": "HOU ~58% e em back-to-back."
+    },
+    {
+      "match": "Minnesota Timberwolves vs Portland Trail Blazers",
+      "reason": "MIN ~64%: faixa 50-65%."
+    },
+    {
+      "match": "New Orleans Pelicans vs Golden State Warriors",
+      "reason": "GSW ~64% fora: faixa 50-65%."
+    },
+    {
+      "match": "Denver Nuggets vs Phoenix Suns",
+      "reason": "DEN ~68% (< 70%)."
+    }
+  ]
+}

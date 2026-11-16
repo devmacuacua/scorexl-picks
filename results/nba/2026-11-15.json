@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-15",
+  "sport": "NBA",
+  "note": "Liquidação feita às 08h17 de 16/11 (Maputo). data/nba/2026-11-16.json (recolha 01h18) só tem PHI-IND final; PHX-LAL ia 101-116 no Q4 e LAC-CHA 68-75 no Q3. Web sem resultado final confirmado. Fica pending: dia NÃO entra em days_processed — reliquidar na próxima corrida.",
+  "results": [
+    {"match": "Phoenix Suns vs Los Angeles Lakers", "market": "total_over", "selection": "Over 227.5", "final_score": null, "margin": null, "total_points": null, "status": "pending", "stake_units": 0.5, "odds_ref": 1.83, "profit_units": 0},
+    {"match": "Los Angeles Clippers vs Charlotte Hornets", "market": "total_over", "selection": "Over 213.5", "final_score": null, "margin": null, "total_points": null, "status": "pending", "stake_units": 0.5, "odds_ref": 1.8, "profit_units": 0}
+  ],
+  "day": {"bets": 0, "wins": 0, "losses": 0, "pushes": 0, "profit_units": 0}
+}
