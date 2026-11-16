@@ -1,7 +1,7 @@
 {
   "date": "2026-11-16",
   "sport": "NBA",
-  "note": "Sem palpites. Corrida às 11h23 de Maputo, antes da recolha das 21h00: data/nba/2026-11-16.json (generated_at 2026-11-15T23:18Z, anterior às 21h00 de D) continua com odds = null nos 8 jogos e bookmakers_available vazio → regra odd real 1.80-2.00 e P×odd ≥ 1.03 não verificável → picks []. fetch_sports_data indisponível; lesões não verificadas. Candidatos a confirmar na 1xBet: Cavaliers vs Bulls (CLE ~77% em casa, CHI 3-9; handicap só se odd 1.80-2.00 e P×odd ≥ 1.03) e Over CLE-CHI (total estimado 236.9 — só se linha do mercado ≤ 233.5).",
+  "note": "Sem palpites. Corrida às 11h23 de Maputo, antes da recolha das 21h00: data/nba/2026-11-16.json (generated_at 2026-11-15T23:18Z, anterior às 21h00 de D) continua com odds = null nos 8 jogos e bookmakers_available vazio → regra odd real 1.80-2.00 e P×odd ≥ 1.03 não verificável → picks []. fetch_sports_data indisponível; lesões não verificadas. Candidatos a confirmar na 1xBet: Cavaliers vs Bulls (CLE ~77% em casa, CHI 3-9; handicap só se odd 1.80-2.00 e P×odd ≥ 1.03) e Over CLE-CHI (total estimado 236.9 — só se linha do mercado ≤ 233.5). Revisto às 14h15 de Maputo: data/nba/2026-11-16.json inalterado (generated_at 2026-11-15T23:18Z, odds null) e web sem odds/lesões úteis → mantém-se picks []. Aguardar a recolha das 21h00.",
   "picks": [],
   "avoid": [
     {
