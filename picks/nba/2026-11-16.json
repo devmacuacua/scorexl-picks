@@ -1,8 +1,23 @@
 {
   "date": "2026-11-16",
   "sport": "NBA",
-  "note": "Sem palpites. Corrida às 11h23 de Maputo, antes da recolha das 21h00: data/nba/2026-11-16.json (generated_at 2026-11-15T23:18Z, anterior às 21h00 de D) continua com odds = null nos 8 jogos e bookmakers_available vazio → regra odd real 1.80-2.00 e P×odd ≥ 1.03 não verificável → picks []. fetch_sports_data indisponível; lesões não verificadas. Candidatos a confirmar na 1xBet: Cavaliers vs Bulls (CLE ~77% em casa, CHI 3-9; handicap só se odd 1.80-2.00 e P×odd ≥ 1.03) e Over CLE-CHI (total estimado 236.9 — só se linha do mercado ≤ 233.5). Revisto às 14h15 de Maputo: data/nba/2026-11-16.json inalterado (generated_at 2026-11-15T23:18Z, odds null) e web sem odds/lesões úteis → mantém-se picks []. Aguardar a recolha das 21h00.",
-  "picks": [],
+  "note": "Atualizado às 14h40 de Maputo após recolha manual da api-sports (generated_at 2026-11-16T12:39Z, 11 pedidos). O cron das 07h45 do GitHub não tinha corrido (os crons do GitHub atrasam várias horas). Odds 1xBet só em 3 jogos (BKN-PHI, MIN-POR, NOP-GSW); os outros 5 ainda sem odds — a recolha das 21h00 pode completar. Handicaps: nenhum jogo com odds cumpre o perfil (≥70%, favorito sem B2B). Over NOP-GSW: estimado 234.9 vs mercado 227 (+7.9). Lesões 2026 não confirmadas na web. Candidatos a rever às 21h47 com odds: CLE vs CHI (CLE ~77%) e Over CLE-CHI (estimado 236.9, só se mercado ≤ 233.5).",
+  "picks": [
+    {
+      "match": "New Orleans Pelicans vs Golden State Warriors",
+      "tipoff_maputo": "2026-11-17T03:00:00+02:00",
+      "market": "total_over",
+      "selection": "Over 226.5",
+      "line": 226.5,
+      "min_odds": 1.8,
+      "odds_ref": 1.9,
+      "bookmaker": "1xBet",
+      "win_prob": 0.68,
+      "confidence": "media",
+      "stake_units": 0.5,
+      "reason": "Total estimado 234.9 (médias pontos marcados/sofridos, Conference) vs mercado 227 (+7.9). P(Over)=Φ((234.9−226.5)/18)≈68%, P×odd=1.29. Nenhuma equipa em B2B. Lesões não confirmadas."
+    }
+  ],
   "avoid": [
     {
       "match": "Boston Celtics vs Orlando Magic",
@@ -14,7 +29,7 @@
     },
     {
       "match": "Brooklyn Nets vs Philadelphia 76ers",
-      "reason": "PHI ~56% e em back-to-back."
+      "reason": "PHI ~66% (1xBet 1.45) e em back-to-back. Over: estimado 224.8 < mercado 226."
     },
     {
       "match": "Miami Heat vs Houston Rockets",
@@ -22,11 +37,11 @@
     },
     {
       "match": "Minnesota Timberwolves vs Portland Trail Blazers",
-      "reason": "MIN ~64%: faixa 50-65%."
+      "reason": "MIN ~56% (1xBet 1.72): faixa 50-65%. Over: estimado 228.2 = mercado 228."
     },
     {
       "match": "New Orleans Pelicans vs Golden State Warriors",
-      "reason": "GSW ~64% fora: faixa 50-65%."
+      "reason": "Handicap: GSW ~64% fora (faixa 50-65%). Só o Over entra."
     },
     {
       "match": "Denver Nuggets vs Phoenix Suns",
