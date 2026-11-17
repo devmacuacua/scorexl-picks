@@ -131,9 +131,9 @@
    "id": 519737,
    "home": "Denver Nuggets",
    "away": "Phoenix Suns",
-   "status": "Q4",
-   "score_home": 93,
-   "score_away": 109
+   "status": "FT",
+   "score_home": 105,
+   "score_away": 117
   }
  ],
  "standings": [
@@ -158,23 +158,23 @@
    "form": null
   },
   {
-   "team": "Portland Trail Blazers",
-   "group": "Western Conference",
-   "position": 3,
-   "won": 9,
-   "lost": 3,
-   "points_for": 1435,
-   "points_against": 1342,
-   "form": null
-  },
-  {
    "team": "Houston Rockets",
    "group": "Western Conference",
-   "position": 4,
+   "position": 3,
    "won": 11,
    "lost": 4,
    "points_for": 1767,
    "points_against": 1643,
+   "form": null
+  },
+  {
+   "team": "Minnesota Timberwolves",
+   "group": "Western Conference",
+   "position": 4,
+   "won": 10,
+   "lost": 4,
+   "points_for": 1644,
+   "points_against": 1486,
    "form": null
   },
   {
@@ -188,13 +188,13 @@
    "form": null
   },
   {
-   "team": "Minnesota Timberwolves",
+   "team": "Portland Trail Blazers",
    "group": "Western Conference",
    "position": 6,
    "won": 9,
    "lost": 4,
-   "points_for": 1538,
-   "points_against": 1388,
+   "points_for": 1533,
+   "points_against": 1448,
    "form": null
   },
   {
@@ -212,9 +212,9 @@
    "group": "Western Conference",
    "position": 8,
    "won": 7,
-   "lost": 4,
-   "points_for": 1261,
-   "points_against": 1241,
+   "lost": 5,
+   "points_for": 1366,
+   "points_against": 1358,
    "form": null
   },
   {
@@ -222,9 +222,9 @@
    "group": "Western Conference",
    "position": 9,
    "won": 8,
-   "lost": 5,
-   "points_for": 1517,
-   "points_against": 1461,
+   "lost": 6,
+   "points_for": 1611,
+   "points_against": 1576,
    "form": null
   },
   {
@@ -241,10 +241,10 @@
    "team": "Phoenix Suns",
    "group": "Western Conference",
    "position": 11,
-   "won": 5,
+   "won": 6,
    "lost": 7,
-   "points_for": 1352,
-   "points_against": 1408,
+   "points_for": 1469,
+   "points_against": 1513,
    "form": null
   },
   {
@@ -261,10 +261,10 @@
    "team": "New Orleans Pelicans",
    "group": "Western Conference",
    "position": 13,
-   "won": 4,
+   "won": 5,
    "lost": 10,
-   "points_for": 1622,
-   "points_against": 1749,
+   "points_for": 1737,
+   "points_against": 1843,
    "form": null
   },
   {
@@ -588,23 +588,23 @@
    "form": null
   },
   {
-   "team": "Portland Trail Blazers",
+   "team": "Minnesota Timberwolves",
    "group": "Northwest Division",
    "position": 1,
-   "won": 9,
-   "lost": 3,
-   "points_for": 1435,
-   "points_against": 1342,
+   "won": 10,
+   "lost": 4,
+   "points_for": 1644,
+   "points_against": 1486,
    "form": null
   },
   {
-   "team": "Minnesota Timberwolves",
+   "team": "Portland Trail Blazers",
    "group": "Northwest Division",
    "position": 2,
    "won": 9,
    "lost": 4,
-   "points_for": 1538,
-   "points_against": 1388,
+   "points_for": 1533,
+   "points_against": 1448,
    "form": null
   },
   {
@@ -622,9 +622,9 @@
    "group": "Northwest Division",
    "position": 4,
    "won": 7,
-   "lost": 4,
-   "points_for": 1261,
-   "points_against": 1241,
+   "lost": 5,
+   "points_for": 1366,
+   "points_against": 1358,
    "form": null
   },
   {
@@ -652,19 +652,19 @@
    "group": "Pacific Division",
    "position": 2,
    "won": 8,
-   "lost": 5,
-   "points_for": 1517,
-   "points_against": 1461,
+   "lost": 6,
+   "points_for": 1611,
+   "points_against": 1576,
    "form": null
   },
   {
    "team": "Phoenix Suns",
    "group": "Pacific Division",
    "position": 3,
-   "won": 5,
+   "won": 6,
    "lost": 7,
-   "points_for": 1352,
-   "points_against": 1408,
+   "points_for": 1469,
+   "points_against": 1513,
    "form": null
   },
   {
@@ -731,10 +731,10 @@
    "team": "New Orleans Pelicans",
    "group": "Southwest Division",
    "position": 5,
-   "won": 4,
+   "won": 5,
    "lost": 10,
-   "points_for": 1622,
-   "points_against": 1749,
+   "points_for": 1737,
+   "points_against": 1843,
    "form": null
   },
   {
@@ -1038,7 +1038,7 @@
    "form": null
   }
  ],
- "generated_at": "2026-11-17T04:13:43+00:00",
+ "generated_at": "2026-11-17T07:55:15+00:00",
  "source": "api-sports.io",
  "api_calls": 8,
  "errors": []
