@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-17",
+  "sport": "EuroCup",
+  "league_key": "eurocup",
+  "note": "Dados frescos (generated_at 2026-11-17T16:08:56+00:00). Nenhum jogo passou os filtros (fav ≥65% / linha 1.80-2.00 com P×odd ≥1.03), sem palpites; revisão de lesões não necessária. Monaco vs Lietkabelis consta como cancelado. Nada a liquidar (sem palpites anteriores).",
+  "picks": [],
+  "avoid": [
+    {
+      "match": "Monaco vs Lietkabelis",
+      "reason": "estado CANC"
+    },
+    {
+      "match": "Turk Telekom vs Tenerife",
+      "reason": "favorito Turk Telekom 53% < 65%"
+    },
+    {
+      "match": "Balkan vs Ulm",
+      "reason": "favorito Ulm 63% < 65%"
+    },
+    {
+      "match": "Rostock vs Hapoel Jerusalem",
+      "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Hapoel Jerusalem 11.0, combinado 10.1)"
+    },
+    {
+      "match": "BC Roma vs Bahcesehir Kol.",
+      "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Bahcesehir Kol. 6.0, combinado 6.4)"
+    },
+    {
+      "match": "London Lions vs Siauliai",
+      "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado London Lions 9.0, combinado 9.5)"
+    }
+  ]
+}
