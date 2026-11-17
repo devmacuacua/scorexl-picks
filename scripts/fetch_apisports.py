@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
 """Recolhe dados da api-sports.io e grava-os em data/ para as tarefas de análise.
 
-Uso: APISPORTS_KEY=... python scripts/fetch_apisports.py [--date AAAA-MM-DD] [--only nba|football]
+Uso: APISPORTS_KEY=... python scripts/fetch_apisports.py [--date AAAA-MM-DD] [--only nba,football,euroleague,...]
+     --only aceita uma lista separada por vírgulas; "basket" = todas as ligas de BASKET_LEAGUES;
+     "leagues-index" grava data/meta/basketball_leagues.json (ids e épocas das ligas da api-sports).
 
 Saídas:
   data/nba/AAAA-MM-DD.json       jogos NBA da data americana D (+ odds, classificação, resultados de D-1)
+  data/<liga>/AAAA-MM-DD.json    jogos de D (hora de Maputo) de cada liga de BASKET_LEAGUES
+                                 (+ odds, back-to-back, classificação, resultados de D-1)
   data/football/AAAA-MM-DD.json  jogos de D (hora de Maputo) nas ligas seguidas (+ odds, lesões,
                                  médias de cantos/remates/golos dos últimos 5 jogos, resultados de D-1)
 Só biblioteca padrão. Erros de um pedido ficam registados em "errors" e não param o resto.
@@ -35,6 +39,19 @@ FOOTBALL_LEAGUES = {
     2: "Champions League",
     3: "Europa League",
     848: "Conference League",
+}
+# Ligas de basquetebol fora da NBA: chave -> (id api-sports, nome). Ids confirmados em
+# data/meta/basketball_leagues.json (--only leagues-index). Id None = ainda por confirmar (liga ignorada).
+BASKET_LEAGUES = {
+    "euroleague": (None, "Euroleague"),
+    "eurocup": (None, "Eurocup"),
+    "nbl": (None, "NBL (Austrália)"),
+    "bleague": (None, "B.League (Japão)"),
+    "cba": (None, "CBA (China)"),
+    "acb": (None, "Liga ACB (Espanha)"),
+    "bsl": (None, "Super Ligi (Turquia)"),
+    "gbl": (None, "Basket League (Grécia)"),
+    "aba": (None, "ABA League"),
 }
 LAST_N = 5
 BOOKMAKER_PREFERRED = ("1xBet", "Bet365", "Pinnacle", "Unibet", "Betfair")
@@ -161,6 +178,84 @@ def nba(d_us):
     return out
 
 
+# ------------------------------------------------- OUTRAS LIGAS DE BASQUETEBOL
+def league_season(lid, d):
+    """Época da liga que contém a data d (ou a mais recente já iniciada)."""
+    best = None
+    for lg in get(BASKET, "leagues", id=lid):
+        for se in lg.get("seasons", []):
+            start, end = se.get("start") or "", se.get("end") or ""
+            if start and start <= d.isoformat() <= (end or "9999"):
+                return se["season"]
+            if start and start <= d.isoformat() and (best is None or start > best[0]):
+                best = (start, se["season"])
+    return best[1] if best else None
+
+
+def basket_league(key, d):
+    lid, lname = BASKET_LEAGUES[key]
+    out = {"date": d.isoformat(), "sport": lname, "league_key": key, "league_id": lid,
+           "note": "date = data de Maputo; tipoff_maputo em hora de Maputo; odds incluem 1.ª parte quando há",
+           "games": [], "yesterday_results": [], "standings": []}
+    if lid is None:
+        out["fatal_error"] = "id da liga por confirmar (corre --only leagues-index)"
+        return out
+    season = league_season(lid, d)
+    out["season"] = season
+    if not season:
+        out["fatal_error"] = "sem época ativa na api-sports"
+        return out
+    games = get(BASKET, "games", league=lid, season=season, date=d.isoformat(), timezone="Africa/Maputo")
+    prev = get(BASKET, "games", league=lid, season=season,
+               date=(d - dt.timedelta(days=1)).isoformat(), timezone="Africa/Maputo")
+    played_yesterday = set()
+    for g in prev:
+        h, a = g["teams"]["home"]["name"], g["teams"]["away"]["name"]
+        played_yesterday.update([h, a])
+        out["yesterday_results"].append({
+            "id": g["id"], "home": h, "away": a, "status": g["status"]["short"],
+            "score_home": g["scores"]["home"]["total"], "score_away": g["scores"]["away"]["total"],
+        })
+    for g in games:
+        h, a = g["teams"]["home"]["name"], g["teams"]["away"]["name"]
+        ts = dt.datetime.fromtimestamp(g["timestamp"], tz=dt.timezone.utc)
+        odds_resp = get(BASKET, "odds", game=g["id"]) if g["status"]["short"] == "NS" else []
+        books = odds_resp[0].get("bookmakers", []) if odds_resp else []
+        out["games"].append({
+            "id": g["id"], "home": h, "away": a,
+            "tipoff_maputo": ts.astimezone(MAPUTO).isoformat(timespec="minutes"),
+            "status": g["status"]["short"], "stage": g.get("stage"), "week": g.get("week"),
+            "back_to_back": {"home": h in played_yesterday, "away": a in played_yesterday},
+            "odds": slim_bets(pick_bookmaker(books), ["Home/Away", "Asian Handicap", "Over/Under", "3Way"]),
+            "bookmakers_available": [b.get("name") for b in books],
+        })
+    if games:
+        for group in get(BASKET, "standings", league=lid, season=season):
+            for t in group if isinstance(group, list) else [group]:
+                gp = t["games"]["played"] if "played" in t.get("games", {}) else None
+                out["standings"].append({
+                    "team": t["team"]["name"], "group": (t.get("group") or {}).get("name"),
+                    "stage": t.get("stage"), "position": t.get("position"), "played": gp,
+                    "won": t["games"]["win"]["total"], "lost": t["games"]["lose"]["total"],
+                    "points_for": t["points"]["for"], "points_against": t["points"]["against"],
+                    "form": t.get("form"),
+                })
+    return out
+
+
+def leagues_index(_d):
+    wanted = ("euro", "nbl", "b league", "b.league", "b1", "cba", "acb", "super lig", "a1", "basket league",
+              "aba", "adriatic", "liga endesa")
+    countries = ("Europe", "World", "Australia", "Japan", "China", "Spain", "Turkey", "Greece")
+    out = {"note": "ligas de basquetebol da api-sports nos países relevantes", "leagues": []}
+    for lg in get(BASKET, "leagues"):
+        c = (lg.get("country") or {}).get("name")
+        if c in countries or any(w in (lg.get("name") or "").lower() for w in wanted):
+            out["leagues"].append({"id": lg["id"], "name": lg["name"], "type": lg.get("type"), "country": c,
+                                   "seasons": [se.get("season") for se in lg.get("seasons", [])][-3:]})
+    return out
+
+
 # ------------------------------------------------------------ FOOTBALL
 STAT_KEYS = {"Corner Kicks": "corners", "Shots on Goal": "shots_on_target",
              "Total Shots": "shots", "Yellow Cards": "yellow_cards", "Ball Possession": "possession"}
@@ -274,7 +369,7 @@ def football(d):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--date", help="AAAA-MM-DD (por omissão: hoje em Maputo)")
-    ap.add_argument("--only", choices=["nba", "football"])
+    ap.add_argument("--only", help="lista separada por vírgulas: nba, football, basket, leagues-index ou chaves de BASKET_LEAGUES")
     args = ap.parse_args()
     if not KEY:
         sys.exit("APISPORTS_KEY em falta")
@@ -283,11 +378,22 @@ def main():
     root = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data")
     generated = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
 
+    only = [x.strip() for x in (args.only or "football,nba").split(",") if x.strip()]
+    if "basket" in only:
+        only = [x for x in only if x != "basket"] + list(BASKET_LEAGUES)
     jobs = []
-    if args.only in (None, "football"):
+    if "football" in only:
         jobs.append(("football", d, football))
-    if args.only in (None, "nba"):
+    if "nba" in only:
         jobs.append(("nba", d, nba))  # jogos da data americana D = madrugada de D+1 em Maputo
+    for key in BASKET_LEAGUES:
+        if key in only:
+            jobs.append((key, d, lambda day, k=key: basket_league(k, day)))
+    if "leagues-index" in only:
+        jobs.append(("meta", d, leagues_index))
+    unknown = set(only) - {"football", "nba", "leagues-index"} - set(BASKET_LEAGUES)
+    if unknown:
+        sys.exit(f"--only desconhecido: {sorted(unknown)}")
 
     for sport, day, fn in jobs:
         ERRORS.clear()
@@ -300,7 +406,8 @@ def main():
         data["source"] = "api-sports.io"
         data["api_calls"] = CALLS["n"] - start
         data["errors"] = ERRORS[:50]
-        path = os.path.join(root, sport, f"{day.isoformat()}.json")
+        name = "basketball_leagues" if sport == "meta" else day.isoformat()
+        path = os.path.join(root, sport, f"{name}.json")
         os.makedirs(os.path.dirname(path), exist_ok=True)
         with open(path, "w", encoding="utf-8") as fh:
             json.dump(data, fh, ensure_ascii=False, indent=1)

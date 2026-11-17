@@ -12,7 +12,7 @@ on:
         description: "Data AAAA-MM-DD (vazio = hoje em Maputo)"
         required: false
       only:
-        description: "nba, football ou vazio para ambos"
+        description: "Lista por vírgulas: nba, football, basket (todas as ligas), euroleague, eurocup, nbl, bleague, cba, acb, bsl, gbl, aba, leagues-index. Vazio = football,nba"
         required: false
 
 permissions:
