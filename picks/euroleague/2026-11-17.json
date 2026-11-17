@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-17",
+  "sport": "Euroleague",
+  "league_key": "euroleague",
+  "note": "Dados frescos (generated_at 2026-11-17T16:08:31+00:00). Nenhum jogo passou os filtros (linhas fora de 1.80-2.00 com P×odd ≥ 1.03 ou favorito < 62%), por isso não houve revisão de lesões a fazer. Dubai vs Anadolu Efes já em curso (Q1) na recolha. Nada a liquidar (sem palpites anteriores).",
+  "picks": [],
+  "avoid": [
+    {
+      "match": "Dubai vs Anadolu Efes",
+      "reason": "estado Q1"
+    },
+    {
+      "match": "Maccabi Tel Aviv vs Olympiacos",
+      "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Olympiacos 7.0, combinado 6.6)"
+    },
+    {
+      "match": "Fenerbahce vs Lyon-Villeurbanne",
+      "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Fenerbahce 12.0, combinado 11.4)"
+    },
+    {
+      "match": "Zalgiris Kaunas vs Bayern",
+      "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Zalgiris Kaunas 9.5, combinado 9.6)"
+    },
+    {
+      "match": "Barcelona vs Paris",
+      "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Barcelona 5.0, combinado 5.4)"
+    },
+    {
+      "match": "Baskonia vs Hapoel Tel Aviv",
+      "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Hapoel Tel Aviv 7.0, combinado 6.7)"
+    },
+    {
+      "match": "Olimpia Milano vs Crvena Zvezda Meridianbet",
+      "reason": "favorito Crvena Zvezda Meridianbet 57% < 62%"
+    },
+    {
+      "match": "Partizan Mozzart Bet vs Valencia",
+      "reason": "favorito Partizan Mozzart Bet 54% < 62%"
+    },
+    {
+      "match": "Virtus Bologna vs Panathinaikos",
+      "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Panathinaikos 8.5, combinado 7.5)"
+    }
+  ]
+}
