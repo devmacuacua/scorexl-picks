@@ -1,24 +1,24 @@
 {
   "date": "2026-11-17",
   "sport": "NBA",
-  "note": "Versão preliminar das 06h15 de Maputo (recolha 2026-11-17T04:13Z): a 1xBet ainda não tem odds para nenhum dos 5 jogos, por isso não há palpites. A corrida das 21h47 revê com odds e lesões.",
+  "note": "Revisão final 21h47 de Maputo: recolha fresca disparada (generated_at 2026-11-17T19:47:52Z), mas a api-sports/1xBet continua sem odds para nenhum dos 5 jogos (bookmakers_available vazio em todos). Sem odds reais não há palpites (regra: odd 1.80-2.00 e P×odd ≥ 1.03). Lesões: pesquisa web sem relatório de 17/11/2026 conclusivo (resultados de 2025). MIN e POR em back-to-back. Ver avoid para as condições de entrada se as odds aparecerem.",
   "picks": [],
   "avoid": [
     {
       "match": "Los Angeles Lakers vs Charlotte Hornets",
-      "reason": "Sem odds; a rever. Candidato a handicap: LAL 12-2 em casa contra CHA 4-9. Entra se o mercado der LAL ≥ 70%, se houver linha @1.80-2.00 com P×odd ≥ 1.03 e se nenhuma estrela da LAL estiver fora."
+      "reason": "Sem odds (também na recolha das 19:47Z); a rever. Candidato a handicap: LAL 12-2 em casa contra CHA 4-9. Entra se o mercado der LAL ≥ 70%, se houver linha @1.80-2.00 com P×odd ≥ 1.03 e se nenhuma estrela da LAL estiver fora."
     },
     {
       "match": "Los Angeles Clippers vs Utah Jazz",
-      "reason": "Sem odds; a rever. Candidato a handicap: LAC em casa contra UTA 1-13. Entra se o mercado der LAC ≥ 70% e Leonard jogar. Total estimado 227.0."
+      "reason": "Sem odds (também na recolha das 19:47Z); a rever. Candidato a handicap: LAC em casa contra UTA 1-13. Entra se o mercado der LAC ≥ 70% e Leonard jogar. Total estimado 227.0."
     },
     {
       "match": "San Antonio Spurs vs Detroit Pistons",
-      "reason": "Sem odds; a rever. SAS 12-2 contra DET 8-4: provavelmente na faixa 60-70%. Entra se o mercado der SAS ≥ 70%."
+      "reason": "Sem odds (também na recolha das 19:47Z); a rever. SAS 12-2 contra DET 8-4: provavelmente na faixa 60-70%. Entra se o mercado der SAS ≥ 70%."
     },
     {
       "match": "Toronto Raptors vs New York Knicks",
-      "reason": "Sem odds; a rever. Jogo equilibrado (5-8 contra 7-6). Total estimado 220.2: Over só se o mercado der ≤ 217."
+      "reason": "Sem odds (também na recolha das 19:47Z); a rever. Jogo equilibrado (5-8 contra 7-6). Total estimado 220.2: Over só se o mercado der ≤ 217."
     },
     {
       "match": "Minnesota Timberwolves vs Portland Trail Blazers",
