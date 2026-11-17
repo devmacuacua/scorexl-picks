@@ -206,16 +206,18 @@ def basket_league(key, d):
         out["fatal_error"] = "sem época ativa na api-sports"
         return out
     games = get(BASKET, "games", league=lid, season=season, date=d.isoformat(), timezone="Africa/Maputo")
-    prev = get(BASKET, "games", league=lid, season=season,
-               date=(d - dt.timedelta(days=1)).isoformat(), timezone="Africa/Maputo")
     played_yesterday = set()
-    for g in prev:
-        h, a = g["teams"]["home"]["name"], g["teams"]["away"]["name"]
-        played_yesterday.update([h, a])
-        out["yesterday_results"].append({
-            "id": g["id"], "home": h, "away": a, "status": g["status"]["short"],
-            "score_home": g["scores"]["home"]["total"], "score_away": g["scores"]["away"]["total"],
-        })
+    out["recent_results"] = []  # D-1, D-2 e D-3 (para liquidar dias sem corrida)
+    for back in (1, 2, 3):
+        day = (d - dt.timedelta(days=back)).isoformat()
+        for g in get(BASKET, "games", league=lid, season=season, date=day, timezone="Africa/Maputo"):
+            h, a = g["teams"]["home"]["name"], g["teams"]["away"]["name"]
+            row = {"id": g["id"], "date": day, "home": h, "away": a, "status": g["status"]["short"],
+                   "score_home": g["scores"]["home"]["total"], "score_away": g["scores"]["away"]["total"]}
+            out["recent_results"].append(row)
+            if back == 1:
+                played_yesterday.update([h, a])
+                out["yesterday_results"].append(row)
     for g in games:
         h, a = g["teams"]["home"]["name"], g["teams"]["away"]["name"]
         ts = dt.datetime.fromtimestamp(g["timestamp"], tz=dt.timezone.utc)

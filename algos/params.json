@@ -1,0 +1,22 @@
+{
+  "_doc": "Parâmetros por liga para scripts/basket_analyze.py. sigma = desvio-padrão da margem final vs linha (pontos); hca = vantagem casa (pts); w_market = peso do mercado na margem/total esperados (resto = modelo pela classificação); shrink_k = jogos de regressão à média (modelo = k_jogos/(k_jogos+shrink_k)); max_line_home/away = linha máxima do favorito em casa/fora; fav_min = prob. mínima do favorito para handicap; ml_ev_min = P×odd mínimo para moneyline (pick'em); overs = Overs ativos; dog_points_min = linha mínima para apostar no azarão com pontos (null = não); stake = unidades por aposta; max_picks = palpites/dia.",
+  "common": {"min_odds": 1.80, "max_odds": 2.00, "ev_min": 1.03, "stake": 0.5, "max_picks": 3, "max_overs": 1, "over_margin_min": 4},
+  "euroleague": {"name": "Euroleague", "sigma": 11.5, "hca": 3.5, "avg_total": 171, "w_market": 0.8, "shrink_k": 8,
+                 "max_line_home": 6.5, "max_line_away": 4.5, "fav_min": 0.62, "ml_ev_min": 1.05, "overs": false, "dog_points_min": null},
+  "eurocup":    {"name": "EuroCup", "sigma": 12.5, "hca": 3.75, "avg_total": 172, "w_market": 0.65, "shrink_k": 6,
+                 "max_line_home": 9.5, "max_line_away": 5.5, "fav_min": 0.65, "ml_ev_min": 1.05, "overs": false, "dog_points_min": null},
+  "nbl":        {"name": "NBL (Austrália)", "sigma": 13.0, "hca": 2.75, "avg_total": 183, "w_market": 0.7, "shrink_k": 6,
+                 "max_line_home": 9.5, "max_line_away": 5.5, "fav_min": 0.65, "ml_ev_min": 1.05, "overs": true, "dog_points_min": null},
+  "bleague":    {"name": "B.League (Japão)", "sigma": 12.0, "hca": 2.25, "avg_total": 170, "w_market": 0.65, "shrink_k": 10,
+                 "max_line_home": 7.5, "max_line_away": 4.5, "fav_min": 0.65, "ml_ev_min": 1.05, "overs": false, "dog_points_min": null},
+  "cba":        {"name": "CBA (China)", "sigma": 13.5, "hca": 3.5, "avg_total": 179, "w_market": 0.6, "shrink_k": 6,
+                 "max_line_home": 8.5, "max_line_away": 4.5, "fav_min": 0.68, "ml_ev_min": 1.05, "overs": false, "dog_points_min": null},
+  "acb":        {"name": "Liga ACB (Espanha)", "sigma": 12.0, "hca": 4.0, "avg_total": 176, "w_market": 0.75, "shrink_k": 7,
+                 "max_line_home": 8.5, "max_line_away": 4.5, "fav_min": 0.65, "ml_ev_min": 1.05, "overs": false, "dog_points_min": null},
+  "bsl":        {"name": "Super Ligi (Turquia)", "sigma": 12.5, "hca": 3.75, "avg_total": 166, "w_market": 0.7, "shrink_k": 7,
+                 "max_line_home": 8.5, "max_line_away": 4.5, "fav_min": 0.65, "ml_ev_min": 1.05, "overs": false, "dog_points_min": null},
+  "gbl":        {"name": "Basket League (Grécia)", "sigma": 13.0, "hca": 3.75, "avg_total": 166, "w_market": 0.7, "shrink_k": 6,
+                 "max_line_home": 9.5, "max_line_away": 5.5, "fav_min": 0.65, "ml_ev_min": 1.05, "overs": false, "dog_points_min": 15},
+  "aba":        {"name": "ABA League", "sigma": 12.5, "hca": 4.0, "avg_total": 170, "w_market": 0.65, "shrink_k": 6,
+                 "max_line_home": 9.5, "max_line_away": 5.5, "fav_min": 0.65, "ml_ev_min": 1.05, "overs": false, "dog_points_min": null}
+}

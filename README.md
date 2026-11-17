@@ -97,3 +97,16 @@ A GitHub Action `.github/workflows/apisports.yml` recolhe dados da api-sports.io
 Horários: de 2 em 2 horas, aos 17 minutos (00h17, 02h17, …, 22h17 de Maputo), futebol + NBA, ~330 pedidos/dia. Os horários do GitHub podem atrasar; também corre à mão em Actions → "Dados api-sports" → Run workflow.
 
 Requer o secret `APISPORTS_KEY` (Settings → Secrets and variables → Actions). As tarefas de análise usam estes ficheiros como fonte principal.
+
+## Outras ligas de basquetebol (fase de teste)
+
+Euroliga, EuroCup, NBL (Austrália), B.League (Japão), CBA (China), Liga ACB (Espanha), Super Ligi (Turquia), Basket League (Grécia) e Liga ABA. Cada liga tem a sua tarefa diária e o seu algoritmo:
+
+- `algos/COMMON.md`: procedimento comum (recolha, liquidação, análise, lesões, publicação)
+- `algos/<liga>.md`: regras, calendário e fontes de lesões de cada liga
+- `algos/params.json`: parâmetros numéricos (σ, fator casa, peso do mercado, linhas máximas, Overs)
+- `scripts/basket_analyze.py <liga> --write`: rascunho dos palpites em `picks/<liga>/D.json`
+- `scripts/basket_settle.py <liga>`: liquidação em `results/<liga>/` (dia + `summary.json`)
+- Dados: `data/<liga>/AAAA-MM-DD.json` (data de Maputo), recolhidos com Run workflow e `only` = chave da liga (ou `basket` para todas)
+
+Chaves: euroleague, eurocup, nbl, bleague, cba, acb, bsl, gbl, aba. O formato dos palpites e dos resultados é igual ao da NBA, mais os campos `league_key`, `game_id`, `side` e `line`.
