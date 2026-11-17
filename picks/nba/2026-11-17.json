@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-17",
+  "sport": "NBA",
+  "note": "Versão preliminar das 06h15 de Maputo (recolha 2026-11-17T04:13Z): a 1xBet ainda não tem odds para nenhum dos 5 jogos, por isso não há palpites. A corrida das 21h47 revê com odds e lesões.",
+  "picks": [],
+  "avoid": [
+    {
+      "match": "Los Angeles Lakers vs Charlotte Hornets",
+      "reason": "Sem odds; a rever. Candidato a handicap: LAL 12-2 em casa contra CHA 4-9. Entra se o mercado der LAL ≥ 70%, se houver linha @1.80-2.00 com P×odd ≥ 1.03 e se nenhuma estrela da LAL estiver fora."
+    },
+    {
+      "match": "Los Angeles Clippers vs Utah Jazz",
+      "reason": "Sem odds; a rever. Candidato a handicap: LAC em casa contra UTA 1-13. Entra se o mercado der LAC ≥ 70% e Leonard jogar. Total estimado 227.0."
+    },
+    {
+      "match": "San Antonio Spurs vs Detroit Pistons",
+      "reason": "Sem odds; a rever. SAS 12-2 contra DET 8-4: provavelmente na faixa 60-70%. Entra se o mercado der SAS ≥ 70%."
+    },
+    {
+      "match": "Toronto Raptors vs New York Knicks",
+      "reason": "Sem odds; a rever. Jogo equilibrado (5-8 contra 7-6). Total estimado 220.2: Over só se o mercado der ≤ 217."
+    },
+    {
+      "match": "Minnesota Timberwolves vs Portland Trail Blazers",
+      "reason": "Sem odds; as duas equipas estão em back-to-back (repetição de ontem). Jogo ~55%. Total estimado 228.2: Over só se o mercado der ≤ 225 e as rotações estiverem completas."
+    }
+  ]
+}
