@@ -1,0 +1,32 @@
+{
+ "date": "2026-11-17",
+ "sport": "ABA League",
+ "league_key": "aba",
+ "league_id": 198,
+ "note": "date = data de Maputo; tipoff_maputo em hora de Maputo; odds incluem 1.ª parte quando há",
+ "games": [],
+ "yesterday_results": [
+  {
+   "id": 517694,
+   "home": "Borac Mozzart",
+   "away": "Slovan Bratislava",
+   "status": "FT",
+   "score_home": 66,
+   "score_away": 98
+  },
+  {
+   "id": 517693,
+   "home": "Studentski Centar",
+   "away": "Vienna Basket",
+   "status": "FT",
+   "score_home": 79,
+   "score_away": 87
+  }
+ ],
+ "standings": [],
+ "season": 2026,
+ "generated_at": "2026-11-17T07:16:11+00:00",
+ "source": "api-sports.io",
+ "api_calls": 3,
+ "errors": []
+}

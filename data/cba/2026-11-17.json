@@ -1,0 +1,15 @@
+{
+ "date": "2026-11-17",
+ "sport": "CBA (China)",
+ "league_key": "cba",
+ "league_id": 31,
+ "note": "date = data de Maputo; tipoff_maputo em hora de Maputo; odds incluem 1.ª parte quando há",
+ "games": [],
+ "yesterday_results": [],
+ "standings": [],
+ "season": "2026-2027",
+ "generated_at": "2026-11-17T07:16:11+00:00",
+ "source": "api-sports.io",
+ "api_calls": 3,
+ "errors": []
+}
