@@ -43,15 +43,15 @@ FOOTBALL_LEAGUES = {
 # Ligas de basquetebol fora da NBA: chave -> (id api-sports, nome). Ids confirmados em
 # data/meta/basketball_leagues.json (--only leagues-index). Id None = ainda por confirmar (liga ignorada).
 BASKET_LEAGUES = {
-    "euroleague": (None, "Euroleague"),
-    "eurocup": (None, "Eurocup"),
-    "nbl": (None, "NBL (Austrália)"),
-    "bleague": (None, "B.League (Japão)"),
-    "cba": (None, "CBA (China)"),
-    "acb": (None, "Liga ACB (Espanha)"),
-    "bsl": (None, "Super Ligi (Turquia)"),
-    "gbl": (None, "Basket League (Grécia)"),
-    "aba": (None, "ABA League"),
+    "euroleague": (120, "Euroleague"),
+    "eurocup": (194, "Eurocup"),
+    "nbl": (1, "NBL (Austrália)"),
+    "bleague": (56, "B.League (Japão)"),
+    "cba": (31, "CBA (China)"),
+    "acb": (117, "Liga ACB (Espanha)"),
+    "bsl": (104, "Super Ligi (Turquia)"),
+    "gbl": (45, "Basket League (Grécia)"),
+    "aba": (198, "ABA League"),
 }
 LAST_N = 5
 BOOKMAKER_PREFERRED = ("1xBet", "Bet365", "Pinnacle", "Unibet", "Betfair")
