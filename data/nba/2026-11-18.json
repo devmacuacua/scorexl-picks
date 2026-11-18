@@ -13257,10 +13257,10 @@
    "team": "Los Angeles Lakers",
    "group": "Western Conference",
    "position": 1,
-   "won": 12,
+   "won": 13,
    "lost": 2,
-   "points_for": 1719,
-   "points_against": 1608,
+   "points_for": 1837,
+   "points_against": 1722,
    "form": null
   },
   {
@@ -13364,19 +13364,9 @@
    "form": null
   },
   {
-   "team": "Los Angeles Clippers",
-   "group": "Western Conference",
-   "position": 12,
-   "won": 4,
-   "lost": 8,
-   "points_for": 1348,
-   "points_against": 1398,
-   "form": null
-  },
-  {
    "team": "New Orleans Pelicans",
    "group": "Western Conference",
-   "position": 13,
+   "position": 12,
    "won": 5,
    "lost": 10,
    "points_for": 1737,
@@ -13384,23 +13374,33 @@
    "form": null
   },
   {
-   "team": "Sacramento Kings",
+   "team": "Los Angeles Clippers",
    "group": "Western Conference",
-   "position": 14,
-   "won": 1,
-   "lost": 12,
-   "points_for": 1401,
-   "points_against": 1576,
+   "position": 13,
+   "won": 4,
+   "lost": 9,
+   "points_for": 1455,
+   "points_against": 1530,
    "form": null
   },
   {
    "team": "Utah Jazz",
    "group": "Western Conference",
+   "position": 14,
+   "won": 2,
+   "lost": 13,
+   "points_for": 1631,
+   "points_against": 1759,
+   "form": null
+  },
+  {
+   "team": "Sacramento Kings",
+   "group": "Western Conference",
    "position": 15,
    "won": 1,
-   "lost": 13,
-   "points_for": 1499,
-   "points_against": 1652,
+   "lost": 12,
+   "points_for": 1401,
+   "points_against": 1576,
    "form": null
   },
   {
@@ -13508,9 +13508,9 @@
    "group": "Eastern Conference",
    "position": 11,
    "won": 4,
-   "lost": 9,
-   "points_for": 1288,
-   "points_against": 1428,
+   "lost": 10,
+   "points_for": 1402,
+   "points_against": 1546,
    "form": null
   },
   {
@@ -13638,9 +13638,9 @@
    "group": "Southeast Division",
    "position": 4,
    "won": 4,
-   "lost": 9,
-   "points_for": 1288,
-   "points_against": 1428,
+   "lost": 10,
+   "points_for": 1402,
+   "points_against": 1546,
    "form": null
   },
   {
@@ -13747,20 +13747,20 @@
    "team": "Utah Jazz",
    "group": "Northwest Division",
    "position": 5,
-   "won": 1,
+   "won": 2,
    "lost": 13,
-   "points_for": 1499,
-   "points_against": 1652,
+   "points_for": 1631,
+   "points_against": 1759,
    "form": null
   },
   {
    "team": "Los Angeles Lakers",
    "group": "Pacific Division",
    "position": 1,
-   "won": 12,
+   "won": 13,
    "lost": 2,
-   "points_for": 1719,
-   "points_against": 1608,
+   "points_for": 1837,
+   "points_against": 1722,
    "form": null
   },
   {
@@ -13788,9 +13788,9 @@
    "group": "Pacific Division",
    "position": 4,
    "won": 4,
-   "lost": 8,
-   "points_for": 1348,
-   "points_against": 1398,
+   "lost": 9,
+   "points_for": 1455,
+   "points_against": 1530,
    "form": null
   },
   {
@@ -14154,7 +14154,7 @@
    "form": null
   }
  ],
- "generated_at": "2026-11-18T10:09:33+00:00",
+ "generated_at": "2026-11-18T18:51:11+00:00",
  "source": "api-sports.io",
  "api_calls": 15,
  "errors": []
