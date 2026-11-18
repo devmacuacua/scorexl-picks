@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-18",
+  "sport": "NBA",
+  "note": "Recolha fresca disparada às 08h10 de Maputo (generated_at 2026-11-18T06:10:43+00:00); a tarefa correu de manhã, por isso a 1xBet só tem odds para 3 dos 12 jogos (ORL-PHI, BKN-CHI, DEN-BOS). Nenhum desses tem favorito ≥ 70% (PHI ~54%, BKN ~56%, BOS ~57%) → sem handicaps. Um Over: DEN-BOS (estimado 222.5 vs mercado 1xBet 219.5). Atenção: a linha de consenso (SportBusy) está em 222, por isso a margem vem sobretudo da linha baixa da 1xBet. Lesões (SportBusy, sem hora): BOS Queta dúvida; DEN Strawther fora; Jokic, Murray, Brown sem indicação. Relatório oficial de 18/11/2026 não encontrado na web — confirmar antes do jogo.",
+  "picks": [
+    {
+      "match": "Denver Nuggets vs Boston Celtics",
+      "tipoff_maputo": "2026-11-19T04:30:00+02:00",
+      "market": "total_over",
+      "selection": "Over 219.5",
+      "line": 219.5,
+      "min_odds": 1.8,
+      "odds_ref": 1.93,
+      "bookmaker": "1xBet",
+      "win_prob": 0.567,
+      "confidence": "media",
+      "stake_units": 0.5,
+      "reason": "Total estimado 222.5 (DEN 113.8/113.2, BOS 114.8/103.3 por jogo) vs linha 1xBet 219.5 (Over/Under 1.93/1.93). P≈Φ(3.04/18)=0.567, P×odd=1.094. Sem B2B. Só Queta (BOS, dúvida) e Strawther (DEN, fora) no relatório. Retirar se Jokic, Murray ou Brown ficarem fora ou se a odd cair abaixo de 1.8."
+    }
+  ],
+  "avoid": [
+    {
+      "match": "Orlando Magic vs Philadelphia 76ers",
+      "reason": "PHI ~54% (1.80/2.09) — jogo equilibrado. Over: estimado 223.2 ≈ mercado 223.5."
+    },
+    {
+      "match": "Brooklyn Nets vs Chicago Bulls",
+      "reason": "BKN ~56% (1.71/2.21). Over: estimado 234.8 < mercado 238."
+    },
+    {
+      "match": "Los Angeles Lakers vs Utah Jazz",
+      "reason": "Sem odds; a rever. LAL 12-2 vs UTA 1-13, mas AMBAS em back-to-back (regra: evitar favorito em B2B). Só entra se LAL ≥ 70%, sem estrela fora e o Francisco aceitar o B2B."
+    },
+    {
+      "match": "Miami Heat vs Milwaukee Bucks",
+      "reason": "Sem odds; a rever. Candidato: MIA 8-6 em casa vs MIL 1-13. Entra se o mercado der MIA ≥ 70%, linha @1.80-2.00 com P×odd ≥ 1.03 e sem estrela da MIA fora. Total estimado 232.2."
+    },
+    {
+      "match": "Indiana Pacers vs Houston Rockets",
+      "reason": "Sem odds; a rever. HOU 11-4 fora vs IND 5-9: só linha curta (≤ -6.5) ou vitória simples se HOU ≥ 70%."
+    },
+    {
+      "match": "Sacramento Kings vs Phoenix Suns",
+      "reason": "Sem odds; a rever. SAC 1-12; PHX 6-7 fora — provavelmente 60-65%. Só se o mercado der PHX ≥ 70%."
+    },
+    {
+      "match": "Toronto Raptors vs Washington Wizards",
+      "reason": "Sem odds; a rever. TOR em back-to-back. Total estimado 228.5: Over só se o mercado der ≤ 225.5."
+    },
+    {
+      "match": "Cleveland Cavaliers vs Memphis Grizzlies",
+      "reason": "Sem odds; a rever. Jogo ~50-60%. Total estimado 233.9: Over só se o mercado der ≤ 230.5 e sem estrelas fora (Mobley e Morant estavam fora a 16/11)."
+    },
+    {
+      "match": "New Orleans Pelicans vs Detroit Pistons",
+      "reason": "Sem odds; a rever. DET em back-to-back. Total estimado 232.3: Over só se mercado ≤ 229.5 e Trey Murphy III (dúvida) jogar."
+    },
+    {
+      "match": "Oklahoma City Thunder vs Atlanta Hawks",
+      "reason": "Sem odds; a rever. OKC 9-5 vs ATL 8-6: provavelmente < 70%."
+    },
+    {
+      "match": "Dallas Mavericks vs Golden State Warriors",
+      "reason": "Sem odds; a rever. Jogo equilibrado; Curry estava fora a 16/11."
+    }
+  ]
+}
