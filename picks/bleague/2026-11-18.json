@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-18",
+  "sport": "B.League (Japão)",
+  "league_key": "bleague",
+  "note": "Dados api-sports generated_at 2026-11-18T03:53:34+00:00 (recolha fresca). 10 jogos, nenhum passou os filtros (classificação vazia: modelo = mercado, sem vantagem). Sem palpites, por isso sem verificação de lesões. Nada a liquidar.",
+  "picks": [],
+  "avoid": [
+    {
+      "match": "Yokohama vs Saga",
+      "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Yokohama 7.5, combinado 7.5)"
+    },
+    {
+      "match": "Utsunomiya Brex vs Levanga Hokkaido",
+      "reason": "favorito Levanga Hokkaido 65% < 65%"
+    },
+    {
+      "match": "Tokyo Sunrockers vs Alvark",
+      "reason": "favorito Tokyo Sunrockers 57% < 65%"
+    },
+    {
+      "match": "Sendai vs NeoPhoenix",
+      "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Sendai 5.0, combinado 5.0)"
+    },
+    {
+      "match": "Osaka vs Hiroshima D.",
+      "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Hiroshima D. 21.0, combinado 21.0)"
+    },
+    {
+      "match": "Kobe vs Brave Thunders",
+      "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Brave Thunders 6.0, combinado 6.0)"
+    },
+    {
+      "match": "Gunma vs Shimane",
+      "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Gunma 12.0, combinado 12.0)"
+    },
+    {
+      "match": "Diamond Dolphins vs Ryukyu",
+      "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Diamond Dolphins 8.5, combinado 8.5)"
+    },
+    {
+      "match": "Chiba vs Akita",
+      "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Chiba 6.5, combinado 6.5)"
+    },
+    {
+      "match": "Kyoto vs Shinshu",
+      "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Kyoto 7.0, combinado 7.0)"
+    }
+  ]
+}
