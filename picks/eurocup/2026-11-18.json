@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-18",
+  "sport": "EuroCup",
+  "league_key": "eurocup",
+  "note": "Dados frescos (generated_at 2026-11-18T13:38:18+00:00). 11 jogos analisados; nenhum passou os filtros (favorito <65% ou sem linha 1.80-2.00 com P×odd ≥ 1.03), por isso não houve revisão de lesões. Sem palpites hoje.",
+  "picks": [],
+  "avoid": [
+    {
+      "match": "Tortona vs Rigas Zelli",
+      "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Tortona 10.0, combinado 8.6)"
+    },
+    {
+      "match": "Cluj-Napoca vs Maxima Roma",
+      "reason": "favorito Maxima Roma 61% < 65%"
+    },
+    {
+      "match": "Cedevita Olimpija vs San Pablo Burgos",
+      "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Cedevita Olimpija 7.0, combinado 6.7)"
+    },
+    {
+      "match": "Chemnitz vs Tofas",
+      "reason": "favorito Tofas 56% < 65%"
+    },
+    {
+      "match": "Buducnost vs Slask Wroclaw",
+      "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Buducnost 14.0, combinado 13.1)"
+    },
+    {
+      "match": "Aris vs Le Mans",
+      "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Aris 11.0, combinado 10.5)"
+    },
+    {
+      "match": "JL Bourg vs Basket Napoli",
+      "reason": "favorito Basket Napoli 58% < 65%"
+    },
+    {
+      "match": "Frankfurt vs Venezia",
+      "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Venezia 6.0, combinado 5.2)"
+    },
+    {
+      "match": "KK Bosna vs Lietkabelis",
+      "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado KK Bosna 5.5, combinado 6.0)"
+    },
+    {
+      "match": "Trento vs Neptunas",
+      "reason": "favorito Trento 64% < 65%"
+    },
+    {
+      "match": "Manresa vs PAOK",
+      "reason": "favorito PAOK 52% < 65%"
+    }
+  ]
+}
