@@ -1,0 +1,13 @@
+{
+ "date": "2026-11-18",
+ "sport": "Euroleague",
+ "league_key": "euroleague",
+ "note": "Dados generated_at 2026-11-18T13:25:57+00:00 (recolha fresca). Único jogo (Besiktas vs Real Madrid) sem valor: nenhum palpite, revisão de lesões não necessária.",
+ "picks": [],
+ "avoid": [
+  {
+   "match": "Besiktas vs Real Madrid",
+   "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Real Madrid 7.5, combinado 6.6)"
+  }
+ ]
+}
