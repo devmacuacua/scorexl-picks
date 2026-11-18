@@ -1,0 +1,13 @@
+{
+ "date": "2026-11-18",
+ "sport": "NBL (Austrália)",
+ "league_key": "nbl",
+ "note": "Dados generated_at 2026-11-18T02:48:18+00:00 (recolha fresca). 1 jogo; nenhum palpite passou os filtros, sem revisão de lesões necessária.",
+ "picks": [],
+ "avoid": [
+  {
+   "match": "New Zealand Breakers vs South East Melbourne",
+   "reason": "favorito South East Melbourne 51% < 65%"
+  }
+ ]
+}
