@@ -1,0 +1,13 @@
+{
+ "date": "2026-11-19",
+ "sport": "NBL (Austrália)",
+ "league_key": "nbl",
+ "note": "Dados generated_at 2026-11-19T02:48:50+00:00 (recolha fresca). 1 jogo hoje (Illawarra vs Adelaide, 10h30 Maputo); nenhum passa os filtros (favorito Adelaide 60% < 65%), sem palpites, por isso não foi preciso verificar lesões. Liquidação: 2026-11-18 sem apostas.",
+ "picks": [],
+ "avoid": [
+  {
+   "match": "Illawarra Hawks vs Adelaide",
+   "reason": "favorito Adelaide 60% < 65%"
+  }
+ ]
+}

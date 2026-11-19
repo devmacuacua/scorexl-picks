@@ -1,0 +1,46 @@
+{
+  "sport": "nbl",
+  "since": "2026-11-18",
+  "updated": "2026-11-19",
+  "bets": 0,
+  "wins": 0,
+  "losses": 0,
+  "pushes": 0,
+  "hit_rate": 0.0,
+  "staked_units": 0,
+  "profit_units": 0,
+  "roi": 0.0,
+  "by_confidence": {
+    "alta": {
+      "bets": 0,
+      "wins": 0,
+      "profit_units": 0
+    },
+    "media": {
+      "bets": 0,
+      "wins": 0,
+      "profit_units": 0
+    }
+  },
+  "by_market": {
+    "handicap": {
+      "bets": 0,
+      "wins": 0,
+      "profit_units": 0
+    },
+    "moneyline": {
+      "bets": 0,
+      "wins": 0,
+      "profit_units": 0
+    },
+    "total_over": {
+      "bets": 0,
+      "wins": 0,
+      "profit_units": 0
+    }
+  },
+  "last_10": [],
+  "days_processed": [
+    "2026-11-18"
+  ]
+}
