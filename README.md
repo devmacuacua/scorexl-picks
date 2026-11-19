@@ -92,7 +92,7 @@ Todos os dias, a mesma tarefa liquida os palpites do dia anterior.
 A GitHub Action `.github/workflows/apisports.yml` recolhe dados da api-sports.io e grava-os em `data/`:
 
 - `data/football/AAAA-MM-DD.json`: jogos do dia (hora de Maputo) nas 5 grandes ligas, Champions, Liga Europa e Conferência, com classificação, previsão, odds (1xBet quando disponível), lesões, médias dos últimos 5 jogos de cada equipa (cantos, remates enquadrados, golos, a favor e contra) e resultados com estatísticas de D-1.
-- `data/nba/AAAA-MM-DD.json`: jogos da data americana D (madrugada de D+1 em Maputo), odds, back-to-back, classificação e resultados de D-1.
+- `data/nba/AAAA-MM-DD.json`: jogos da data americana D (madrugada de D+1 em Maputo), odds (1xBet em `odds`; Pinnacle/Betfair como referência justa em `odds_sharp`), back-to-back, classificação, médias por quarto (`team_quarters`) e resultados de D-1.
 
 Horários: de 2 em 2 horas, aos 17 minutos (00h17, 02h17, …, 22h17 de Maputo), futebol + NBA, ~330 pedidos/dia. Os horários do GitHub podem atrasar; também corre à mão em Actions → "Dados api-sports" → Run workflow.
 

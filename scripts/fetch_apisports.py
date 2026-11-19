@@ -120,6 +120,18 @@ def pick_bookmaker(bookmakers):
     return (bookmakers or [None])[0]
 
 
+SHARP_PREFERRED = ("Pinnacle", "Betfair")
+
+
+def pick_sharp(bookmakers):
+    """Casa de referência (margem baixa) para estimar a probabilidade justa."""
+    by_name = {b.get("name"): b for b in bookmakers or []}
+    for name in SHARP_PREFERRED:
+        if name in by_name:
+            return by_name[name]
+    return None
+
+
 def slim_bets(bookmaker, wanted):
     if not bookmaker:
         return None
@@ -201,6 +213,7 @@ def nba(d_us):
             "status": g["status"]["short"],
             "back_to_back": {"home": h in played_yesterday, "away": a in played_yesterday},
             "odds": slim_bets(pick_bookmaker(books), ["Home/Away", "Asian Handicap", "Over/Under", "3Way"]),
+            "odds_sharp": slim_bets(pick_sharp(books), ["Home/Away", "Asian Handicap", "Over/Under", "3Way"]),
             "bookmakers_available": [b.get("name") for b in books],
         })
 
