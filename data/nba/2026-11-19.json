@@ -59,51 +59,345 @@
      "3Way Result": [
       {
        "value": "Home",
-       "odd": "1.08"
+       "odd": "1.09"
       },
       {
        "value": "Draw",
-       "odd": "24.00"
+       "odd": "23.00"
       },
       {
        "value": "Away",
-       "odd": "10.80"
+       "odd": "10.40"
       }
      ],
      "Home/Away": [
       {
        "value": "Home",
-       "odd": "1.06"
+       "odd": "1.09"
       },
       {
        "value": "Away",
-       "odd": "10.50"
+       "odd": "8.65"
       }
      ],
      "Asian Handicap": [
       {
+       "value": "Home -20.5",
+       "odd": "2.47"
+      },
+      {
+       "value": "Away -20.5",
+       "odd": "1.44"
+      },
+      {
+       "value": "Home -20",
+       "odd": "2.42"
+      },
+      {
+       "value": "Away -20",
+       "odd": "1.47"
+      },
+      {
+       "value": "Home -19.5",
+       "odd": "2.27"
+      },
+      {
+       "value": "Away -19.5",
+       "odd": "1.52"
+      },
+      {
+       "value": "Home -19",
+       "odd": "2.21"
+      },
+      {
+       "value": "Away -19",
+       "odd": "1.56"
+      },
+      {
+       "value": "Home -18.5",
+       "odd": "2.21"
+      },
+      {
+       "value": "Away -18.5",
+       "odd": "1.65"
+      },
+      {
+       "value": "Home -18",
+       "odd": "2.15"
+      },
+      {
+       "value": "Away -18",
+       "odd": "1.71"
+      },
+      {
+       "value": "Home -17.5",
+       "odd": "2.09"
+      },
+      {
+       "value": "Away -17.5",
+       "odd": "1.77"
+      },
+      {
+       "value": "Home -17",
+       "odd": "2.03"
+      },
+      {
+       "value": "Away -17",
+       "odd": "1.83"
+      },
+      {
+       "value": "Home -16.5",
+       "odd": "1.97"
+      },
+      {
+       "value": "Away -16.5",
+       "odd": "1.89"
+      },
+      {
+       "value": "Home -16",
+       "odd": "1.92"
+      },
+      {
+       "value": "Away -16",
+       "odd": "1.94"
+      },
+      {
+       "value": "Home -15.5",
+       "odd": "1.84"
+      },
+      {
+       "value": "Away -15.5",
+       "odd": "2.00"
+      },
+      {
+       "value": "Home -15",
+       "odd": "1.78"
+      },
+      {
+       "value": "Away -15",
+       "odd": "2.05"
+      },
+      {
        "value": "Home -14.5",
-       "odd": "1.93"
+       "odd": "1.72"
       },
       {
        "value": "Away -14.5",
-       "odd": "1.93"
+       "odd": "2.10"
+      },
+      {
+       "value": "Home -14",
+       "odd": "1.65"
+      },
+      {
+       "value": "Away -14",
+       "odd": "2.16"
+      },
+      {
+       "value": "Home -13.5",
+       "odd": "1.61"
+      },
+      {
+       "value": "Away -13.5",
+       "odd": "2.20"
+      },
+      {
+       "value": "Home -13",
+       "odd": "1.55"
+      },
+      {
+       "value": "Away -13",
+       "odd": "2.29"
+      },
+      {
+       "value": "Home -12.5",
+       "odd": "1.51"
+      },
+      {
+       "value": "Away -12.5",
+       "odd": "2.35"
+      },
+      {
+       "value": "Home -12",
+       "odd": "1.46"
+      },
+      {
+       "value": "Away -12",
+       "odd": "2.45"
+      },
+      {
+       "value": "Home -11.5",
+       "odd": "1.43"
+      },
+      {
+       "value": "Away -11.5",
+       "odd": "2.50"
       }
      ],
      "Over/Under": [
       {
+       "value": "Over 220.5",
+       "odd": "1.54"
+      },
+      {
+       "value": "Under 220.5",
+       "odd": "2.23"
+      },
+      {
+       "value": "Over 221",
+       "odd": "1.57"
+      },
+      {
+       "value": "Under 221",
+       "odd": "2.20"
+      },
+      {
+       "value": "Over 221.5",
+       "odd": "1.60"
+      },
+      {
+       "value": "Under 221.5",
+       "odd": "2.11"
+      },
+      {
+       "value": "Over 222",
+       "odd": "1.63"
+      },
+      {
+       "value": "Under 222",
+       "odd": "2.09"
+      },
+      {
+       "value": "Over 222.5",
+       "odd": "1.67"
+      },
+      {
+       "value": "Under 222.5",
+       "odd": "2.06"
+      },
+      {
+       "value": "Over 223",
+       "odd": "1.72"
+      },
+      {
+       "value": "Under 223",
+       "odd": "2.05"
+      },
+      {
+       "value": "Over 223.5",
+       "odd": "1.77"
+      },
+      {
+       "value": "Under 223.5",
+       "odd": "2.03"
+      },
+      {
+       "value": "Over 224",
+       "odd": "1.81"
+      },
+      {
+       "value": "Under 224",
+       "odd": "2.01"
+      },
+      {
        "value": "Over 224.5",
-       "odd": "1.93"
+       "odd": "1.86"
       },
       {
        "value": "Under 224.5",
+       "odd": "1.98"
+      },
+      {
+       "value": "Over 225",
+       "odd": "1.91"
+      },
+      {
+       "value": "Under 225",
+       "odd": "1.95"
+      },
+      {
+       "value": "Over 225.5",
        "odd": "1.93"
+      },
+      {
+       "value": "Under 225.5",
+       "odd": "1.93"
+      },
+      {
+       "value": "Over 226",
+       "odd": "1.97"
+      },
+      {
+       "value": "Under 226",
+       "odd": "1.89"
+      },
+      {
+       "value": "Over 226.5",
+       "odd": "2.00"
+      },
+      {
+       "value": "Under 226.5",
+       "odd": "1.84"
+      },
+      {
+       "value": "Over 227",
+       "odd": "2.04"
+      },
+      {
+       "value": "Under 227",
+       "odd": "1.79"
+      },
+      {
+       "value": "Over 227.5",
+       "odd": "2.05"
+      },
+      {
+       "value": "Under 227.5",
+       "odd": "1.75"
+      },
+      {
+       "value": "Over 228",
+       "odd": "2.07"
+      },
+      {
+       "value": "Under 228",
+       "odd": "1.71"
+      },
+      {
+       "value": "Over 228.5",
+       "odd": "2.09"
+      },
+      {
+       "value": "Under 228.5",
+       "odd": "1.66"
+      },
+      {
+       "value": "Over 229",
+       "odd": "2.12"
+      },
+      {
+       "value": "Under 229",
+       "odd": "1.61"
+      },
+      {
+       "value": "Over 229.5",
+       "odd": "2.15"
+      },
+      {
+       "value": "Under 229.5",
+       "odd": "1.58"
       }
      ]
     }
    },
    "bookmakers_available": [
-    "1xBet"
+    "Marathon Bet",
+    "1xBet",
+    "Betano",
+    "WilliamHill",
+    "Betfair",
+    "BetVictor",
+    "Pinnacle"
    ]
   }
  ],
@@ -112,97 +406,97 @@
    "id": 519743,
    "home": "Cleveland Cavaliers",
    "away": "Memphis Grizzlies",
-   "status": "Q3",
-   "score_home": 96,
-   "score_away": 97
+   "status": "FT",
+   "score_home": 121,
+   "score_away": 124
   },
   {
    "id": 519744,
    "home": "Indiana Pacers",
    "away": "Houston Rockets",
-   "status": "BT",
-   "score_home": 76,
-   "score_away": 93
+   "status": "FT",
+   "score_home": 104,
+   "score_away": 119
   },
   {
    "id": 519745,
    "home": "Miami Heat",
    "away": "Milwaukee Bucks",
-   "status": "Q3",
-   "score_home": 80,
-   "score_away": 50
+   "status": "FT",
+   "score_home": 137,
+   "score_away": 130
   },
   {
    "id": 519746,
    "home": "Orlando Magic",
    "away": "Philadelphia 76ers",
-   "status": "BT",
-   "score_home": 97,
-   "score_away": 92
+   "status": "FT",
+   "score_home": 116,
+   "score_away": 121
   },
   {
    "id": 519747,
    "home": "Brooklyn Nets",
    "away": "Chicago Bulls",
-   "status": "Q3",
-   "score_home": 57,
-   "score_away": 78
+   "status": "FT",
+   "score_home": 107,
+   "score_away": 137
   },
   {
    "id": 519748,
    "home": "Toronto Raptors",
    "away": "Washington Wizards",
-   "status": "Q3",
-   "score_home": 49,
-   "score_away": 52
+   "status": "FT",
+   "score_home": 99,
+   "score_away": 102
   },
   {
    "id": 519749,
    "home": "Oklahoma City Thunder",
    "away": "Atlanta Hawks",
-   "status": "Q2",
-   "score_home": 43,
-   "score_away": 52
+   "status": "FT",
+   "score_home": 112,
+   "score_away": 117
   },
   {
    "id": 519750,
    "home": "New Orleans Pelicans",
    "away": "Detroit Pistons",
-   "status": "Q2",
-   "score_home": 44,
-   "score_away": 46
+   "status": "FT",
+   "score_home": 109,
+   "score_away": 122
   },
   {
    "id": 519752,
    "home": "Dallas Mavericks",
    "away": "Golden State Warriors",
-   "status": "Q2",
-   "score_home": 47,
-   "score_away": 38
+   "status": "FT",
+   "score_home": 116,
+   "score_away": 94
   },
   {
    "id": 519751,
    "home": "Denver Nuggets",
    "away": "Boston Celtics",
-   "status": "NS",
-   "score_home": null,
-   "score_away": null
+   "status": "FT",
+   "score_home": 105,
+   "score_away": 101
   },
   {
    "id": 519753,
    "home": "Los Angeles Lakers",
    "away": "Utah Jazz",
-   "status": "NS",
-   "score_home": null,
-   "score_away": null
+   "status": "FT",
+   "score_home": 97,
+   "score_away": 109
   },
   {
    "id": 519754,
    "home": "Sacramento Kings",
    "away": "Phoenix Suns",
-   "status": "NS",
-   "score_home": null,
-   "score_away": null
+   "status": "FT",
+   "score_home": 107,
+   "score_away": 128
   }
  ],
  "standings": [
@@ -227,9 +521,19 @@
    "form": null
   },
   {
-   "team": "Minnesota Timberwolves",
+   "team": "Houston Rockets",
    "group": "Western Conference",
    "position": 3,
+   "won": 12,
+   "lost": 4,
+   "points_for": 1886,
+   "points_against": 1747,
+   "form": null
+  },
+  {
+   "team": "Minnesota Timberwolves",
+   "group": "Western Conference",
+   "position": 4,
    "won": 11,
    "lost": 4,
    "points_for": 1750,
@@ -237,23 +541,13 @@
    "form": null
   },
   {
-   "team": "Houston Rockets",
-   "group": "Western Conference",
-   "position": 4,
-   "won": 11,
-   "lost": 4,
-   "points_for": 1767,
-   "points_against": 1643,
-   "form": null
-  },
-  {
    "team": "Memphis Grizzlies",
    "group": "Western Conference",
    "position": 5,
-   "won": 10,
+   "won": 11,
    "lost": 4,
-   "points_for": 1704,
-   "points_against": 1572,
+   "points_for": 1828,
+   "points_against": 1693,
    "form": null
   },
   {
@@ -271,9 +565,9 @@
    "group": "Western Conference",
    "position": 7,
    "won": 9,
-   "lost": 5,
-   "points_for": 1570,
-   "points_against": 1499,
+   "lost": 6,
+   "points_for": 1682,
+   "points_against": 1616,
    "form": null
   },
   {
@@ -291,19 +585,19 @@
    "group": "Western Conference",
    "position": 9,
    "won": 8,
-   "lost": 6,
-   "points_for": 1611,
-   "points_against": 1576,
+   "lost": 7,
+   "points_for": 1705,
+   "points_against": 1692,
    "form": null
   },
   {
    "team": "Dallas Mavericks",
    "group": "Western Conference",
    "position": 10,
-   "won": 7,
+   "won": 8,
    "lost": 7,
-   "points_for": 1569,
-   "points_against": 1604,
+   "points_for": 1685,
+   "points_against": 1698,
    "form": null
   },
   {
@@ -321,9 +615,9 @@
    "group": "Western Conference",
    "position": 12,
    "won": 5,
-   "lost": 10,
-   "points_for": 1737,
-   "points_against": 1843,
+   "lost": 11,
+   "points_for": 1846,
+   "points_against": 1965,
    "form": null
   },
   {
@@ -360,10 +654,10 @@
    "team": "Philadelphia 76ers",
    "group": "Eastern Conference",
    "position": 1,
-   "won": 12,
+   "won": 13,
    "lost": 3,
-   "points_for": 1711,
-   "points_against": 1669,
+   "points_for": 1832,
+   "points_against": 1785,
    "form": null
   },
   {
@@ -380,40 +674,40 @@
    "team": "Detroit Pistons",
    "group": "Eastern Conference",
    "position": 3,
-   "won": 9,
+   "won": 10,
    "lost": 4,
-   "points_for": 1493,
-   "points_against": 1416,
-   "form": null
-  },
-  {
-   "team": "New York Knicks",
-   "group": "Eastern Conference",
-   "position": 4,
-   "won": 8,
-   "lost": 6,
-   "points_for": 1540,
-   "points_against": 1454,
+   "points_for": 1615,
+   "points_against": 1525,
    "form": null
   },
   {
    "team": "Atlanta Hawks",
    "group": "Eastern Conference",
-   "position": 5,
-   "won": 8,
+   "position": 4,
+   "won": 9,
    "lost": 6,
-   "points_for": 1649,
-   "points_against": 1625,
+   "points_for": 1766,
+   "points_against": 1737,
    "form": null
   },
   {
    "team": "Miami Heat",
    "group": "Eastern Conference",
+   "position": 5,
+   "won": 9,
+   "lost": 6,
+   "points_for": 1808,
+   "points_against": 1798,
+   "form": null
+  },
+  {
+   "team": "New York Knicks",
+   "group": "Eastern Conference",
    "position": 6,
    "won": 8,
    "lost": 6,
-   "points_for": 1671,
-   "points_against": 1668,
+   "points_for": 1540,
+   "points_against": 1454,
    "form": null
   },
   {
@@ -421,9 +715,9 @@
    "group": "Eastern Conference",
    "position": 7,
    "won": 8,
-   "lost": 7,
-   "points_for": 1771,
-   "points_against": 1737,
+   "lost": 8,
+   "points_for": 1892,
+   "points_against": 1861,
    "form": null
   },
   {
@@ -431,9 +725,9 @@
    "group": "Eastern Conference",
    "position": 8,
    "won": 6,
-   "lost": 7,
-   "points_for": 1415,
-   "points_against": 1458,
+   "lost": 8,
+   "points_for": 1531,
+   "points_against": 1579,
    "form": null
   },
   {
@@ -441,9 +735,9 @@
    "group": "Eastern Conference",
    "position": 9,
    "won": 5,
-   "lost": 9,
-   "points_for": 1581,
-   "points_against": 1577,
+   "lost": 10,
+   "points_for": 1680,
+   "points_against": 1680,
    "form": null
   },
   {
@@ -451,15 +745,35 @@
    "group": "Eastern Conference",
    "position": 10,
    "won": 5,
-   "lost": 9,
-   "points_for": 1569,
-   "points_against": 1603,
+   "lost": 10,
+   "points_for": 1673,
+   "points_against": 1722,
+   "form": null
+  },
+  {
+   "team": "Washington Wizards",
+   "group": "Eastern Conference",
+   "position": 11,
+   "won": 5,
+   "lost": 11,
+   "points_for": 1772,
+   "points_against": 1887,
+   "form": null
+  },
+  {
+   "team": "Chicago Bulls",
+   "group": "Eastern Conference",
+   "position": 12,
+   "won": 4,
+   "lost": 10,
+   "points_for": 1627,
+   "points_against": 1744,
    "form": null
   },
   {
    "team": "Charlotte Hornets",
    "group": "Eastern Conference",
-   "position": 11,
+   "position": 13,
    "won": 4,
    "lost": 10,
    "points_for": 1402,
@@ -467,33 +781,13 @@
    "form": null
   },
   {
-   "team": "Washington Wizards",
-   "group": "Eastern Conference",
-   "position": 12,
-   "won": 4,
-   "lost": 11,
-   "points_for": 1669,
-   "points_against": 1788,
-   "form": null
-  },
-  {
    "team": "Brooklyn Nets",
-   "group": "Eastern Conference",
-   "position": 13,
-   "won": 3,
-   "lost": 10,
-   "points_for": 1445,
-   "points_against": 1532,
-   "form": null
-  },
-  {
-   "team": "Chicago Bulls",
    "group": "Eastern Conference",
    "position": 14,
    "won": 3,
-   "lost": 10,
-   "points_for": 1490,
-   "points_against": 1637,
+   "lost": 11,
+   "points_for": 1552,
+   "points_against": 1669,
    "form": null
   },
   {
@@ -501,19 +795,19 @@
    "group": "Eastern Conference",
    "position": 15,
    "won": 1,
-   "lost": 13,
-   "points_for": 1486,
-   "points_against": 1676,
+   "lost": 14,
+   "points_for": 1616,
+   "points_against": 1813,
    "form": null
   },
   {
    "team": "Philadelphia 76ers",
    "group": "Atlantic Division",
    "position": 1,
-   "won": 12,
+   "won": 13,
    "lost": 3,
-   "points_for": 1711,
-   "points_against": 1669,
+   "points_for": 1832,
+   "points_against": 1785,
    "form": null
   },
   {
@@ -541,9 +835,9 @@
    "group": "Atlantic Division",
    "position": 4,
    "won": 5,
-   "lost": 9,
-   "points_for": 1581,
-   "points_against": 1577,
+   "lost": 10,
+   "points_for": 1680,
+   "points_against": 1680,
    "form": null
   },
   {
@@ -551,29 +845,29 @@
    "group": "Atlantic Division",
    "position": 5,
    "won": 3,
-   "lost": 10,
-   "points_for": 1445,
-   "points_against": 1532,
+   "lost": 11,
+   "points_for": 1552,
+   "points_against": 1669,
    "form": null
   },
   {
    "team": "Miami Heat",
    "group": "Southeast Division",
    "position": 1,
-   "won": 8,
+   "won": 9,
    "lost": 6,
-   "points_for": 1671,
-   "points_against": 1668,
+   "points_for": 1808,
+   "points_against": 1798,
    "form": null
   },
   {
    "team": "Atlanta Hawks",
    "group": "Southeast Division",
    "position": 2,
-   "won": 8,
+   "won": 9,
    "lost": 6,
-   "points_for": 1649,
-   "points_against": 1625,
+   "points_for": 1766,
+   "points_against": 1737,
    "form": null
   },
   {
@@ -581,15 +875,25 @@
    "group": "Southeast Division",
    "position": 3,
    "won": 6,
-   "lost": 7,
-   "points_for": 1415,
-   "points_against": 1458,
+   "lost": 8,
+   "points_for": 1531,
+   "points_against": 1579,
+   "form": null
+  },
+  {
+   "team": "Washington Wizards",
+   "group": "Southeast Division",
+   "position": 4,
+   "won": 5,
+   "lost": 11,
+   "points_for": 1772,
+   "points_against": 1887,
    "form": null
   },
   {
    "team": "Charlotte Hornets",
    "group": "Southeast Division",
-   "position": 4,
+   "position": 5,
    "won": 4,
    "lost": 10,
    "points_for": 1402,
@@ -597,23 +901,13 @@
    "form": null
   },
   {
-   "team": "Washington Wizards",
-   "group": "Southeast Division",
-   "position": 5,
-   "won": 4,
-   "lost": 11,
-   "points_for": 1669,
-   "points_against": 1788,
-   "form": null
-  },
-  {
    "team": "Detroit Pistons",
    "group": "Central Division",
    "position": 1,
-   "won": 9,
+   "won": 10,
    "lost": 4,
-   "points_for": 1493,
-   "points_against": 1416,
+   "points_for": 1615,
+   "points_against": 1525,
    "form": null
   },
   {
@@ -621,9 +915,9 @@
    "group": "Central Division",
    "position": 2,
    "won": 8,
-   "lost": 7,
-   "points_for": 1771,
-   "points_against": 1737,
+   "lost": 8,
+   "points_for": 1892,
+   "points_against": 1861,
    "form": null
   },
   {
@@ -631,19 +925,19 @@
    "group": "Central Division",
    "position": 3,
    "won": 5,
-   "lost": 9,
-   "points_for": 1569,
-   "points_against": 1603,
+   "lost": 10,
+   "points_for": 1673,
+   "points_against": 1722,
    "form": null
   },
   {
    "team": "Chicago Bulls",
    "group": "Central Division",
    "position": 4,
-   "won": 3,
+   "won": 4,
    "lost": 10,
-   "points_for": 1490,
-   "points_against": 1637,
+   "points_for": 1627,
+   "points_against": 1744,
    "form": null
   },
   {
@@ -651,9 +945,9 @@
    "group": "Central Division",
    "position": 5,
    "won": 1,
-   "lost": 13,
-   "points_for": 1486,
-   "points_against": 1676,
+   "lost": 14,
+   "points_for": 1616,
+   "points_against": 1813,
    "form": null
   },
   {
@@ -681,9 +975,9 @@
    "group": "Northwest Division",
    "position": 3,
    "won": 9,
-   "lost": 5,
-   "points_for": 1570,
-   "points_against": 1499,
+   "lost": 6,
+   "points_for": 1682,
+   "points_against": 1616,
    "form": null
   },
   {
@@ -721,9 +1015,9 @@
    "group": "Pacific Division",
    "position": 2,
    "won": 8,
-   "lost": 6,
-   "points_for": 1611,
-   "points_against": 1576,
+   "lost": 7,
+   "points_for": 1705,
+   "points_against": 1692,
    "form": null
   },
   {
@@ -770,30 +1064,30 @@
    "team": "Houston Rockets",
    "group": "Southwest Division",
    "position": 2,
-   "won": 11,
+   "won": 12,
    "lost": 4,
-   "points_for": 1767,
-   "points_against": 1643,
+   "points_for": 1886,
+   "points_against": 1747,
    "form": null
   },
   {
    "team": "Memphis Grizzlies",
    "group": "Southwest Division",
    "position": 3,
-   "won": 10,
+   "won": 11,
    "lost": 4,
-   "points_for": 1704,
-   "points_against": 1572,
+   "points_for": 1828,
+   "points_against": 1693,
    "form": null
   },
   {
    "team": "Dallas Mavericks",
    "group": "Southwest Division",
    "position": 4,
-   "won": 7,
+   "won": 8,
    "lost": 7,
-   "points_for": 1569,
-   "points_against": 1604,
+   "points_for": 1685,
+   "points_against": 1698,
    "form": null
   },
   {
@@ -801,9 +1095,9 @@
    "group": "Southwest Division",
    "position": 5,
    "won": 5,
-   "lost": 10,
-   "points_for": 1737,
-   "points_against": 1843,
+   "lost": 11,
+   "points_for": 1846,
+   "points_against": 1965,
    "form": null
   },
   {
@@ -1107,7 +1401,7 @@
    "form": null
   }
  ],
- "generated_at": "2026-11-19T01:52:41+00:00",
+ "generated_at": "2026-11-19T06:54:14+00:00",
  "source": "api-sports.io",
  "api_calls": 7,
  "errors": []
