@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-19",
+  "sport": "Euroleague",
+  "league_key": "euroleague",
+  "note": "Dados generated_at 2026-11-19T13:25:33+00:00 (recolha fresca). 6 jogos analisados, nenhum passou os filtros: sem palpites, logo sem revisão de lesões. Liquidação: 2026-11-18 sem apostas.",
+  "picks": [],
+  "avoid": [
+    {
+      "match": "Maccabi Tel Aviv vs Dubai",
+      "reason": "favorito Dubai 61% < 62%"
+    },
+    {
+      "match": "Zalgiris Kaunas vs Panathinaikos",
+      "reason": "favorito Zalgiris Kaunas 54% < 62%"
+    },
+    {
+      "match": "Bayern vs Baskonia",
+      "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Bayern 7.5, combinado 7.1)"
+    },
+    {
+      "match": "Olimpia Milano vs Fenerbahce",
+      "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Fenerbahce 4.0, combinado 4.1)"
+    },
+    {
+      "match": "Paris vs Hapoel Tel Aviv",
+      "reason": "favorito Hapoel Tel Aviv 54% < 62%"
+    },
+    {
+      "match": "Valencia vs Virtus Bologna",
+      "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Valencia 10.0, combinado 10.1)"
+    }
+  ]
+}
