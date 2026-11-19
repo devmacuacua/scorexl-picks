@@ -31,7 +31,7 @@ Feed diário de palpites gerado automaticamente para o ScoreXL.
 }
 ```
 
-Campos: `market` = `handicap` | `moneyline` | `total_over` (Over no total de pontos do jogo, com `line`; ganha se total > line, inclui prolongamento); `confidence` = `alta` | `media`; `stake_units` = unidades (1 unidade = 3% da banca).
+Campos: `market` = `handicap` | `moneyline` | `total_over` (Over no total de pontos do jogo, com `line`; ganha se total > line, inclui prolongamento); `quarter_over` (Over no total de pontos de um quarto, só Q1/Q2, com `line` e `period`; ganha se pontos do quarto > line, sem prolongamento); `confidence` = `alta` | `media`; `stake_units` = unidades (1 unidade = 3% da banca).
 
 Leitura raw: `https://raw.githubusercontent.com/devmacuacua/scorexl-picks/main/picks/nba/AAAA-MM-DD.json`
 
