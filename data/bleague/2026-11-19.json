@@ -1,0 +1,261 @@
+{
+ "date": "2026-11-19",
+ "sport": "B.League (Japão)",
+ "league_key": "bleague",
+ "league_id": 56,
+ "note": "date = data de Maputo; tipoff_maputo em hora de Maputo; odds incluem 1.ª parte quando há",
+ "games": [],
+ "yesterday_results": [
+  {
+   "id": 504797,
+   "date": "2026-11-18",
+   "home": "Yokohama",
+   "away": "Saga",
+   "status": "FT",
+   "score_home": 97,
+   "score_away": 88
+  },
+  {
+   "id": 504798,
+   "date": "2026-11-18",
+   "home": "Utsunomiya Brex",
+   "away": "Levanga Hokkaido",
+   "status": "FT",
+   "score_home": 98,
+   "score_away": 71
+  },
+  {
+   "id": 504799,
+   "date": "2026-11-18",
+   "home": "Tokyo Sunrockers",
+   "away": "Alvark",
+   "status": "FT",
+   "score_home": 75,
+   "score_away": 69
+  },
+  {
+   "id": 504800,
+   "date": "2026-11-18",
+   "home": "Sendai",
+   "away": "NeoPhoenix",
+   "status": "FT",
+   "score_home": 91,
+   "score_away": 84
+  },
+  {
+   "id": 504801,
+   "date": "2026-11-18",
+   "home": "Osaka",
+   "away": "Hiroshima D.",
+   "status": "FT",
+   "score_home": 59,
+   "score_away": 92
+  },
+  {
+   "id": 504802,
+   "date": "2026-11-18",
+   "home": "Kobe",
+   "away": "Brave Thunders",
+   "status": "FT",
+   "score_home": 77,
+   "score_away": 84
+  },
+  {
+   "id": 504803,
+   "date": "2026-11-18",
+   "home": "Gunma",
+   "away": "Shimane",
+   "status": "FT",
+   "score_home": 92,
+   "score_away": 90
+  },
+  {
+   "id": 504804,
+   "date": "2026-11-18",
+   "home": "Diamond Dolphins",
+   "away": "Ryukyu",
+   "status": "FT",
+   "score_home": 93,
+   "score_away": 76
+  },
+  {
+   "id": 504805,
+   "date": "2026-11-18",
+   "home": "Chiba",
+   "away": "Akita",
+   "status": "FT",
+   "score_home": 89,
+   "score_away": 84
+  },
+  {
+   "id": 504806,
+   "date": "2026-11-18",
+   "home": "Kyoto",
+   "away": "Shinshu",
+   "status": "FT",
+   "score_home": 78,
+   "score_away": 76
+  }
+ ],
+ "standings": [],
+ "season": "2026-2027",
+ "recent_results": [
+  {
+   "id": 504797,
+   "date": "2026-11-18",
+   "home": "Yokohama",
+   "away": "Saga",
+   "status": "FT",
+   "score_home": 97,
+   "score_away": 88
+  },
+  {
+   "id": 504798,
+   "date": "2026-11-18",
+   "home": "Utsunomiya Brex",
+   "away": "Levanga Hokkaido",
+   "status": "FT",
+   "score_home": 98,
+   "score_away": 71
+  },
+  {
+   "id": 504799,
+   "date": "2026-11-18",
+   "home": "Tokyo Sunrockers",
+   "away": "Alvark",
+   "status": "FT",
+   "score_home": 75,
+   "score_away": 69
+  },
+  {
+   "id": 504800,
+   "date": "2026-11-18",
+   "home": "Sendai",
+   "away": "NeoPhoenix",
+   "status": "FT",
+   "score_home": 91,
+   "score_away": 84
+  },
+  {
+   "id": 504801,
+   "date": "2026-11-18",
+   "home": "Osaka",
+   "away": "Hiroshima D.",
+   "status": "FT",
+   "score_home": 59,
+   "score_away": 92
+  },
+  {
+   "id": 504802,
+   "date": "2026-11-18",
+   "home": "Kobe",
+   "away": "Brave Thunders",
+   "status": "FT",
+   "score_home": 77,
+   "score_away": 84
+  },
+  {
+   "id": 504803,
+   "date": "2026-11-18",
+   "home": "Gunma",
+   "away": "Shimane",
+   "status": "FT",
+   "score_home": 92,
+   "score_away": 90
+  },
+  {
+   "id": 504804,
+   "date": "2026-11-18",
+   "home": "Diamond Dolphins",
+   "away": "Ryukyu",
+   "status": "FT",
+   "score_home": 93,
+   "score_away": 76
+  },
+  {
+   "id": 504805,
+   "date": "2026-11-18",
+   "home": "Chiba",
+   "away": "Akita",
+   "status": "FT",
+   "score_home": 89,
+   "score_away": 84
+  },
+  {
+   "id": 504806,
+   "date": "2026-11-18",
+   "home": "Kyoto",
+   "away": "Shinshu",
+   "status": "FT",
+   "score_home": 78,
+   "score_away": 76
+  },
+  {
+   "id": 504796,
+   "date": "2026-11-17",
+   "home": "Nagasaki",
+   "away": "SeaHorses Mikawa",
+   "status": "FT",
+   "score_home": 86,
+   "score_away": 69
+  },
+  {
+   "id": 504790,
+   "date": "2026-11-16",
+   "home": "Alvark",
+   "away": "Kobe",
+   "status": "FT",
+   "score_home": 104,
+   "score_away": 79
+  },
+  {
+   "id": 504791,
+   "date": "2026-11-16",
+   "home": "Chiba",
+   "away": "NeoPhoenix",
+   "status": "FT",
+   "score_home": 104,
+   "score_away": 110
+  },
+  {
+   "id": 504792,
+   "date": "2026-11-16",
+   "home": "Gunma",
+   "away": "Shiga",
+   "status": "FT",
+   "score_home": 100,
+   "score_away": 80
+  },
+  {
+   "id": 504793,
+   "date": "2026-11-16",
+   "home": "Hiroshima D.",
+   "away": "Altiri Chiba",
+   "status": "FT",
+   "score_home": 85,
+   "score_away": 63
+  },
+  {
+   "id": 504794,
+   "date": "2026-11-16",
+   "home": "Yokohama",
+   "away": "Brave Thunders",
+   "status": "FT",
+   "score_home": 66,
+   "score_away": 95
+  },
+  {
+   "id": 504795,
+   "date": "2026-11-16",
+   "home": "Ryukyu",
+   "away": "Toyama",
+   "status": "FT",
+   "score_home": 102,
+   "score_away": 96
+  }
+ ],
+ "generated_at": "2026-11-19T03:53:46+00:00",
+ "source": "api-sports.io",
+ "api_calls": 5,
+ "errors": []
+}
