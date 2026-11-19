@@ -1,8 +1,28 @@
 {
   "date": "2026-11-19",
   "sport": "NBA",
-  "note": "Revisão final 21h47 de Maputo: recolha fresca OK (generated_at 2026-11-19T19:48:38Z). 4 jogos; a 1xBet continua só com odds para SAS-LAC (sem mercados de quarto). Sem palpites: SAS 89% (-16) vs LAC 4-9 tem o perfil certo, mas nenhuma linha 1.80-2.00 dá P×odd ≥ 1.03 (-15.5 @1.84 → 0.95; -16 @1.92 → 0.96; -16.5 @1.97 → 0.95). Over: estimado 226.3 vs mercado 225.5 (margem < 3). Lesões: Devin Vassell e Dylan Harper (SAS) fora; Anthony Edwards (MIN) fora (cirurgia joelho), DiVincenzo fora, Kuminga questionável (Heavy). Relatório oficial NBA em PDF não foi lido (fetch falhou); estado de Curry (GSW) e de Avdija (POR) não confirmado.",
-  "picks": [],
+  "note": "Revisão final 21h47 (+ atualização 23h com odds Pinnacle às 21:06Z) de Maputo: recolha fresca OK (generated_at 2026-11-19T19:48:38Z). 4 jogos; a 1xBet continua só com odds para SAS-LAC (sem mercados de quarto). Sem palpites: SAS 89% (-16) vs LAC 4-9 tem o perfil certo, mas nenhuma linha 1.80-2.00 dá P×odd ≥ 1.03 (-15.5 @1.84 → 0.95; -16 @1.92 → 0.96; -16.5 @1.97 → 0.95). Over: estimado 226.3 vs mercado 225.5 (margem < 3). Lesões: Devin Vassell e Dylan Harper (SAS) fora; Anthony Edwards (MIN) fora (cirurgia joelho), DiVincenzo fora, Kuminga questionável (Heavy). Relatório oficial NBA em PDF não foi lido (fetch falhou); estado de Curry (GSW) e de Avdija (POR) não confirmado. Com as regras novas (B0 Pinnacle): nenhuma linha da 1xBet tem valor ≥ 1.025 face à Pinnacle (máximo 0.994). Publicada 1 pick de fallback (stake 0.25, confiança baixa).",
+  "picks": [
+    {
+      "match": "San Antonio Spurs vs Los Angeles Clippers",
+      "tipoff_maputo": "2026-11-20T03:00:00+02:00",
+      "market": "handicap",
+      "strategy": "fallback",
+      "selection": "Los Angeles Clippers +16.5",
+      "line": 16.5,
+      "min_odds": 1.85,
+      "odds_ref": 1.89,
+      "bookmaker": "1xBet",
+      "sharp_odds": {
+        "Pinnacle": "SAS -16.5 @2.04 / LAC +16.5 @1.85"
+      },
+      "win_prob": 0.524,
+      "confidence": "baixa",
+      "stake_units": 0.25,
+      "fallback": true,
+      "reason": "Pick do dia garantida (regras novas de 19/11): valor esperado ligeiramente negativo (P×odd 0.991); aposta opcional, contabilizada à parte. P justa pela Pinnacle 52.4% (2.04/1.85); 1xBet LAC +16.5 @1.89 é a melhor relação do dia. SAS sem Vassell e Harper. Não entrar abaixo de 1.85 nem se a linha descer para +15.5 ou menos."
+    }
+  ],
   "avoid": [
     {
       "match": "San Antonio Spurs vs Los Angeles Clippers",

@@ -20,6 +20,11 @@
       "bets": 15,
       "wins": 10,
       "profit_units": 0.45
+    },
+    "baixa": {
+      "bets": 0,
+      "wins": 0,
+      "profit_units": 0
     }
   },
   "last_10": [
@@ -70,7 +75,50 @@
       "bets": 0,
       "wins": 0,
       "profit_units": 0
+    },
+    "total_under": {
+      "bets": 0,
+      "wins": 0,
+      "profit_units": 0
     }
   },
-  "pending_days": []
+  "pending_days": [],
+  "by_strategy": {
+    "favorito": {
+      "bets": 11,
+      "wins": 7,
+      "staked_units": 5.5,
+      "profit_units": -0.205
+    },
+    "over_modelo": {
+      "bets": 4,
+      "wins": 3,
+      "staked_units": 2.0,
+      "profit_units": 0.655
+    },
+    "pinnacle_value": {
+      "bets": 0,
+      "wins": 0,
+      "staked_units": 0,
+      "profit_units": 0
+    },
+    "quarter_modelo": {
+      "bets": 0,
+      "wins": 0,
+      "staked_units": 0,
+      "profit_units": 0
+    },
+    "azarao": {
+      "bets": 0,
+      "wins": 0,
+      "staked_units": 0,
+      "profit_units": 0
+    },
+    "fallback": {
+      "bets": 0,
+      "wins": 0,
+      "staked_units": 0,
+      "profit_units": 0
+    }
+  }
 }
