@@ -65,6 +65,11 @@
       "bets": 4,
       "wins": 3,
       "profit_units": 0.655
+    },
+    "quarter_over": {
+      "bets": 0,
+      "wins": 0,
+      "profit_units": 0
     }
   },
   "pending_days": []

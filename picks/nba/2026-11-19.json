@@ -1,24 +1,24 @@
 {
   "date": "2026-11-19",
   "sport": "NBA",
-  "note": "Revisão matinal (09h Maputo): recolha fresca OK (generated_at 2026-11-19T06:55:14Z). Só 4 jogos e a 1xBet só tem odds para SAS-LAC. Sem palpites: SAS 89% em casa vs LAC 4-9 (perfil certo), mas mercado -16 e as linhas 1.80-2.00 (-15.5 @1.84, -16 @1.92, -16.5 @1.97) dão P×odd 0.95-0.96 < 1.03. Over: estimado 226.3 vs mercado 225.5 (margem < 3). Lesões: Devin Vassell (SAS) fora; relatório oficial de 19/11/2026 ainda não publicado — a rever à noite. Os 3 jogos sem odds ficam em avoid até a 1xBet publicar.",
+  "note": "Revisão final 21h47 de Maputo: recolha fresca OK (generated_at 2026-11-19T19:48:38Z). 4 jogos; a 1xBet continua só com odds para SAS-LAC (sem mercados de quarto). Sem palpites: SAS 89% (-16) vs LAC 4-9 tem o perfil certo, mas nenhuma linha 1.80-2.00 dá P×odd ≥ 1.03 (-15.5 @1.84 → 0.95; -16 @1.92 → 0.96; -16.5 @1.97 → 0.95). Over: estimado 226.3 vs mercado 225.5 (margem < 3). Lesões: Devin Vassell e Dylan Harper (SAS) fora; Anthony Edwards (MIN) fora (cirurgia joelho), DiVincenzo fora, Kuminga questionável (Heavy). Relatório oficial NBA em PDF não foi lido (fetch falhou); estado de Curry (GSW) e de Avdija (POR) não confirmado.",
   "picks": [],
   "avoid": [
     {
       "match": "San Antonio Spurs vs Los Angeles Clippers",
-      "reason": "SAS 89% (-16) vs LAC 4-9: sem valor (-15.5 @1.84 P×odd 0.95; -16 @1.92 0.96). Entraria se a 1xBet oferecer SAS -14.5 ou menos a ≥1.80. Over: estimado 226.3 vs 225.5 (margem < 3). Vassell fora."
+      "reason": "SAS 89% (-16; ML 1.09/8.65) vs LAC: sem valor (-15.5 @1.84 P×odd 0.95; -16 @1.92 0.96; -16.5 @1.97 0.95). Entraria se SAS -14.5 ou menos a ≥1.80. Over 225.5 @1.93: estimado 226.3 (margem < 3). Q1/Q2 sem odds (estimado Q1 57.1/56.3, Q2 57.3/57.6). Vassell e Harper fora."
     },
     {
       "match": "Memphis Grizzlies vs Golden State Warriors",
-      "reason": "Sem odds; a rever. Ambas em back-to-back; MEM 11-4 vs GSW 8-7 (jogo provavelmente 55-65%, faixa a evitar). Over estimado 230.6 — só entraria com mercado ≤ 227.5 e sem estrelas fora (Curry esteve fora a 18/11)."
+      "reason": "Sem odds; a rever. Ambas em back-to-back (exclui handicap do favorito e Overs de quarto). Estado de Curry não confirmado."
     },
     {
       "match": "Milwaukee Bucks vs Portland Trail Blazers",
-      "reason": "Sem odds; a rever. POR 9-5 favorito fora vs MIL 1-14 em back-to-back: entraria POR -6.5 ou menos / ML com odd 1.80-2.00 e P×odd ≥ 1.03 se P ≥ 70%. Over estimado 228.3 — só com mercado ≤ 225."
+      "reason": "Sem odds; a rever. POR favorito fora vs MIL 1-14 em B2B: entraria POR -6.5 ou menos / ML a 1.80-2.00 com P ≥ 70% e P×odd ≥ 1.03. Overs de quarto excluídos (MIL em B2B)."
     },
     {
       "match": "Minnesota Timberwolves vs New York Knicks",
-      "reason": "Sem odds; a rever. MIN 11-4 vs NYK 8-6: provavelmente 60-65% (faixa a evitar). Over estimado 218.3 — só com mercado ≤ 215."
+      "reason": "Sem odds; a rever. Anthony Edwards (MIN) FORA → sem handicap MIN nem Overs (jogo/quartos) neste jogo."
     }
   ]
 }
