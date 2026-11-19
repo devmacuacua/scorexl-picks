@@ -769,9 +769,9 @@
    "group": "Western Conference",
    "position": 1,
    "won": 13,
-   "lost": 2,
-   "points_for": 1837,
-   "points_against": 1722,
+   "lost": 3,
+   "points_for": 1934,
+   "points_against": 1831,
    "form": null
   },
   {
@@ -825,23 +825,23 @@
    "form": null
   },
   {
-   "team": "Oklahoma City Thunder",
+   "team": "Denver Nuggets",
    "group": "Western Conference",
    "position": 7,
+   "won": 8,
+   "lost": 5,
+   "points_for": 1471,
+   "points_against": 1459,
+   "form": null
+  },
+  {
+   "team": "Oklahoma City Thunder",
+   "group": "Western Conference",
+   "position": 8,
    "won": 9,
    "lost": 6,
    "points_for": 1682,
    "points_against": 1616,
-   "form": null
-  },
-  {
-   "team": "Denver Nuggets",
-   "group": "Western Conference",
-   "position": 8,
-   "won": 7,
-   "lost": 5,
-   "points_for": 1366,
-   "points_against": 1358,
    "form": null
   },
   {
@@ -868,10 +868,10 @@
    "team": "Phoenix Suns",
    "group": "Western Conference",
    "position": 11,
-   "won": 6,
+   "won": 7,
    "lost": 7,
-   "points_for": 1469,
-   "points_against": 1513,
+   "points_for": 1597,
+   "points_against": 1620,
    "form": null
   },
   {
@@ -898,10 +898,10 @@
    "team": "Utah Jazz",
    "group": "Western Conference",
    "position": 14,
-   "won": 2,
+   "won": 3,
    "lost": 13,
-   "points_for": 1631,
-   "points_against": 1759,
+   "points_for": 1740,
+   "points_against": 1856,
    "form": null
   },
   {
@@ -909,9 +909,9 @@
    "group": "Western Conference",
    "position": 15,
    "won": 1,
-   "lost": 12,
-   "points_for": 1401,
-   "points_against": 1576,
+   "lost": 13,
+   "points_for": 1508,
+   "points_against": 1704,
    "form": null
   },
   {
@@ -929,9 +929,9 @@
    "group": "Eastern Conference",
    "position": 2,
    "won": 11,
-   "lost": 3,
-   "points_for": 1607,
-   "points_against": 1446,
+   "lost": 4,
+   "points_for": 1708,
+   "points_against": 1551,
    "form": null
   },
   {
@@ -1079,9 +1079,9 @@
    "group": "Atlantic Division",
    "position": 2,
    "won": 11,
-   "lost": 3,
-   "points_for": 1607,
-   "points_against": 1446,
+   "lost": 4,
+   "points_for": 1708,
+   "points_against": 1551,
    "form": null
   },
   {
@@ -1235,9 +1235,19 @@
    "form": null
   },
   {
-   "team": "Oklahoma City Thunder",
+   "team": "Denver Nuggets",
    "group": "Northwest Division",
    "position": 3,
+   "won": 8,
+   "lost": 5,
+   "points_for": 1471,
+   "points_against": 1459,
+   "form": null
+  },
+  {
+   "team": "Oklahoma City Thunder",
+   "group": "Northwest Division",
+   "position": 4,
    "won": 9,
    "lost": 6,
    "points_for": 1682,
@@ -1245,23 +1255,13 @@
    "form": null
   },
   {
-   "team": "Denver Nuggets",
-   "group": "Northwest Division",
-   "position": 4,
-   "won": 7,
-   "lost": 5,
-   "points_for": 1366,
-   "points_against": 1358,
-   "form": null
-  },
-  {
    "team": "Utah Jazz",
    "group": "Northwest Division",
    "position": 5,
-   "won": 2,
+   "won": 3,
    "lost": 13,
-   "points_for": 1631,
-   "points_against": 1759,
+   "points_for": 1740,
+   "points_against": 1856,
    "form": null
   },
   {
@@ -1269,9 +1269,9 @@
    "group": "Pacific Division",
    "position": 1,
    "won": 13,
-   "lost": 2,
-   "points_for": 1837,
-   "points_against": 1722,
+   "lost": 3,
+   "points_for": 1934,
+   "points_against": 1831,
    "form": null
   },
   {
@@ -1288,10 +1288,10 @@
    "team": "Phoenix Suns",
    "group": "Pacific Division",
    "position": 3,
-   "won": 6,
+   "won": 7,
    "lost": 7,
-   "points_for": 1469,
-   "points_against": 1513,
+   "points_for": 1597,
+   "points_against": 1620,
    "form": null
   },
   {
@@ -1309,9 +1309,9 @@
    "group": "Pacific Division",
    "position": 5,
    "won": 1,
-   "lost": 12,
-   "points_for": 1401,
-   "points_against": 1576,
+   "lost": 13,
+   "points_for": 1508,
+   "points_against": 1704,
    "form": null
   },
   {
@@ -1682,12 +1682,12 @@
    }
   },
   "Boston Celtics": {
-   "games": 14,
+   "games": 15,
    "season": {
-    "q1_for": 30.21,
-    "q1_against": 23.64,
-    "q2_for": 29.07,
-    "q2_against": 25.86
+    "q1_for": 30.07,
+    "q1_against": 23.87,
+    "q2_for": 29.13,
+    "q2_against": 25.33
    },
    "last_10": {
     "q1_for": 29.4,
@@ -1772,12 +1772,12 @@
    }
   },
   "Denver Nuggets": {
-   "games": 12,
+   "games": 13,
    "season": {
-    "q1_for": 29.33,
-    "q1_against": 26.92,
-    "q2_for": 28.83,
-    "q2_against": 30.17
+    "q1_for": 29.15,
+    "q1_against": 26.69,
+    "q2_for": 28.23,
+    "q2_against": 29.38
    },
    "last_10": {
     "q1_for": 29.6,
@@ -1862,12 +1862,12 @@
    }
   },
   "Los Angeles Lakers": {
-   "games": 15,
+   "games": 16,
    "season": {
-    "q1_for": 31.6,
-    "q1_against": 27.2,
-    "q2_for": 31.47,
-    "q2_against": 30.47
+    "q1_for": 31.75,
+    "q1_against": 27.56,
+    "q2_for": 31.5,
+    "q2_against": 29.75
    },
    "last_10": {
     "q1_for": 31.7,
@@ -2012,12 +2012,12 @@
    }
   },
   "Phoenix Suns": {
-   "games": 13,
+   "games": 14,
    "season": {
-    "q1_for": 29.31,
-    "q1_against": 26.62,
-    "q2_for": 27.85,
-    "q2_against": 30.92
+    "q1_for": 28.07,
+    "q1_against": 27.79,
+    "q2_for": 27.79,
+    "q2_against": 30.79
    },
    "last_10": {
     "q1_for": 29.5,
@@ -2042,12 +2042,12 @@
    }
   },
   "Sacramento Kings": {
-   "games": 13,
+   "games": 14,
    "season": {
-    "q1_for": 27.23,
-    "q1_against": 30.46,
-    "q2_for": 29.0,
-    "q2_against": 34.15
+    "q1_for": 27.36,
+    "q1_against": 31.21,
+    "q2_for": 28.71,
+    "q2_against": 33.14
    },
    "last_10": {
     "q1_for": 26.4,
@@ -2087,12 +2087,12 @@
    }
   },
   "Utah Jazz": {
-   "games": 15,
+   "games": 16,
    "season": {
-    "q1_for": 28.33,
-    "q1_against": 28.0,
-    "q2_for": 25.73,
-    "q2_against": 30.4
+    "q1_for": 28.5,
+    "q1_against": 28.06,
+    "q2_for": 25.38,
+    "q2_against": 30.69
    },
    "last_10": {
     "q1_for": 27.6,
@@ -2117,7 +2117,7 @@
    }
   }
  },
- "generated_at": "2026-11-19T06:59:43+00:00",
+ "generated_at": "2026-11-19T10:20:24+00:00",
  "source": "api-sports.io",
  "api_calls": 8,
  "errors": []
