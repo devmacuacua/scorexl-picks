@@ -143,7 +143,7 @@ def quarters(g):
     return out
 
 
-def team_quarter_stats(season_games, d_us, last_n=10):
+def team_quarter_stats(season_games, d_us, games_played=None, last_n=10):
     """Médias por equipa de pontos marcados/sofridos no 1.º e 2.º quarto (época e últimos N jogos),
     só com jogos terminados antes de d_us. Uma única chamada à API (todos os jogos da época)."""
     done = []
@@ -162,6 +162,8 @@ def team_quarter_stats(season_games, d_us, last_n=10):
         for team, me, opp in ((h, 0, 1), (a, 1, 0)):
             per.setdefault(team, []).append({"q1_for": q["q1"][me], "q1_against": q["q1"][opp],
                                              "q2_for": q["q2"][me], "q2_against": q["q2"][opp]})
+    if games_played:
+        per = {t: rows[-games_played[t]:] if games_played.get(t) else rows for t, rows in per.items()}
     def avg(rows):
         return {k: round(sum(r[k] for r in rows) / len(rows), 2) for k in rows[0]} if rows else {}
     return {t: {"games": len(rows), "season": avg(rows), f"last_{last_n}": avg(rows[-last_n:])}
@@ -188,9 +190,6 @@ def nba(d_us):
             "quarters": quarters(g),
         })
 
-    out["team_quarters"] = team_quarter_stats(
-        get(BASKET, "games", league=NBA_LEAGUE, season=season, timezone="America/New_York"), d_us)
-
     for g in games:
         h, a = g["teams"]["home"]["name"], g["teams"]["away"]["name"]
         ts = dt.datetime.fromtimestamp(g["timestamp"], tz=dt.timezone.utc)
@@ -214,6 +213,13 @@ def nba(d_us):
                 "points_for": t["points"]["for"], "points_against": t["points"]["against"],
                 "form": t.get("form"),
             })
+    # jogos da época regular por equipa (a lista da API inclui a pré-época: fica só com os últimos N)
+    gp = {}
+    for r in out["standings"]:
+        if "Conference" in str(r["group"]) and r["team"] not in gp:
+            gp[r["team"]] = (r["won"] or 0) + (r["lost"] or 0)
+    out["team_quarters"] = team_quarter_stats(
+        get(BASKET, "games", league=NBA_LEAGUE, season=season, timezone="America/New_York"), d_us, gp)
     return out
 
 
