@@ -1,0 +1,116 @@
+{
+ "date": "2026-11-20",
+ "sport": "B.League (Japão)",
+ "league_key": "bleague",
+ "league_id": 56,
+ "note": "date = data de Maputo; tipoff_maputo em hora de Maputo; odds incluem 1.ª parte quando há",
+ "games": [],
+ "yesterday_results": [],
+ "standings": [],
+ "season": "2026-2027",
+ "recent_results": [
+  {
+   "id": 504797,
+   "date": "2026-11-18",
+   "home": "Yokohama",
+   "away": "Saga",
+   "status": "FT",
+   "score_home": 97,
+   "score_away": 88
+  },
+  {
+   "id": 504798,
+   "date": "2026-11-18",
+   "home": "Utsunomiya Brex",
+   "away": "Levanga Hokkaido",
+   "status": "FT",
+   "score_home": 98,
+   "score_away": 71
+  },
+  {
+   "id": 504799,
+   "date": "2026-11-18",
+   "home": "Tokyo Sunrockers",
+   "away": "Alvark",
+   "status": "FT",
+   "score_home": 75,
+   "score_away": 69
+  },
+  {
+   "id": 504800,
+   "date": "2026-11-18",
+   "home": "Sendai",
+   "away": "NeoPhoenix",
+   "status": "FT",
+   "score_home": 91,
+   "score_away": 84
+  },
+  {
+   "id": 504801,
+   "date": "2026-11-18",
+   "home": "Osaka",
+   "away": "Hiroshima D.",
+   "status": "FT",
+   "score_home": 59,
+   "score_away": 92
+  },
+  {
+   "id": 504802,
+   "date": "2026-11-18",
+   "home": "Kobe",
+   "away": "Brave Thunders",
+   "status": "FT",
+   "score_home": 77,
+   "score_away": 84
+  },
+  {
+   "id": 504803,
+   "date": "2026-11-18",
+   "home": "Gunma",
+   "away": "Shimane",
+   "status": "FT",
+   "score_home": 92,
+   "score_away": 90
+  },
+  {
+   "id": 504804,
+   "date": "2026-11-18",
+   "home": "Diamond Dolphins",
+   "away": "Ryukyu",
+   "status": "FT",
+   "score_home": 93,
+   "score_away": 76
+  },
+  {
+   "id": 504805,
+   "date": "2026-11-18",
+   "home": "Chiba",
+   "away": "Akita",
+   "status": "FT",
+   "score_home": 89,
+   "score_away": 84
+  },
+  {
+   "id": 504806,
+   "date": "2026-11-18",
+   "home": "Kyoto",
+   "away": "Shinshu",
+   "status": "FT",
+   "score_home": 78,
+   "score_away": 76
+  },
+  {
+   "id": 504796,
+   "date": "2026-11-17",
+   "home": "Nagasaki",
+   "away": "SeaHorses Mikawa",
+   "status": "FT",
+   "score_home": 86,
+   "score_away": 69
+  }
+ ],
+ "generated_at": "2026-11-20T03:53:49+00:00",
+ "source": "api-sports.io",
+ "api_calls": 5,
+ "errors": []
+}
