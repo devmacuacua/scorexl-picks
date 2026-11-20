@@ -1,0 +1,13 @@
+{
+ "date": "2026-11-20",
+ "sport": "NBL (Austrália)",
+ "league_key": "nbl",
+ "note": "Dados generated_at 2026-11-20T02:48:41+00:00 (recolha fresca). 1 jogo hoje (Cairns Taipans vs Perth, 10h30 Maputo); nenhum passa os filtros (favorito Cairns 54% < 65%), sem palpites, por isso não foi preciso verificar lesões. Liquidação: 2026-11-19 sem apostas.",
+ "picks": [],
+ "avoid": [
+  {
+   "match": "Cairns Taipans vs Perth",
+   "reason": "favorito Cairns Taipans 54% < 65%"
+  }
+ ]
+}
