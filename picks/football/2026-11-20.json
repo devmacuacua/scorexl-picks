@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-20",
+  "sport": "football",
+  "note": "Sexta 20/11: fonte principal data/football/2026-11-20.json (api-sports.io, gerado 20/11 03:14 UTC, 3 jogos, 0 errors, odds 1xBet). Nada a liquidar de 19/11 (sem palpites). Probabilidade de cantos = Poisson sobre a média esperada, combinada com a probabilidade implícita no mercado (por prudência, porque as médias incluem jogos da Taça contra equipas inferiores). Sem pesquisa web adicional.",
+  "picks": [
+    {
+      "match": "Athletic Club vs Espanyol",
+      "competition": "La Liga",
+      "kickoff_maputo": "2026-11-20T22:00:00+02:00",
+      "market": "corners_over",
+      "selection": "Mais de 10 cantos (asiático)",
+      "line": 10,
+      "min_odds": 1.67,
+      "odds_ref": 1.87,
+      "win_prob": 0.6,
+      "confidence": "media",
+      "stake_units": 0.5,
+      "reason": "Cantos esperados 12.1 (só La Liga: 11.75), ou seja ≥1.75 acima da linha 10. O Espanyol sofre 8.0 cantos por jogo e marca 6.4; o Athletic marca 5.4 e sofre 4.4 (5 jogos cada). O Athletic é favorito (1.54) contra um Espanyol com saldo de golos -1. P≈0.60 × 1.87 = 1.12. A confiança fica média porque as médias estão inflacionadas pelos jogos da Copa (Prat, Sestao)."
+    }
+  ],
+  "avoid": [
+    {
+      "match": "Bayern München vs 1. FC Köln",
+      "reason": "Super favorito contra um Köln com saldo -4, mas as odds não têm valor: vitória a 1.09 (<1.40), -1.5 a 1.23 (precisa de P>0.84; modelo ≈0.65) e Mais de 2.5 golos a 1.14 (precisa de P>0.90; modelo ≈0.76). Cantos esperados 9.1, sem margem para a linha 9/9.5."
+    },
+    {
+      "match": "Estac Troyes vs Le Havre",
+      "reason": "Jogo equilibrado entre 17.º e 18.º (2.19/3.70/3.46). Cantos esperados 7.8, abaixo das linhas 8–9."
+    }
+  ]
+}
