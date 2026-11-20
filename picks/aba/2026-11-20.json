@@ -1,0 +1,21 @@
+{
+ "date": "2026-11-20",
+ "sport": "ABA League",
+ "league_key": "aba",
+ "note": "Dados frescos (generated_at 2026-11-20T12:53:19+00:00). 3 jogos, nenhum passou os filtros (favoritos < 65% ou sem linha com valor); sem palpites, revisão de lesões não necessária. Nada a liquidar.",
+ "picks": [],
+ "avoid": [
+  {
+   "match": "FMP Beograd vs Igokea",
+   "reason": "favorito FMP Beograd 61% < 65%"
+  },
+  {
+   "match": "KK Krka Novo mesto vs Borac Mozzart",
+   "reason": "favorito KK Krka Novo mesto 64% < 65%"
+  },
+  {
+   "match": "KK Bosna vs Perspektiva Ilirija",
+   "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado KK Bosna 10.5, combinado 9.8)"
+  }
+ ]
+}
