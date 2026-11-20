@@ -1,25 +1,25 @@
 {
   "date": "2026-11-20",
   "sport": "NBA",
-  "note": "Revisão manual 19h (pedido do Francisco), regras novas de 19/11. Recolha fresca generated_at 2026-11-20T17:17:43Z; 9 jogos, todos com odds 1xBet e Pinnacle. Lesões: DET Cade Cunningham PROVÁVEL (joelho), Duren, Robinson, Holland e Prince fora; TOR Barrett e Leonard fora; HOU Sengun e Adams QUESTIONÁVEIS, Capela fora; LAL Reaves FORA; OKC Holmgren, J. Williams, Wallace fora, Caruso questionável; CLE Mobley fora, Watson questionável; CHA Schroder, Knueppel, G. Williams e Allen fora; ORL Banchero e Isaac fora (desde outubro). Estado de Jokic/Murray não confirmado. A tarefa das 21h47 revê estes palpites com odds mais recentes.",
+  "note": "Revisão manual 19h (pedido do Francisco), regras novas de 19/11. Recolha fresca generated_at 2026-11-20T17:17:43Z; 9 jogos, todos com odds 1xBet e Pinnacle. Lesões: DET Cade Cunningham PROVÁVEL (joelho), Duren, Robinson, Holland e Prince fora; TOR Barrett e Leonard fora; HOU Sengun e Adams QUESTIONÁVEIS, Capela fora; LAL Reaves FORA; OKC Holmgren, J. Williams, Wallace fora, Caruso questionável; CLE Mobley fora, Watson questionável; CHA Schroder, Knueppel, G. Williams e Allen fora; ORL Banchero e Isaac fora (desde outubro). Estado de Jokic/Murray não confirmado. A tarefa das 21h47 revê estes palpites com odds mais recentes. Atualização 20h40: odds da app 1xBet do Francisco (20h33) vs Pinnacle 18:35Z — TOR +8.5 retirado (linha desapareceu); entra CLE -6.5 @2.00 (valor vs Pinnacle). OKC e LAL sem valor.",
   "picks": [
     {
-      "match": "Detroit Pistons vs Toronto Raptors",
+      "match": "Cleveland Cavaliers vs Indiana Pacers",
       "tipoff_maputo": "2026-11-21T02:30:00+02:00",
       "market": "handicap",
       "strategy": "pinnacle_value",
-      "selection": "Toronto Raptors +8.5",
-      "line": 8.5,
-      "min_odds": 1.83,
-      "odds_ref": 1.9,
-      "bookmaker": "1xBet",
+      "selection": "Cleveland Cavaliers -6.5",
+      "line": -6.5,
+      "min_odds": 1.93,
+      "odds_ref": 2.0,
+      "bookmaker": "1xBet (app do Francisco, 20h33)",
       "sharp_odds": {
-        "Pinnacle": "DET -8.5 @2.14 / TOR +8.5 @1.76"
+        "Pinnacle 18:35Z": "CLE -6.5 @1.86 / IND +6.5 @2.01; linha justa -7 (1.93/1.93)"
       },
-      "win_prob": 0.549,
+      "win_prob": 0.519,
       "confidence": "media",
       "stake_units": 0.5,
-      "reason": "Pinnacle tem DET -7.5 como linha justa (1.98/1.91) e TOR +8.5 a 1.76 (P justa 54.9%); a 1xBet paga TOR +8.5 a 1.90 → valor 1.043. DET sem Duren, Holland, Robinson e Prince; Cade provável (joelho) — se Cade for confirmado FORA a linha cai e o valor aumenta; não entrar abaixo de 1.83 nem em TOR +7.5 ou menos."
+      "reason": "A 1xBet desceu o CLE para ~-6 (-6.5 @2.00, -5.5 @1.862) enquanto a Pinnacle mantém -7. P justa CLE -6.5 = 51.9% → valor 1.039 (alternativa -5.5 @1.862: P 55.2%, valor 1.029). CLE sem Mobley e Tyson, Watson questionável (já no preço da Pinnacle); IND sem Haliburton. Não entrar abaixo de 1.93 em -6.5 nem abaixo de 1.80 em -5.5."
     },
     {
       "match": "Brooklyn Nets vs Orlando Magic",
@@ -39,6 +39,10 @@
     }
   ],
   "avoid": [
+    {
+      "match": "Detroit Pistons vs Toronto Raptors",
+      "reason": "TOR +8.5 @1.90 RETIRADO às 20h30: a 1xBet já não oferece +8.5 (só ~+6.5). Pinnacle às 18:35Z: TOR +6.5 com P 47% → sem valor."
+    },
     {
       "match": "Atlanta Hawks vs Charlotte Hornets",
       "reason": "Over 219 (estimado 222.1, +2.6) e Q2 Over 55.5 com sinal, mas CHA sem Schroder, Knueppel, G. Williams e Allen → regra de jogadores importantes fora. ATL 67% (-6): sem valor (P×odd ≤ 0.97; Pinnacle ≤ 0.985)."
