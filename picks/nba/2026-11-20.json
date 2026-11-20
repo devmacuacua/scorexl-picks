@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-20",
+  "sport": "NBA",
+  "note": "Revisão manual 19h (pedido do Francisco), regras novas de 19/11. Recolha fresca generated_at 2026-11-20T17:17:43Z; 9 jogos, todos com odds 1xBet e Pinnacle. Lesões: DET Cade Cunningham PROVÁVEL (joelho), Duren, Robinson, Holland e Prince fora; TOR Barrett e Leonard fora; HOU Sengun e Adams QUESTIONÁVEIS, Capela fora; LAL Reaves FORA; OKC Holmgren, J. Williams, Wallace fora, Caruso questionável; CLE Mobley fora, Watson questionável; CHA Schroder, Knueppel, G. Williams e Allen fora; ORL Banchero e Isaac fora (desde outubro). Estado de Jokic/Murray não confirmado. A tarefa das 21h47 revê estes palpites com odds mais recentes.",
+  "picks": [
+    {
+      "match": "Detroit Pistons vs Toronto Raptors",
+      "tipoff_maputo": "2026-11-21T02:30:00+02:00",
+      "market": "handicap",
+      "strategy": "pinnacle_value",
+      "selection": "Toronto Raptors +8.5",
+      "line": 8.5,
+      "min_odds": 1.83,
+      "odds_ref": 1.9,
+      "bookmaker": "1xBet",
+      "sharp_odds": {
+        "Pinnacle": "DET -8.5 @2.14 / TOR +8.5 @1.76"
+      },
+      "win_prob": 0.549,
+      "confidence": "media",
+      "stake_units": 0.5,
+      "reason": "Pinnacle tem DET -7.5 como linha justa (1.98/1.91) e TOR +8.5 a 1.76 (P justa 54.9%); a 1xBet paga TOR +8.5 a 1.90 → valor 1.043. DET sem Duren, Holland, Robinson e Prince; Cade provável (joelho) — se Cade for confirmado FORA a linha cai e o valor aumenta; não entrar abaixo de 1.83 nem em TOR +7.5 ou menos."
+    },
+    {
+      "match": "Brooklyn Nets vs Orlando Magic",
+      "tipoff_maputo": "2026-11-21T02:30:00+02:00",
+      "market": "quarter_over",
+      "strategy": "quarter_modelo",
+      "period": "Q2",
+      "selection": "Q2 Over 56.5",
+      "line": 56.5,
+      "min_odds": 1.8,
+      "odds_ref": 1.91,
+      "bookmaker": "1xBet",
+      "win_prob": 0.665,
+      "confidence": "media",
+      "stake_units": 0.5,
+      "reason": "Q2 estimado 59.9 (época) / 59.5 (últimos 10) vs linha justa 56.5 (Over 1.91 / Under 1.80) → +3.4/+3.0. P=Φ(3.4/8)=66.5%, P×odd 1.27. Banchero e Isaac fora desde outubro (já nas médias). Total do jogo também com margem (+3.6), mas fica só um Over por jogo (o de quarto tem maior P×odd). Não entrar se a linha subir acima de 57.5."
+    }
+  ],
+  "avoid": [
+    {
+      "match": "Atlanta Hawks vs Charlotte Hornets",
+      "reason": "Over 219 (estimado 222.1, +2.6) e Q2 Over 55.5 com sinal, mas CHA sem Schroder, Knueppel, G. Williams e Allen → regra de jogadores importantes fora. ATL 67% (-6): sem valor (P×odd ≤ 0.97; Pinnacle ≤ 0.985)."
+    },
+    {
+      "match": "Cleveland Cavaliers vs Indiana Pacers",
+      "reason": "CLE 70% (-7) sem Mobley; Pinnacle ≤ 0.985 em todas as linhas. Total: modelo abaixo do mercado (230.4 vs 234.5) — Unders por modelo não entram."
+    },
+    {
+      "match": "Chicago Bulls vs Washington Wizards",
+      "reason": "CHI 58%: WAS +3.5 pelo modelo só 1.017 (< 1.03). Total 240.5 acima do estimado 234.7 (Unders por modelo não)."
+    },
+    {
+      "match": "Oklahoma City Thunder vs New Orleans Pelicans",
+      "reason": "OKC 80% (-11) sem Holmgren, J. Williams e Wallace; Caruso questionável. Melhor linha OKC -10.5 @1.86: Pinnacle 0.988. Total ≈ mercado."
+    },
+    {
+      "match": "Utah Jazz vs Phoenix Suns",
+      "reason": "PHX 62.5% (-4). Azarão UTA +4.5 parece valor pelo modelo (1.21), mas sem Markkanen (pulso) o modelo cai para -3.3 vs -4 (diferença < 3). Pinnacle ≤ 0.993."
+    },
+    {
+      "match": "Denver Nuggets vs Houston Rockets",
+      "reason": "52%: equilibrado, modelo ≈ mercado. Q1 Over 55.5 @2.00 com sinal (estimado 56.5/56.8 vs justa 55), mas Sengun e Adams questionáveis e estado de Jokic/Murray não confirmado."
+    },
+    {
+      "match": "Los Angeles Lakers vs Sacramento Kings",
+      "reason": "LAL 86% (-14) sem Reaves: sem valor (Pinnacle ≤ 0.994). Q2 Over 58.5 @2.00 com sinal (61.5/61.9), mas Reaves fora → evitado."
+    },
+    {
+      "match": "Detroit Pistons vs Toronto Raptors (Overs)",
+      "reason": "Over do jogo (estimado 224.1 vs 217.5) e Q1 Over 53.5 com sinal no modelo, mas Leonard e Barrett fora (TOR) e Cade em dúvida; a Pinnacle dá Over ≈ justo (0.97). Fica só o TOR +8.5."
+    }
+  ]
+}
