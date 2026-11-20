@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-19",
+  "sport": "NBA",
+  "results": [
+    {
+      "match": "San Antonio Spurs vs Los Angeles Clippers",
+      "market": "handicap",
+      "strategy": "fallback",
+      "selection": "Los Angeles Clippers +16.5",
+      "final_score": "SAS 124-112 LAC",
+      "margin": -12,
+      "total_points": 236,
+      "status": "win",
+      "stake_units": 0.25,
+      "odds_ref": 1.89,
+      "profit_units": 0.2225
+    }
+  ],
+  "day": {
+    "bets": 1,
+    "wins": 1,
+    "losses": 0,
+    "pushes": 0,
+    "profit_units": 0.2225
+  }
+}
