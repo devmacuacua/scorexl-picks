@@ -1,7 +1,7 @@
 {
   "date": "2026-11-21",
   "sport": "football",
-  "note": "Sábado 21/11: fonte principal data/football/2026-11-21.json (api-sports.io, gerado 21/11 03:13 UTC, 26 jogos, 0 errors, odds 1xBet). Liquidado 20/11: Athletic–Espanyol com 11 cantos (vitória). Probabilidade de cantos = Poisson sobre a média esperada, combinada com a probabilidade implícita no mercado. Médias corrigidas sem jogos da Taça quando estes as inflacionam. Sem pesquisa web adicional.",
+  "note": "Sábado 21/11: fonte principal data/football/2026-11-21.json (api-sports.io, gerado 21/11 03:13 UTC, 26 jogos, 0 errors, odds 1xBet). Liquidado 20/11: Athletic–Espanyol com 11 cantos (vitória). Probabilidade de cantos = Poisson sobre a média esperada, combinada com a probabilidade implícita no mercado. Médias corrigidas sem jogos da Taça quando estes as inflacionam. Sem pesquisa web adicional. 07h: acrescentado o teste Nice–PSG Mais de 9.5 enquadrados, a pedido do Francisco (sem odd real em data/; min_odds 1.36).",
   "picks": [
     {
       "match": "Parma vs AS Roma",
@@ -16,6 +16,20 @@
       "confidence": "alta",
       "stake_units": 1,
       "reason": "Cantos esperados 11.3, ou seja 2.3 acima da linha 9. A Roma (3.ª, saldo +21) marca 7.0 cantos por jogo e o Parma (16.º, saldo -8) sofre 7.8. Totais recentes: Roma 13/4/11/15/13, Parma 16/13/9/11/8. É o perfil de super favorito (1.30) que vai pressionar. P≈0.66 × 1.71 = 1.13."
+    },
+    {
+      "match": "Nice vs Paris Saint Germain",
+      "competition": "Ligue 1",
+      "kickoff_maputo": "2026-11-21T18:15:00+02:00",
+      "market": "shots_on_target_over",
+      "selection": "Mais de 9.5 remates enquadrados",
+      "line": 9.5,
+      "min_odds": 1.36,
+      "win_prob": 0.76,
+      "confidence": "media",
+      "stake_units": 0.5,
+      "test": true,
+      "reason": "Enquadrados esperados 12.9, 3.4 acima da linha 9.5. Totais recentes: Nice 12/17/9/9/9, PSG 10/14/15/15/19. O PSG remata 7 a 14 enquadrados por jogo (os valores mais altos foram na Champions) e o Nice também remata bem. O ficheiro de dados não tem odds para este mercado: confirmar na 1xBet e entrar só com odd de 1.36 ou mais. Teste numa liga nacional, publicado a pedido do Francisco."
     }
   ],
   "avoid": [
