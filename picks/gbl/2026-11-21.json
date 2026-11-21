@@ -1,0 +1,66 @@
+{
+ "date": "2026-11-21",
+ "sport": "Basket League (Grécia)",
+ "league_key": "gbl",
+ "note": "Dados generated_at 2026-11-21T10:30:12+00:00 (recolha fresca OK). Lesões: pesquisa web (Eurohoops/Gazzetta/SDNA) sem notícias atuais específicas destes jogos; notícia Eurohoops de Panathinaikos sem Hernangómez e Bonga (contexto recente) reforça o azarão Maroussi +18.5. Nenhum palpite retirado; limitação: confirmar baixas antes do jogo. Nada a liquidar.",
+ "picks": [
+  {
+   "match": "Panathinaikos vs Maroussi",
+   "tipoff_maputo": "2026-11-21T17:30:00+02:00",
+   "game_id": 521968,
+   "bookmaker": "1xBet",
+   "market": "handicap",
+   "selection": "Maroussi +18.5",
+   "side": "away",
+   "line": 18.5,
+   "odds_ref": 1.92,
+   "win_prob": 0.554,
+   "reason": "Mercado Panathinaikos 18.5 pts (P casa 91%); modelo +12.6 (casa); combinado +16.7, σ 13.0. P 55% × 1.92 = 1.064.",
+   "min_odds": 1.81,
+   "confidence": "media",
+   "stake_units": 0.5
+  },
+  {
+   "match": "Kolossos Rhodes vs Promitheas",
+   "tipoff_maputo": "2026-11-21T16:00:00+02:00",
+   "game_id": 521966,
+   "bookmaker": "1xBet",
+   "market": "handicap",
+   "selection": "Kolossos Rhodes -8",
+   "side": "home",
+   "line": -8.0,
+   "odds_ref": 1.94,
+   "win_prob": 0.537,
+   "reason": "Mercado Kolossos Rhodes 8.5 pts (P casa 75%); modelo +10.9 (casa); combinado +9.2, σ 13.0. P 54% × 1.94 = 1.043.",
+   "min_odds": 1.87,
+   "confidence": "media",
+   "stake_units": 0.5
+  },
+  {
+   "match": "Iraklis vs AEK Athens",
+   "tipoff_maputo": "2026-11-21T15:00:00+02:00",
+   "game_id": 521965,
+   "bookmaker": "1xBet",
+   "market": "handicap",
+   "selection": "Iraklis -4.5",
+   "side": "home",
+   "line": -4.5,
+   "odds_ref": 1.94,
+   "win_prob": 0.533,
+   "reason": "Mercado Iraklis 4.5 pts (P casa 63%); modelo +8.1 (casa); combinado +5.6, σ 13.0. P 53% × 1.94 = 1.035.",
+   "min_odds": 1.88,
+   "confidence": "media",
+   "stake_units": 0.5
+  }
+ ],
+ "avoid": [
+  {
+   "match": "Lefkadas vs Peristeri",
+   "reason": "favorito Lefkadas 51% < 65%"
+  },
+  {
+   "match": "PAOK vs Aris",
+   "reason": "favorito Aris 53% < 65%"
+  }
+ ]
+}
