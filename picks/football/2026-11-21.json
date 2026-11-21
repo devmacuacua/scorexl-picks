@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-21",
+  "sport": "football",
+  "note": "Sábado 21/11: fonte principal data/football/2026-11-21.json (api-sports.io, gerado 21/11 03:13 UTC, 26 jogos, 0 errors, odds 1xBet). Liquidado 20/11: Athletic–Espanyol com 11 cantos (vitória). Probabilidade de cantos = Poisson sobre a média esperada, combinada com a probabilidade implícita no mercado. Médias corrigidas sem jogos da Taça quando estes as inflacionam. Sem pesquisa web adicional.",
+  "picks": [
+    {
+      "match": "Parma vs AS Roma",
+      "competition": "Serie A",
+      "kickoff_maputo": "2026-11-21T19:00:00+02:00",
+      "market": "corners_over",
+      "selection": "Mais de 9 cantos (asiático)",
+      "line": 9,
+      "min_odds": 1.52,
+      "odds_ref": 1.71,
+      "win_prob": 0.66,
+      "confidence": "alta",
+      "stake_units": 1,
+      "reason": "Cantos esperados 11.3, ou seja 2.3 acima da linha 9. A Roma (3.ª, saldo +21) marca 7.0 cantos por jogo e o Parma (16.º, saldo -8) sofre 7.8. Totais recentes: Roma 13/4/11/15/13, Parma 16/13/9/11/8. É o perfil de super favorito (1.30) que vai pressionar. P≈0.66 × 1.71 = 1.13."
+    }
+  ],
+  "avoid": [
+    {
+      "match": "Lazio vs Lecce",
+      "reason": "Perfil certo (1.º, saldo +16, contra um Lecce com -10), mas a vitória a 1.45 não tem valor: modelo P≈0.66, P×odd 0.96. Cantos esperados 8.6, sem margem."
+    },
+    {
+      "match": "Real Madrid vs Celta Vigo",
+      "reason": "Vitória a 1.20 e -1.5 a 1.50 sem valor. Cantos esperados 8.5."
+    },
+    {
+      "match": "SV Elversberg vs SC Freiburg",
+      "reason": "Os 11.4 cantos esperados estão inflacionados pelos 18 cantos da Taça. Só com jogos da Bundesliga dá cerca de 10.1, apenas 1.1 acima da linha 9."
+    },
+    {
+      "match": "Napoli vs Torino",
+      "reason": "Cantos esperados 10.5, a margem mínima para a linha 9 (1.58); P×odd ≈1.01, abaixo de 1.03."
+    },
+    {
+      "match": "Sevilla vs Real Betis",
+      "reason": "Dérbi de Sevilha, jogo equilibrado."
+    },
+    {
+      "match": "Newcastle vs Arsenal",
+      "reason": "Jogo grande e equilibrado; cantos esperados 9.9 com odds curtas."
+    }
+  ]
+}

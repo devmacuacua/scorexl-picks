@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-20",
+  "sport": "football",
+  "results": [
+    {
+      "match": "Athletic Club vs Espanyol",
+      "competition": "La Liga",
+      "market": "corners_over",
+      "selection": "Mais de 10 cantos (asiático)",
+      "line": 10,
+      "final_score": "0-1",
+      "final_stat": 11,
+      "status": "win",
+      "stake_units": 0.5,
+      "odds_ref": 1.87,
+      "profit_units": 0.435
+    }
+  ],
+  "day": {
+    "bets": 1,
+    "wins": 1,
+    "losses": 0,
+    "pushes": 0,
+    "profit_units": 0.435
+  }
+}

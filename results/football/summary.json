@@ -15,28 +15,29 @@
     "2026-11-16",
     "2026-11-17",
     "2026-11-18",
-    "2026-11-19"
+    "2026-11-19",
+    "2026-11-20"
   ],
   "totals": {
-    "bets": 8,
-    "wins": 3,
+    "bets": 9,
+    "wins": 4,
     "losses": 5,
     "pushes": 0,
     "pending": 0
   },
-  "hit_rate": 0.375,
-  "staked_units": 4.0,
-  "profit_units": -1.575,
-  "roi": -0.394,
+  "hit_rate": 0.444,
+  "staked_units": 4.5,
+  "profit_units": -1.14,
+  "roi": -0.253,
   "by_confidence": {
     "media": {
-      "bets": 8,
-      "wins": 3,
+      "bets": 9,
+      "wins": 4,
       "losses": 5,
       "pushes": 0,
-      "staked_units": 4.0,
-      "profit_units": -1.575,
-      "roi": -0.394
+      "staked_units": 4.5,
+      "profit_units": -1.14,
+      "roi": -0.253
     }
   },
   "by_market": {
@@ -75,6 +76,15 @@
       "staked_units": 0.5,
       "profit_units": -0.5,
       "roi": -1.0
+    },
+    "corners_over": {
+      "bets": 1,
+      "wins": 1,
+      "losses": 0,
+      "pushes": 0,
+      "staked_units": 0.5,
+      "profit_units": 0.435,
+      "roi": 0.87
     }
   },
   "last_10": [
@@ -133,6 +143,13 @@
       "market": "moneyline",
       "status": "win",
       "profit_units": 0.325
+    },
+    {
+      "date": "2026-11-20",
+      "match": "Athletic Club vs Espanyol",
+      "market": "corners_over",
+      "status": "win",
+      "profit_units": 0.435
     }
   ]
 }
