@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-21",
+  "sport": "Super Ligi (Turquia)",
+  "league_key": "bsl",
+  "note": "Dados api-sports generated_at 2026-11-21T08:44:17+00:00 (recolha fresca). 4 jogos; nenhum passou os filtros do algoritmo, por isso não houve palpites para rever nas lesões. Nada por liquidar.",
+  "picks": [],
+  "avoid": [
+    {
+      "match": "Karsiyaka vs Denizli Basket",
+      "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Karsiyaka 5.5, combinado 5.6)"
+    },
+    {
+      "match": "Turk Telekom vs Tofas",
+      "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Turk Telekom 3.0, combinado 4.8)"
+    },
+    {
+      "match": "Bahcesehir Kol. vs Korfez Basket",
+      "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Bahcesehir Kol. 12.5, combinado 12.0)"
+    },
+    {
+      "match": "Bursaspor vs Bordo Bandirma",
+      "reason": "favorito Bordo Bandirma 51% < 65%"
+    }
+  ]
+}
