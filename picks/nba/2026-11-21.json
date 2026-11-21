@@ -1,7 +1,7 @@
 {
   "date": "2026-11-21",
   "sport": "NBA",
-  "note": "Versão da manhã (06h45 Maputo, pedido do Francisco); a tarefa das 21h47 revê com odds e lesões mais recentes. Recolha fresca generated_at 2026-11-21T04:36:01Z; 6 jogos, 4 com odds 1xBet e Pinnacle (SAS-NOP e SAC-BOS sem odds). Nenhuma linha com valor ≥ 1.025 vs Pinnacle (máx. 1.010, NYK-POR Over 216.5). B2: NYK-POR Over (estimado 220.8 vs 216.5) excluído por lesões (POR sem Sharpe e Morant, Avdija day-to-day; NYK Anunoby questionável). Sem favoritos com valor (PHI 83% sem Jaylen Brown; MIL sem Myles Turner). Sem mercados de quarto na 1xBet. Sem jogos 50-65%. → B5: 1 pick de fallback. Lesões via iHeart, Heavy, Metro Philadelphia, FanDuel, Dallas Sports Journal; relatório oficial NBA não lido. 07h: pick de fallback DAL -5 retirada a pedido do Francisco → picks []. 15h20 (pedido do Francisco): nova recolha generated_at 2026-11-21T13:21:20Z, 6 jogos todos com odds 1xBet e Pinnacle. Continua sem valor: máx. 1.015 vs Pinnacle (MIN-MEM Over 227). Sinais do modelo excluídos por lesões: NYK-POR Over 217 (Avdija e Anunoby questionáveis), SAC-BOS Over 217.5 (Tatum e White em dúvida; SAC em B2B), SAS-NOP Over 226.5 (NOP em B2B, Dejounte Murray day-to-day; SAS sem Harper e Harris), PHI-MIL Q2 Over 54.5 (sem Jaylen Brown e Myles Turner). picks [] (sem fallback, a pedido). PHI -11 @1.84 publicado a pedido do Francisco (fallback, stake 0.25).",
+  "note": "Versão da manhã (06h45 Maputo, pedido do Francisco); a tarefa das 21h47 revê com odds e lesões mais recentes. Recolha fresca generated_at 2026-11-21T04:36:01Z; 6 jogos, 4 com odds 1xBet e Pinnacle (SAS-NOP e SAC-BOS sem odds). Nenhuma linha com valor ≥ 1.025 vs Pinnacle (máx. 1.010, NYK-POR Over 216.5). B2: NYK-POR Over (estimado 220.8 vs 216.5) excluído por lesões (POR sem Sharpe e Morant, Avdija day-to-day; NYK Anunoby questionável). Sem favoritos com valor (PHI 83% sem Jaylen Brown; MIL sem Myles Turner). Sem mercados de quarto na 1xBet. Sem jogos 50-65%. → B5: 1 pick de fallback. Lesões via iHeart, Heavy, Metro Philadelphia, FanDuel, Dallas Sports Journal; relatório oficial NBA não lido. 07h: pick de fallback DAL -5 retirada a pedido do Francisco → picks []. 15h20 (pedido do Francisco): nova recolha generated_at 2026-11-21T13:21:20Z, 6 jogos todos com odds 1xBet e Pinnacle. Continua sem valor: máx. 1.015 vs Pinnacle (MIN-MEM Over 227). Sinais do modelo excluídos por lesões: NYK-POR Over 217 (Avdija e Anunoby questionáveis), SAC-BOS Over 217.5 (Tatum e White em dúvida; SAC em B2B), SAS-NOP Over 226.5 (NOP em B2B, Dejounte Murray day-to-day; SAS sem Harper e Harris), PHI-MIL Q2 Over 54.5 (sem Jaylen Brown e Myles Turner). picks [] (sem fallback, a pedido). PHI -11 @1.84 publicado a pedido do Francisco (fallback, stake 0.25). REVISÃO 21h47: recolha fresca OK (generated_at 2026-11-21T19:48:14Z); 6 jogos, todos com odds 1xBet e Pinnacle (PHI-MIL já em curso). B0: nenhuma linha .5 com valor ≥ 1.025 vs Pinnacle (máx. ≈1.00); as linhas inteiras da 1xBet no feed estão fora de sequência (ex.: MIN-MEM Over 227 @1.93 entre 226.5 @1.74 e 227.5 @1.82) → tratadas como erro do feed e ignoradas. B1: SAS 90% (-18.5) sem P×odd ≥ 1.03. B2: sinais em NYK-POR, SAC-BOS e SAS-NOP todos excluídos por lesões. B3: DAL-LAC Q2 Over 55.5 entra. Lesões (iHeart/ClutchPoints/Heavy/Pelicans.com/BasketNews): NYK Towns questionável, Anunoby duvidoso, Clarkson fora; POR Avdija questionável, Morant e Sharpe fora; BOS Tatum (descanso) e White questionáveis; NOP Murray, Murphy III, Mathurin, Watford fora (e em B2B); SAS Harper e T. Harris fora; MIN Edwards e DiVincenzo fora; DAL Lively fora, PJ Washington e Clayton questionáveis; LAC Ingram e Beal fora (já fora no relatório de 20/11). CelticsBlog bloqueado; relatório oficial NBA (PDF) não lido.",
   "picks": [
     {
       "match": "Philadelphia 76ers vs Milwaukee Bucks",
@@ -21,13 +21,28 @@
       "stake_units": 0.25,
       "fallback": true,
       "reason": "Escolha do Francisco (contra os Bucks). Valor esperado ligeiramente negativo (P×odd 0.982); aposta opcional, contabilizada à parte. P justa Pinnacle 53.4%. Linha inteira: vitória por 11 = push. PHI sem Jaylen Brown, MIL sem Myles Turner (já no preço). Não entrar abaixo de 1.84 nem em -11.5 ou mais."
+    },
+    {
+      "match": "Dallas Mavericks vs Los Angeles Clippers",
+      "tipoff_maputo": "2026-11-22T03:00:00+02:00",
+      "market": "quarter_over",
+      "strategy": "quarter_modelo",
+      "period": "Q2",
+      "selection": "Q2 Over 55.5",
+      "line": 55.5,
+      "min_odds": 1.8,
+      "odds_ref": 1.84,
+      "bookmaker": "1xBet",
+      "sharp_odds": {
+        "Pinnacle 19:48Z": "Q2 Over 55.5 @1.85 / Under 55.5 @1.96 (P justa Over 51.4%)"
+      },
+      "win_prob": 0.599,
+      "confidence": "media",
+      "stake_units": 0.5,
+      "reason": "Q2 estimado 57.5 (época) / 58.9 (últimos 10) vs linha justa ≈55.75 (55.5: O 1.84/U 1.90; 56: O 1.91/U 1.83) → +1.75/+3.15. P=Φ(2.0/8)=59.9%, P×odd 1.10. A Pinnacle está mais baixa (Over 55.5 só 0.95 de valor) — pick só do modelo, fase de teste. Nenhuma equipa em back-to-back. LAC sem Ingram e Beal (já fora nos jogos anteriores, nas médias dos últimos 10); DAL sem Lively, PJ Washington questionável. Total do jogo sem sinal (estimado 227.8 vs 229). Não entrar se a linha subir acima de 56.5."
     }
   ],
   "avoid": [
-    {
-      "match": "Dallas Mavericks vs Los Angeles Clippers",
-      "reason": "Fallback DAL -5 @1.87 (P×odd 0.978) retirado a pedido do Francisco (07h). Sem valor vs Pinnacle (máx. 0.978)."
-    },
     {
       "match": "New York Knicks vs Portland Trail Blazers",
       "reason": "Over 216.5 @1.92 com sinal (estimado 220.8, P×odd 1.14; Pinnacle 1.01), mas POR sem Sharpe e Morant, Avdija day-to-day e Anunoby (NYK) questionável → excluído. Entraria se Avdija e Anunoby jogarem e a linha ficar ≤ 217.5."
@@ -43,6 +58,26 @@
     {
       "match": "Sacramento Kings vs Boston Celtics",
       "reason": "Over 217.5 @1.91 com sinal (estimado 222.7, P×odd 1.17; Pinnacle 0.975), mas Tatum e White (BOS) em dúvida e SAC em back-to-back. BOS 85% (-13.5) sem valor."
+    },
+    {
+      "match": "Dallas Mavericks vs Los Angeles Clippers (lado)",
+      "reason": "DAL 65.7% (-5.5), modelo +5.2 ≈ mercado; Pinnacle máx. 0.993. Fallback DAL -5 da manhã retirado a pedido."
+    },
+    {
+      "match": "New York Knicks vs Portland Trail Blazers (21h47)",
+      "reason": "Over 216.5 @1.92 (estimado 220.8) e Q2 Over 55.5 @1.87 (57.7/58.5) com sinal, mas Towns questionável, Anunoby duvidoso, Avdija questionável, Morant/Sharpe fora → excluídos. Entraria Q2 Over 55.5 se Towns e Avdija jogarem e a linha ficar ≤ 56. NYK 64% (-5): POR pelo modelo só +2.7 (< 3)."
+    },
+    {
+      "match": "Sacramento Kings vs Boston Celtics (21h47)",
+      "reason": "Over 217.5 @1.94 (estimado 222.7) e Q2 Over 55.5 com sinal, mas Tatum e White questionáveis e SAC em back-to-back. BOS 85% fora (-13.5): fora de casa só até -6.5."
+    },
+    {
+      "match": "San Antonio Spurs vs New Orleans Pelicans (21h47)",
+      "reason": "SAS 90% (-18.5) vs NOP em B2B sem Murray, Murphy III e Mathurin: SAS -17.5 @1.86 P×odd 0.99 (< 1.03). Over 228.5 @1.89 (estimado 231.2) excluído por lesões/B2B."
+    },
+    {
+      "match": "Minnesota Timberwolves vs Memphis Grizzlies (21h47)",
+      "reason": "MIN 67.6% (-6.5) sem Edwards: sem valor. Over 227 @1.93 'valor 1.09' só nas linhas inteiras do feed (incoerentes) → ignorado; linhas .5 ≈ 1.00."
     }
   ]
 }
