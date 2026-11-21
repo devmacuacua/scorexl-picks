@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-20",
+  "sport": "NBA",
+  "results": [
+    {
+      "match": "Cleveland Cavaliers vs Indiana Pacers",
+      "market": "handicap",
+      "strategy": "pinnacle_value",
+      "selection": "Cleveland Cavaliers -5.5",
+      "final_score": "CLE 128-119 IND",
+      "margin": 9,
+      "total_points": 247,
+      "status": "win",
+      "stake_units": 0.5,
+      "odds_ref": 1.862,
+      "profit_units": 0.431
+    },
+    {
+      "match": "Detroit Pistons vs Toronto Raptors",
+      "market": "handicap",
+      "strategy": "pinnacle_value",
+      "selection": "Toronto Raptors +8.5",
+      "final_score": "DET 102-105 TOR",
+      "margin": 3,
+      "total_points": 207,
+      "status": "win",
+      "stake_units": 0.5,
+      "odds_ref": 1.9,
+      "profit_units": 0.45
+    },
+    {
+      "match": "Brooklyn Nets vs Orlando Magic",
+      "market": "quarter_over",
+      "strategy": "quarter_modelo",
+      "selection": "Q2 Over 56.5",
+      "final_score": "BKN 111-113 ORL",
+      "margin": -2,
+      "total_points": 224,
+      "status": "win",
+      "stake_units": 0.5,
+      "odds_ref": 1.91,
+      "profit_units": 0.455,
+      "quarter_points": 60
+    }
+  ],
+  "day": {
+    "bets": 3,
+    "wins": 3,
+    "losses": 0,
+    "pushes": 0,
+    "profit_units": 1.336
+  }
+}
