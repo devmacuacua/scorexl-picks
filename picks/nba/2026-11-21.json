@@ -1,16 +1,32 @@
 {
   "date": "2026-11-21",
   "sport": "NBA",
-  "note": "Versão da manhã (06h45 Maputo, pedido do Francisco); a tarefa das 21h47 revê com odds e lesões mais recentes. Recolha fresca generated_at 2026-11-21T04:36:01Z; 6 jogos, 4 com odds 1xBet e Pinnacle (SAS-NOP e SAC-BOS sem odds). Nenhuma linha com valor ≥ 1.025 vs Pinnacle (máx. 1.010, NYK-POR Over 216.5). B2: NYK-POR Over (estimado 220.8 vs 216.5) excluído por lesões (POR sem Sharpe e Morant, Avdija day-to-day; NYK Anunoby questionável). Sem favoritos com valor (PHI 83% sem Jaylen Brown; MIL sem Myles Turner). Sem mercados de quarto na 1xBet. Sem jogos 50-65%. → B5: 1 pick de fallback. Lesões via iHeart, Heavy, Metro Philadelphia, FanDuel, Dallas Sports Journal; relatório oficial NBA não lido. 07h: pick de fallback DAL -5 retirada a pedido do Francisco → picks []. 15h20 (pedido do Francisco): nova recolha generated_at 2026-11-21T13:21:20Z, 6 jogos todos com odds 1xBet e Pinnacle. Continua sem valor: máx. 1.015 vs Pinnacle (MIN-MEM Over 227). Sinais do modelo excluídos por lesões: NYK-POR Over 217 (Avdija e Anunoby questionáveis), SAC-BOS Over 217.5 (Tatum e White em dúvida; SAC em B2B), SAS-NOP Over 226.5 (NOP em B2B, Dejounte Murray day-to-day; SAS sem Harper e Harris), PHI-MIL Q2 Over 54.5 (sem Jaylen Brown e Myles Turner). picks [] (sem fallback, a pedido).",
-  "picks": [],
+  "note": "Versão da manhã (06h45 Maputo, pedido do Francisco); a tarefa das 21h47 revê com odds e lesões mais recentes. Recolha fresca generated_at 2026-11-21T04:36:01Z; 6 jogos, 4 com odds 1xBet e Pinnacle (SAS-NOP e SAC-BOS sem odds). Nenhuma linha com valor ≥ 1.025 vs Pinnacle (máx. 1.010, NYK-POR Over 216.5). B2: NYK-POR Over (estimado 220.8 vs 216.5) excluído por lesões (POR sem Sharpe e Morant, Avdija day-to-day; NYK Anunoby questionável). Sem favoritos com valor (PHI 83% sem Jaylen Brown; MIL sem Myles Turner). Sem mercados de quarto na 1xBet. Sem jogos 50-65%. → B5: 1 pick de fallback. Lesões via iHeart, Heavy, Metro Philadelphia, FanDuel, Dallas Sports Journal; relatório oficial NBA não lido. 07h: pick de fallback DAL -5 retirada a pedido do Francisco → picks []. 15h20 (pedido do Francisco): nova recolha generated_at 2026-11-21T13:21:20Z, 6 jogos todos com odds 1xBet e Pinnacle. Continua sem valor: máx. 1.015 vs Pinnacle (MIN-MEM Over 227). Sinais do modelo excluídos por lesões: NYK-POR Over 217 (Avdija e Anunoby questionáveis), SAC-BOS Over 217.5 (Tatum e White em dúvida; SAC em B2B), SAS-NOP Over 226.5 (NOP em B2B, Dejounte Murray day-to-day; SAS sem Harper e Harris), PHI-MIL Q2 Over 54.5 (sem Jaylen Brown e Myles Turner). picks [] (sem fallback, a pedido). PHI -11 @1.84 publicado a pedido do Francisco (fallback, stake 0.25).",
+  "picks": [
+    {
+      "match": "Philadelphia 76ers vs Milwaukee Bucks",
+      "tipoff_maputo": "2026-11-21T20:00:00+02:00",
+      "market": "handicap",
+      "strategy": "fallback",
+      "selection": "Philadelphia 76ers -11",
+      "line": -11,
+      "min_odds": 1.84,
+      "odds_ref": 1.84,
+      "bookmaker": "1xBet",
+      "sharp_odds": {
+        "Pinnacle 13:21Z": "PHI -11 @1.81 / MIL +11 @2.07"
+      },
+      "win_prob": 0.534,
+      "confidence": "baixa",
+      "stake_units": 0.25,
+      "fallback": true,
+      "reason": "Escolha do Francisco (contra os Bucks). Valor esperado ligeiramente negativo (P×odd 0.982); aposta opcional, contabilizada à parte. P justa Pinnacle 53.4%. Linha inteira: vitória por 11 = push. PHI sem Jaylen Brown, MIL sem Myles Turner (já no preço). Não entrar abaixo de 1.84 nem em -11.5 ou mais."
+    }
+  ],
   "avoid": [
     {
       "match": "Dallas Mavericks vs Los Angeles Clippers",
       "reason": "Fallback DAL -5 @1.87 (P×odd 0.978) retirado a pedido do Francisco (07h). Sem valor vs Pinnacle (máx. 0.978)."
-    },
-    {
-      "match": "Philadelphia 76ers vs Milwaukee Bucks",
-      "reason": "PHI 83% (-12) sem Jaylen Brown; MIL sem Myles Turner. Sem valor (MIL +13 @1.84 = 0.993 vs Pinnacle; PHI -12 P×odd 0.955). Total ≈ mercado. Q2 Over 54.5 @1.83 com sinal (58.6/58.2), excluído por Brown e Turner fora."
     },
     {
       "match": "New York Knicks vs Portland Trail Blazers",
