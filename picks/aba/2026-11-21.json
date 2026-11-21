@@ -1,0 +1,17 @@
+{
+ "date": "2026-11-21",
+ "sport": "ABA League",
+ "league_key": "aba",
+ "note": "Dados api-sports generated_at 2026-11-21T12:51:44+00:00 (recolha fresca). 2 jogos hoje, nenhum passa os filtros (P×odd < 1.03 nas linhas 1.80-2.00); sem palpites, revisão de lesões não necessária. Liquidação 2026-11-20: 0 apostas.",
+ "picks": [],
+ "avoid": [
+  {
+   "match": "Cedevita Olimpija vs Slovan Bratislava",
+   "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Cedevita Olimpija 8.5, combinado 7.0)"
+  },
+  {
+   "match": "Spartak Subotica vs Vienna Basket",
+   "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Spartak Subotica 10.0, combinado 8.2)"
+  }
+ ]
+}
