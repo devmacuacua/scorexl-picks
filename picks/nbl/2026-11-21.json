@@ -1,0 +1,17 @@
+{
+ "date": "2026-11-21",
+ "sport": "NBL (Austrália)",
+ "league_key": "nbl",
+ "note": "Dados generated_at 2026-11-21T02:47:34+00:00 (recolha fresca). Lesões (nbl.com.au/basketball.com.au, atualizado 20/11 21h AEDT): Tasmania sem Bryce Hamilton (import, ACL, TBC; NRP Nick Stoddart), Majok Deng, Ben Gold, Nick Marshall; Illawarra sem Mason Peatling (época) e Will Hickey (doença). Único palpite do rascunho (Tasmania -4.5) retirado pela regra de estrangeiros. Sem palpites hoje.",
+ "picks": [],
+ "avoid": [
+  {
+   "match": "Tasmania JackJumpers vs Illawarra Hawks",
+   "reason": "Retirado: estrangeiro titular de Tasmania Bryce Hamilton fora (ACL, TBC; regra NBL de estrangeiros). Rascunho: Tasmania -4.5 @1.90, P 55%, P×odd 1.048. Tasmania também sem Deng, Gold, Marshall."
+  },
+  {
+   "match": "Melbourne United vs New Zealand Breakers",
+   "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Melbourne United 5.5, combinado 6.2)"
+  }
+ ]
+}
