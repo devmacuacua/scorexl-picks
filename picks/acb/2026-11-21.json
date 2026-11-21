@@ -1,0 +1,21 @@
+{
+ "date": "2026-11-21",
+ "sport": "Liga ACB (Espanha)",
+ "league_key": "acb",
+ "note": "Dados frescos (generated_at 2026-11-21T09:18:10+00:00). 3 jogos, nenhum passou os filtros (odd 1.80-2.00, P×odd ≥ 1.03); sem palpites, revisão de lesões não necessária. Nada por liquidar.",
+ "picks": [],
+ "avoid": [
+  {
+   "match": "San Pablo Burgos vs Unicaja",
+   "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Unicaja 7.0, combinado 5.0)"
+  },
+  {
+   "match": "Manresa vs MoraBanc Andorra",
+   "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Manresa 7.5, combinado 6.2)"
+  },
+  {
+   "match": "Murcia vs Basket Zaragoza",
+   "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Murcia 6.5, combinado 5.2)"
+  }
+ ]
+}
