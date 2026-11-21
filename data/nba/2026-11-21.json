@@ -9,7 +9,7 @@
    "home": "Philadelphia 76ers",
    "away": "Milwaukee Bucks",
    "tipoff_maputo": "2026-11-21T20:00+02:00",
-   "status": "BT",
+   "status": "Q4",
    "back_to_back": {
     "home": false,
     "away": false
@@ -15359,7 +15359,7 @@
    }
   }
  },
- "generated_at": "2026-11-21T19:48:14+00:00",
+ "generated_at": "2026-11-21T20:31:00+00:00",
  "source": "api-sports.io",
  "api_calls": 10,
  "errors": []
