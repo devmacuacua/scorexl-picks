@@ -1,29 +1,13 @@
 {
   "date": "2026-11-21",
   "sport": "NBA",
-  "note": "Versão da manhã (06h45 Maputo, pedido do Francisco); a tarefa das 21h47 revê com odds e lesões mais recentes. Recolha fresca generated_at 2026-11-21T04:36:01Z; 6 jogos, 4 com odds 1xBet e Pinnacle (SAS-NOP e SAC-BOS sem odds). Nenhuma linha com valor ≥ 1.025 vs Pinnacle (máx. 1.010, NYK-POR Over 216.5). B2: NYK-POR Over (estimado 220.8 vs 216.5) excluído por lesões (POR sem Sharpe e Morant, Avdija day-to-day; NYK Anunoby questionável). Sem favoritos com valor (PHI 83% sem Jaylen Brown; MIL sem Myles Turner). Sem mercados de quarto na 1xBet. Sem jogos 50-65%. → B5: 1 pick de fallback. Lesões via iHeart, Heavy, Metro Philadelphia, FanDuel, Dallas Sports Journal; relatório oficial NBA não lido.",
-  "picks": [
+  "note": "Versão da manhã (06h45 Maputo, pedido do Francisco); a tarefa das 21h47 revê com odds e lesões mais recentes. Recolha fresca generated_at 2026-11-21T04:36:01Z; 6 jogos, 4 com odds 1xBet e Pinnacle (SAS-NOP e SAC-BOS sem odds). Nenhuma linha com valor ≥ 1.025 vs Pinnacle (máx. 1.010, NYK-POR Over 216.5). B2: NYK-POR Over (estimado 220.8 vs 216.5) excluído por lesões (POR sem Sharpe e Morant, Avdija day-to-day; NYK Anunoby questionável). Sem favoritos com valor (PHI 83% sem Jaylen Brown; MIL sem Myles Turner). Sem mercados de quarto na 1xBet. Sem jogos 50-65%. → B5: 1 pick de fallback. Lesões via iHeart, Heavy, Metro Philadelphia, FanDuel, Dallas Sports Journal; relatório oficial NBA não lido. 07h: pick de fallback DAL -5 retirada a pedido do Francisco → picks [].",
+  "picks": [],
+  "avoid": [
     {
       "match": "Dallas Mavericks vs Los Angeles Clippers",
-      "tipoff_maputo": "2026-11-22T03:00:00+02:00",
-      "market": "handicap",
-      "strategy": "fallback",
-      "selection": "Dallas Mavericks -5",
-      "line": -5,
-      "min_odds": 1.87,
-      "odds_ref": 1.87,
-      "bookmaker": "1xBet",
-      "sharp_odds": {
-        "Pinnacle 04:36Z": "DAL -5 @1.85 / LAC +5 @2.03"
-      },
-      "win_prob": 0.523,
-      "confidence": "baixa",
-      "stake_units": 0.25,
-      "fallback": true,
-      "reason": "Pick do dia garantida: valor esperado ligeiramente negativo (P×odd 0.978); aposta opcional, contabilizada à parte. P justa Pinnacle 52.3%; linha inteira (margem de 5 = push). Modelo DAL +5.2 em casa vs LAC 4-10. P.J. Washington e Walter Clayton questionáveis (DAL). Não entrar abaixo de 1.87 nem se a linha passar para -6 ou mais."
-    }
-  ],
-  "avoid": [
+      "reason": "Fallback DAL -5 @1.87 (P×odd 0.978) retirado a pedido do Francisco (07h). Sem valor vs Pinnacle (máx. 0.978)."
+    },
     {
       "match": "Philadelphia 76ers vs Milwaukee Bucks",
       "reason": "PHI 83% (-12) sem Jaylen Brown; MIL sem Myles Turner. Sem valor (MIL +13 @1.84 = 0.993 vs Pinnacle; PHI -12 P×odd 0.955). Total ≈ mercado."
