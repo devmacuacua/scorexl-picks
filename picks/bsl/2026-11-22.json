@@ -1,0 +1,25 @@
+{
+ "date": "2026-11-22",
+ "sport": "Super Ligi (Turquia)",
+ "league_key": "bsl",
+ "note": "Dados generated_at 2026-11-22T08:44:10+00:00 (recolha fresca). Nenhum palpite: nenhum jogo passou os filtros (favoritos < 65% ou sem linha 1.80-2.00 com P×odd ≥ 1.03). Sem palpites, revisão de lesões não necessária.",
+ "picks": [],
+ "avoid": [
+  {
+   "match": "Cayirova vs Esenler Erokspor",
+   "reason": "favorito Cayirova 56% < 65%"
+  },
+  {
+   "match": "Trabzonspor vs Anadolu Efes",
+   "reason": "favorito Anadolu Efes 62% < 65%"
+  },
+  {
+   "match": "Galatasaray vs Petkim Spor",
+   "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Galatasaray 6.5, combinado 6.8)"
+  },
+  {
+   "match": "Besiktas vs Fenerbahce",
+   "reason": "favorito Fenerbahce 55% < 65%"
+  }
+ ]
+}
