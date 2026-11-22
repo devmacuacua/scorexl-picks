@@ -1,7 +1,7 @@
 {
   "date": "2026-11-22",
   "sport": "football",
-  "note": "Domingo 22/11: fonte principal data/football/2026-11-22.json (api-sports.io, gerado 22/11 02:14 UTC, 16 jogos, 0 errors, odds 1xBet). Sem provas europeias hoje. Liquidado 21/11: Parma–Roma 11 cantos (vitória), Nice–PSG 8 enquadrados (derrota). Probabilidade de cantos = Poisson sobre a média esperada combinada com a probabilidade implícita do mercado; win_prob exclui o push da linha asiática. Sem pesquisa web adicional. Só um jogo cumpre margem, perfil e valor. 11h50: acrescentado o teste de cartões (cards_over) a pedido do Francisco: Poisson sobre os amarelos médios dos últimos 5 jogos (a favor + contra), sem odds reais nem árbitro.",
+  "note": "Domingo 22/11: fonte principal data/football/2026-11-22.json (api-sports.io, gerado 22/11 02:14 UTC, 16 jogos, 0 errors, odds 1xBet). Sem provas europeias hoje. Liquidado 21/11: Parma–Roma 11 cantos (vitória), Nice–PSG 8 enquadrados (derrota). Probabilidade de cantos = Poisson sobre a média esperada combinada com a probabilidade implícita do mercado; win_prob exclui o push da linha asiática. Sem pesquisa web adicional. Só um jogo cumpre margem, perfil e valor. 11h50: acrescentado o teste de cartões (cards_over) a pedido do Francisco: Poisson sobre os amarelos médios dos últimos 5 jogos (a favor + contra), sem odds reais nem árbitro. 14h40: acrescentado Getafe–Atlético Mais de 4.5 cartões (teste) após rever médias da época e o árbitro na web.",
   "picks": [
     {
       "match": "Juventus vs Venezia",
@@ -58,6 +58,21 @@
       "stake_units": 0.5,
       "test": true,
       "reason": "Amarelos esperados 4.6, e o clássico costuma dar mais cartões do que as médias. Sem odd de cartões em data/ e sem dados do árbitro. Conta só amarelos: confirmar na 1xBet se o vermelho vale 2 e entrar só com odd ≥ mínima."
+    },
+    {
+      "match": "Getafe vs Atletico Madrid",
+      "competition": "La Liga",
+      "kickoff_maputo": "2026-11-22T22:00:00+02:00",
+      "market": "cards_over",
+      "selection": "Mais de 4.5 cartões",
+      "line": 4.5,
+      "min_odds": 1.6,
+      "odds_ref": 1.6,
+      "win_prob": 0.63,
+      "confidence": "media",
+      "stake_units": 0.5,
+      "test": true,
+      "reason": "Revisto a pedido do Francisco com estatísticas da época (web): o Getafe leva 3.3 amarelos por jogo na Liga (o mais alto dos 20 clubes; média da liga 2.3) e os seus jogos têm 5.7 amarelos no total, com mais de 4.5 em 8 dos últimos 10. O Atlético leva 2.3. Árbitro Gil Manzano: 4.8 amarelos por jogo. Dérbi de Madrid. Esperado ≈5.2, P(>4.5) ≈0.60–0.65 × 1.60 ≈ 1.00–1.04: valor no limite. Os últimos 5 jogos da api-sports (2.0 por jogo) subestimavam o Getafe. Só amarelos."
     }
   ],
   "avoid": [
