@@ -1,0 +1,17 @@
+{
+ "date": "2026-11-22",
+ "sport": "NBL (Austrália)",
+ "league_key": "nbl",
+ "note": "Dados frescos (generated_at 2026-11-22T02:48:03+00:00). Nenhum jogo passou os filtros do script; sem palpites, por isso não houve verificação de lesões. 21/11 liquidado sem apostas.",
+ "picks": [],
+ "avoid": [
+  {
+   "match": "South East Melbourne vs Cairns Taipans",
+   "reason": "favorito South East Melbourne 61% < 65%"
+  },
+  {
+   "match": "Brisbane Bullets vs Sydney",
+   "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Sydney 6.5, combinado 6.6)"
+  }
+ ]
+}
