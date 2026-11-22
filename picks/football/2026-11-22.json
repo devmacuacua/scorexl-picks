@@ -1,7 +1,7 @@
 {
   "date": "2026-11-22",
   "sport": "football",
-  "note": "Domingo 22/11: fonte principal data/football/2026-11-22.json (api-sports.io, gerado 22/11 02:14 UTC, 16 jogos, 0 errors, odds 1xBet). Sem provas europeias hoje. Liquidado 21/11: Parma–Roma 11 cantos (vitória), Nice–PSG 8 enquadrados (derrota). Probabilidade de cantos = Poisson sobre a média esperada combinada com a probabilidade implícita do mercado; win_prob exclui o push da linha asiática. Sem pesquisa web adicional. Só um jogo cumpre margem, perfil e valor.",
+  "note": "Domingo 22/11: fonte principal data/football/2026-11-22.json (api-sports.io, gerado 22/11 02:14 UTC, 16 jogos, 0 errors, odds 1xBet). Sem provas europeias hoje. Liquidado 21/11: Parma–Roma 11 cantos (vitória), Nice–PSG 8 enquadrados (derrota). Probabilidade de cantos = Poisson sobre a média esperada combinada com a probabilidade implícita do mercado; win_prob exclui o push da linha asiática. Sem pesquisa web adicional. Só um jogo cumpre margem, perfil e valor. 11h50: acrescentado o teste de cartões (cards_over) a pedido do Francisco: Poisson sobre os amarelos médios dos últimos 5 jogos (a favor + contra), sem odds reais nem árbitro.",
   "picks": [
     {
       "match": "Juventus vs Venezia",
@@ -16,6 +16,48 @@
       "confidence": "alta",
       "stake_units": 1,
       "reason": "Cantos esperados 11.5, 2.5 acima da linha 9. A Juventus marca 9.3 cantos por jogo na Serie A (12/13/9/3) e o Venezia (19.º, saldo -13) sofre 7.0 e só marca 3.4. Totais recentes: Juve 17/6/17/15/8, Venezia 10/9/9/12/12. Favorito a 1.40 contra equipa fraca. Poisson: 71% ganha, 10% push (10 cantos é ganho, 9 devolve). P sem push ≈0.78 × 1.43 = 1.11."
+    },
+    {
+      "match": "Barcelona vs Villarreal",
+      "competition": "La Liga",
+      "kickoff_maputo": "2026-11-22T15:00:00+02:00",
+      "market": "cards_over",
+      "selection": "Mais de 3.5 cartões",
+      "line": 3.5,
+      "min_odds": 1.36,
+      "win_prob": 0.73,
+      "confidence": "media",
+      "stake_units": 0.5,
+      "test": true,
+      "reason": "Amarelos esperados 5.0. Os adversários do Barça levam 3–4 por jogo contra ele (4/3/3/3) e o Villarreal leva 2–4. Sem odd de cartões em data/ e sem dados do árbitro. Conta só amarelos: confirmar na 1xBet se o vermelho vale 2 e entrar só com odd ≥ mínima."
+    },
+    {
+      "match": "Racing Santander vs Real Sociedad",
+      "competition": "La Liga",
+      "kickoff_maputo": "2026-11-22T17:15:00+02:00",
+      "market": "cards_over",
+      "selection": "Mais de 3.5 cartões",
+      "line": 3.5,
+      "min_odds": 1.39,
+      "win_prob": 0.72,
+      "confidence": "media",
+      "stake_units": 0.5,
+      "test": true,
+      "reason": "Amarelos esperados 4.9. Totais recentes: Racing 6/2/7/5, Real Sociedad 4/7/6/4/3. Sem odd de cartões em data/ e sem dados do árbitro. Conta só amarelos: confirmar na 1xBet se o vermelho vale 2 e entrar só com odd ≥ mínima."
+    },
+    {
+      "match": "Liverpool vs Manchester United",
+      "competition": "Premier League",
+      "kickoff_maputo": "2026-11-22T18:30:00+02:00",
+      "market": "cards_over",
+      "selection": "Mais de 3.5 cartões",
+      "line": 3.5,
+      "min_odds": 1.48,
+      "win_prob": 0.67,
+      "confidence": "media",
+      "stake_units": 0.5,
+      "test": true,
+      "reason": "Amarelos esperados 4.6, e o clássico costuma dar mais cartões do que as médias. Sem odd de cartões em data/ e sem dados do árbitro. Conta só amarelos: confirmar na 1xBet se o vermelho vale 2 e entrar só com odd ≥ mínima."
     }
   ],
   "avoid": [
