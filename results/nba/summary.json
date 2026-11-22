@@ -1,15 +1,15 @@
 {
   "sport": "NBA",
   "since": "2026-11-05",
-  "updated": "2026-11-21",
-  "bets": 19,
+  "updated": "2026-11-22",
+  "bets": 21,
   "wins": 14,
-  "losses": 5,
+  "losses": 7,
   "pushes": 0,
-  "hit_rate": 0.737,
-  "staked_units": 9.25,
-  "profit_units": 2.0085,
-  "roi": 0.217,
+  "hit_rate": 0.667,
+  "staked_units": 10.0,
+  "profit_units": 1.2585,
+  "roi": 0.126,
   "by_confidence": {
     "alta": {
       "bets": 0,
@@ -17,27 +17,27 @@
       "profit_units": 0
     },
     "media": {
-      "bets": 18,
+      "bets": 19,
       "wins": 13,
-      "profit_units": 1.786
+      "profit_units": 1.286
     },
     "baixa": {
-      "bets": 1,
+      "bets": 2,
       "wins": 1,
-      "profit_units": 0.2225
+      "profit_units": -0.0275
     }
   },
   "last_10": [
     "win",
+    "win",
+    "win",
+    "win",
+    "win",
+    "win",
+    "win",
+    "win",
     "loss",
-    "win",
-    "win",
-    "win",
-    "win",
-    "win",
-    "win",
-    "win",
-    "win"
+    "loss"
   ],
   "days_processed": [
     "2026-11-05",
@@ -55,13 +55,14 @@
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21"
   ],
   "by_market": {
     "handicap": {
-      "bets": 14,
+      "bets": 15,
       "wins": 10,
-      "profit_units": 0.8985
+      "profit_units": 0.6485
     },
     "moneyline": {
       "bets": 0,
@@ -74,9 +75,9 @@
       "profit_units": 0.655
     },
     "quarter_over": {
-      "bets": 1,
+      "bets": 2,
       "wins": 1,
-      "profit_units": 0.455
+      "profit_units": -0.045
     },
     "total_under": {
       "bets": 0,
@@ -105,10 +106,10 @@
       "profit_units": 0.881
     },
     "quarter_modelo": {
-      "bets": 1,
+      "bets": 2,
       "wins": 1,
-      "staked_units": 0.5,
-      "profit_units": 0.455
+      "staked_units": 1.0,
+      "profit_units": -0.045
     },
     "azarao": {
       "bets": 0,
@@ -117,10 +118,10 @@
       "profit_units": 0
     },
     "fallback": {
-      "bets": 1,
+      "bets": 2,
       "wins": 1,
-      "staked_units": 0.25,
-      "profit_units": 0.2225
+      "staked_units": 0.5,
+      "profit_units": -0.0275
     }
   }
 }

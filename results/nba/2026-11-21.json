@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-21",
+  "sport": "NBA",
+  "results": [
+    {
+      "match": "Philadelphia 76ers vs Milwaukee Bucks",
+      "market": "handicap",
+      "strategy": "fallback",
+      "selection": "Philadelphia 76ers -11",
+      "final_score": "PHI 132-129 MIL",
+      "margin": 3,
+      "total_points": 261,
+      "status": "loss",
+      "stake_units": 0.25,
+      "odds_ref": 1.84,
+      "profit_units": -0.25
+    },
+    {
+      "match": "Dallas Mavericks vs Los Angeles Clippers",
+      "market": "quarter_over",
+      "strategy": "quarter_modelo",
+      "selection": "Q2 Over 55.5",
+      "final_score": "DAL 110-100 LAC",
+      "margin": 10,
+      "total_points": 210,
+      "quarter_points": 47,
+      "status": "loss",
+      "stake_units": 0.5,
+      "odds_ref": 1.84,
+      "profit_units": -0.5
+    }
+  ],
+  "day": {
+    "bets": 2,
+    "wins": 0,
+    "losses": 2,
+    "pushes": 0,
+    "profit_units": -0.75
+  }
+}

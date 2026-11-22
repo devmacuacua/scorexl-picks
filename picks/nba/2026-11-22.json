@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-22",
+  "sport": "NBA",
+  "note": "Recolha fresca OK (generated_at 2026-11-22T19:47:57Z). 7 jogos, todos com odds 1xBet e Pinnacle. B0: nenhuma linha .5 com odd 1.80-2.00 e valor ≥ 1.025 vs Pinnacle (máx. 1.005, NYK -7.5); valores altos só em linhas inteiras da 1xBet fora de sequência (ex.: MIA -3 @2.00, UTA -1 @2.20, NYK-IND Over 216) → erro do feed, ignoradas. B1: NYK 74% em back-to-back (evitar); DEN 78% e BOS 75% fora com linhas -9/-8.5 (fora só até -6.5; BOS também em B2B) → nada. B2: ATL-DET Over 223.5 entra (estimado 227.5). Sinais excluídos por lesões: GSW-BOS (estimado 221.0 vs 209.5; GSW sem Curry, Butler, Porzingis, Moody; Tatum e White day-to-day; BOS em B2B), NYK-IND (219.7 vs 213.5; Anunoby e Clarkson fora, Towns questionável, Siakam questionável, Haliburton fora; NYK em B2B), WAS-ORL (224.4 vs 219.5; Banchero fora). B4: WAS +5.5 entra (teste). MIA-OKC: OKC +4.5 tinha sinal pelo modelo, mas OKC sem Jalen Williams, Holmgren, Wallace, Caruso e SGA questionável → excluído. Lesões: iHeart, Heavy, ClutchPoints, Athlon, Dallas Sports Journal, ESPN; TalkBasket e iHeart Mavs-Jazz falharam; PDF oficial da NBA não lido.",
+  "picks": [
+    {
+      "match": "Atlanta Hawks vs Detroit Pistons",
+      "tipoff_maputo": "2026-11-22T22:30:00+02:00",
+      "market": "total_over",
+      "strategy": "over_modelo",
+      "selection": "Over 223.5",
+      "line": 223.5,
+      "min_odds": 1.8,
+      "odds_ref": 1.96,
+      "bookmaker": "1xBet",
+      "sharp_odds": {
+        "Pinnacle": "Over 223.5 @1.96 / Under 223.5 @1.91"
+      },
+      "win_prob": 0.588,
+      "confidence": "media",
+      "stake_units": 0.5,
+      "reason": "Total estimado 227.5 (ATL 117.3/114.6, DET 114.5/108.7) vs linha 223.5 (+4.0). P=Φ(4/18)=58.8%, P×odd 1.15. Pinnacle sem valor (P justa Over 49.3%) — pick só do modelo. Sem back-to-back. DET sem Duren (fora desde 25/10, já nas médias), Holland questionável, Cade provável; ATL sem McCollum e Landale, Flemings questionável. Não entrar se Cade for baixa ou a linha subir acima de 224.5."
+    },
+    {
+      "match": "Washington Wizards vs Orlando Magic",
+      "tipoff_maputo": "2026-11-23T02:00:00+02:00",
+      "market": "handicap",
+      "strategy": "azarao",
+      "selection": "Washington Wizards +5.5",
+      "min_odds": 1.8,
+      "odds_ref": 1.83,
+      "bookmaker": "1xBet",
+      "sharp_odds": {
+        "Pinnacle": "WAS +5.5 @1.84 / ORL -5.5 @2.06"
+      },
+      "win_prob": 0.7,
+      "confidence": "media",
+      "stake_units": 0.25,
+      "test": true,
+      "reason": "ORL 64% (ML 1.50), linha ≈ ORL -5. Modelo: WAS +0.8 (WAS 110.0/116.5, ORL 109.6/112.7, +2.5 casa); diferença 5.8 pts para o lado do azarão. P=Φ(6.3/12)=70.0%, P×odd 1.28. Banchero (ORL) fora desde final de outubro (já nas médias, sem ajuste). Pinnacle sem valor (P justa 52.8%). Fase de teste, stake 0.25. Não entrar abaixo de +4.5 nem a odd < 1.80."
+    }
+  ],
+  "avoid": [
+    {
+      "match": "Golden State Warriors vs Boston Celtics",
+      "reason": "Over 209.5 @1.90 com grande sinal (estimado 221.0, P×odd 1.40), mas GSW sem Curry, Butler, Porzingis e Moody; Tatum (descanso) e White day-to-day; BOS em back-to-back → excluído. BOS 75% fora (-8.5): fora só até -6.5."
+    },
+    {
+      "match": "New York Knicks vs Indiana Pacers",
+      "reason": "NYK 74% (-8.5) mas em back-to-back e sem Anunoby/Clarkson, Towns questionável → evitar. Over 213.5 @1.93 (estimado 219.7, P×odd 1.23) excluído por lesões (também Haliburton fora, Siakam questionável). B0 máx. 1.005 (NYK -7.5). Entraria Over se Towns e Siakam jogarem e a linha ficar ≤ 214.5."
+    },
+    {
+      "match": "Miami Heat vs Oklahoma City Thunder",
+      "reason": "MIA 61% (-4). OKC +4.5 @1.88 tinha sinal pelo modelo (P×odd 1.18), mas OKC sem Jalen Williams, Holmgren, Wallace, Caruso, Jaylin Williams e SGA questionável (Giannis questionável na MIA) → excluído. Total 231.5 sem sinal (estimado 230.9). B0 máx. 0.98."
+    },
+    {
+      "match": "Washington Wizards vs Orlando Magic (total)",
+      "reason": "Over 219.5 @1.90 com sinal (estimado 224.4, P×odd 1.15), mas Banchero (ORL) fora → excluído pela regra de estrela fora."
+    },
+    {
+      "match": "Utah Jazz vs Dallas Mavericks",
+      "reason": "Jogo 50/50, linha ≈ 0; modelo UTA +0.4 (DAL em B2B): sem sinal. Total 225.5 vs estimado 224.3. UTA sem JJJ, Markkanen e Nurkic; DAL sem Lively, PJ Washington duvidoso. B0 máx. 0.994."
+    },
+    {
+      "match": "Chicago Bulls vs Denver Nuggets",
+      "reason": "DEN 78% fora (-9): fora só até -6.5 (DEN -6.5 @1.57). Total 235.5 vs estimado 232.6: sem sinal. B0 máx. 0.983. CHI: Powell e J. Smith questionáveis."
+    }
+  ]
+}
