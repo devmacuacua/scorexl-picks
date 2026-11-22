@@ -1,0 +1,17 @@
+{
+ "date": "2026-11-22",
+ "sport": "Basket League (Grécia)",
+ "league_key": "gbl",
+ "note": "Dados generated_at 2026-11-22T10:29:51+00:00 (recolha fresca OK). Nenhum palpite proposto pelo script (2 jogos, ambos fora dos filtros), pelo que não houve revisão de lesões. Liquidado 21/11: 2-1, +0.43 u.",
+ "picks": [],
+ "avoid": [
+  {
+   "match": "Mykonos vs Vikos",
+   "reason": "favorito Mykonos 62% < 65%"
+  },
+  {
+   "match": "AS Karditsas vs Olympiacos",
+   "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Olympiacos 14.0, combinado 10.4)"
+  }
+ ]
+}

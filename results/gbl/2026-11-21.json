@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-21",
+  "sport": "gbl",
+  "results": [
+    {
+      "match": "Panathinaikos vs Maroussi",
+      "market": "handicap",
+      "selection": "Maroussi +18.5",
+      "stake_units": 0.5,
+      "odds_ref": 1.92,
+      "final_score": "Panathinaikos 85-72 Maroussi",
+      "margin": 13,
+      "total_points": 157,
+      "status": "win",
+      "profit_units": 0.46
+    },
+    {
+      "match": "Kolossos Rhodes vs Promitheas",
+      "market": "handicap",
+      "selection": "Kolossos Rhodes -8",
+      "stake_units": 0.5,
+      "odds_ref": 1.94,
+      "final_score": "Kolossos Rhodes 100-64 Promitheas",
+      "margin": 36,
+      "total_points": 164,
+      "status": "win",
+      "profit_units": 0.47
+    },
+    {
+      "match": "Iraklis vs AEK Athens",
+      "market": "handicap",
+      "selection": "Iraklis -4.5",
+      "stake_units": 0.5,
+      "odds_ref": 1.94,
+      "final_score": "Iraklis 84-87 AEK Athens",
+      "margin": -3,
+      "total_points": 171,
+      "status": "loss",
+      "profit_units": -0.5
+    }
+  ],
+  "day": {
+    "bets": 3,
+    "wins": 2,
+    "losses": 1,
+    "pushes": 0,
+    "profit_units": 0.43
+  }
+}
