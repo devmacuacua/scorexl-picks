@@ -1,7 +1,7 @@
 {
   "date": "2026-11-22",
   "sport": "football",
-  "note": "Domingo 22/11: fonte principal data/football/2026-11-22.json (api-sports.io, gerado 22/11 02:14 UTC, 16 jogos, 0 errors, odds 1xBet). Sem provas europeias hoje. Liquidado 21/11: Parma–Roma 11 cantos (vitória), Nice–PSG 8 enquadrados (derrota). Probabilidade de cantos = Poisson sobre a média esperada combinada com a probabilidade implícita do mercado; win_prob exclui o push da linha asiática. Sem pesquisa web adicional. Só um jogo cumpre margem, perfil e valor. 11h50: acrescentado o teste de cartões (cards_over) a pedido do Francisco: Poisson sobre os amarelos médios dos últimos 5 jogos (a favor + contra), sem odds reais nem árbitro. 14h40: acrescentado Getafe–Atlético Mais de 4.5 cartões (teste) após rever médias da época e o árbitro na web.",
+  "note": "Domingo 22/11: fonte principal data/football/2026-11-22.json (api-sports.io, gerado 22/11 02:14 UTC, 16 jogos, 0 errors, odds 1xBet). Sem provas europeias hoje. Liquidado 21/11: Parma–Roma 11 cantos (vitória), Nice–PSG 8 enquadrados (derrota). Probabilidade de cantos = Poisson sobre a média esperada combinada com a probabilidade implícita do mercado; win_prob exclui o push da linha asiática. Sem pesquisa web adicional. Só um jogo cumpre margem, perfil e valor. 11h50: acrescentado o teste de cartões (cards_over) a pedido do Francisco: Poisson sobre os amarelos médios dos últimos 5 jogos (a favor + contra), sem odds reais nem árbitro. 14h40: acrescentado Getafe–Atlético Mais de 4.5 cartões (teste) após rever médias da época e o árbitro na web. 17h: aplicada já hoje a nova regra (cantos só na 1.ª parte) aos jogos por começar: nenhum cumpre (esperado 1.ª parte = 0.46 × esperado do jogo; P×odd < 1.03 em todos). O palpite Juventus–Venezia (cantos do jogo todo) fica registado tal como foi publicado, porque já estava em jogo.",
   "picks": [
     {
       "match": "Juventus vs Venezia",
@@ -99,6 +99,10 @@
     {
       "match": "Liverpool vs Manchester United",
       "reason": "Clássico; cantos esperados 9.8, sem margem."
+    },
+    {
+      "match": "Cantos 1.ª parte (AC Milan–Frosinone, Atalanta–Inter, Osasuna–Malaga, Liverpool–Man United)",
+      "reason": "Esperado 1.ª parte 4.5–4.9 contra a linha 3.5: P≈0.66–0.72, mas odds 1.33–1.42 dão P×odd 0.88–1.00 (abaixo de 1.03). Linha 4 do Milan a 1.45 também sem valor."
     }
   ]
 }
