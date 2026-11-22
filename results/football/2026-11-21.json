@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-21",
+  "sport": "football",
+  "results": [
+    {
+      "match": "Parma vs AS Roma",
+      "competition": "Serie A",
+      "market": "corners_over",
+      "selection": "Mais de 9 cantos (asiático)",
+      "line": 9,
+      "final_score": "1-5",
+      "final_stat": 11,
+      "status": "win",
+      "stake_units": 1,
+      "odds_ref": 1.71,
+      "profit_units": 0.71,
+      "confidence": "alta"
+    },
+    {
+      "match": "Nice vs Paris Saint Germain",
+      "competition": "Ligue 1",
+      "market": "shots_on_target_over",
+      "selection": "Mais de 9.5 remates enquadrados",
+      "line": 9.5,
+      "final_score": "2-3",
+      "final_stat": 8,
+      "status": "loss",
+      "stake_units": 0.5,
+      "odds_ref": 1.36,
+      "profit_units": -0.5,
+      "confidence": "media",
+      "test": true
+    }
+  ],
+  "day": {
+    "bets": 2,
+    "wins": 1,
+    "losses": 1,
+    "pushes": 0,
+    "profit_units": 0.21
+  }
+}

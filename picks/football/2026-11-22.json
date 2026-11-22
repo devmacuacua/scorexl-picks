@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-22",
+  "sport": "football",
+  "note": "Domingo 22/11: fonte principal data/football/2026-11-22.json (api-sports.io, gerado 22/11 02:14 UTC, 16 jogos, 0 errors, odds 1xBet). Sem provas europeias hoje. Liquidado 21/11: Parma–Roma 11 cantos (vitória), Nice–PSG 8 enquadrados (derrota). Probabilidade de cantos = Poisson sobre a média esperada combinada com a probabilidade implícita do mercado; win_prob exclui o push da linha asiática. Sem pesquisa web adicional. Só um jogo cumpre margem, perfil e valor.",
+  "picks": [
+    {
+      "match": "Juventus vs Venezia",
+      "competition": "Serie A",
+      "kickoff_maputo": "2026-11-22T13:30:00+02:00",
+      "market": "corners_over",
+      "selection": "Mais de 9 cantos (asiático)",
+      "line": 9,
+      "min_odds": 1.29,
+      "odds_ref": 1.43,
+      "win_prob": 0.78,
+      "confidence": "alta",
+      "stake_units": 1,
+      "reason": "Cantos esperados 11.5, 2.5 acima da linha 9. A Juventus marca 9.3 cantos por jogo na Serie A (12/13/9/3) e o Venezia (19.º, saldo -13) sofre 7.0 e só marca 3.4. Totais recentes: Juve 17/6/17/15/8, Venezia 10/9/9/12/12. Favorito a 1.40 contra equipa fraca. Poisson: 71% ganha, 10% push (10 cantos é ganho, 9 devolve). P sem push ≈0.78 × 1.43 = 1.11."
+    }
+  ],
+  "avoid": [
+    {
+      "match": "Osasuna vs Malaga",
+      "reason": "Cantos esperados 10.2 (linha 8 a 1.33), mas valor no limite (≈1.03) e jogo entre duas equipas de saldo negativo, fora do perfil."
+    },
+    {
+      "match": "Barcelona vs Villarreal",
+      "reason": "Vitória a 1.25 sem valor; -1.5 a 1.52 contra um Villarreal 9.º com saldo positivo. Cantos esperados 10.4, mas a linha 9 paga 1.22."
+    },
+    {
+      "match": "Paris FC vs Angers",
+      "reason": "Vitória a 1.36 (<1.40) e -1.5 a 1.98 sem desequilíbrio suficiente; cantos esperados 8.3."
+    },
+    {
+      "match": "Marseille vs Le Mans",
+      "reason": "Cantos esperados 7.9; -1.5 a 2.29 arriscado."
+    },
+    {
+      "match": "Atalanta vs Inter",
+      "reason": "Jogo grande e equilibrado; cantos esperados 10.5 com linha 9 a 1.67 sem margem de 1.5 clara contra a linha asiática 9.5/10."
+    },
+    {
+      "match": "Liverpool vs Manchester United",
+      "reason": "Clássico; cantos esperados 9.8, sem margem."
+    }
+  ]
+}
