@@ -138,9 +138,9 @@
    "id": 519769,
    "home": "New York Knicks",
    "away": "Portland Trail Blazers",
-   "status": "Q3",
-   "score_home": 78,
-   "score_away": 69,
+   "status": "FT",
+   "score_home": 97,
+   "score_away": 96,
    "quarters": {
     "q1": [
      40,
@@ -151,12 +151,12 @@
      20
     ],
     "q3": [
-     12,
-     26
+     15,
+     29
     ],
     "q4": [
-     null,
-     null
+     16,
+     24
     ],
     "ot": [
      null,
@@ -168,9 +168,9 @@
    "id": 519770,
    "home": "Dallas Mavericks",
    "away": "Los Angeles Clippers",
-   "status": "HT",
-   "score_home": 52,
-   "score_away": 44,
+   "status": "FT",
+   "score_home": 110,
+   "score_away": 100,
    "quarters": {
     "q1": [
      23,
@@ -181,12 +181,12 @@
      18
     ],
     "q3": [
-     null,
-     null
+     26,
+     30
     ],
     "q4": [
-     null,
-     null
+     32,
+     26
     ],
     "ot": [
      null,
@@ -198,9 +198,9 @@
    "id": 519771,
    "home": "Minnesota Timberwolves",
    "away": "Memphis Grizzlies",
-   "status": "HT",
-   "score_home": 56,
-   "score_away": 46,
+   "status": "FT",
+   "score_home": 104,
+   "score_away": 95,
    "quarters": {
     "q1": [
      28,
@@ -211,12 +211,12 @@
      12
     ],
     "q3": [
-     null,
-     null
+     27,
+     16
     ],
     "q4": [
-     null,
-     null
+     21,
+     33
     ],
     "ot": [
      null,
@@ -228,9 +228,9 @@
    "id": 519772,
    "home": "San Antonio Spurs",
    "away": "New Orleans Pelicans",
-   "status": "HT",
-   "score_home": 61,
-   "score_away": 45,
+   "status": "FT",
+   "score_home": 114,
+   "score_away": 91,
    "quarters": {
     "q1": [
      32,
@@ -241,12 +241,12 @@
      16
     ],
     "q3": [
-     null,
-     null
+     28,
+     21
     ],
     "q4": [
-     null,
-     null
+     25,
+     25
     ],
     "ot": [
      null,
@@ -258,25 +258,25 @@
    "id": 519773,
    "home": "Sacramento Kings",
    "away": "Boston Celtics",
-   "status": "NS",
-   "score_home": null,
-   "score_away": null,
+   "status": "Q4",
+   "score_home": 79,
+   "score_away": 77,
    "quarters": {
     "q1": [
-     null,
-     null
+     25,
+     27
     ],
     "q2": [
-     null,
-     null
+     16,
+     27
     ],
     "q3": [
-     null,
-     null
+     35,
+     13
     ],
     "q4": [
-     null,
-     null
+     3,
+     10
     ],
     "ot": [
      null,
@@ -1281,16 +1281,16 @@
   "Dallas Mavericks": {
    "games": 15,
    "season": {
-    "q1_for": 27.73,
-    "q1_against": 29.2,
-    "q2_for": 27.2,
-    "q2_against": 30.0
+    "q1_for": 27.53,
+    "q1_against": 28.8,
+    "q2_for": 28.33,
+    "q2_against": 28.67
    },
    "last_10": {
-    "q1_for": 25.9,
-    "q1_against": 29.0,
-    "q2_for": 27.2,
-    "q2_against": 30.6
+    "q1_for": 25.5,
+    "q1_against": 29.6,
+    "q2_for": 28.4,
+    "q2_against": 29.3
    }
   },
   "Denver Nuggets": {
@@ -1371,16 +1371,16 @@
   "Los Angeles Clippers": {
    "games": 14,
    "season": {
-    "q1_for": 27.36,
-    "q1_against": 27.57,
-    "q2_for": 29.07,
-    "q2_against": 28.71
+    "q1_for": 26.29,
+    "q1_against": 27.14,
+    "q2_for": 28.93,
+    "q2_against": 29.0
    },
    "last_10": {
-    "q1_for": 26.9,
-    "q1_against": 28.2,
-    "q2_for": 31.2,
-    "q2_against": 28.9
+    "q1_for": 27.1,
+    "q1_against": 27.1,
+    "q2_for": 29.8,
+    "q2_against": 28.3
    }
   },
   "Los Angeles Lakers": {
@@ -1401,16 +1401,16 @@
   "Memphis Grizzlies": {
    "games": 16,
    "season": {
-    "q1_for": 29.06,
-    "q1_against": 29.31,
-    "q2_for": 31.75,
-    "q2_against": 29.0
+    "q1_for": 29.38,
+    "q1_against": 29.12,
+    "q2_for": 30.31,
+    "q2_against": 29.5
    },
    "last_10": {
-    "q1_for": 29.6,
-    "q1_against": 30.9,
-    "q2_for": 30.4,
-    "q2_against": 29.3
+    "q1_for": 30.2,
+    "q1_against": 30.3,
+    "q2_for": 28.2,
+    "q2_against": 29.6
    }
   },
   "Miami Heat": {
@@ -1446,46 +1446,46 @@
   "Minnesota Timberwolves": {
    "games": 16,
    "season": {
-    "q1_for": 28.56,
-    "q1_against": 26.19,
-    "q2_for": 28.19,
-    "q2_against": 27.62
+    "q1_for": 28.19,
+    "q1_against": 26.31,
+    "q2_for": 27.75,
+    "q2_against": 26.69
    },
    "last_10": {
     "q1_for": 27.7,
     "q1_against": 26.8,
-    "q2_for": 27.3,
-    "q2_against": 27.2
+    "q2_for": 26.8,
+    "q2_against": 25.8
    }
   },
   "New Orleans Pelicans": {
    "games": 17,
    "season": {
-    "q1_for": 28.71,
-    "q1_against": 29.29,
-    "q2_for": 28.76,
-    "q2_against": 29.76
+    "q1_for": 28.59,
+    "q1_against": 28.94,
+    "q2_for": 27.65,
+    "q2_against": 30.41
    },
    "last_10": {
-    "q1_for": 28.0,
-    "q1_against": 29.2,
-    "q2_for": 27.6,
-    "q2_against": 30.9
+    "q1_for": 28.5,
+    "q1_against": 30.0,
+    "q2_for": 27.4,
+    "q2_against": 32.5
    }
   },
   "New York Knicks": {
    "games": 15,
    "season": {
-    "q1_for": 27.4,
+    "q1_for": 28.4,
     "q1_against": 26.07,
-    "q2_for": 28.2,
-    "q2_against": 24.6
+    "q2_for": 27.73,
+    "q2_against": 23.87
    },
    "last_10": {
-    "q1_for": 27.2,
-    "q1_against": 25.0,
-    "q2_for": 29.6,
-    "q2_against": 24.6
+    "q1_for": 29.1,
+    "q1_against": 24.4,
+    "q2_for": 29.9,
+    "q2_against": 24.2
    }
   },
   "Oklahoma City Thunder": {
@@ -1551,16 +1551,16 @@
   "Portland Trail Blazers": {
    "games": 15,
    "season": {
-    "q1_for": 27.07,
-    "q1_against": 26.2,
-    "q2_for": 32.47,
-    "q2_against": 30.2
+    "q1_for": 25.73,
+    "q1_against": 28.07,
+    "q2_for": 31.87,
+    "q2_against": 30.13
    },
    "last_10": {
-    "q1_for": 25.2,
-    "q1_against": 26.7,
-    "q2_for": 32.5,
-    "q2_against": 30.3
+    "q1_for": 25.6,
+    "q1_against": 27.6,
+    "q2_for": 30.6,
+    "q2_against": 29.4
    }
   },
   "Sacramento Kings": {
@@ -1581,16 +1581,16 @@
   "San Antonio Spurs": {
    "games": 16,
    "season": {
-    "q1_for": 30.44,
-    "q1_against": 27.31,
-    "q2_for": 30.62,
-    "q2_against": 27.31
+    "q1_for": 30.69,
+    "q1_against": 27.0,
+    "q2_for": 31.44,
+    "q2_against": 26.38
    },
    "last_10": {
-    "q1_for": 30.5,
-    "q1_against": 25.1,
-    "q2_for": 31.0,
-    "q2_against": 26.7
+    "q1_for": 31.0,
+    "q1_against": 26.4,
+    "q2_for": 30.7,
+    "q2_against": 25.0
    }
   },
   "Toronto Raptors": {
@@ -1639,7 +1639,7 @@
    }
   }
  },
- "generated_at": "2026-11-22T02:14:20+00:00",
+ "generated_at": "2026-11-22T05:11:00+00:00",
  "source": "api-sports.io",
  "api_calls": 11,
  "errors": []
