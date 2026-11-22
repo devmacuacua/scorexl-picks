@@ -1,0 +1,48 @@
+name: Estudo cantos 1.ª parte
+
+on:
+  workflow_dispatch:
+    inputs:
+      season:
+        description: "Época (ano de início, ex. 2026). Vazio = atual"
+        required: false
+      leagues:
+        description: "Ids das ligas por vírgulas (vazio = 39,140,135,78,61,2,3,848)"
+        required: false
+      max_calls:
+        description: "Máximo de pedidos nesta corrida"
+        required: false
+        default: "900"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: apisports
+  cancel-in-progress: false
+
+jobs:
+  study:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Recolher
+        env:
+          APISPORTS_KEY: ${{ secrets.APISPORTS_KEY }}
+        run: |
+          ARGS="--max-calls ${{ github.event.inputs.max_calls || '900' }}"
+          if [ -n "${{ github.event.inputs.season }}" ]; then ARGS="$ARGS --season ${{ github.event.inputs.season }}"; fi
+          if [ -n "${{ github.event.inputs.leagues }}" ]; then ARGS="$ARGS --leagues ${{ github.event.inputs.leagues }}"; fi
+          python scripts/study_corners_1h.py $ARGS
+      - name: Publicar
+        run: |
+          git config user.name "scorexl-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/study
+          if git diff --cached --quiet; then echo "Sem alterações"; exit 0; fi
+          git commit -m "Estudo cantos 1.ª parte $(date +%F)"
+          for i in 1 2 3; do git pull --rebase origin main && git push origin HEAD:main && break; sleep 5; done
