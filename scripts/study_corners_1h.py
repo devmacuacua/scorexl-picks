@@ -18,14 +18,23 @@ import fetch_apisports as fa  # noqa: E402
 DEFAULT_LEAGUES = "39,140,135,78,61,2,3,848"
 
 
+EXTRA_KEYS = dict(fa.STAT_KEYS, **{"expected_goals": "xg", "Shots insidebox": "shots_inside",
+                                     "Fouls": "fouls", "Offsides": "offsides", "Blocked Shots": "blocked_shots"})
+
+
 def stat_list_to_dict(lst):
     out = {}
     for s in lst or []:
-        k = fa.STAT_KEYS.get(s.get("type"))
+        k = EXTRA_KEYS.get(s.get("type"))
         if k:
             v = s.get("value")
             if isinstance(v, str) and v.endswith("%"):
                 v = int(v[:-1])
+            elif isinstance(v, str):
+                try:
+                    v = float(v)
+                except ValueError:
+                    pass
             out[k] = v or 0
     return out
 
