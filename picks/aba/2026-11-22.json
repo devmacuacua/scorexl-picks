@@ -1,0 +1,29 @@
+{
+ "date": "2026-11-22",
+ "sport": "ABA League",
+ "league_key": "aba",
+ "note": "Dados api-sports generated_at 2026-11-22T12:51:53+00:00 (recolha fresca). 5 jogos hoje (2 já em curso na recolha), nenhum passa os filtros; sem palpites, revisão de lesões não necessária. Liquidação 2026-11-21: 0 apostas.",
+ "picks": [],
+ "avoid": [
+  {
+   "match": "Mega Basket vs Studentski Centar",
+   "reason": "estado Q4"
+  },
+  {
+   "match": "Crvena Zvezda Meridianbet vs Cibona",
+   "reason": "estado Q2"
+  },
+  {
+   "match": "Cluj-Napoca vs Zadar",
+   "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Cluj-Napoca 7.5, combinado 6.3)"
+  },
+  {
+   "match": "Buducnost vs Siroki Brijeg",
+   "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Buducnost 17.0, combinado 13.7)"
+  },
+  {
+   "match": "Partizan Mozzart Bet vs Dubai",
+   "reason": "favorito Partizan Mozzart Bet 53% < 65%"
+  }
+ ]
+}
