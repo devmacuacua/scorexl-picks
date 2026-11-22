@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-22",
+  "sport": "Liga ACB (Espanha)",
+  "league_key": "acb",
+  "note": "Dados frescos (generated_at 2026-11-22T09:17:54+00:00). 6 jogos, nenhum passou os filtros do algoritmo: sem palpites, por isso não houve revisão de lesões. Liquidação de 2026-11-21: 0 apostas.",
+  "picks": [],
+  "avoid": [
+    {
+      "match": "Obradoiro CAB vs Basquet Girona",
+      "reason": "favorito Obradoiro CAB 64% < 65%"
+    },
+    {
+      "match": "Bilbao vs Baskonia",
+      "reason": "favorito Bilbao 54% < 65%"
+    },
+    {
+      "match": "Leyma Coruna vs Forca Lleida",
+      "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Leyma Coruna 4.5, combinado 4.8)"
+    },
+    {
+      "match": "Valencia vs Breogan",
+      "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Valencia 13.0, combinado 11.7)"
+    },
+    {
+      "match": "Tenerife vs Barcelona",
+      "reason": "favorito Tenerife 50% < 65%"
+    },
+    {
+      "match": "Real Madrid vs Joventut Badalona",
+      "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Real Madrid 12.0, combinado 12.7)"
+    }
+  ]
+}
