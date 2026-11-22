@@ -1,0 +1,4393 @@
+{
+ "date": "2026-11-23",
+ "sport": "football",
+ "season": 2026,
+ "note": "kickoff em hora de Maputo; team_form = médias dos últimos 5 jogos (todas as provas)",
+ "fixtures": [
+  {
+   "id": 1557469,
+   "competition": "Premier League",
+   "kickoff_maputo": "2026-11-23T22:00:00+02:00",
+   "status": "NS",
+   "home": "Brentford",
+   "away": "Everton",
+   "standings": {
+    "home": {
+     "rank": 10,
+     "points": 14,
+     "goals_diff": 5,
+     "played": 10,
+     "form": "LWDLD"
+    },
+    "away": {
+     "rank": 7,
+     "points": 16,
+     "goals_diff": 2,
+     "played": 10,
+     "form": "WWLLD"
+    }
+   },
+   "prediction": {
+    "winner": "Brentford",
+    "percent": {
+     "home": "45%",
+     "draw": "45%",
+     "away": "10%"
+    },
+    "advice": "Double chance : Brentford or draw",
+    "under_over": null
+   },
+   "odds": {
+    "bookmaker": "1xBet",
+    "bets": {
+     "Match Winner": [
+      {
+       "value": "Home",
+       "odd": "2.32"
+      },
+      {
+       "value": "Draw",
+       "odd": "3.72"
+      },
+      {
+       "value": "Away",
+       "odd": "3.18"
+      }
+     ],
+     "Asian Handicap": [
+      {
+       "value": "Home -1.25",
+       "odd": "3.76"
+      },
+      {
+       "value": "Away -1.25",
+       "odd": "1.24"
+      },
+      {
+       "value": "Home -1",
+       "odd": "3.46"
+      },
+      {
+       "value": "Away -1",
+       "odd": "1.32"
+      },
+      {
+       "value": "Home -0.75",
+       "odd": "2.59"
+      },
+      {
+       "value": "Away -0.75",
+       "odd": "1.48"
+      },
+      {
+       "value": "Home -0.25",
+       "odd": "1.93"
+      },
+      {
+       "value": "Away -0.25",
+       "odd": "1.89"
+      },
+      {
+       "value": "Home +0",
+       "odd": "1.71"
+      },
+      {
+       "value": "Away +0",
+       "odd": "2.32"
+      },
+      {
+       "value": "Home +0.25",
+       "odd": "1.55"
+      },
+      {
+       "value": "Away +0.25",
+       "odd": "2.70"
+      },
+      {
+       "value": "Home +0.75",
+       "odd": "1.27"
+      },
+      {
+       "value": "Away +0.75",
+       "odd": "3.78"
+      },
+      {
+       "value": "Home -2",
+       "odd": "8.05"
+      },
+      {
+       "value": "Away -2",
+       "odd": "1.05"
+      },
+      {
+       "value": "Home +1",
+       "odd": "1.14"
+      },
+      {
+       "value": "Away +1",
+       "odd": "5.48"
+      },
+      {
+       "value": "Home -1.75",
+       "odd": "5.38"
+      },
+      {
+       "value": "Away -1.75",
+       "odd": "1.11"
+      },
+      {
+       "value": "Home -1.5",
+       "odd": "4.29"
+      },
+      {
+       "value": "Away -1.5",
+       "odd": "1.20"
+      },
+      {
+       "value": "Home +1.25",
+       "odd": "1.11"
+      },
+      {
+       "value": "Away +1.25",
+       "odd": "5.95"
+      },
+      {
+       "value": "Home +1.5",
+       "odd": "1.08"
+      },
+      {
+       "value": "Away +1.5",
+       "odd": "6.30"
+      },
+      {
+       "value": "Home +1.75",
+       "odd": "1.04"
+      },
+      {
+       "value": "Away +1.75",
+       "odd": "8.35"
+      },
+      {
+       "value": "Home -2.5",
+       "odd": "8.75"
+      },
+      {
+       "value": "Away -2.5",
+       "odd": "1.03"
+      },
+      {
+       "value": "Home -2.25",
+       "odd": "7.45"
+      },
+      {
+       "value": "Away -2.25",
+       "odd": "1.05"
+      }
+     ],
+     "Goals Over/Under": [
+      {
+       "value": "Over 1.5",
+       "odd": "1.25"
+      },
+      {
+       "value": "Under 1.5",
+       "odd": "3.76"
+      },
+      {
+       "value": "Over 1.75",
+       "odd": "1.31"
+      },
+      {
+       "value": "Under 1.75",
+       "odd": "3.46"
+      },
+      {
+       "value": "Over 2.0",
+       "odd": "1.40"
+      },
+      {
+       "value": "Under 2.0",
+       "odd": "3.04"
+      },
+      {
+       "value": "Over 2.25",
+       "odd": "1.66"
+      },
+      {
+       "value": "Under 2.25",
+       "odd": "2.43"
+      },
+      {
+       "value": "Over 2.5",
+       "odd": "1.88"
+      },
+      {
+       "value": "Under 2.5",
+       "odd": "2.07"
+      },
+      {
+       "value": "Over 2.75",
+       "odd": "2.03"
+      },
+      {
+       "value": "Under 2.75",
+       "odd": "1.81"
+      },
+      {
+       "value": "Over 3.5",
+       "odd": "3.01"
+      },
+      {
+       "value": "Under 3.5",
+       "odd": "1.39"
+      },
+      {
+       "value": "Over 0.5",
+       "odd": "1.00"
+      },
+      {
+       "value": "Under 0.5",
+       "odd": "11.60"
+      },
+      {
+       "value": "Over 0.75",
+       "odd": "1.00"
+      },
+      {
+       "value": "Under 0.75",
+       "odd": "11.60"
+      },
+      {
+       "value": "Over 1.0",
+       "odd": "1.02"
+      },
+      {
+       "value": "Under 1.0",
+       "odd": "10.40"
+      },
+      {
+       "value": "Over 1.25",
+       "odd": "1.14"
+      },
+      {
+       "value": "Under 1.25",
+       "odd": "5.25"
+      },
+      {
+       "value": "Over 3.0",
+       "odd": "2.42"
+      },
+      {
+       "value": "Under 3.0",
+       "odd": "1.60"
+      },
+      {
+       "value": "Over 4.5",
+       "odd": "5.56"
+      },
+      {
+       "value": "Under 4.5",
+       "odd": "1.13"
+      },
+      {
+       "value": "Over 3.25",
+       "odd": "2.68"
+      },
+      {
+       "value": "Under 3.25",
+       "odd": "1.45"
+      },
+      {
+       "value": "Over 3.75",
+       "odd": "3.57"
+      },
+      {
+       "value": "Under 3.75",
+       "odd": "1.26"
+      },
+      {
+       "value": "Over 4.0",
+       "odd": "4.88"
+      },
+      {
+       "value": "Under 4.0",
+       "odd": "1.17"
+      },
+      {
+       "value": "Over 4.25",
+       "odd": "5.09"
+      },
+      {
+       "value": "Under 4.25",
+       "odd": "1.12"
+      },
+      {
+       "value": "Over 4.75",
+       "odd": "6.88"
+      },
+      {
+       "value": "Under 4.75",
+       "odd": "1.06"
+      },
+      {
+       "value": "Over 5.0",
+       "odd": "9.05"
+      },
+      {
+       "value": "Under 5.0",
+       "odd": "1.04"
+      },
+      {
+       "value": "Over 7.5",
+       "odd": "11.60"
+      },
+      {
+       "value": "Under 7.5",
+       "odd": "1.00"
+      },
+      {
+       "value": "Over 5.5",
+       "odd": "8.65"
+      },
+      {
+       "value": "Under 5.5",
+       "odd": "1.04"
+      },
+      {
+       "value": "Over 6.5",
+       "odd": "9.80"
+      },
+      {
+       "value": "Under 6.5",
+       "odd": "1.02"
+      }
+     ],
+     "Goals Over/Under First Half": [
+      {
+       "value": "Over 1.5",
+       "odd": "2.58"
+      },
+      {
+       "value": "Under 1.5",
+       "odd": "1.50"
+      },
+      {
+       "value": "Over 1.75",
+       "odd": "3.25"
+      },
+      {
+       "value": "Under 1.75",
+       "odd": "1.33"
+      },
+      {
+       "value": "Over 2.0",
+       "odd": "4.90"
+      },
+      {
+       "value": "Under 2.0",
+       "odd": "1.16"
+      },
+      {
+       "value": "Over 2.25",
+       "odd": "5.40"
+      },
+      {
+       "value": "Under 2.25",
+       "odd": "1.13"
+      },
+      {
+       "value": "Over 2.5",
+       "odd": "5.80"
+      },
+      {
+       "value": "Under 2.5",
+       "odd": "1.10"
+      },
+      {
+       "value": "Over 3.5",
+       "odd": "16.50"
+      },
+      {
+       "value": "Under 3.5",
+       "odd": "1.02"
+      },
+      {
+       "value": "Over 0.5",
+       "odd": "1.33"
+      },
+      {
+       "value": "Under 0.5",
+       "odd": "3.28"
+      },
+      {
+       "value": "Over 0.75",
+       "odd": "1.47"
+      },
+      {
+       "value": "Under 0.75",
+       "odd": "2.71"
+      },
+      {
+       "value": "Over 1.0",
+       "odd": "1.75"
+      },
+      {
+       "value": "Under 1.0",
+       "odd": "2.12"
+      },
+      {
+       "value": "Over 1.25",
+       "odd": "2.17"
+      },
+      {
+       "value": "Under 1.25",
+       "odd": "1.70"
+      },
+      {
+       "value": "Over 4.5",
+       "odd": "50.00"
+      }
+     ],
+     "Goals Over/Under - Second Half": [
+      {
+       "value": "Over 1.5",
+       "odd": "2.06"
+      },
+      {
+       "value": "Under 1.5",
+       "odd": "1.79"
+      },
+      {
+       "value": "Over 1.75",
+       "odd": "2.40"
+      },
+      {
+       "value": "Under 1.75",
+       "odd": "1.53"
+      },
+      {
+       "value": "Over 2.0",
+       "odd": "3.30"
+      },
+      {
+       "value": "Under 2.0",
+       "odd": "1.33"
+      },
+      {
+       "value": "Over 2.25",
+       "odd": "3.66"
+      },
+      {
+       "value": "Under 2.25",
+       "odd": "1.23"
+      },
+      {
+       "value": "Over 2.5",
+       "odd": "4.20"
+      },
+      {
+       "value": "Under 2.5",
+       "odd": "1.21"
+      },
+      {
+       "value": "Over 3.5",
+       "odd": "10.00"
+      },
+      {
+       "value": "Under 3.5",
+       "odd": "1.05"
+      },
+      {
+       "value": "Over 0.5",
+       "odd": "1.21"
+      },
+      {
+       "value": "Under 0.5",
+       "odd": "4.20"
+      },
+      {
+       "value": "Over 0.75",
+       "odd": "1.25"
+      },
+      {
+       "value": "Under 0.75",
+       "odd": "3.50"
+      },
+      {
+       "value": "Over 1.0",
+       "odd": "1.39"
+      },
+      {
+       "value": "Under 1.0",
+       "odd": "2.98"
+      },
+      {
+       "value": "Over 1.25",
+       "odd": "1.73"
+      },
+      {
+       "value": "Under 1.25",
+       "odd": "2.14"
+      },
+      {
+       "value": "Over 4.5",
+       "odd": "26.00"
+      },
+      {
+       "value": "Under 4.5",
+       "odd": "1.01"
+      }
+     ],
+     "Both Teams Score": [
+      {
+       "value": "Yes",
+       "odd": "1.63"
+      },
+      {
+       "value": "No",
+       "odd": "2.17"
+      }
+     ],
+     "Asian Handicap First Half": [
+      {
+       "value": "Home -1",
+       "odd": "6.70"
+      },
+      {
+       "value": "Away -1",
+       "odd": "1.06"
+      },
+      {
+       "value": "Home -0.75",
+       "odd": "3.64"
+      },
+      {
+       "value": "Away -0.75",
+       "odd": "1.23"
+      },
+      {
+       "value": "Home -0.25",
+       "odd": "2.21"
+      },
+      {
+       "value": "Away -0.25",
+       "odd": "1.59"
+      },
+      {
+       "value": "Home +0",
+       "odd": "1.66"
+      },
+      {
+       "value": "Away +0",
+       "odd": "2.09"
+      },
+      {
+       "value": "Home +0.25",
+       "odd": "1.38"
+      },
+      {
+       "value": "Away +0.25",
+       "odd": "2.80"
+      },
+      {
+       "value": "Home +0.75",
+       "odd": "1.13"
+      },
+      {
+       "value": "Away +0.75",
+       "odd": "4.85"
+      },
+      {
+       "value": "Home +1",
+       "odd": "1.01"
+      },
+      {
+       "value": "Away +1",
+       "odd": "9.70"
+      },
+      {
+       "value": "Home -1.5",
+       "odd": "8.10"
+      },
+      {
+       "value": "Away -1.5",
+       "odd": "1.02"
+      }
+     ],
+     "Both Teams Score - First Half": [
+      {
+       "value": "Yes",
+       "odd": "4.10"
+      },
+      {
+       "value": "No",
+       "odd": "1.20"
+      }
+     ],
+     "Corners Over Under": [
+      {
+       "value": "Over 8",
+       "odd": "1.20"
+      },
+      {
+       "value": "Under 8",
+       "odd": "3.32"
+      },
+      {
+       "value": "Over 8.5",
+       "odd": "1.34"
+      },
+      {
+       "value": "Under 8.5",
+       "odd": "2.75"
+      },
+      {
+       "value": "Over 9",
+       "odd": "1.41"
+      },
+      {
+       "value": "Under 9",
+       "odd": "2.48"
+      },
+      {
+       "value": "Over 9.5",
+       "odd": "1.60"
+      },
+      {
+       "value": "Under 9.5",
+       "odd": "2.14"
+      },
+      {
+       "value": "Over 10",
+       "odd": "1.78"
+      },
+      {
+       "value": "Under 10",
+       "odd": "1.93"
+      },
+      {
+       "value": "Over 10.5",
+       "odd": "1.97"
+      },
+      {
+       "value": "Under 10.5",
+       "odd": "1.71"
+      },
+      {
+       "value": "Over 11",
+       "odd": "2.23"
+      },
+      {
+       "value": "Under 11",
+       "odd": "1.51"
+      },
+      {
+       "value": "Over 7",
+       "odd": "1.08"
+      },
+      {
+       "value": "Under 7",
+       "odd": "4.67"
+      },
+      {
+       "value": "Over 7.5",
+       "odd": "1.17"
+      },
+      {
+       "value": "Under 7.5",
+       "odd": "3.59"
+      },
+      {
+       "value": "Over 11.5",
+       "odd": "2.46"
+      },
+      {
+       "value": "Under 11.5",
+       "odd": "1.42"
+      },
+      {
+       "value": "Over 12",
+       "odd": "2.85"
+      },
+      {
+       "value": "Under 12",
+       "odd": "1.27"
+      },
+      {
+       "value": "Over 12.5",
+       "odd": "3.07"
+      },
+      {
+       "value": "Under 12.5",
+       "odd": "1.23"
+      },
+      {
+       "value": "Over 6.5",
+       "odd": "1.07"
+      },
+      {
+       "value": "Under 6.5",
+       "odd": "4.89"
+      },
+      {
+       "value": "Over 13.5",
+       "odd": "3.97"
+      },
+      {
+       "value": "Under 13.5",
+       "odd": "1.13"
+      },
+      {
+       "value": "Over 14.5",
+       "odd": "6.80"
+      },
+      {
+       "value": "Under 14.5",
+       "odd": "1.04"
+      },
+      {
+       "value": "Over 13",
+       "odd": "3.77"
+      },
+      {
+       "value": "Under 13",
+       "odd": "1.15"
+      },
+      {
+       "value": "Over 14",
+       "odd": "4.87"
+      },
+      {
+       "value": "Under 14",
+       "odd": "1.07"
+      },
+      {
+       "value": "Over 8.75",
+       "odd": "1.34"
+      },
+      {
+       "value": "Under 8.75",
+       "odd": "2.78"
+      },
+      {
+       "value": "Over 9.25",
+       "odd": "1.48"
+      },
+      {
+       "value": "Under 9.25",
+       "odd": "2.36"
+      },
+      {
+       "value": "Over 9.75",
+       "odd": "1.65"
+      },
+      {
+       "value": "Under 9.75",
+       "odd": "2.08"
+      },
+      {
+       "value": "Over 10.25",
+       "odd": "1.86"
+      },
+      {
+       "value": "Under 10.25",
+       "odd": "1.84"
+      },
+      {
+       "value": "Over 10.75",
+       "odd": "2.12"
+      },
+      {
+       "value": "Under 10.75",
+       "odd": "1.64"
+      },
+      {
+       "value": "Over 11.25",
+       "odd": "2.43"
+      },
+      {
+       "value": "Under 11.25",
+       "odd": "1.48"
+      },
+      {
+       "value": "Over 11.75",
+       "odd": "2.79"
+      },
+      {
+       "value": "Under 11.75",
+       "odd": "1.35"
+      },
+      {
+       "value": "Over 12.25",
+       "odd": "3.20"
+      },
+      {
+       "value": "Under 12.25",
+       "odd": "1.26"
+      }
+     ],
+     "Asian Handicap (2nd Half)": [
+      {
+       "value": "Home -1",
+       "odd": "5.15"
+      },
+      {
+       "value": "Away -1",
+       "odd": "1.11"
+      },
+      {
+       "value": "Home -0.75",
+       "odd": "3.20"
+      },
+      {
+       "value": "Away -0.75",
+       "odd": "1.29"
+      },
+      {
+       "value": "Home -0.25",
+       "odd": "2.08"
+      },
+      {
+       "value": "Away -0.25",
+       "odd": "1.67"
+      },
+      {
+       "value": "Home +0",
+       "odd": "1.65"
+      },
+      {
+       "value": "Away +0",
+       "odd": "2.11"
+      },
+      {
+       "value": "Home +0.25",
+       "odd": "1.42"
+      },
+      {
+       "value": "Away +0.25",
+       "odd": "2.65"
+      },
+      {
+       "value": "Home +0.75",
+       "odd": "1.17"
+      },
+      {
+       "value": "Away +0.75",
+       "odd": "4.30"
+      },
+      {
+       "value": "Home +1",
+       "odd": "1.04"
+      },
+      {
+       "value": "Away +1",
+       "odd": "7.60"
+      },
+      {
+       "value": "Home -1.5",
+       "odd": "6.30"
+      },
+      {
+       "value": "Away -1.5",
+       "odd": "1.06"
+      },
+      {
+       "value": "Home +1.5",
+       "odd": "1.01"
+      },
+      {
+       "value": "Away +1.5",
+       "odd": "8.70"
+      }
+     ],
+     "Corners Asian Handicap": [
+      {
+       "value": "Home -1",
+       "odd": "1.69"
+      },
+      {
+       "value": "Away -1",
+       "odd": "2.03"
+      },
+      {
+       "value": "Home +0",
+       "odd": "1.43"
+      },
+      {
+       "value": "Away +0",
+       "odd": "2.70"
+      },
+      {
+       "value": "Home -3",
+       "odd": "2.80"
+      },
+      {
+       "value": "Away -3",
+       "odd": "1.37"
+      },
+      {
+       "value": "Home -2",
+       "odd": "2.13"
+      },
+      {
+       "value": "Away -2",
+       "odd": "1.62"
+      },
+      {
+       "value": "Home +1",
+       "odd": "1.22"
+      },
+      {
+       "value": "Away +1",
+       "odd": "3.60"
+      },
+      {
+       "value": "Home -1.5",
+       "odd": "1.90"
+      },
+      {
+       "value": "Away -1.5",
+       "odd": "1.81"
+      },
+      {
+       "value": "Home -4",
+       "odd": "3.90"
+      },
+      {
+       "value": "Away -4",
+       "odd": "1.19"
+      },
+      {
+       "value": "Home +1.5",
+       "odd": "1.18"
+      },
+      {
+       "value": "Away +1.5",
+       "odd": "3.90"
+      },
+      {
+       "value": "Home -2.5",
+       "odd": "2.36"
+      },
+      {
+       "value": "Away -2.5",
+       "odd": "1.51"
+      },
+      {
+       "value": "Home +2.5",
+       "odd": "1.09"
+      },
+      {
+       "value": "Away +2.5",
+       "odd": "5.50"
+      },
+      {
+       "value": "Home -3.5",
+       "odd": "3.10"
+      },
+      {
+       "value": "Away -3.5",
+       "odd": "1.31"
+      },
+      {
+       "value": "Home -4.5",
+       "odd": "4.20"
+      },
+      {
+       "value": "Away -4.5",
+       "odd": "1.16"
+      },
+      {
+       "value": "Home -5.5",
+       "odd": "5.90"
+      },
+      {
+       "value": "Away -5.5",
+       "odd": "1.07"
+      },
+      {
+       "value": "Home +3.5",
+       "odd": "1.03"
+      },
+      {
+       "value": "Away +3.5",
+       "odd": "7.60"
+      }
+     ],
+     "Total Corners (1st Half)": [
+      {
+       "value": "Over 3.5",
+       "odd": "1.34"
+      },
+      {
+       "value": "Under 3.5",
+       "odd": "2.90"
+      },
+      {
+       "value": "Over 5",
+       "odd": "1.96"
+      },
+      {
+       "value": "Under 5",
+       "odd": "1.75"
+      },
+      {
+       "value": "Over 4.5",
+       "odd": "1.74"
+      },
+      {
+       "value": "Under 4.5",
+       "odd": "1.97"
+      },
+      {
+       "value": "Over 4.75",
+       "odd": "1.77"
+      },
+      {
+       "value": "Under 4.75",
+       "odd": "1.92"
+      },
+      {
+       "value": "Over 5.5",
+       "odd": "2.40"
+      },
+      {
+       "value": "Under 5.5",
+       "odd": "1.49"
+      },
+      {
+       "value": "Over 5.25",
+       "odd": "2.14"
+      },
+      {
+       "value": "Under 5.25",
+       "odd": "1.62"
+      }
+     ]
+    }
+   },
+   "injuries": [
+    {
+     "team": "Brentford",
+     "player": "N. Collins",
+     "type": "Missing Fixture",
+     "reason": "Knee Injury"
+    },
+    {
+     "team": "Brentford",
+     "player": "J. Dasilva",
+     "type": "Missing Fixture",
+     "reason": "Muscle Injury"
+    },
+    {
+     "team": "Brentford",
+     "player": "K. Furo",
+     "type": "Missing Fixture",
+     "reason": "Surgery"
+    },
+    {
+     "team": "Brentford",
+     "player": "R. Henry",
+     "type": "Missing Fixture",
+     "reason": "Hip Injury"
+    },
+    {
+     "team": "Brentford",
+     "player": "A. Hickey",
+     "type": "Missing Fixture",
+     "reason": "Hamstring Injury"
+    },
+    {
+     "team": "Brentford",
+     "player": "I. Thiago",
+     "type": "Missing Fixture",
+     "reason": "Red Card"
+    },
+    {
+     "team": "Brentford",
+     "player": "F. Carvalho",
+     "type": "Questionable",
+     "reason": "Muscle Injury"
+    }
+   ],
+   "team_form": {
+    "home": {
+     "games_used": 5,
+     "avg": {
+      "for": {
+       "shots_on_target": 3.2,
+       "shots": 10.4,
+       "yellow_cards": 2.2,
+       "corners": 4.0,
+       "goals": 1.2
+      },
+      "against": {
+       "shots_on_target": 3.6,
+       "shots": 15.0,
+       "yellow_cards": 2.2,
+       "corners": 5.0,
+       "goals": 1.6
+      }
+     },
+     "last_games": [
+      {
+       "date": "2026-11-08",
+       "league": "Premier League",
+       "opponent": "Brighton",
+       "venue": "away",
+       "goals_for": 0,
+       "goals_against": 2,
+       "stats_for": {
+        "shots_on_target": 0,
+        "shots": 5,
+        "yellow_cards": 2,
+        "corners": 3,
+        "possession": 25
+       },
+       "stats_against": {
+        "shots_on_target": 6,
+        "shots": 20,
+        "yellow_cards": 4,
+        "corners": 7,
+        "possession": 75
+       }
+      },
+      {
+       "date": "2026-10-31",
+       "league": "Premier League",
+       "opponent": "Nottingham Forest",
+       "venue": "home",
+       "goals_for": 2,
+       "goals_against": 0,
+       "stats_for": {
+        "shots_on_target": 1,
+        "shots": 7,
+        "yellow_cards": 1,
+        "corners": 3,
+        "possession": 42
+       },
+       "stats_against": {
+        "shots_on_target": 1,
+        "shots": 15,
+        "yellow_cards": 3,
+        "corners": 4,
+        "possession": 58
+       }
+      },
+      {
+       "date": "2026-10-28",
+       "league": "League Cup",
+       "opponent": "Sunderland",
+       "venue": "away",
+       "goals_for": 2,
+       "goals_against": 3,
+       "stats_for": {
+        "shots_on_target": 7,
+        "shots": 16,
+        "yellow_cards": 3,
+        "corners": 5,
+        "possession": 67
+       },
+       "stats_against": {
+        "shots_on_target": 4,
+        "shots": 7,
+        "yellow_cards": 1,
+        "corners": 0,
+        "possession": 33
+       }
+      },
+      {
+       "date": "2026-10-25",
+       "league": "Premier League",
+       "opponent": "Hull City",
+       "venue": "away",
+       "goals_for": 1,
+       "goals_against": 1,
+       "stats_for": {
+        "shots_on_target": 6,
+        "shots": 14,
+        "corners": 6,
+        "possession": 58,
+        "yellow_cards": 1
+       },
+       "stats_against": {
+        "shots_on_target": 2,
+        "shots": 12,
+        "corners": 5,
+        "possession": 42,
+        "yellow_cards": 0
+       }
+      },
+      {
+       "date": "2026-10-17",
+       "league": "Premier League",
+       "opponent": "Liverpool",
+       "venue": "home",
+       "goals_for": 1,
+       "goals_against": 2,
+       "stats_for": {
+        "shots_on_target": 2,
+        "shots": 10,
+        "corners": 3,
+        "possession": 40,
+        "yellow_cards": 4
+       },
+       "stats_against": {
+        "shots_on_target": 5,
+        "shots": 21,
+        "corners": 9,
+        "possession": 60,
+        "yellow_cards": 3
+       }
+      }
+     ]
+    },
+    "away": {
+     "games_used": 5,
+     "avg": {
+      "for": {
+       "shots_on_target": 5.0,
+       "shots": 11.2,
+       "yellow_cards": 2.8,
+       "corners": 3.8,
+       "goals": 1.4
+      },
+      "against": {
+       "shots_on_target": 5.2,
+       "shots": 19.6,
+       "yellow_cards": 2.2,
+       "corners": 7.0,
+       "goals": 1.2
+      }
+     },
+     "last_games": [
+      {
+       "date": "2026-11-06",
+       "league": "Premier League",
+       "opponent": "Coventry",
+       "venue": "home",
+       "goals_for": 3,
+       "goals_against": 1,
+       "stats_for": {
+        "shots_on_target": 7,
+        "shots": 15,
+        "yellow_cards": 1,
+        "corners": 2,
+        "possession": 47
+       },
+       "stats_against": {
+        "shots_on_target": 4,
+        "shots": 15,
+        "yellow_cards": 1,
+        "corners": 2,
+        "possession": 53
+       }
+      },
+      {
+       "date": "2026-11-02",
+       "league": "Premier League",
+       "opponent": "Newcastle",
+       "venue": "away",
+       "goals_for": 1,
+       "goals_against": 0,
+       "stats_for": {
+        "shots_on_target": 5,
+        "shots": 16,
+        "yellow_cards": 2,
+        "corners": 5,
+        "possession": 48
+       },
+       "stats_against": {
+        "shots_on_target": 2,
+        "shots": 17,
+        "yellow_cards": 2,
+        "corners": 4,
+        "possession": 52
+       }
+      },
+      {
+       "date": "2026-10-29",
+       "league": "League Cup",
+       "opponent": "Newcastle",
+       "venue": "home",
+       "goals_for": 3,
+       "goals_against": 1,
+       "stats_for": {
+        "shots_on_target": 5,
+        "shots": 11,
+        "yellow_cards": 5,
+        "corners": 4,
+        "possession": 44
+       },
+       "stats_against": {
+        "shots_on_target": 9,
+        "shots": 28,
+        "yellow_cards": 3,
+        "corners": 10,
+        "possession": 56
+       }
+      },
+      {
+       "date": "2026-10-24",
+       "league": "Premier League",
+       "opponent": "Arsenal",
+       "venue": "away",
+       "goals_for": 0,
+       "goals_against": 2,
+       "stats_for": {
+        "shots_on_target": 3,
+        "shots": 8,
+        "corners": 3,
+        "possession": 42,
+        "yellow_cards": 3
+       },
+       "stats_against": {
+        "shots_on_target": 4,
+        "shots": 20,
+        "corners": 12,
+        "possession": 58,
+        "yellow_cards": 1
+       }
+      },
+      {
+       "date": "2026-10-17",
+       "league": "Premier League",
+       "opponent": "Chelsea",
+       "venue": "home",
+       "goals_for": 0,
+       "goals_against": 2,
+       "stats_for": {
+        "shots_on_target": 5,
+        "shots": 6,
+        "corners": 5,
+        "possession": 47,
+        "yellow_cards": 3
+       },
+       "stats_against": {
+        "shots_on_target": 7,
+        "shots": 18,
+        "corners": 7,
+        "possession": 53,
+        "yellow_cards": 4
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": 1570457,
+   "competition": "La Liga",
+   "kickoff_maputo": "2026-11-23T22:00:00+02:00",
+   "status": "NS",
+   "home": "Levante",
+   "away": "Elche",
+   "standings": {
+    "home": {
+     "rank": 18,
+     "points": 11,
+     "goals_diff": -5,
+     "played": 12,
+     "form": "DLLWD"
+    },
+    "away": {
+     "rank": 19,
+     "points": 10,
+     "goals_diff": -6,
+     "played": 12,
+     "form": "LLWDD"
+    }
+   },
+   "prediction": {
+    "winner": "Levante",
+    "percent": {
+     "home": "35%",
+     "draw": "35%",
+     "away": "30%"
+    },
+    "advice": "Double chance : Levante or draw",
+    "under_over": null
+   },
+   "odds": {
+    "bookmaker": "1xBet",
+    "bets": {
+     "Match Winner": [
+      {
+       "value": "Home",
+       "odd": "2.26"
+      },
+      {
+       "value": "Draw",
+       "odd": "3.82"
+      },
+      {
+       "value": "Away",
+       "odd": "3.21"
+      }
+     ],
+     "Asian Handicap": [
+      {
+       "value": "Home -1.25",
+       "odd": "3.47"
+      },
+      {
+       "value": "Away -1.25",
+       "odd": "1.28"
+      },
+      {
+       "value": "Home -1",
+       "odd": "3.20"
+      },
+      {
+       "value": "Away -1",
+       "odd": "1.36"
+      },
+      {
+       "value": "Home -0.75",
+       "odd": "2.51"
+      },
+      {
+       "value": "Away -0.75",
+       "odd": "1.54"
+      },
+      {
+       "value": "Home -0.25",
+       "odd": "1.96"
+      },
+      {
+       "value": "Away -0.25",
+       "odd": "1.98"
+      },
+      {
+       "value": "Home +0",
+       "odd": "1.69"
+      },
+      {
+       "value": "Away +0",
+       "odd": "2.36"
+      },
+      {
+       "value": "Home +0.25",
+       "odd": "1.50"
+      },
+      {
+       "value": "Away +0.25",
+       "odd": "2.63"
+      },
+      {
+       "value": "Home +0.75",
+       "odd": "1.26"
+      },
+      {
+       "value": "Away +0.75",
+       "odd": "3.68"
+      },
+      {
+       "value": "Home -2",
+       "odd": "6.88"
+      },
+      {
+       "value": "Away -2",
+       "odd": "1.08"
+      },
+      {
+       "value": "Home +1",
+       "odd": "1.15"
+      },
+      {
+       "value": "Away +1",
+       "odd": "5.25"
+      },
+      {
+       "value": "Home -1.75",
+       "odd": "4.86"
+      },
+      {
+       "value": "Away -1.75",
+       "odd": "1.14"
+      },
+      {
+       "value": "Home -1.5",
+       "odd": "3.86"
+      },
+      {
+       "value": "Away -1.5",
+       "odd": "1.24"
+      },
+      {
+       "value": "Home +1.25",
+       "odd": "1.12"
+      },
+      {
+       "value": "Away +1.25",
+       "odd": "5.60"
+      },
+      {
+       "value": "Home +1.5",
+       "odd": "1.09"
+      },
+      {
+       "value": "Away +1.5",
+       "odd": "5.89"
+      },
+      {
+       "value": "Home +1.75",
+       "odd": "1.05"
+      },
+      {
+       "value": "Away +1.75",
+       "odd": "7.55"
+      },
+      {
+       "value": "Home -2.5",
+       "odd": "7.50"
+      },
+      {
+       "value": "Away -2.5",
+       "odd": "1.05"
+      }
+     ],
+     "Goals Over/Under": [
+      {
+       "value": "Over 1.5",
+       "odd": "1.21"
+      },
+      {
+       "value": "Under 1.5",
+       "odd": "4.24"
+      },
+      {
+       "value": "Over 1.75",
+       "odd": "1.24"
+      },
+      {
+       "value": "Under 1.75",
+       "odd": "3.76"
+      },
+      {
+       "value": "Over 2.0",
+       "odd": "1.32"
+      },
+      {
+       "value": "Under 2.0",
+       "odd": "3.46"
+      },
+      {
+       "value": "Over 2.25",
+       "odd": "1.50"
+      },
+      {
+       "value": "Under 2.25",
+       "odd": "2.62"
+      },
+      {
+       "value": "Over 2.5",
+       "odd": "1.73"
+      },
+      {
+       "value": "Under 2.5",
+       "odd": "2.28"
+      },
+      {
+       "value": "Over 2.75",
+       "odd": "1.91"
+      },
+      {
+       "value": "Under 2.75",
+       "odd": "2.04"
+      },
+      {
+       "value": "Over 3.5",
+       "odd": "2.64"
+      },
+      {
+       "value": "Under 3.5",
+       "odd": "1.49"
+      },
+      {
+       "value": "Over 0.5",
+       "odd": "1.00"
+      },
+      {
+       "value": "Under 0.5",
+       "odd": "11.60"
+      },
+      {
+       "value": "Over 1.0",
+       "odd": "1.02"
+      },
+      {
+       "value": "Under 1.0",
+       "odd": "10.40"
+      },
+      {
+       "value": "Over 1.25",
+       "odd": "1.10"
+      },
+      {
+       "value": "Under 1.25",
+       "odd": "5.69"
+      },
+      {
+       "value": "Over 3.0",
+       "odd": "2.13"
+      },
+      {
+       "value": "Under 3.0",
+       "odd": "1.76"
+      },
+      {
+       "value": "Over 4.5",
+       "odd": "4.56"
+      },
+      {
+       "value": "Under 4.5",
+       "odd": "1.18"
+      },
+      {
+       "value": "Over 3.25",
+       "odd": "2.40"
+      },
+      {
+       "value": "Under 3.25",
+       "odd": "1.59"
+      },
+      {
+       "value": "Over 3.75",
+       "odd": "3.06"
+      },
+      {
+       "value": "Under 3.75",
+       "odd": "1.36"
+      },
+      {
+       "value": "Over 4.0",
+       "odd": "3.96"
+      },
+      {
+       "value": "Under 4.0",
+       "odd": "1.24"
+      },
+      {
+       "value": "Over 4.25",
+       "odd": "4.22"
+      },
+      {
+       "value": "Under 4.25",
+       "odd": "1.19"
+      },
+      {
+       "value": "Over 4.75",
+       "odd": "5.60"
+      },
+      {
+       "value": "Under 4.75",
+       "odd": "1.10"
+      },
+      {
+       "value": "Over 5.0",
+       "odd": "7.70"
+      },
+      {
+       "value": "Under 5.0",
+       "odd": "1.06"
+      },
+      {
+       "value": "Over 7.5",
+       "odd": "11.60"
+      },
+      {
+       "value": "Under 7.5",
+       "odd": "1.00"
+      },
+      {
+       "value": "Over 5.5",
+       "odd": "8.30"
+      },
+      {
+       "value": "Under 5.5",
+       "odd": "1.04"
+      },
+      {
+       "value": "Over 6.5",
+       "odd": "9.80"
+      },
+      {
+       "value": "Under 6.5",
+       "odd": "1.02"
+      }
+     ],
+     "Goals Over/Under First Half": [
+      {
+       "value": "Over 1.5",
+       "odd": "2.35"
+      },
+      {
+       "value": "Under 1.5",
+       "odd": "1.57"
+      },
+      {
+       "value": "Over 1.75",
+       "odd": "2.92"
+      },
+      {
+       "value": "Under 1.75",
+       "odd": "1.38"
+      },
+      {
+       "value": "Over 2.0",
+       "odd": "4.20"
+      },
+      {
+       "value": "Under 2.0",
+       "odd": "1.20"
+      },
+      {
+       "value": "Over 2.25",
+       "odd": "4.65"
+      },
+      {
+       "value": "Under 2.25",
+       "odd": "1.16"
+      },
+      {
+       "value": "Over 2.5",
+       "odd": "5.00"
+      },
+      {
+       "value": "Under 2.5",
+       "odd": "1.13"
+      },
+      {
+       "value": "Over 3.5",
+       "odd": "15.50"
+      },
+      {
+       "value": "Under 3.5",
+       "odd": "1.02"
+      },
+      {
+       "value": "Over 0.5",
+       "odd": "1.30"
+      },
+      {
+       "value": "Under 0.5",
+       "odd": "3.42"
+      },
+      {
+       "value": "Over 0.75",
+       "odd": "1.41"
+      },
+      {
+       "value": "Under 0.75",
+       "odd": "2.88"
+      },
+      {
+       "value": "Over 1.0",
+       "odd": "1.62"
+      },
+      {
+       "value": "Under 1.0",
+       "odd": "2.31"
+      },
+      {
+       "value": "Over 1.25",
+       "odd": "2.01"
+      },
+      {
+       "value": "Under 1.25",
+       "odd": "1.79"
+      },
+      {
+       "value": "Over 4.5",
+       "odd": "41.00"
+      }
+     ],
+     "Goals Over/Under - Second Half": [
+      {
+       "value": "Over 1.5",
+       "odd": "1.91"
+      },
+      {
+       "value": "Under 1.5",
+       "odd": "1.90"
+      },
+      {
+       "value": "Over 1.75",
+       "odd": "2.19"
+      },
+      {
+       "value": "Under 1.75",
+       "odd": "1.63"
+      },
+      {
+       "value": "Over 2.0",
+       "odd": "2.83"
+      },
+      {
+       "value": "Under 2.0",
+       "odd": "1.41"
+      },
+      {
+       "value": "Over 2.25",
+       "odd": "3.22"
+      },
+      {
+       "value": "Under 2.25",
+       "odd": "1.29"
+      },
+      {
+       "value": "Over 2.5",
+       "odd": "3.65"
+      },
+      {
+       "value": "Under 2.5",
+       "odd": "1.25"
+      },
+      {
+       "value": "Over 3.5",
+       "odd": "9.00"
+      },
+      {
+       "value": "Under 3.5",
+       "odd": "1.06"
+      },
+      {
+       "value": "Over 0.5",
+       "odd": "1.17"
+      },
+      {
+       "value": "Under 0.5",
+       "odd": "4.55"
+      },
+      {
+       "value": "Over 0.75",
+       "odd": "1.21"
+      },
+      {
+       "value": "Under 0.75",
+       "odd": "3.86"
+      },
+      {
+       "value": "Over 1.0",
+       "odd": "1.32"
+      },
+      {
+       "value": "Under 1.0",
+       "odd": "3.28"
+      },
+      {
+       "value": "Over 1.25",
+       "odd": "1.62"
+      },
+      {
+       "value": "Under 1.25",
+       "odd": "2.30"
+      },
+      {
+       "value": "Over 4.5",
+       "odd": "23.00"
+      },
+      {
+       "value": "Under 4.5",
+       "odd": "1.01"
+      }
+     ],
+     "Both Teams Score": [
+      {
+       "value": "Yes",
+       "odd": "1.55"
+      },
+      {
+       "value": "No",
+       "odd": "2.32"
+      }
+     ],
+     "Asian Handicap First Half": [
+      {
+       "value": "Home -1",
+       "odd": "5.95"
+      },
+      {
+       "value": "Away -1",
+       "odd": "1.08"
+      },
+      {
+       "value": "Home -0.75",
+       "odd": "3.48"
+      },
+      {
+       "value": "Away -0.75",
+       "odd": "1.25"
+      },
+      {
+       "value": "Home -0.25",
+       "odd": "2.16"
+      },
+      {
+       "value": "Away -0.25",
+       "odd": "1.62"
+      },
+      {
+       "value": "Home +0",
+       "odd": "1.64"
+      },
+      {
+       "value": "Away +0",
+       "odd": "2.12"
+      },
+      {
+       "value": "Home +0.25",
+       "odd": "1.39"
+      },
+      {
+       "value": "Away +0.25",
+       "odd": "2.76"
+      },
+      {
+       "value": "Home +0.75",
+       "odd": "1.15"
+      },
+      {
+       "value": "Away +0.75",
+       "odd": "4.65"
+      },
+      {
+       "value": "Home +1",
+       "odd": "1.02"
+      },
+      {
+       "value": "Away +1",
+       "odd": "8.60"
+      },
+      {
+       "value": "Home -1.5",
+       "odd": "7.10"
+      },
+      {
+       "value": "Away -1.5",
+       "odd": "1.04"
+      },
+      {
+       "value": "Home +1.5",
+       "odd": "1.00"
+      },
+      {
+       "value": "Away +1.5",
+       "odd": "9.80"
+      }
+     ],
+     "Both Teams Score - First Half": [
+      {
+       "value": "Yes",
+       "odd": "3.64"
+      },
+      {
+       "value": "No",
+       "odd": "1.25"
+      }
+     ],
+     "Corners Over Under": [
+      {
+       "value": "Over 8",
+       "odd": "1.38"
+      },
+      {
+       "value": "Under 8",
+       "odd": "2.60"
+      },
+      {
+       "value": "Over 8.5",
+       "odd": "1.57"
+      },
+      {
+       "value": "Under 8.5",
+       "odd": "2.20"
+      },
+      {
+       "value": "Over 9",
+       "odd": "1.72"
+      },
+      {
+       "value": "Under 9",
+       "odd": "1.95"
+      },
+      {
+       "value": "Over 9.5",
+       "odd": "1.97"
+      },
+      {
+       "value": "Under 9.5",
+       "odd": "1.75"
+      },
+      {
+       "value": "Over 10",
+       "odd": "2.20"
+      },
+      {
+       "value": "Under 10",
+       "odd": "1.52"
+      },
+      {
+       "value": "Over 10.5",
+       "odd": "2.45"
+      },
+      {
+       "value": "Under 10.5",
+       "odd": "1.42"
+      },
+      {
+       "value": "Over 11",
+       "odd": "2.85"
+      },
+      {
+       "value": "Under 11",
+       "odd": "1.27"
+      },
+      {
+       "value": "Over 7",
+       "odd": "1.17"
+      },
+      {
+       "value": "Under 7",
+       "odd": "3.57"
+      },
+      {
+       "value": "Over 7.5",
+       "odd": "1.31"
+      },
+      {
+       "value": "Under 7.5",
+       "odd": "2.90"
+      },
+      {
+       "value": "Over 5.5",
+       "odd": "1.06"
+      },
+      {
+       "value": "Under 5.5",
+       "odd": "5.25"
+      },
+      {
+       "value": "Over 11.5",
+       "odd": "3.10"
+      },
+      {
+       "value": "Under 11.5",
+       "odd": "1.23"
+      },
+      {
+       "value": "Over 12",
+       "odd": "3.82"
+      },
+      {
+       "value": "Under 12",
+       "odd": "1.14"
+      },
+      {
+       "value": "Over 12.5",
+       "odd": "4.05"
+      },
+      {
+       "value": "Under 12.5",
+       "odd": "1.13"
+      },
+      {
+       "value": "Over 6",
+       "odd": "1.06"
+      },
+      {
+       "value": "Under 6",
+       "odd": "5.09"
+      },
+      {
+       "value": "Over 6.5",
+       "odd": "1.14"
+      },
+      {
+       "value": "Under 6.5",
+       "odd": "3.85"
+      },
+      {
+       "value": "Over 13.5",
+       "odd": "5.15"
+      },
+      {
+       "value": "Under 13.5",
+       "odd": "1.06"
+      },
+      {
+       "value": "Over 13",
+       "odd": "5.00"
+      },
+      {
+       "value": "Under 13",
+       "odd": "1.07"
+      },
+      {
+       "value": "Over 8.25",
+       "odd": "1.43"
+      },
+      {
+       "value": "Under 8.25",
+       "odd": "2.50"
+      },
+      {
+       "value": "Over 8.75",
+       "odd": "1.60"
+      },
+      {
+       "value": "Under 8.75",
+       "odd": "2.16"
+      },
+      {
+       "value": "Over 9.25",
+       "odd": "1.81"
+      },
+      {
+       "value": "Under 9.25",
+       "odd": "1.89"
+      },
+      {
+       "value": "Over 9.75",
+       "odd": "2.06"
+      },
+      {
+       "value": "Under 9.75",
+       "odd": "1.68"
+      },
+      {
+       "value": "Over 10.25",
+       "odd": "2.35"
+      },
+      {
+       "value": "Under 10.25",
+       "odd": "1.51"
+      },
+      {
+       "value": "Over 7.75",
+       "odd": "1.30"
+      },
+      {
+       "value": "Under 7.75",
+       "odd": "2.97"
+      },
+      {
+       "value": "Over 10.75",
+       "odd": "2.73"
+      },
+      {
+       "value": "Under 10.75",
+       "odd": "1.36"
+      },
+      {
+       "value": "Over 11.25",
+       "odd": "3.20"
+      },
+      {
+       "value": "Under 11.25",
+       "odd": "1.26"
+      }
+     ],
+     "Asian Handicap (2nd Half)": [
+      {
+       "value": "Home -1",
+       "odd": "4.65"
+      },
+      {
+       "value": "Away -1",
+       "odd": "1.14"
+      },
+      {
+       "value": "Home -0.75",
+       "odd": "3.04"
+      },
+      {
+       "value": "Away -0.75",
+       "odd": "1.32"
+      },
+      {
+       "value": "Home -0.25",
+       "odd": "2.03"
+      },
+      {
+       "value": "Away -0.25",
+       "odd": "1.70"
+      },
+      {
+       "value": "Home +0",
+       "odd": "1.64"
+      },
+      {
+       "value": "Away +0",
+       "odd": "2.12"
+      },
+      {
+       "value": "Home +0.25",
+       "odd": "1.43"
+      },
+      {
+       "value": "Away +0.25",
+       "odd": "2.62"
+      },
+      {
+       "value": "Home +0.75",
+       "odd": "1.18"
+      },
+      {
+       "value": "Away +0.75",
+       "odd": "4.15"
+      },
+      {
+       "value": "Home +1",
+       "odd": "1.05"
+      },
+      {
+       "value": "Away +1",
+       "odd": "6.95"
+      },
+      {
+       "value": "Home -1.5",
+       "odd": "5.65"
+      },
+      {
+       "value": "Away -1.5",
+       "odd": "1.08"
+      },
+      {
+       "value": "Home +1.5",
+       "odd": "1.02"
+      },
+      {
+       "value": "Away +1.5",
+       "odd": "7.90"
+      }
+     ],
+     "Corners Asian Handicap": [
+      {
+       "value": "Home -1",
+       "odd": "1.88"
+      },
+      {
+       "value": "Away -1",
+       "odd": "1.82"
+      },
+      {
+       "value": "Home +0",
+       "odd": "1.54"
+      },
+      {
+       "value": "Away +0",
+       "odd": "2.38"
+      },
+      {
+       "value": "Home -3",
+       "odd": "3.30"
+      },
+      {
+       "value": "Away -3",
+       "odd": "1.25"
+      },
+      {
+       "value": "Home -2",
+       "odd": "2.43"
+      },
+      {
+       "value": "Away -2",
+       "odd": "1.48"
+      },
+      {
+       "value": "Home +1",
+       "odd": "1.29"
+      },
+      {
+       "value": "Away +1",
+       "odd": "3.20"
+      },
+      {
+       "value": "Home -1.5",
+       "odd": "2.10"
+      },
+      {
+       "value": "Away -1.5",
+       "odd": "1.63"
+      },
+      {
+       "value": "Home +1.5",
+       "odd": "1.23"
+      },
+      {
+       "value": "Away +1.5",
+       "odd": "3.50"
+      },
+      {
+       "value": "Home -2.5",
+       "odd": "2.70"
+      },
+      {
+       "value": "Away -2.5",
+       "odd": "1.40"
+      },
+      {
+       "value": "Home -3.5",
+       "odd": "3.70"
+      },
+      {
+       "value": "Away -3.5",
+       "odd": "1.21"
+      }
+     ],
+     "Total Corners (1st Half)": [
+      {
+       "value": "Over 3.5",
+       "odd": "1.42"
+      },
+      {
+       "value": "Under 3.5",
+       "odd": "2.60"
+      },
+      {
+       "value": "Over 4",
+       "odd": "1.56"
+      },
+      {
+       "value": "Under 4",
+       "odd": "2.24"
+      },
+      {
+       "value": "Over 5",
+       "odd": "2.35"
+      },
+      {
+       "value": "Under 5",
+       "odd": "1.51"
+      },
+      {
+       "value": "Over 4.5",
+       "odd": "1.92"
+      },
+      {
+       "value": "Under 4.5",
+       "odd": "1.79"
+      },
+      {
+       "value": "Over 4.25",
+       "odd": "1.72"
+      },
+      {
+       "value": "Under 4.25",
+       "odd": "1.98"
+      },
+      {
+       "value": "Over 4.75",
+       "odd": "2.06"
+      },
+      {
+       "value": "Under 4.75",
+       "odd": "1.66"
+      },
+      {
+       "value": "Over 5.5",
+       "odd": "2.65"
+      },
+      {
+       "value": "Under 5.5",
+       "odd": "1.40"
+      }
+     ]
+    }
+   },
+   "injuries": [
+    {
+     "team": "Elche",
+     "player": "M. Aguado",
+     "type": "Missing Fixture",
+     "reason": "Ankle Injury"
+    },
+    {
+     "team": "Elche",
+     "player": "A. Boayar",
+     "type": "Missing Fixture",
+     "reason": "Injury"
+    },
+    {
+     "team": "Elche",
+     "player": "Y. Santiago",
+     "type": "Missing Fixture",
+     "reason": "Inactive"
+    }
+   ],
+   "team_form": {
+    "home": {
+     "games_used": 5,
+     "avg": {
+      "for": {
+       "goals": 1.2,
+       "shots_on_target": 3.25,
+       "shots": 11.0,
+       "yellow_cards": 2.0,
+       "corners": 3.0
+      },
+      "against": {
+       "goals": 1.2,
+       "shots_on_target": 5.0,
+       "shots": 18.0,
+       "yellow_cards": 0.75,
+       "corners": 5.0
+      }
+     },
+     "last_games": [
+      {
+       "date": "2026-11-12",
+       "league": "Copa del Rey",
+       "opponent": "Tarancón",
+       "venue": "away",
+       "goals_for": 2,
+       "goals_against": 1,
+       "stats_for": {},
+       "stats_against": {}
+      },
+      {
+       "date": "2026-11-08",
+       "league": "La Liga",
+       "opponent": "Celta Vigo",
+       "venue": "away",
+       "goals_for": 0,
+       "goals_against": 0,
+       "stats_for": {
+        "shots_on_target": 0,
+        "shots": 6,
+        "yellow_cards": 2,
+        "corners": 1,
+        "possession": 41
+       },
+       "stats_against": {
+        "shots_on_target": 8,
+        "shots": 23,
+        "yellow_cards": 1,
+        "corners": 6,
+        "possession": 59
+       }
+      },
+      {
+       "date": "2026-10-31",
+       "league": "La Liga",
+       "opponent": "Atletico Madrid",
+       "venue": "home",
+       "goals_for": 0,
+       "goals_against": 2,
+       "stats_for": {
+        "shots_on_target": 4,
+        "shots": 20,
+        "corners": 5,
+        "yellow_cards": 0,
+        "possession": 46
+       },
+       "stats_against": {
+        "shots_on_target": 5,
+        "shots": 11,
+        "corners": 3,
+        "yellow_cards": 0,
+        "possession": 54
+       }
+      },
+      {
+       "date": "2026-10-25",
+       "league": "La Liga",
+       "opponent": "Real Sociedad",
+       "venue": "away",
+       "goals_for": 1,
+       "goals_against": 2,
+       "stats_for": {
+        "shots_on_target": 2,
+        "shots": 6,
+        "corners": 3,
+        "possession": 38,
+        "yellow_cards": 3
+       },
+       "stats_against": {
+        "shots_on_target": 3,
+        "shots": 17,
+        "corners": 2,
+        "possession": 62,
+        "yellow_cards": 1
+       }
+      },
+      {
+       "date": "2026-10-21",
+       "league": "La Liga",
+       "opponent": "Athletic Club",
+       "venue": "home",
+       "goals_for": 3,
+       "goals_against": 1,
+       "stats_for": {
+        "shots_on_target": 7,
+        "shots": 12,
+        "corners": 3,
+        "possession": 38,
+        "yellow_cards": 3
+       },
+       "stats_against": {
+        "shots_on_target": 4,
+        "shots": 21,
+        "corners": 9,
+        "possession": 62,
+        "yellow_cards": 1
+       }
+      }
+     ]
+    },
+    "away": {
+     "games_used": 5,
+     "avg": {
+      "for": {
+       "shots_on_target": 3.5,
+       "shots": 13.0,
+       "yellow_cards": 3.5,
+       "corners": 5.75,
+       "goals": 1.2
+      },
+      "against": {
+       "shots_on_target": 5.75,
+       "shots": 15.25,
+       "yellow_cards": 1.75,
+       "corners": 5.75,
+       "goals": 0.8
+      }
+     },
+     "last_games": [
+      {
+       "date": "2026-11-08",
+       "league": "La Liga",
+       "opponent": "Real Betis",
+       "venue": "home",
+       "goals_for": 0,
+       "goals_against": 2,
+       "stats_for": {
+        "shots_on_target": 1,
+        "shots": 13,
+        "yellow_cards": 4,
+        "corners": 9,
+        "possession": 48
+       },
+       "stats_against": {
+        "shots_on_target": 9,
+        "shots": 18,
+        "yellow_cards": 0,
+        "corners": 8,
+        "possession": 52
+       }
+      },
+      {
+       "date": "2026-11-01",
+       "league": "La Liga",
+       "opponent": "Valencia",
+       "venue": "home",
+       "goals_for": 0,
+       "goals_against": 1,
+       "stats_for": {
+        "shots_on_target": 3,
+        "shots": 16,
+        "yellow_cards": 3,
+        "corners": 6,
+        "possession": 69
+       },
+       "stats_against": {
+        "shots_on_target": 3,
+        "shots": 5,
+        "yellow_cards": 2,
+        "corners": 2,
+        "possession": 31
+       }
+      },
+      {
+       "date": "2026-10-27",
+       "league": "Copa del Rey",
+       "opponent": "Pinatar",
+       "venue": "away",
+       "goals_for": 3,
+       "goals_against": 1,
+       "stats_for": {},
+       "stats_against": {}
+      },
+      {
+       "date": "2026-10-24",
+       "league": "La Liga",
+       "opponent": "Rayo Vallecano",
+       "venue": "away",
+       "goals_for": 3,
+       "goals_against": 0,
+       "stats_for": {
+        "shots_on_target": 9,
+        "shots": 16,
+        "yellow_cards": 3,
+        "corners": 3,
+        "possession": 43
+       },
+       "stats_against": {
+        "shots_on_target": 5,
+        "shots": 18,
+        "yellow_cards": 3,
+        "corners": 3,
+        "possession": 57
+       }
+      },
+      {
+       "date": "2026-10-17",
+       "league": "La Liga",
+       "opponent": "Villarreal",
+       "venue": "away",
+       "goals_for": 0,
+       "goals_against": 0,
+       "stats_for": {
+        "shots_on_target": 1,
+        "shots": 7,
+        "yellow_cards": 4,
+        "corners": 5,
+        "possession": 42
+       },
+       "stats_against": {
+        "shots_on_target": 6,
+        "shots": 20,
+        "yellow_cards": 2,
+        "corners": 10,
+        "possession": 58
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": 1550203,
+   "competition": "Serie A",
+   "kickoff_maputo": "2026-11-23T21:45:00+02:00",
+   "status": "NS",
+   "home": "Monza",
+   "away": "Fiorentina",
+   "standings": {
+    "home": {
+     "rank": 18,
+     "points": 7,
+     "goals_diff": -8,
+     "played": 11,
+     "form": "LLLLW"
+    },
+    "away": {
+     "rank": 15,
+     "points": 9,
+     "goals_diff": -8,
+     "played": 11,
+     "form": "DWDLL"
+    }
+   },
+   "prediction": {
+    "winner": "Fiorentina",
+    "percent": {
+     "home": "10%",
+     "draw": "45%",
+     "away": "45%"
+    },
+    "advice": "Combo Double chance : draw or Fiorentina and +1.5 goals",
+    "under_over": "+1.5"
+   },
+   "odds": {
+    "bookmaker": "1xBet",
+    "bets": {
+     "Match Winner": [
+      {
+       "value": "Home",
+       "odd": "3.90"
+      },
+      {
+       "value": "Draw",
+       "odd": "4.11"
+      },
+      {
+       "value": "Away",
+       "odd": "1.94"
+      }
+     ],
+     "Asian Handicap": [
+      {
+       "value": "Home -1.25",
+       "odd": "7.28"
+      },
+      {
+       "value": "Away -1.25",
+       "odd": "1.06"
+      },
+      {
+       "value": "Home -1",
+       "odd": "6.96"
+      },
+      {
+       "value": "Away -1",
+       "odd": "1.09"
+      },
+      {
+       "value": "Home -0.75",
+       "odd": "4.59"
+      },
+      {
+       "value": "Away -0.75",
+       "odd": "1.17"
+      },
+      {
+       "value": "Home -0.25",
+       "odd": "3.20"
+      },
+      {
+       "value": "Away -0.25",
+       "odd": "1.33"
+      },
+      {
+       "value": "Home +0",
+       "odd": "2.99"
+      },
+      {
+       "value": "Away +0",
+       "odd": "1.47"
+      },
+      {
+       "value": "Home +0.25",
+       "odd": "2.26"
+      },
+      {
+       "value": "Away +0.25",
+       "odd": "1.66"
+      },
+      {
+       "value": "Home +0.75",
+       "odd": "1.80"
+      },
+      {
+       "value": "Away +0.75",
+       "odd": "2.18"
+      },
+      {
+       "value": "Home +1",
+       "odd": "1.52"
+      },
+      {
+       "value": "Away +1",
+       "odd": "2.58"
+      },
+      {
+       "value": "Home +2",
+       "odd": "1.12"
+      },
+      {
+       "value": "Away +2",
+       "odd": "5.53"
+      },
+      {
+       "value": "Home -1.5",
+       "odd": "7.60"
+      },
+      {
+       "value": "Away -1.5",
+       "odd": "1.05"
+      },
+      {
+       "value": "Home +1.25",
+       "odd": "1.42"
+      },
+      {
+       "value": "Away +1.25",
+       "odd": "2.90"
+      },
+      {
+       "value": "Home +1.5",
+       "odd": "1.33"
+      },
+      {
+       "value": "Away +1.5",
+       "odd": "3.22"
+      },
+      {
+       "value": "Home +1.75",
+       "odd": "1.23"
+      },
+      {
+       "value": "Away +1.75",
+       "odd": "3.94"
+      },
+      {
+       "value": "Home +2.25",
+       "odd": "1.09"
+      },
+      {
+       "value": "Away +2.25",
+       "odd": "5.86"
+      },
+      {
+       "value": "Home +2.5",
+       "odd": "1.08"
+      },
+      {
+       "value": "Away +2.5",
+       "odd": "6.24"
+      }
+     ],
+     "Goals Over/Under": [
+      {
+       "value": "Over 1.5",
+       "odd": "1.18"
+      },
+      {
+       "value": "Under 1.5",
+       "odd": "4.70"
+      },
+      {
+       "value": "Over 1.75",
+       "odd": "1.21"
+      },
+      {
+       "value": "Under 1.75",
+       "odd": "4.10"
+      },
+      {
+       "value": "Over 2.0",
+       "odd": "1.28"
+      },
+      {
+       "value": "Under 2.0",
+       "odd": "3.76"
+      },
+      {
+       "value": "Over 2.25",
+       "odd": "1.44"
+      },
+      {
+       "value": "Under 2.25",
+       "odd": "2.80"
+      },
+      {
+       "value": "Over 2.5",
+       "odd": "1.66"
+      },
+      {
+       "value": "Under 2.5",
+       "odd": "2.41"
+      },
+      {
+       "value": "Over 2.75",
+       "odd": "1.83"
+      },
+      {
+       "value": "Under 2.75",
+       "odd": "2.14"
+      },
+      {
+       "value": "Over 3.5",
+       "odd": "2.51"
+      },
+      {
+       "value": "Under 3.5",
+       "odd": "1.54"
+      },
+      {
+       "value": "Over 0.5",
+       "odd": "1.00"
+      },
+      {
+       "value": "Under 0.5",
+       "odd": "11.60"
+      },
+      {
+       "value": "Over 1.0",
+       "odd": "1.02"
+      },
+      {
+       "value": "Under 1.0",
+       "odd": "10.40"
+      },
+      {
+       "value": "Over 1.25",
+       "odd": "1.08"
+      },
+      {
+       "value": "Under 1.25",
+       "odd": "6.43"
+      },
+      {
+       "value": "Over 8.5",
+       "odd": "11.60"
+      },
+      {
+       "value": "Under 8.5",
+       "odd": "1.00"
+      },
+      {
+       "value": "Over 3.0",
+       "odd": "2.01"
+      },
+      {
+       "value": "Under 3.0",
+       "odd": "1.86"
+      },
+      {
+       "value": "Over 4.5",
+       "odd": "4.39"
+      },
+      {
+       "value": "Under 4.5",
+       "odd": "1.20"
+      },
+      {
+       "value": "Over 3.25",
+       "odd": "2.27"
+      },
+      {
+       "value": "Under 3.25",
+       "odd": "1.65"
+      },
+      {
+       "value": "Over 3.75",
+       "odd": "2.94"
+      },
+      {
+       "value": "Under 3.75",
+       "odd": "1.38"
+      },
+      {
+       "value": "Over 4.0",
+       "odd": "3.74"
+      },
+      {
+       "value": "Under 4.0",
+       "odd": "1.26"
+      },
+      {
+       "value": "Over 4.25",
+       "odd": "4.01"
+      },
+      {
+       "value": "Under 4.25",
+       "odd": "1.21"
+      },
+      {
+       "value": "Over 4.75",
+       "odd": "5.34"
+      },
+      {
+       "value": "Under 4.75",
+       "odd": "1.11"
+      },
+      {
+       "value": "Over 5.0",
+       "odd": "7.44"
+      },
+      {
+       "value": "Under 5.0",
+       "odd": "1.07"
+      },
+      {
+       "value": "Over 7.5",
+       "odd": "9.75"
+      },
+      {
+       "value": "Under 7.5",
+       "odd": "1.02"
+      },
+      {
+       "value": "Over 5.5",
+       "odd": "8.10"
+      },
+      {
+       "value": "Under 5.5",
+       "odd": "1.05"
+      },
+      {
+       "value": "Over 6.5",
+       "odd": "8.50"
+      },
+      {
+       "value": "Under 6.5",
+       "odd": "1.04"
+      }
+     ],
+     "Goals Over/Under First Half": [
+      {
+       "value": "Over 1.5",
+       "odd": "2.31"
+      },
+      {
+       "value": "Under 1.5",
+       "odd": "1.61"
+      },
+      {
+       "value": "Over 1.75",
+       "odd": "2.85"
+      },
+      {
+       "value": "Under 1.75",
+       "odd": "1.41"
+      },
+      {
+       "value": "Over 2.0",
+       "odd": "4.05"
+      },
+      {
+       "value": "Under 2.0",
+       "odd": "1.22"
+      },
+      {
+       "value": "Over 2.25",
+       "odd": "4.55"
+      },
+      {
+       "value": "Under 2.25",
+       "odd": "1.18"
+      },
+      {
+       "value": "Over 2.5",
+       "odd": "4.95"
+      },
+      {
+       "value": "Under 2.5",
+       "odd": "1.14"
+      },
+      {
+       "value": "Over 3.5",
+       "odd": "12.50"
+      },
+      {
+       "value": "Under 3.5",
+       "odd": "1.03"
+      },
+      {
+       "value": "Over 0.5",
+       "odd": "1.28"
+      },
+      {
+       "value": "Under 0.5",
+       "odd": "3.66"
+      },
+      {
+       "value": "Over 0.75",
+       "odd": "1.39"
+      },
+      {
+       "value": "Under 0.75",
+       "odd": "3.04"
+      },
+      {
+       "value": "Over 1.0",
+       "odd": "1.58"
+      },
+      {
+       "value": "Under 1.0",
+       "odd": "2.43"
+      },
+      {
+       "value": "Over 1.25",
+       "odd": "1.95"
+      },
+      {
+       "value": "Under 1.25",
+       "odd": "1.86"
+      },
+      {
+       "value": "Over 4.5",
+       "odd": "41.00"
+      }
+     ],
+     "Goals Over/Under - Second Half": [
+      {
+       "value": "Over 1.5",
+       "odd": "1.86"
+      },
+      {
+       "value": "Under 1.5",
+       "odd": "1.98"
+      },
+      {
+       "value": "Over 1.75",
+       "odd": "2.15"
+      },
+      {
+       "value": "Under 1.75",
+       "odd": "1.73"
+      },
+      {
+       "value": "Over 2.0",
+       "odd": "2.74"
+      },
+      {
+       "value": "Under 2.0",
+       "odd": "1.45"
+      },
+      {
+       "value": "Over 2.25",
+       "odd": "3.06"
+      },
+      {
+       "value": "Under 2.25",
+       "odd": "1.32"
+      },
+      {
+       "value": "Over 2.5",
+       "odd": "3.58"
+      },
+      {
+       "value": "Under 2.5",
+       "odd": "1.27"
+      },
+      {
+       "value": "Over 3.5",
+       "odd": "8.00"
+      },
+      {
+       "value": "Under 3.5",
+       "odd": "1.07"
+      },
+      {
+       "value": "Over 0.5",
+       "odd": "1.16"
+      },
+      {
+       "value": "Under 0.5",
+       "odd": "4.95"
+      },
+      {
+       "value": "Over 0.75",
+       "odd": "1.18"
+      },
+      {
+       "value": "Under 0.75",
+       "odd": "4.20"
+      },
+      {
+       "value": "Over 1.0",
+       "odd": "1.29"
+      },
+      {
+       "value": "Under 1.0",
+       "odd": "3.58"
+      },
+      {
+       "value": "Over 1.25",
+       "odd": "1.55"
+      },
+      {
+       "value": "Under 1.25",
+       "odd": "2.36"
+      },
+      {
+       "value": "Over 4.5",
+       "odd": "19.00"
+      },
+      {
+       "value": "Under 4.5",
+       "odd": "1.02"
+      }
+     ],
+     "Both Teams Score": [
+      {
+       "value": "Yes",
+       "odd": "1.54"
+      },
+      {
+       "value": "No",
+       "odd": "2.35"
+      }
+     ],
+     "Asian Handicap First Half": [
+      {
+       "value": "Home -1",
+       "odd": "11.50"
+      },
+      {
+       "value": "Away -1",
+       "odd": "1.00"
+      },
+      {
+       "value": "Home -0.75",
+       "odd": "5.55"
+      },
+      {
+       "value": "Away -0.75",
+       "odd": "1.10"
+      },
+      {
+       "value": "Home -0.25",
+       "odd": "3.20"
+      },
+      {
+       "value": "Away -0.25",
+       "odd": "1.30"
+      },
+      {
+       "value": "Home +0",
+       "odd": "2.46"
+      },
+      {
+       "value": "Away +0",
+       "odd": "1.48"
+      },
+      {
+       "value": "Home +0.25",
+       "odd": "1.78"
+      },
+      {
+       "value": "Away +0.25",
+       "odd": "1.93"
+      },
+      {
+       "value": "Home +0.75",
+       "odd": "1.32"
+      },
+      {
+       "value": "Away +0.75",
+       "odd": "3.04"
+      },
+      {
+       "value": "Home +1",
+       "odd": "1.12"
+      },
+      {
+       "value": "Away +1",
+       "odd": "4.95"
+      },
+      {
+       "value": "Home +1.5",
+       "odd": "1.06"
+      },
+      {
+       "value": "Away +1.5",
+       "odd": "6.25"
+      }
+     ],
+     "Both Teams Score - First Half": [
+      {
+       "value": "Yes",
+       "odd": "3.64"
+      },
+      {
+       "value": "No",
+       "odd": "1.25"
+      }
+     ],
+     "Corners Over Under": [
+      {
+       "value": "Over 8",
+       "odd": "1.37"
+      },
+      {
+       "value": "Under 8",
+       "odd": "2.62"
+      },
+      {
+       "value": "Over 8.5",
+       "odd": "1.56"
+      },
+      {
+       "value": "Under 8.5",
+       "odd": "2.21"
+      },
+      {
+       "value": "Over 9",
+       "odd": "1.71"
+      },
+      {
+       "value": "Under 9",
+       "odd": "1.96"
+      },
+      {
+       "value": "Over 9.5",
+       "odd": "1.96"
+      },
+      {
+       "value": "Under 9.5",
+       "odd": "1.75"
+      },
+      {
+       "value": "Over 10",
+       "odd": "2.19"
+      },
+      {
+       "value": "Under 10",
+       "odd": "1.53"
+      },
+      {
+       "value": "Over 10.5",
+       "odd": "2.44"
+      },
+      {
+       "value": "Under 10.5",
+       "odd": "1.43"
+      },
+      {
+       "value": "Over 11",
+       "odd": "2.83"
+      },
+      {
+       "value": "Under 11",
+       "odd": "1.28"
+      },
+      {
+       "value": "Over 7",
+       "odd": "1.17"
+      },
+      {
+       "value": "Under 7",
+       "odd": "3.59"
+      },
+      {
+       "value": "Over 7.5",
+       "odd": "1.30"
+      },
+      {
+       "value": "Under 7.5",
+       "odd": "2.90"
+      },
+      {
+       "value": "Over 5.5",
+       "odd": "1.05"
+      },
+      {
+       "value": "Under 5.5",
+       "odd": "5.30"
+      },
+      {
+       "value": "Over 11.5",
+       "odd": "3.07"
+      },
+      {
+       "value": "Under 11.5",
+       "odd": "1.23"
+      },
+      {
+       "value": "Over 12",
+       "odd": "3.80"
+      },
+      {
+       "value": "Under 12",
+       "odd": "1.15"
+      },
+      {
+       "value": "Over 12.5",
+       "odd": "4.02"
+      },
+      {
+       "value": "Under 12.5",
+       "odd": "1.13"
+      },
+      {
+       "value": "Over 6",
+       "odd": "1.06"
+      },
+      {
+       "value": "Under 6",
+       "odd": "5.10"
+      },
+      {
+       "value": "Over 6.5",
+       "odd": "1.14"
+      },
+      {
+       "value": "Under 6.5",
+       "odd": "3.87"
+      },
+      {
+       "value": "Over 13.5",
+       "odd": "5.12"
+      },
+      {
+       "value": "Under 13.5",
+       "odd": "1.06"
+      },
+      {
+       "value": "Over 13",
+       "odd": "4.97"
+      },
+      {
+       "value": "Under 13",
+       "odd": "1.07"
+      },
+      {
+       "value": "Over 8.25",
+       "odd": "1.43"
+      },
+      {
+       "value": "Under 8.25",
+       "odd": "2.50"
+      },
+      {
+       "value": "Over 8.75",
+       "odd": "1.60"
+      },
+      {
+       "value": "Under 8.75",
+       "odd": "2.16"
+      },
+      {
+       "value": "Over 9.25",
+       "odd": "1.82"
+      },
+      {
+       "value": "Under 9.25",
+       "odd": "1.88"
+      },
+      {
+       "value": "Over 9.75",
+       "odd": "2.06"
+      },
+      {
+       "value": "Under 9.75",
+       "odd": "1.68"
+      },
+      {
+       "value": "Over 10.25",
+       "odd": "2.38"
+      },
+      {
+       "value": "Under 10.25",
+       "odd": "1.50"
+      },
+      {
+       "value": "Over 7.75",
+       "odd": "1.30"
+      },
+      {
+       "value": "Under 7.75",
+       "odd": "2.97"
+      },
+      {
+       "value": "Over 10.75",
+       "odd": "2.73"
+      },
+      {
+       "value": "Under 10.75",
+       "odd": "1.36"
+      },
+      {
+       "value": "Over 11.25",
+       "odd": "3.20"
+      },
+      {
+       "value": "Under 11.25",
+       "odd": "1.26"
+      }
+     ],
+     "Asian Handicap (2nd Half)": [
+      {
+       "value": "Home -1",
+       "odd": "8.90"
+      },
+      {
+       "value": "Away -1",
+       "odd": "1.02"
+      },
+      {
+       "value": "Home -0.75",
+       "odd": "5.00"
+      },
+      {
+       "value": "Away -0.75",
+       "odd": "1.13"
+      },
+      {
+       "value": "Home -0.25",
+       "odd": "3.10"
+      },
+      {
+       "value": "Away -0.25",
+       "odd": "1.32"
+      },
+      {
+       "value": "Home +0",
+       "odd": "2.52"
+      },
+      {
+       "value": "Away +0",
+       "odd": "1.46"
+      },
+      {
+       "value": "Home +0.25",
+       "odd": "1.89"
+      },
+      {
+       "value": "Away +0.25",
+       "odd": "1.81"
+      },
+      {
+       "value": "Home +0.75",
+       "odd": "1.42"
+      },
+      {
+       "value": "Away +0.75",
+       "odd": "2.61"
+      },
+      {
+       "value": "Home +1",
+       "odd": "1.21"
+      },
+      {
+       "value": "Away +1",
+       "odd": "3.74"
+      },
+      {
+       "value": "Home -1.5",
+       "odd": "8.50"
+      },
+      {
+       "value": "Away -1.5",
+       "odd": "1.04"
+      },
+      {
+       "value": "Home +1.5",
+       "odd": "1.11"
+      },
+      {
+       "value": "Away +1.5",
+       "odd": "4.85"
+      }
+     ],
+     "Corners Asian Handicap": [
+      {
+       "value": "Home -1",
+       "odd": "2.28"
+      },
+      {
+       "value": "Away -1",
+       "odd": "1.53"
+      },
+      {
+       "value": "Home +0",
+       "odd": "1.86"
+      },
+      {
+       "value": "Away +0",
+       "odd": "1.84"
+      },
+      {
+       "value": "Home -2",
+       "odd": "2.92"
+      },
+      {
+       "value": "Away -2",
+       "odd": "1.31"
+      },
+      {
+       "value": "Home +1",
+       "odd": "1.55"
+      },
+      {
+       "value": "Away +1",
+       "odd": "2.23"
+      },
+      {
+       "value": "Home +2",
+       "odd": "1.32"
+      },
+      {
+       "value": "Away +2",
+       "odd": "2.88"
+      },
+      {
+       "value": "Home -1.5",
+       "odd": "2.60"
+      },
+      {
+       "value": "Away -1.5",
+       "odd": "1.41"
+      },
+      {
+       "value": "Home +1.5",
+       "odd": "1.41"
+      },
+      {
+       "value": "Away +1.5",
+       "odd": "2.55"
+      }
+     ],
+     "Total Corners (1st Half)": [
+      {
+       "value": "Over 3.5",
+       "odd": "1.41"
+      },
+      {
+       "value": "Under 3.5",
+       "odd": "2.55"
+      },
+      {
+       "value": "Over 4",
+       "odd": "1.56"
+      },
+      {
+       "value": "Under 4",
+       "odd": "2.24"
+      },
+      {
+       "value": "Over 5",
+       "odd": "2.38"
+      },
+      {
+       "value": "Under 5",
+       "odd": "1.50"
+      },
+      {
+       "value": "Over 4.5",
+       "odd": "1.90"
+      },
+      {
+       "value": "Under 4.5",
+       "odd": "1.77"
+      },
+      {
+       "value": "Over 4.25",
+       "odd": "1.73"
+      },
+      {
+       "value": "Under 4.25",
+       "odd": "1.97"
+      },
+      {
+       "value": "Over 4.75",
+       "odd": "2.08"
+      },
+      {
+       "value": "Under 4.75",
+       "odd": "1.65"
+      },
+      {
+       "value": "Over 5.5",
+       "odd": "2.70"
+      },
+      {
+       "value": "Under 5.5",
+       "odd": "1.37"
+      }
+     ]
+    }
+   },
+   "injuries": [
+    {
+     "team": "Monza",
+     "player": "M. Folorunsho",
+     "type": "Missing Fixture",
+     "reason": "Calf Injury"
+    },
+    {
+     "team": "Monza",
+     "player": "Y. Maye",
+     "type": "Missing Fixture",
+     "reason": "Muscle Injury"
+    },
+    {
+     "team": "Monza",
+     "player": "C. Ngonge",
+     "type": "Missing Fixture",
+     "reason": "Injury"
+    },
+    {
+     "team": "Fiorentina",
+     "player": "F. Parisi",
+     "type": "Missing Fixture",
+     "reason": "Knee Injury"
+    },
+    {
+     "team": "Fiorentina",
+     "player": "M. Pongracic",
+     "type": "Missing Fixture",
+     "reason": "Muscle Injury"
+    },
+    {
+     "team": "Fiorentina",
+     "player": "R. Sottil",
+     "type": "Missing Fixture",
+     "reason": "Back Injury"
+    }
+   ],
+   "team_form": {
+    "home": {
+     "games_used": 5,
+     "avg": {
+      "for": {
+       "shots_on_target": 5.2,
+       "shots": 12.4,
+       "yellow_cards": 2.2,
+       "corners": 3.4,
+       "goals": 1.6
+      },
+      "against": {
+       "shots_on_target": 6.2,
+       "shots": 14.4,
+       "yellow_cards": 1.8,
+       "corners": 3.8,
+       "goals": 2.0
+      }
+     },
+     "last_games": [
+      {
+       "date": "2026-11-08",
+       "league": "Serie A",
+       "opponent": "Atalanta",
+       "venue": "home",
+       "goals_for": 0,
+       "goals_against": 1,
+       "stats_for": {
+        "shots_on_target": 7,
+        "shots": 22,
+        "yellow_cards": 4,
+        "corners": 7,
+        "possession": 49
+       },
+       "stats_against": {
+        "shots_on_target": 7,
+        "shots": 13,
+        "yellow_cards": 2,
+        "corners": 2,
+        "possession": 51
+       }
+      },
+      {
+       "date": "2026-10-31",
+       "league": "Serie A",
+       "opponent": "Bologna",
+       "venue": "away",
+       "goals_for": 1,
+       "goals_against": 2,
+       "stats_for": {
+        "shots_on_target": 4,
+        "shots": 6,
+        "yellow_cards": 3,
+        "corners": 2,
+        "possession": 40
+       },
+       "stats_against": {
+        "shots_on_target": 5,
+        "shots": 10,
+        "yellow_cards": 4,
+        "corners": 5,
+        "possession": 60
+       }
+      },
+      {
+       "date": "2026-10-28",
+       "league": "Serie A",
+       "opponent": "Napoli",
+       "venue": "home",
+       "goals_for": 1,
+       "goals_against": 4,
+       "stats_for": {
+        "shots_on_target": 6,
+        "shots": 13,
+        "yellow_cards": 3,
+        "corners": 2,
+        "possession": 35
+       },
+       "stats_against": {
+        "shots_on_target": 7,
+        "shots": 16,
+        "yellow_cards": 0,
+        "corners": 2,
+        "possession": 65
+       }
+      },
+      {
+       "date": "2026-10-23",
+       "league": "Serie A",
+       "opponent": "Torino",
+       "venue": "away",
+       "goals_for": 2,
+       "goals_against": 3,
+       "stats_for": {
+        "shots_on_target": 3,
+        "shots": 7,
+        "corners": 4,
+        "possession": 49,
+        "yellow_cards": 0
+       },
+       "stats_against": {
+        "shots_on_target": 7,
+        "shots": 17,
+        "corners": 3,
+        "possession": 51,
+        "yellow_cards": 1
+       }
+      },
+      {
+       "date": "2026-10-19",
+       "league": "Serie A",
+       "opponent": "Cagliari",
+       "venue": "home",
+       "goals_for": 4,
+       "goals_against": 0,
+       "stats_for": {
+        "shots_on_target": 6,
+        "shots": 14,
+        "corners": 2,
+        "possession": 46,
+        "yellow_cards": 1
+       },
+       "stats_against": {
+        "shots_on_target": 5,
+        "shots": 16,
+        "corners": 7,
+        "possession": 54,
+        "yellow_cards": 2
+       }
+      }
+     ]
+    },
+    "away": {
+     "games_used": 5,
+     "avg": {
+      "for": {
+       "shots_on_target": 5.0,
+       "shots": 17.8,
+       "yellow_cards": 2.4,
+       "corners": 5.6,
+       "goals": 2.0
+      },
+      "against": {
+       "shots_on_target": 6.4,
+       "shots": 16.8,
+       "yellow_cards": 2.0,
+       "corners": 6.0,
+       "goals": 2.2
+      }
+     },
+     "last_games": [
+      {
+       "date": "2026-11-08",
+       "league": "Serie A",
+       "opponent": "Juventus",
+       "venue": "home",
+       "goals_for": 2,
+       "goals_against": 2,
+       "stats_for": {
+        "shots_on_target": 6,
+        "shots": 22,
+        "yellow_cards": 1,
+        "corners": 5,
+        "possession": 41
+       },
+       "stats_against": {
+        "shots_on_target": 6,
+        "shots": 18,
+        "yellow_cards": 3,
+        "corners": 12,
+        "possession": 59
+       }
+      },
+      {
+       "date": "2026-11-02",
+       "league": "Serie A",
+       "opponent": "Sassuolo",
+       "venue": "away",
+       "goals_for": 4,
+       "goals_against": 2,
+       "stats_for": {
+        "shots_on_target": 6,
+        "shots": 15,
+        "yellow_cards": 3,
+        "corners": 3,
+        "possession": 42
+       },
+       "stats_against": {
+        "shots_on_target": 2,
+        "shots": 7,
+        "yellow_cards": 2,
+        "corners": 5,
+        "possession": 58
+       }
+      },
+      {
+       "date": "2026-10-29",
+       "league": "Serie A",
+       "opponent": "Atalanta",
+       "venue": "home",
+       "goals_for": 2,
+       "goals_against": 2,
+       "stats_for": {
+        "shots_on_target": 4,
+        "shots": 26,
+        "yellow_cards": 3,
+        "corners": 8,
+        "possession": 60
+       },
+       "stats_against": {
+        "shots_on_target": 5,
+        "shots": 10,
+        "yellow_cards": 2,
+        "corners": 2,
+        "possession": 40
+       }
+      },
+      {
+       "date": "2026-10-25",
+       "league": "Serie A",
+       "opponent": "Inter",
+       "venue": "away",
+       "goals_for": 1,
+       "goals_against": 2,
+       "stats_for": {
+        "shots_on_target": 2,
+        "shots": 7,
+        "corners": 1,
+        "possession": 37,
+        "yellow_cards": 3
+       },
+       "stats_against": {
+        "shots_on_target": 11,
+        "shots": 33,
+        "corners": 6,
+        "possession": 63,
+        "yellow_cards": 0
+       }
+      },
+      {
+       "date": "2026-10-18",
+       "league": "Serie A",
+       "opponent": "Como",
+       "venue": "home",
+       "goals_for": 1,
+       "goals_against": 3,
+       "stats_for": {
+        "shots_on_target": 7,
+        "shots": 19,
+        "corners": 11,
+        "possession": 47,
+        "yellow_cards": 2
+       },
+       "stats_against": {
+        "shots_on_target": 8,
+        "shots": 16,
+        "corners": 5,
+        "possession": 53,
+        "yellow_cards": 3
+       }
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "yesterday_results": [
+  {
+   "id": 1557472,
+   "competition": "Premier League",
+   "home": "Hull City",
+   "away": "Brighton",
+   "goals_home": 2,
+   "goals_away": 0,
+   "halftime": {
+    "home": 0,
+    "away": 0
+   },
+   "stats_home": {
+    "shots_on_target": 5,
+    "shots": 11,
+    "yellow_cards": 2,
+    "corners": 3,
+    "possession": 30
+   },
+   "stats_away": {
+    "shots_on_target": 8,
+    "shots": 15,
+    "yellow_cards": 2,
+    "corners": 4,
+    "possession": 70
+   }
+  },
+  {
+   "id": 1557473,
+   "competition": "Premier League",
+   "home": "Liverpool",
+   "away": "Manchester United",
+   "goals_home": 4,
+   "goals_away": 0,
+   "halftime": {
+    "home": 2,
+    "away": 0
+   },
+   "stats_home": {
+    "shots_on_target": 11,
+    "shots": 28,
+    "yellow_cards": 1,
+    "corners": 15,
+    "possession": 64
+   },
+   "stats_away": {
+    "shots_on_target": 3,
+    "shots": 10,
+    "yellow_cards": 0,
+    "corners": 5,
+    "possession": 36
+   }
+  },
+  {
+   "id": 1570455,
+   "competition": "La Liga",
+   "home": "Barcelona",
+   "away": "Villarreal",
+   "goals_home": 3,
+   "goals_away": 2,
+   "halftime": {
+    "home": 0,
+    "away": 2
+   },
+   "stats_home": {
+    "shots_on_target": 9,
+    "shots": 30,
+    "yellow_cards": 2,
+    "corners": 10,
+    "possession": 70
+   },
+   "stats_away": {
+    "shots_on_target": 2,
+    "shots": 4,
+    "yellow_cards": 4,
+    "corners": 0,
+    "possession": 30
+   }
+  },
+  {
+   "id": 1570459,
+   "competition": "La Liga",
+   "home": "Racing Santander",
+   "away": "Real Sociedad",
+   "goals_home": 3,
+   "goals_away": 2,
+   "halftime": {
+    "home": 2,
+    "away": 1
+   },
+   "stats_home": {
+    "shots_on_target": 8,
+    "shots": 12,
+    "yellow_cards": 2,
+    "corners": 7,
+    "possession": 38
+   },
+   "stats_away": {
+    "shots_on_target": 7,
+    "shots": 31,
+    "yellow_cards": 2,
+    "corners": 14,
+    "possession": 62
+   }
+  },
+  {
+   "id": 1570458,
+   "competition": "La Liga",
+   "home": "Osasuna",
+   "away": "Malaga",
+   "goals_home": 1,
+   "goals_away": 0,
+   "halftime": {
+    "home": 1,
+    "away": 0
+   },
+   "stats_home": {
+    "shots_on_target": 2,
+    "shots": 11,
+    "yellow_cards": 2,
+    "corners": 4,
+    "possession": 47
+   },
+   "stats_away": {
+    "shots_on_target": 0,
+    "shots": 5,
+    "yellow_cards": 0,
+    "corners": 1,
+    "possession": 53
+   }
+  },
+  {
+   "id": 1570456,
+   "competition": "La Liga",
+   "home": "Getafe",
+   "away": "Atletico Madrid",
+   "goals_home": 0,
+   "goals_away": 3,
+   "halftime": {
+    "home": 0,
+    "away": 2
+   },
+   "stats_home": {
+    "shots_on_target": 1,
+    "shots": 11,
+    "yellow_cards": 2,
+    "corners": 2,
+    "possession": 32
+   },
+   "stats_away": {
+    "shots_on_target": 10,
+    "shots": 20,
+    "yellow_cards": 2,
+    "corners": 7,
+    "possession": 68
+   }
+  },
+  {
+   "id": 1550201,
+   "competition": "Serie A",
+   "home": "Juventus",
+   "away": "Venezia",
+   "goals_home": 4,
+   "goals_away": 0,
+   "halftime": {
+    "home": 0,
+    "away": 0
+   },
+   "stats_home": {
+    "shots_on_target": 8,
+    "shots": 12,
+    "corners": 5,
+    "yellow_cards": 0,
+    "possession": 58
+   },
+   "stats_away": {
+    "shots_on_target": 1,
+    "shots": 13,
+    "corners": 2,
+    "yellow_cards": 0,
+    "possession": 42
+   }
+  },
+  {
+   "id": 1550206,
+   "competition": "Serie A",
+   "home": "Sassuolo",
+   "away": "Genoa",
+   "goals_home": 0,
+   "goals_away": 2,
+   "halftime": {
+    "home": 0,
+    "away": 2
+   },
+   "stats_home": {
+    "shots_on_target": 7,
+    "shots": 25,
+    "yellow_cards": 1,
+    "corners": 5,
+    "possession": 65
+   },
+   "stats_away": {
+    "shots_on_target": 5,
+    "shots": 11,
+    "yellow_cards": 0,
+    "corners": 3,
+    "possession": 35
+   }
+  },
+  {
+   "id": 1550199,
+   "competition": "Serie A",
+   "home": "Bologna",
+   "away": "Udinese",
+   "goals_home": 1,
+   "goals_away": 1,
+   "halftime": {
+    "home": 1,
+    "away": 0
+   },
+   "stats_home": {
+    "shots_on_target": 4,
+    "shots": 18,
+    "yellow_cards": 1,
+    "corners": 8,
+    "possession": 52
+   },
+   "stats_away": {
+    "shots_on_target": 3,
+    "shots": 11,
+    "yellow_cards": 2,
+    "corners": 4,
+    "possession": 48
+   }
+  },
+  {
+   "id": 1550197,
+   "competition": "Serie A",
+   "home": "AC Milan",
+   "away": "Frosinone",
+   "goals_home": 5,
+   "goals_away": 1,
+   "halftime": {
+    "home": 2,
+    "away": 1
+   },
+   "stats_home": {
+    "shots_on_target": 8,
+    "shots": 12,
+    "yellow_cards": 1,
+    "corners": 2,
+    "possession": 53
+   },
+   "stats_away": {
+    "shots_on_target": 3,
+    "shots": 15,
+    "yellow_cards": 4,
+    "corners": 9,
+    "possession": 47
+   }
+  },
+  {
+   "id": 1550198,
+   "competition": "Serie A",
+   "home": "Atalanta",
+   "away": "Inter",
+   "goals_home": 4,
+   "goals_away": 4,
+   "halftime": {
+    "home": 1,
+    "away": 2
+   },
+   "stats_home": {
+    "shots_on_target": 10,
+    "shots": 15,
+    "yellow_cards": 2,
+    "corners": 5,
+    "possession": 40
+   },
+   "stats_away": {
+    "shots_on_target": 6,
+    "shots": 16,
+    "yellow_cards": 1,
+    "corners": 6,
+    "possession": 60
+   }
+  },
+  {
+   "id": 1575224,
+   "competition": "Bundesliga",
+   "home": "FC Augsburg",
+   "away": "FSV Mainz 05",
+   "goals_home": 3,
+   "goals_away": 1,
+   "halftime": {
+    "home": 2,
+    "away": 0
+   },
+   "stats_home": {
+    "shots_on_target": 9,
+    "shots": 22,
+    "yellow_cards": 1,
+    "corners": 6,
+    "possession": 49
+   },
+   "stats_away": {
+    "shots_on_target": 4,
+    "shots": 7,
+    "yellow_cards": 3,
+    "corners": 0,
+    "possession": 51
+   }
+  },
+  {
+   "id": 1575227,
+   "competition": "Bundesliga",
+   "home": "Werder Bremen",
+   "away": "Hamburger SV",
+   "goals_home": 4,
+   "goals_away": 0,
+   "halftime": {
+    "home": 0,
+    "away": 0
+   },
+   "stats_home": {
+    "shots_on_target": 7,
+    "shots": 19,
+    "yellow_cards": 3,
+    "corners": 1,
+    "possession": 53
+   },
+   "stats_away": {
+    "shots_on_target": 2,
+    "shots": 17,
+    "yellow_cards": 3,
+    "corners": 8,
+    "possession": 47
+   }
+  },
+  {
+   "id": 1552825,
+   "competition": "Ligue 1",
+   "home": "Paris FC",
+   "away": "Angers",
+   "goals_home": 4,
+   "goals_away": 0,
+   "halftime": {
+    "home": 0,
+    "away": 0
+   },
+   "stats_home": {
+    "shots_on_target": 9,
+    "shots": 18,
+    "yellow_cards": 1,
+    "corners": 10,
+    "possession": 66
+   },
+   "stats_away": {
+    "shots_on_target": 1,
+    "shots": 9,
+    "yellow_cards": 1,
+    "corners": 2,
+    "possession": 34
+   }
+  },
+  {
+   "id": 1552821,
+   "competition": "Ligue 1",
+   "home": "Lorient",
+   "away": "Rennes",
+   "goals_home": 1,
+   "goals_away": 1,
+   "halftime": {
+    "home": 1,
+    "away": 1
+   },
+   "stats_home": {
+    "shots_on_target": 3,
+    "shots": 12,
+    "yellow_cards": 2,
+    "corners": 7,
+    "possession": 46
+   },
+   "stats_away": {
+    "shots_on_target": 3,
+    "shots": 13,
+    "yellow_cards": 2,
+    "corners": 5,
+    "possession": 54
+   }
+  },
+  {
+   "id": 1552822,
+   "competition": "Ligue 1",
+   "home": "Marseille",
+   "away": "Le Mans",
+   "goals_home": 2,
+   "goals_away": 3,
+   "halftime": {
+    "home": 2,
+    "away": 0
+   },
+   "stats_home": {
+    "shots_on_target": 5,
+    "shots": 11,
+    "yellow_cards": 3,
+    "corners": 2,
+    "possession": 55
+   },
+   "stats_away": {
+    "shots_on_target": 9,
+    "shots": 19,
+    "yellow_cards": 4,
+    "corners": 5,
+    "possession": 45
+   }
+  }
+ ],
+ "generated_at": "2026-11-22T23:36:54+00:00",
+ "source": "api-sports.io",
+ "api_calls": 80,
+ "errors": []
+}
