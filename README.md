@@ -82,7 +82,7 @@ Todos os dias, a mesma tarefa liquida os palpites do dia anterior.
 
 - `picks/football/AAAA-MM-DD.json` — mesmo formato base, com campos extra:
   - `competition` (ex.: "UEFA Europa League"), `kickoff_maputo` (ISO 8601 com offset)
-  - `market` = `moneyline` | `handicap` | `goals_over` | `corners_over` (antigo) | `corners_1h_over` (cantos da 1.ª parte, as duas equipas) | `shots_on_target_over` | `cards_over` (amarelos no total do jogo, liquidado com `yellow_cards` de `yesterday_results`)
+  - `market` = `moneyline` | `handicap` | `goals_over` | `corners_over` (antigo) | `corners_1h_over` (cantos da 1.ª parte, as duas equipas) | `goals_1h_over` (golos da 1.ª parte, liquidado com `halftime`) | `shots_on_target_over` | `cards_over` (amarelos no total do jogo, liquidado com `yellow_cards` de `yesterday_results`)
   - `line` (linha do mercado, ou `null` no moneyline), `test: true` nas entradas de teste (mercados 20%)
   - `win_prob` pode faltar quando não há probabilidade de modelo
 - Mercados sempre no **total do jogo** (não por equipa).
