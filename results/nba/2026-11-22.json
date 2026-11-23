@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-22",
+  "sport": "NBA",
+  "results": [
+    {
+      "match": "Atlanta Hawks vs Detroit Pistons",
+      "market": "total_over",
+      "strategy": "over_modelo",
+      "selection": "Over 223.5",
+      "final_score": "ATL 107-97 DET",
+      "margin": 10,
+      "total_points": 204,
+      "status": "loss",
+      "stake_units": 0.5,
+      "odds_ref": 1.96,
+      "profit_units": -0.5
+    },
+    {
+      "match": "Washington Wizards vs Orlando Magic",
+      "market": "handicap",
+      "strategy": "azarao",
+      "selection": "Washington Wizards +5.5",
+      "final_score": "WAS 116-96 ORL",
+      "margin": 20,
+      "total_points": 212,
+      "status": "win",
+      "stake_units": 0.25,
+      "odds_ref": 1.83,
+      "profit_units": 0.2075
+    }
+  ],
+  "day": {
+    "bets": 2,
+    "wins": 1,
+    "losses": 1,
+    "pushes": 0,
+    "profit_units": -0.2925
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-23",
+  "sport": "NBA",
+  "note": "Recolha fresca OK (generated_at 2026-11-23T19:48:01Z). 10 jogos, todos com odds 1xBet e Pinnacle. B0: nenhuma linha .5 com odd 1.80-2.00 e valor ≥ 1.025 (máx. 1.012, CHI-CLE Under 242.5; valores maiores só com odds > 2.00). B1: favoritos ≥ 70% (MIN, TOR, HOU, LAL em casa; CLE e SAS fora com linhas ≥ -8.5) — nenhuma linha com odd 1.80-2.00 dá P×odd ≥ 1.03 (máx. 0.95). B2: HOU-LAC Over 223.5 entra (estimado 228.8). Sinais Over excluídos por lesões: CHA-MEM (est. 221.2 vs 214.5; Knueppel, Schröder, Allen, J. Grant day-to-day), TOR-MIL (227.0 vs 222.5; Kawhi Leonard e Barrett fora), LAL-UTA (229.1 vs 224.5; Reaves fora, UTA em B2B), IND-OKC (224.7 vs 221.5; ambos em B2B, SGA day-to-day). B4: IND +4.5 tinha sinal (diferença 3.3), mas Siakam questionável e SGA day-to-day → excluído. Lesões: iHeart (CHA-MEM, TOR-MIL, LAC-HOU, OKC-IND), Heavy (Lakers, Ingram, Siakam), NBC Sports (parcial); TalkBasket falhou; PDF oficial da NBA não lido; sem dados de lesões para PHI-POR, MIN-BKN, NOP-PHX, SAC-SAS (sem candidatos nesses jogos).",
+  "picks": [
+    {
+      "match": "Houston Rockets vs Los Angeles Clippers",
+      "tipoff_maputo": "2026-11-24T03:30:00+02:00",
+      "market": "total_over",
+      "strategy": "over_modelo",
+      "selection": "Over 223.5",
+      "line": 223.5,
+      "min_odds": 1.8,
+      "odds_ref": 1.94,
+      "bookmaker": "1xBet",
+      "sharp_odds": {
+        "Pinnacle": "Over 223.5 @1.92 / Under 223.5 @1.95"
+      },
+      "win_prob": 0.615,
+      "confidence": "media",
+      "stake_units": 0.5,
+      "reason": "Total estimado 228.8 (HOU 118.2/110.6, LAC 111.1/117.6) vs linha 223.5 (+5.3). P=Φ(5.3/18)=61.5%, P×odd 1.19. Pinnacle sem valor (P justa Over 50.4%) — pick só do modelo. Sem back-to-back. LAC sem Beal e J. Miller; Brandon Ingram estreia-se (não está nas médias); HOU: Capela day-to-day. Não entrar se a linha subir acima de 224.5 ou a odd < 1.80."
+    }
+  ],
+  "avoid": [
+    {
+      "match": "Charlotte Hornets vs Memphis Grizzlies",
+      "reason": "Over 214.5 @1.93 com grande sinal (estimado 221.2, P×odd 1.25), mas Knueppel, Schröder, G. Allen (CHA) e Jerami Grant (MEM) day-to-day; Pippen Jr. fora → excluído. Entraria se Knueppel e Grant jogarem e a linha ficar ≤ 215.5. B4: modelo favorece MEM (não o azarão)."
+    },
+    {
+      "match": "Toronto Raptors vs Milwaukee Bucks",
+      "reason": "TOR 79% (-10.5): TOR -10.5 @1.96 P×odd 0.87. Over 222.5 @1.90 (estimado 227.0, P×odd 1.14) excluído: TOR sem Kawhi Leonard e RJ Barrett."
+    },
+    {
+      "match": "Los Angeles Lakers vs Utah Jazz",
+      "reason": "LAL 85% (-13.5) P×odd 0.77; UTA em B2B. Over 224.5 @1.93 (estimado 229.1, P×odd 1.16) excluído: Reaves fora. B0 máx. 1.004 (LAL -13.5)."
+    },
+    {
+      "match": "Indiana Pacers vs Oklahoma City Thunder",
+      "reason": "OKC 63% (-4.5). IND +4.5 @2.00 com sinal do modelo (P×odd 1.21), mas Siakam questionável, SGA day-to-day, ambos em B2B → excluído. Entraria IND +4.5 se Siakam jogar e SGA ficar fora sem a linha passar de -4.5. Over 221.5 excluído (B2B + SGA)."
+    },
+    {
+      "match": "Chicago Bulls vs Cleveland Cavaliers",
+      "reason": "CLE 74% fora (-8.5): fora só até -6.5. Total 241.5 vs estimado 238.2: sem sinal Over. B0 máx. 1.012 (Under 242.5 @1.87) < 1.025."
+    },
+    {
+      "match": "Minnesota Timberwolves vs Brooklyn Nets",
+      "reason": "MIN 83% (-11.5): MIN -11.5 @1.89 P×odd 0.95. Total 224.5 vs estimado 224.9: sem sinal. B0 máx. 0.992."
+    },
+    {
+      "match": "Sacramento Kings vs San Antonio Spurs",
+      "reason": "SAS 80% fora (-10.5): fora só até -6.5. Total sem sinal (224.3 vs 223.5). Dylan Harper (SAS) fora. B0 máx. 0.985."
+    },
+    {
+      "match": "Philadelphia 76ers vs Portland Trail Blazers",
+      "reason": "PHI 58% (-3.5); modelo POR por 2.4 pts (< 3). Total 232.5 vs estimado 227.3: sem Over. B0 máx. 0.977 em odds 1.80-2.00."
+    },
+    {
+      "match": "New Orleans Pelicans vs Phoenix Suns",
+      "reason": "PHX 58% (-3.5); modelo NOP por 2.3 pts (< 3). Total 233.5 vs estimado 232.7. B0 máx. 0.985."
+    }
+  ]
+}

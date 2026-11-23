@@ -1,15 +1,15 @@
 {
   "sport": "NBA",
   "since": "2026-11-05",
-  "updated": "2026-11-22",
-  "bets": 21,
-  "wins": 14,
-  "losses": 7,
+  "updated": "2026-11-23",
+  "bets": 23,
+  "wins": 15,
+  "losses": 8,
   "pushes": 0,
-  "hit_rate": 0.667,
-  "staked_units": 10.0,
-  "profit_units": 1.2585,
-  "roi": 0.126,
+  "hit_rate": 0.652,
+  "staked_units": 10.75,
+  "profit_units": 0.966,
+  "roi": 0.09,
   "by_confidence": {
     "alta": {
       "bets": 0,
@@ -17,9 +17,9 @@
       "profit_units": 0
     },
     "media": {
-      "bets": 19,
-      "wins": 13,
-      "profit_units": 1.286
+      "bets": 21,
+      "wins": 14,
+      "profit_units": 0.9935
     },
     "baixa": {
       "bets": 2,
@@ -34,10 +34,10 @@
     "win",
     "win",
     "win",
-    "win",
-    "win",
     "loss",
-    "loss"
+    "loss",
+    "loss",
+    "win"
   ],
   "days_processed": [
     "2026-11-05",
@@ -56,13 +56,14 @@
     "2026-11-18",
     "2026-11-19",
     "2026-11-20",
-    "2026-11-21"
+    "2026-11-21",
+    "2026-11-22"
   ],
   "by_market": {
     "handicap": {
-      "bets": 15,
-      "wins": 10,
-      "profit_units": 0.6485
+      "bets": 16,
+      "wins": 11,
+      "profit_units": 0.856
     },
     "moneyline": {
       "bets": 0,
@@ -70,9 +71,9 @@
       "profit_units": 0
     },
     "total_over": {
-      "bets": 4,
+      "bets": 5,
       "wins": 3,
-      "profit_units": 0.655
+      "profit_units": 0.155
     },
     "quarter_over": {
       "bets": 2,
@@ -94,10 +95,10 @@
       "profit_units": -0.205
     },
     "over_modelo": {
-      "bets": 4,
+      "bets": 5,
       "wins": 3,
-      "staked_units": 2.0,
-      "profit_units": 0.655
+      "staked_units": 2.5,
+      "profit_units": 0.155
     },
     "pinnacle_value": {
       "bets": 2,
@@ -112,10 +113,10 @@
       "profit_units": -0.045
     },
     "azarao": {
-      "bets": 0,
-      "wins": 0,
-      "staked_units": 0,
-      "profit_units": 0
+      "bets": 1,
+      "wins": 1,
+      "staked_units": 0.25,
+      "profit_units": 0.2075
     },
     "fallback": {
       "bets": 2,
