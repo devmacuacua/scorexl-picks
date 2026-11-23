@@ -187,5 +187,22 @@
       "status": "loss",
       "profit_units": -0.5
     }
-  ]
+  ],
+  "by_odds_source": {
+    "real": {
+      "bets": 4,
+      "wins": 2,
+      "staked_units": 3.0,
+      "profit_units": -0.355,
+      "roi": -0.118
+    },
+    "min_odds": {
+      "bets": 12,
+      "wins": 5,
+      "staked_units": 6.0,
+      "profit_units": -2.2,
+      "roi": -0.367
+    },
+    "nota": "min_odds = apostas sem odd real conhecida, liquidadas à odd mínima publicada: o lucro das vitórias fica subestimado (ROI é um limite inferior). O ROI justo é o de 'real'."
+  }
 }

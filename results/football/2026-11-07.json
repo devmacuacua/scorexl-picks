@@ -13,7 +13,8 @@
       "status": "loss",
       "stake_units": 0.5,
       "odds_ref": 1.85,
-      "profit_units": -0.5
+      "profit_units": -0.5,
+      "odds_source": "min_odds"
     },
     {
       "match": "Mainz 05 vs Bayern Munich",
@@ -26,7 +27,8 @@
       "status": "loss",
       "stake_units": 0.5,
       "odds_ref": 1.8,
-      "profit_units": -0.5
+      "profit_units": -0.5,
+      "odds_source": "min_odds"
     }
   ],
   "day": {

@@ -14,7 +14,8 @@
       "stake_units": 1,
       "odds_ref": 1.71,
       "profit_units": 0.71,
-      "confidence": "alta"
+      "confidence": "alta",
+      "odds_source": "real"
     },
     {
       "match": "Nice vs Paris Saint Germain",
@@ -29,7 +30,8 @@
       "odds_ref": 1.36,
       "profit_units": -0.5,
       "confidence": "media",
-      "test": true
+      "test": true,
+      "odds_source": "min_odds"
     }
   ],
   "day": {

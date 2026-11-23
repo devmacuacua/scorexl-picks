@@ -14,7 +14,8 @@
       "stake_units": 1,
       "odds_ref": 1.43,
       "profit_units": -1,
-      "confidence": "alta"
+      "confidence": "alta",
+      "odds_source": "real"
     },
     {
       "match": "Barcelona vs Villarreal",
@@ -29,7 +30,8 @@
       "odds_ref": 1.36,
       "profit_units": 0.18,
       "confidence": "media",
-      "test": true
+      "test": true,
+      "odds_source": "min_odds"
     },
     {
       "match": "Racing Santander vs Real Sociedad",
@@ -44,7 +46,8 @@
       "odds_ref": 1.39,
       "profit_units": 0.195,
       "confidence": "media",
-      "test": true
+      "test": true,
+      "odds_source": "min_odds"
     },
     {
       "match": "Liverpool vs Manchester United",
@@ -59,7 +62,8 @@
       "odds_ref": 1.48,
       "profit_units": -0.5,
       "confidence": "media",
-      "test": true
+      "test": true,
+      "odds_source": "min_odds"
     },
     {
       "match": "Getafe vs Atletico Madrid",
@@ -74,7 +78,8 @@
       "odds_ref": 1.6,
       "profit_units": -0.5,
       "confidence": "media",
-      "test": true
+      "test": true,
+      "odds_source": "real"
     }
   ],
   "day": {

@@ -13,7 +13,8 @@
       "status": "win",
       "stake_units": 0.5,
       "odds_ref": 1.65,
-      "profit_units": 0.325
+      "profit_units": 0.325,
+      "odds_source": "min_odds"
     }
   ],
   "day": {
