@@ -1,0 +1,153 @@
+{
+ "date": "2026-11-23",
+ "sport": "ABA League",
+ "league_key": "aba",
+ "league_id": 198,
+ "note": "date = data de Maputo; tipoff_maputo em hora de Maputo; odds incluem 1.ª parte quando há",
+ "games": [],
+ "yesterday_results": [
+  {
+   "id": 517700,
+   "date": "2026-11-22",
+   "home": "Mega Basket",
+   "away": "Studentski Centar",
+   "status": "FT",
+   "score_home": 85,
+   "score_away": 93
+  },
+  {
+   "id": 517703,
+   "date": "2026-11-22",
+   "home": "Crvena Zvezda Meridianbet",
+   "away": "Cibona",
+   "status": "FT",
+   "score_home": 115,
+   "score_away": 88
+  },
+  {
+   "id": 517702,
+   "date": "2026-11-22",
+   "home": "Cluj-Napoca",
+   "away": "Zadar",
+   "status": "FT",
+   "score_home": 75,
+   "score_away": 81
+  },
+  {
+   "id": 517698,
+   "date": "2026-11-22",
+   "home": "Buducnost",
+   "away": "Siroki Brijeg",
+   "status": "FT",
+   "score_home": 92,
+   "score_away": 86
+  },
+  {
+   "id": 517704,
+   "date": "2026-11-22",
+   "home": "Partizan Mozzart Bet",
+   "away": "Dubai",
+   "status": "FT",
+   "score_home": 78,
+   "score_away": 76
+  }
+ ],
+ "standings": [],
+ "season": 2026,
+ "recent_results": [
+  {
+   "id": 517700,
+   "date": "2026-11-22",
+   "home": "Mega Basket",
+   "away": "Studentski Centar",
+   "status": "FT",
+   "score_home": 85,
+   "score_away": 93
+  },
+  {
+   "id": 517703,
+   "date": "2026-11-22",
+   "home": "Crvena Zvezda Meridianbet",
+   "away": "Cibona",
+   "status": "FT",
+   "score_home": 115,
+   "score_away": 88
+  },
+  {
+   "id": 517702,
+   "date": "2026-11-22",
+   "home": "Cluj-Napoca",
+   "away": "Zadar",
+   "status": "FT",
+   "score_home": 75,
+   "score_away": 81
+  },
+  {
+   "id": 517698,
+   "date": "2026-11-22",
+   "home": "Buducnost",
+   "away": "Siroki Brijeg",
+   "status": "FT",
+   "score_home": 92,
+   "score_away": 86
+  },
+  {
+   "id": 517704,
+   "date": "2026-11-22",
+   "home": "Partizan Mozzart Bet",
+   "away": "Dubai",
+   "status": "FT",
+   "score_home": 78,
+   "score_away": 76
+  },
+  {
+   "id": 517701,
+   "date": "2026-11-21",
+   "home": "Cedevita Olimpija",
+   "away": "Slovan Bratislava",
+   "status": "FT",
+   "score_home": 77,
+   "score_away": 61
+  },
+  {
+   "id": 517699,
+   "date": "2026-11-21",
+   "home": "Spartak Subotica",
+   "away": "Vienna Basket",
+   "status": "FT",
+   "score_home": 87,
+   "score_away": 61
+  },
+  {
+   "id": 517696,
+   "date": "2026-11-20",
+   "home": "FMP Beograd",
+   "away": "Igokea",
+   "status": "FT",
+   "score_home": 69,
+   "score_away": 71
+  },
+  {
+   "id": 517697,
+   "date": "2026-11-20",
+   "home": "KK Krka Novo mesto",
+   "away": "Borac Mozzart",
+   "status": "FT",
+   "score_home": 91,
+   "score_away": 73
+  },
+  {
+   "id": 517695,
+   "date": "2026-11-20",
+   "home": "KK Bosna",
+   "away": "Perspektiva Ilirija",
+   "status": "FT",
+   "score_home": 73,
+   "score_away": 67
+  }
+ ],
+ "generated_at": "2026-11-23T12:53:08+00:00",
+ "source": "api-sports.io",
+ "api_calls": 5,
+ "errors": []
+}
