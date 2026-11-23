@@ -17,37 +17,38 @@
     "2026-11-18",
     "2026-11-19",
     "2026-11-20",
-    "2026-11-21"
+    "2026-11-21",
+    "2026-11-22"
   ],
   "totals": {
-    "bets": 11,
-    "wins": 5,
-    "losses": 6,
+    "bets": 16,
+    "wins": 7,
+    "losses": 9,
     "pushes": 0,
     "pending": 0
   },
-  "hit_rate": 0.455,
-  "staked_units": 6.0,
-  "profit_units": -0.93,
-  "roi": -0.155,
+  "hit_rate": 0.438,
+  "staked_units": 9.0,
+  "profit_units": -2.555,
+  "roi": -0.284,
   "by_confidence": {
     "media": {
-      "bets": 10,
-      "wins": 4,
-      "losses": 6,
+      "bets": 14,
+      "wins": 6,
+      "losses": 8,
       "pushes": 0,
-      "staked_units": 5.0,
-      "profit_units": -1.64,
-      "roi": -0.328
+      "staked_units": 7.0,
+      "profit_units": -2.265,
+      "roi": -0.324
     },
     "alta": {
-      "bets": 1,
+      "bets": 2,
       "wins": 1,
-      "losses": 0,
+      "losses": 1,
       "pushes": 0,
-      "staked_units": 1,
-      "profit_units": 0.71,
-      "roi": 0.71
+      "staked_units": 2,
+      "profit_units": -0.29,
+      "roi": -0.145
     }
   },
   "by_market": {
@@ -88,51 +89,34 @@
       "roi": -1.0
     },
     "corners_over": {
-      "bets": 2,
+      "bets": 3,
       "wins": 2,
+      "losses": 1,
+      "pushes": 0,
+      "staked_units": 2.5,
+      "profit_units": 0.145,
+      "roi": 0.058
+    },
+    "cards_over": {
+      "bets": 4,
+      "wins": 2,
+      "losses": 2,
+      "pushes": 0,
+      "staked_units": 2.0,
+      "profit_units": -0.625,
+      "roi": -0.312
+    },
+    "corners_1h_over": {
+      "bets": 0,
+      "wins": 0,
       "losses": 0,
       "pushes": 0,
-      "staked_units": 1.5,
-      "profit_units": 1.145,
-      "roi": 0.763
+      "staked_units": 0,
+      "profit_units": 0,
+      "roi": 0
     }
   },
   "last_10": [
-    {
-      "date": "2026-11-05",
-      "match": "Benfica vs Lech Poznań",
-      "market": "handicap",
-      "status": "win",
-      "profit_units": 0.325
-    },
-    {
-      "date": "2026-11-05",
-      "match": "Celtic vs Beşiktaş",
-      "market": "goals_over",
-      "status": "win",
-      "profit_units": 0.275
-    },
-    {
-      "date": "2026-11-05",
-      "match": "Crvena Zvezda vs Inter Escaldes",
-      "market": "handicap",
-      "status": "loss",
-      "profit_units": -0.5
-    },
-    {
-      "date": "2026-11-05",
-      "match": "Leverkusen vs Marseille",
-      "market": "shots_on_target_over",
-      "status": "loss",
-      "profit_units": -0.5
-    },
-    {
-      "date": "2026-11-07",
-      "match": "Arsenal vs Hull City",
-      "market": "handicap",
-      "status": "loss",
-      "profit_units": -0.5
-    },
     {
       "date": "2026-11-07",
       "match": "Mainz 05 vs Bayern Munich",
@@ -165,6 +149,41 @@
       "date": "2026-11-21",
       "match": "Nice vs Paris Saint Germain",
       "market": "shots_on_target_over",
+      "status": "loss",
+      "profit_units": -0.5
+    },
+    {
+      "date": "2026-11-22",
+      "match": "Juventus vs Venezia",
+      "market": "corners_over",
+      "status": "loss",
+      "profit_units": -1
+    },
+    {
+      "date": "2026-11-22",
+      "match": "Barcelona vs Villarreal",
+      "market": "cards_over",
+      "status": "win",
+      "profit_units": 0.18
+    },
+    {
+      "date": "2026-11-22",
+      "match": "Racing Santander vs Real Sociedad",
+      "market": "cards_over",
+      "status": "win",
+      "profit_units": 0.195
+    },
+    {
+      "date": "2026-11-22",
+      "match": "Liverpool vs Manchester United",
+      "market": "cards_over",
+      "status": "loss",
+      "profit_units": -0.5
+    },
+    {
+      "date": "2026-11-22",
+      "match": "Getafe vs Atletico Madrid",
+      "market": "cards_over",
       "status": "loss",
       "profit_units": -0.5
     }

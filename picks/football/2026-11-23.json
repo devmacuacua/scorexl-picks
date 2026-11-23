@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-23",
+  "sport": "football",
+  "note": "Segunda 23/11: fonte principal data/football/2026-11-23.json (api-sports.io, gerado 22/11 23:36 UTC, 3 jogos, 0 errors, odds 1xBet; sem odds de cartões). Sem provas europeias hoje. Liquidado 22/11 com yesterday_results: Juventus–Venezia 7 cantos (derrota), cartões 2 vitórias (Barça–Villarreal 6, Racing–Real Sociedad 4) e 2 derrotas (Liverpool–Man Utd 1, Getafe–Atlético 4). Nenhum dos 3 jogos tem super favorito: sem palpites principais. Cantos 1.ª parte = 0.46 × esperado do jogo, Poisson; nenhum cumpre margem + valor. Sem pesquisa web adicional.",
+  "picks": [
+    {
+      "match": "Brentford vs Everton",
+      "competition": "Premier League",
+      "kickoff_maputo": "2026-11-23T22:00:00+02:00",
+      "market": "cards_over",
+      "selection": "Mais de 3.5 cartões",
+      "line": 3.5,
+      "min_odds": 1.45,
+      "win_prob": 0.69,
+      "confidence": "media",
+      "stake_units": 0.5,
+      "test": true,
+      "reason": "Amarelos esperados 4.7 (Brentford 2.2 a favor/2.2 contra, Everton nos últimos 5), 1.2 acima da linha 3.5. Poisson P(>3.5) ≈0.69. Jogo equilibrado (2.32/3.72/3.18), favorável a cartões. Sem odd de cartões em data/ e sem dados do árbitro. Conta só amarelos: confirmar na 1xBet e entrar só com odd ≥ 1.45."
+    }
+  ],
+  "avoid": [
+    {
+      "match": "Brentford vs Everton",
+      "reason": "Jogo equilibrado (2.32/3.72/3.18), fora do perfil. Cantos 1.ª parte esperados 4.55: Mais de 3.5 a 1.34 dá P×odd 0.89."
+    },
+    {
+      "match": "Levante vs Elche",
+      "reason": "18.º contra 19.º, ambos com saldo negativo; sem favorito. Cantos 1.ª parte esperados 4.49 (margem < 1 sobre 3.5; 0.66×1.42=0.93). Amarelos esperados 4.0, sem margem."
+    },
+    {
+      "match": "Monza vs Fiorentina",
+      "reason": "Fiorentina a 1.94 sem desequilíbrio claro (ambos saldo -8). Cantos 1.ª parte esperados 4.32, sem margem. Amarelos esperados 4.2, sem margem."
+    }
+  ]
+}

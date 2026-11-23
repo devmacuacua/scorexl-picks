@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-22",
+  "sport": "football",
+  "results": [
+    {
+      "match": "Juventus vs Venezia",
+      "competition": "Serie A",
+      "market": "corners_over",
+      "selection": "Mais de 9 cantos (asiático)",
+      "line": 9,
+      "final_score": "4-0",
+      "final_stat": 7,
+      "status": "loss",
+      "stake_units": 1,
+      "odds_ref": 1.43,
+      "profit_units": -1,
+      "confidence": "alta"
+    },
+    {
+      "match": "Barcelona vs Villarreal",
+      "competition": "La Liga",
+      "market": "cards_over",
+      "selection": "Mais de 3.5 cartões",
+      "line": 3.5,
+      "final_score": "3-2",
+      "final_stat": 6,
+      "status": "win",
+      "stake_units": 0.5,
+      "odds_ref": 1.36,
+      "profit_units": 0.18,
+      "confidence": "media",
+      "test": true
+    },
+    {
+      "match": "Racing Santander vs Real Sociedad",
+      "competition": "La Liga",
+      "market": "cards_over",
+      "selection": "Mais de 3.5 cartões",
+      "line": 3.5,
+      "final_score": "3-2",
+      "final_stat": 4,
+      "status": "win",
+      "stake_units": 0.5,
+      "odds_ref": 1.39,
+      "profit_units": 0.195,
+      "confidence": "media",
+      "test": true
+    },
+    {
+      "match": "Liverpool vs Manchester United",
+      "competition": "Premier League",
+      "market": "cards_over",
+      "selection": "Mais de 3.5 cartões",
+      "line": 3.5,
+      "final_score": "4-0",
+      "final_stat": 1,
+      "status": "loss",
+      "stake_units": 0.5,
+      "odds_ref": 1.48,
+      "profit_units": -0.5,
+      "confidence": "media",
+      "test": true
+    },
+    {
+      "match": "Getafe vs Atletico Madrid",
+      "competition": "La Liga",
+      "market": "cards_over",
+      "selection": "Mais de 4.5 cartões",
+      "line": 4.5,
+      "final_score": "0-3",
+      "final_stat": 4,
+      "status": "loss",
+      "stake_units": 0.5,
+      "odds_ref": 1.6,
+      "profit_units": -0.5,
+      "confidence": "media",
+      "test": true
+    }
+  ],
+  "day": {
+    "bets": 5,
+    "wins": 2,
+    "losses": 3,
+    "pushes": 0,
+    "profit_units": -1.625
+  }
+}
