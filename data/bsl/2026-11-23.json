@@ -1,0 +1,126 @@
+{
+ "date": "2026-11-23",
+ "sport": "Super Ligi (Turquia)",
+ "league_key": "bsl",
+ "league_id": 104,
+ "note": "date = data de Maputo; tipoff_maputo em hora de Maputo; odds incluem 1.ª parte quando há",
+ "games": [],
+ "yesterday_results": [
+  {
+   "id": 511247,
+   "date": "2026-11-22",
+   "home": "Cayirova",
+   "away": "Esenler Erokspor",
+   "status": "FT",
+   "score_home": 85,
+   "score_away": 78
+  },
+  {
+   "id": 511250,
+   "date": "2026-11-22",
+   "home": "Trabzonspor",
+   "away": "Anadolu Efes",
+   "status": "FT",
+   "score_home": 70,
+   "score_away": 77
+  },
+  {
+   "id": 511248,
+   "date": "2026-11-22",
+   "home": "Galatasaray",
+   "away": "Petkim Spor",
+   "status": "FT",
+   "score_home": 81,
+   "score_away": 64
+  },
+  {
+   "id": 511245,
+   "date": "2026-11-22",
+   "home": "Besiktas",
+   "away": "Fenerbahce",
+   "status": "FT",
+   "score_home": 92,
+   "score_away": 88
+  }
+ ],
+ "standings": [],
+ "season": "2026-2027",
+ "recent_results": [
+  {
+   "id": 511247,
+   "date": "2026-11-22",
+   "home": "Cayirova",
+   "away": "Esenler Erokspor",
+   "status": "FT",
+   "score_home": 85,
+   "score_away": 78
+  },
+  {
+   "id": 511250,
+   "date": "2026-11-22",
+   "home": "Trabzonspor",
+   "away": "Anadolu Efes",
+   "status": "FT",
+   "score_home": 70,
+   "score_away": 77
+  },
+  {
+   "id": 511248,
+   "date": "2026-11-22",
+   "home": "Galatasaray",
+   "away": "Petkim Spor",
+   "status": "FT",
+   "score_home": 81,
+   "score_away": 64
+  },
+  {
+   "id": 511245,
+   "date": "2026-11-22",
+   "home": "Besiktas",
+   "away": "Fenerbahce",
+   "status": "FT",
+   "score_home": 92,
+   "score_away": 88
+  },
+  {
+   "id": 511249,
+   "date": "2026-11-21",
+   "home": "Karsiyaka",
+   "away": "Denizli Basket",
+   "status": "FT",
+   "score_home": 82,
+   "score_away": 79
+  },
+  {
+   "id": 511251,
+   "date": "2026-11-21",
+   "home": "Turk Telekom",
+   "away": "Tofas",
+   "status": "FT",
+   "score_home": 95,
+   "score_away": 78
+  },
+  {
+   "id": 511244,
+   "date": "2026-11-21",
+   "home": "Bahcesehir Kol.",
+   "away": "Korfez Basket",
+   "status": "FT",
+   "score_home": 114,
+   "score_away": 78
+  },
+  {
+   "id": 511246,
+   "date": "2026-11-21",
+   "home": "Bursaspor",
+   "away": "Bordo Bandirma",
+   "status": "FT",
+   "score_home": 85,
+   "score_away": 89
+  }
+ ],
+ "generated_at": "2026-11-23T08:44:01+00:00",
+ "source": "api-sports.io",
+ "api_calls": 5,
+ "errors": []
+}
