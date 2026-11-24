@@ -1,0 +1,16 @@
+{
+ "date": "2026-11-24",
+ "sport": "Eurocup",
+ "league_key": "eurocup",
+ "league_id": 194,
+ "note": "date = data de Maputo; tipoff_maputo em hora de Maputo; odds incluem 1.ª parte quando há",
+ "games": [],
+ "yesterday_results": [],
+ "standings": [],
+ "season": 2026,
+ "recent_results": [],
+ "generated_at": "2026-11-24T13:37:57+00:00",
+ "source": "api-sports.io",
+ "api_calls": 5,
+ "errors": []
+}
