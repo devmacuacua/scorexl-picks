@@ -1,7 +1,7 @@
 {
   "date": "2026-11-24",
   "sport": "football",
-  "note": "Revisto às 08h54 com data/football/2026-11-24.json (api-sports.io, gerado 24/11 04:49 UTC, 9 jogos, 0 errors, odds 1xBet). Só mercados da 1.ª parte: esperado 1.ª parte = 0.46 × cantos / 0.45 × golos esperados do jogo (últimos 5), Poisson. ALTERAÇÃO: Slovan–Betis passou de Mais de 4.5 para Mais de 3.5 cantos 1.ª parte (esperado desceu para 5.4, margem sobre 4.5 ficou < 1). Leipzig–Lens mantido (odd 1.83 igual). Sem pesquisa web adicional (dados completos).",
+  "note": "Revisto às 08h54 com data/football/2026-11-24.json (api-sports.io, gerado 24/11 04:49 UTC, 9 jogos, 0 errors, odds 1xBet). Só mercados da 1.ª parte: esperado 1.ª parte = 0.46 × cantos / 0.45 × golos esperados do jogo (últimos 5), Poisson. ALTERAÇÃO: Slovan–Betis passou de Mais de 4.5 para Mais de 3.5 cantos 1.ª parte (esperado desceu para 5.4, margem sobre 4.5 ficou < 1). Leipzig–Lens mantido (odd 1.83 igual). Sem pesquisa web adicional (dados completos). REVISÃO 24/11 (pedido do Francisco): Leipzig–Lens retirado — o modelo usava um jogo particular do Leipzig nas médias; sem ele deixa de cumprir as regras.",
   "picks": [
     {
       "match": "Slovan Bratislava vs Real Betis",
@@ -16,23 +16,13 @@
       "confidence": "media",
       "stake_units": 0.5,
       "reason": "Cantos esperados 1.ª parte 5.4 (11.7 no jogo), 1.9 acima da linha. Betis a 1.27 contra o Slovan (36.º, −16, LLLL). P≈0.785 × 1.40 = 1.10. O4.5 (1.87) retirado: margem 0.9 < 1."
-    },
-    {
-      "match": "RB Leipzig vs Lens",
-      "competition": "UEFA Champions League",
-      "kickoff_maputo": "2026-11-24T22:00:00+02:00",
-      "market": "goals_1h_over",
-      "selection": "Mais de 1.5 golos na 1.ª parte",
-      "line": 1.5,
-      "min_odds": 1.57,
-      "odds_ref": 1.83,
-      "win_prob": 0.64,
-      "confidence": "media",
-      "stake_units": 0.5,
-      "reason": "Golos esperados 1.ª parte 2.16 (4.8 no jogo); Lens (33.º, −12) sofre 2.8/jogo e o Leipzig sofre 2.2. P≈0.64 × 1.83 = 1.16. Modelo de golos tende a exagerar: stake baixa."
     }
   ],
   "avoid": [
+    {
+      "match": "RB Leipzig vs Lens (Mais de 1.5 golos 1.ª parte, retirado 24/11 de manhã)",
+      "reason": "As médias do Leipzig incluíam um particular (4-5 vs Mlada Boleslav). Sem ele, golos esperados 1.ª parte 1.98 (< 2.0) e P 0.59 × 1.83 = 1.08 (< 1.10). Sem o 1-9 do Lens com o Como desce para 1.63. Cantos 1.ª parte esperados 4.4: O3.5 0.64×1.36 = 0.87."
+    },
     {
       "match": "Slovan Bratislava vs Real Betis (Mais de 4.5 cantos 1.ª parte)",
       "reason": "Palpite da véspera retirado: esperado 5.4, margem 0.9 < 1 sobre a linha 4.5. Substituído por Mais de 3.5."
