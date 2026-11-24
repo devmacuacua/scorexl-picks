@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-23",
+  "sport": "football",
+  "results": [
+    {
+      "match": "Brentford vs Everton",
+      "competition": "Premier League",
+      "market": "cards_over",
+      "selection": "Mais de 3.5 cartões",
+      "line": 3.5,
+      "final_score": "4-0",
+      "halftime_score": "2-0",
+      "final_stat": 1,
+      "status": "loss",
+      "stake_units": 0.5,
+      "odds_ref": 1.45,
+      "odds_source": "min_odds",
+      "profit_units": -0.5,
+      "confidence": "media",
+      "test": true
+    }
+  ],
+  "day": {
+    "bets": 1,
+    "wins": 0,
+    "losses": 1,
+    "pushes": 0,
+    "profit_units": -0.5
+  }
+}
