@@ -1,0 +1,33 @@
+{
+ "date": "2026-11-24",
+ "sport": "Euroleague",
+ "league_key": "euroleague",
+ "note": "Dados generated_at 2026-11-24T13:27:14+00:00 (recolha fresca). 6 jogos, nenhum passou os filtros (fav_min 62%, P×odd); sem palpites, revisão de lesões não necessária.",
+ "picks": [],
+ "avoid": [
+  {
+   "match": "Besiktas vs Paris",
+   "reason": "favorito Besiktas 55% < 62%"
+  },
+  {
+   "match": "Crvena Zvezda Meridianbet vs Virtus Bologna",
+   "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Crvena Zvezda Meridianbet 8.0, combinado 8.1)"
+  },
+  {
+   "match": "Bayern vs Maccabi Tel Aviv",
+   "reason": "favorito Bayern 61% < 62%"
+  },
+  {
+   "match": "Valencia vs Panathinaikos",
+   "reason": "favorito Valencia 56% < 62%"
+  },
+  {
+   "match": "Lyon-Villeurbanne vs Olimpia Milano",
+   "reason": "favorito Olimpia Milano 55% < 62%"
+  },
+  {
+   "match": "Barcelona vs Fenerbahce",
+   "reason": "favorito Fenerbahce 60% < 62%"
+  }
+ ]
+}
