@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-24",
+  "sport": "NBA",
+  "note": "Recolha fresca OK (generated_at 2026-11-24T19:48:04Z). 3 jogos; só ORL-DET tem odds 1xBet (WAS-BOS e DEN-DAL só com Pinnacle). Odds Pinnacle em todos. B0 (ORL-DET): nenhuma linha com valor >= 1.025 (máx. 1.004, Over 213 @1.91; Over 213.5 0.992). B1: sem favorito >= 70% com 1xBet (DET 55%). B2: ORL-DET Over 213.5 @1.93 tinha sinal forte (estimado 221.8, P×odd 1.31) mas Paolo Banchero (ORL) FORA e Cade Cunningham (DET) day-to-day → excluído pela regra das lesões. B4: DET 55%, mas o modelo favorece DET (margem casa −5.0 com Banchero fora vs linha ORL +2) → sem sinal no azarão. Sem palpites hoje. Lesões: ORL Banchero, Isaac, Penda fora; DET Cunningham DTD, Duren, D. Robinson, Prince fora; BOS Mitchell Robinson fora; DAL Lively fora, PJ Washington questionável; DEN sem lesões. Fontes: iHeart, ClutchPoints, FanDuel; TalkBasket falhou; PDF oficial não lido.",
+  "picks": [],
+  "avoid": [
+    {
+      "match": "Orlando Magic vs Detroit Pistons",
+      "reason": "Over 213.5 @1.93 (Pinnacle 1.88/1.99): estimado 221.8 (+8.3), P=67.8%, P×odd 1.31, mas Banchero fora e Cunningham em dúvida → excluído (regra de estrelas). B0 máx. 1.004 (< 1.025). DET 55% (-2): modelo dá DET, sem azarão. Entraria só via B0 se a 1xBet subir o Over 213.5 para >= 2.00 com a Pinnacle igual (valor >= 1.025)."
+    },
+    {
+      "match": "Washington Wizards vs Boston Celtics",
+      "reason": "sem odds; a rever. Sem 1xBet. BOS 79% fora (-10.5 Pinnacle): fora só até -6.5 em B1. Total 218 vs estimado 219.5: sem sinal Over. Entraria só via B0 se a 1xBet abrir uma linha com valor >= 1.025 vs Pinnacle e odd 1.80-2.00."
+    },
+    {
+      "match": "Denver Nuggets vs Dallas Mavericks",
+      "reason": "sem odds; a rever. Sem 1xBet. DEN 73% (-8, Pinnacle); B1 DEN -8 só se a 1xBet der odd >= 1.80 com P×odd >= 1.03 (P(cobrir -8)≈50% → precisa ~2.06, fora do limite). Total 232 vs estimado 228.5: sem Over. PJ Washington (DAL) questionável. Entraria só via B0 com valor >= 1.025."
+    }
+  ]
+}

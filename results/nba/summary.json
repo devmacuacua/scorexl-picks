@@ -1,15 +1,15 @@
 {
   "sport": "NBA",
   "since": "2026-11-05",
-  "updated": "2026-11-23",
-  "bets": 23,
+  "updated": "2026-11-24",
+  "bets": 24,
   "wins": 15,
-  "losses": 8,
+  "losses": 9,
   "pushes": 0,
-  "hit_rate": 0.652,
-  "staked_units": 10.75,
-  "profit_units": 0.966,
-  "roi": 0.09,
+  "hit_rate": 0.625,
+  "staked_units": 11.25,
+  "profit_units": 0.466,
+  "roi": 0.041,
   "by_confidence": {
     "alta": {
       "bets": 0,
@@ -17,9 +17,9 @@
       "profit_units": 0
     },
     "media": {
-      "bets": 21,
+      "bets": 22,
       "wins": 14,
-      "profit_units": 0.9935
+      "profit_units": 0.4935
     },
     "baixa": {
       "bets": 2,
@@ -33,11 +33,11 @@
     "win",
     "win",
     "win",
+    "loss",
+    "loss",
+    "loss",
     "win",
-    "loss",
-    "loss",
-    "loss",
-    "win"
+    "loss"
   ],
   "days_processed": [
     "2026-11-05",
@@ -57,7 +57,8 @@
     "2026-11-19",
     "2026-11-20",
     "2026-11-21",
-    "2026-11-22"
+    "2026-11-22",
+    "2026-11-23"
   ],
   "by_market": {
     "handicap": {
@@ -71,9 +72,9 @@
       "profit_units": 0
     },
     "total_over": {
-      "bets": 5,
+      "bets": 6,
       "wins": 3,
-      "profit_units": 0.155
+      "profit_units": -0.345
     },
     "quarter_over": {
       "bets": 2,
@@ -95,10 +96,10 @@
       "profit_units": -0.205
     },
     "over_modelo": {
-      "bets": 5,
+      "bets": 6,
       "wins": 3,
-      "staked_units": 2.5,
-      "profit_units": 0.155
+      "staked_units": 3.0,
+      "profit_units": -0.345
     },
     "pinnacle_value": {
       "bets": 2,

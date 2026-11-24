@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-23",
+  "sport": "NBA",
+  "results": [
+    {
+      "match": "Houston Rockets vs Los Angeles Clippers",
+      "market": "total_over",
+      "strategy": "over_modelo",
+      "selection": "Over 223.5",
+      "final_score": "HOU 116-104 LAC",
+      "margin": 12,
+      "total_points": 220,
+      "status": "loss",
+      "stake_units": 0.5,
+      "odds_ref": 1.94,
+      "profit_units": -0.5
+    }
+  ],
+  "day": {
+    "bets": 1,
+    "wins": 0,
+    "losses": 1,
+    "pushes": 0,
+    "profit_units": -0.5
+  }
+}
