@@ -43,3 +43,19 @@ As amostras são pequenas e não provam nada. Mas o padrão (Over caro nos golos
 
 ## 5. Expectativa honesta
 Com margens de 5 a 9% e um modelo de sinal fraco, o objetivo realista é ROI entre 0 e +5% a longo prazo, com muita variância. A v2 vai apostar pouco. Avaliar só com ≥ 50 apostas.
+
+## 6. Alargamento a todos os mercados de totais (25/11, 2.ª versão)
+Comparação nos 57 jogos com odds: taxa base histórica, mercado (sem margem) e realidade (P Over).
+| Mercado | Base | 1xBet | Real |
+|---|---|---|---|
+| Golos 1.ª parte O1.5 | .361 | .424 | .351 |
+| Golos 2.ª parte O1.5 | .484 | .529 | .491 |
+| Golos jogo O2.5 | .549 | .602 | .474 |
+| Golos jogo O3.5 | .325 | .401 | .404 |
+| Ambas marcam | .546 | .567 | .474 |
+| Ambas marcam 1.ª parte | .196 | .242 | .193 |
+| Cantos jogo O9.5 | .484 | .519 | .526 |
+| Cantos 1.ª parte O4.5 | .477 | .506 | .621 |
+
+Nos golos, a 1xBet põe o Over acima da base em todos os mercados (+2 a +8 pontos), e a realidade ficou perto da base. Há uma exceção: no O3.5 do jogo o mercado acertou, porque nos jogos desequilibrados há mais golos e a base não vê isso. Daí o filtro de desacordo. Nos cantos não há padrão, e a margem é alta (9-12%).
+Backtest da regra final (1 palpite por jogo): 23 apostas, 52% de acerto, ROI +14%. Sem o filtro de desacordo: 35 apostas, −17%. Amostra pequena, não é prova.

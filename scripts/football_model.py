@@ -11,17 +11,24 @@ from collections import defaultdict
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 MODEL = os.path.join(ROOT, "data", "meta", "football_model.json")
 
-# mercado → (chave 1xBet, função do resultado, linhas, variável do modelo)
+# mercado → (chave 1xBet, linhas, variável do modelo, peso do modelo)
+# peso do modelo: nos mercados de margem alta (1.ª/2.ª parte, cantos) o mercado é menos afinado → mais peso ao modelo;
+# nos golos do jogo todo (margem ~4%, mercado afinado) o mercado manda.
 MARKETS = {
-    "goals_1h": ("Goals Over/Under First Half", [0.5, 1.5], "g"),
-    "corners_1h": ("Total Corners (1st Half)", [3.5, 4.5, 5.5], "c"),
+    "goals_1h": ("Goals Over/Under First Half", [0.5, 1.5], "g", 0.75),
+    "corners_1h": ("Total Corners (1st Half)", [3.5, 4.5, 5.5], "c", 0.75),
+    "goals_2h": ("Goals Over/Under - Second Half", [0.5, 1.5, 2.5], "g", 0.75),
+    "goals_ft": ("Goals Over/Under", [1.5, 2.5, 3.5], "g", 0.60),
+    "corners_ft": ("Corners Over Under", [8.5, 9.5, 10.5, 11.5], "c", 0.60),
+    "btts": ("Both Teams Score", [0.5], "g", 0.60),
+    "btts_1h": ("Both Teams Score - First Half", [0.5], "g", 0.75),
 }
 COMP_ALIAS = {"UEFA Champions League": "Champions League", "UEFA Europa League": "Europa League",
               "UEFA Europa Conference League": "Conference League", "UEFA Conference League": "Conference League"}
 CUP_WORDS = ("cup", "copa", "pokal", "taça", "taca", "coupe", "coppa", "friendl", "trophy", "supercopa", "super cup")
 
 # regra de decisão (algos/football.md)
-W_MODEL = 0.75         # peso do modelo; o resto vem da 1xBet sem margem
+MAX_DISAGREE = 0.10     # se o modelo e a 1xBet discordam mais do que isto (P Over), o modelo provavelmente não sabe algo → não entra
 MIN_EV = 1.05           # P × odd mínimo
 ODD_MIN, ODD_MAX = 1.40, 2.60
 MAX_PICKS = 3
@@ -34,7 +41,11 @@ def sigm(z): return 1 / (1 + math.exp(-z))
 
 
 def outcome(r, mk):
-    return {"goals_1h": sum(r["goals_ht"]), "corners_1h": sum(r["corners_1h"])}[mk]
+    """Total do mercado num jogo do estudo (btts: 1 se ambas marcaram, linha 0.5)."""
+    g, gh = r["goals"], r["goals_ht"]
+    return {"goals_1h": sum(gh), "corners_1h": sum(r["corners_1h"]), "goals_2h": sum(g) - sum(gh),
+            "goals_ft": sum(g), "corners_ft": sum(r["corners_ft"]),
+            "btts": int(min(g) > 0), "btts_1h": int(min(gh) > 0)}[mk]
 
 
 def load_study():
@@ -71,7 +82,7 @@ def build():
             hist[(r["season"], tid)].append((r["corners_ft"][i], r["corners_ft"][j], r["goals"][i], r["goals"][j]))
     model = {"built_from": f"{len(rows)} jogos limpos de data/study (calibração em {len(X)} com ≥3 jogos por equipa)",
              "mu": {"c": S.mean(x[1] for x in X), "g": S.mean(x[2] for x in X)}, "markets": {}}
-    for mk, (_, lines, var) in MARKETS.items():
+    for mk, (_, lines, var, _w) in MARKETS.items():
         model["markets"][mk] = {}
         for L in lines:
             ys = [outcome(r, mk) > L for r in rows]
@@ -112,6 +123,9 @@ def team_avgs(tf):
 
 
 def market_pairs(bets, key):
+    if key.startswith("Both Teams Score"):
+        v = {x["value"]: float(x["odd"]) for x in bets.get(key, [])}
+        return {0.5: {"Over": v["Yes"], "Under": v["No"]}} if "Yes" in v and "No" in v else {}
     o = {}
     for v in bets.get(key, []):
         p = v["value"].split()
@@ -135,7 +149,7 @@ def evaluate(fx, model):
         E["g"] = expected(h["gf"], h["ga"], a["gf"], a["ga"])
     bets = (fx.get("odds") or {}).get("bets", {})
     cands = []
-    for mk, (key, lines, var) in MARKETS.items():
+    for mk, (key, lines, var, w_model) in MARKETS.items():
         pairs = market_pairs(bets, key)
         for L in lines:
             m = model["markets"][mk][str(L)]
@@ -147,15 +161,16 @@ def evaluate(fx, model):
                 continue
             io, iu = 1 / od["Over"], 1 / od["Under"]
             p_mkt = io / (io + iu)
-            p_over = W_MODEL * p_model + (1 - W_MODEL) * p_mkt
+            p_over = w_model * p_model + (1 - w_model) * p_mkt
             for side, p, odd in (("over", p_over, od["Over"]), ("under", 1 - p_over, od["Under"])):
                 cands.append({"market": mk, "side": side, "line": L, "odd": odd, "p": p, "ev": p * odd,
                               "p_model_over": p_model, "p_mkt_over": p_mkt, "base_over": base, "E": x,
-                              "data_ok": x is not None, "margin": io + iu - 1})
+                              "data_ok": x is not None and abs(p_model - p_mkt) <= MAX_DISAGREE, "margin": io + iu - 1})
     return cands, E, h, a
 
 
-LABEL = {"goals_1h": "golos na 1.ª parte", "corners_1h": "cantos na 1.ª parte"}
+LABEL = {"goals_1h": "golos na 1.ª parte", "corners_1h": "cantos na 1.ª parte", "goals_2h": "golos na 2.ª parte",
+         "goals_ft": "golos no jogo", "corners_ft": "cantos no jogo", "btts": "ambas marcam", "btts_1h": "ambas marcam na 1.ª parte"}
 
 
 def picks(d, write=False):
@@ -172,12 +187,26 @@ def picks(d, write=False):
             best = max(ok, key=lambda c: c["ev"])
             allc.append((best, fx, E))
         else:
-            top = max((c for c in cands if ODD_MIN <= c["odd"] <= ODD_MAX), key=lambda c: c["ev"], default=None)
-            avoid.append({"match": match, "reason": (f"Sem valor: melhor opção {top['side']} {top['line']} {LABEL[top['market']]} P {top['p']:.2f} × {top['odd']:.2f} = {top['ev']:.2f} (< {MIN_EV})." if top else "Sem odds 1xBet utilizáveis.")})
+            inr = [c for c in cands if ODD_MIN <= c["odd"] <= ODD_MAX]
+            top = max((c for c in inr if c["data_ok"]), key=lambda c: c["ev"], default=None)
+            dis = max((c for c in inr if not c["data_ok"] and c["E"] is not None and c["ev"] >= MIN_EV), key=lambda c: c["ev"], default=None)
+            def lab(c):
+                if c["market"].startswith("btts"):
+                    return f"{LABEL[c['market']]} {'Sim' if c['side'] == 'over' else 'Não'}"
+                return f"{'Mais' if c['side'] == 'over' else 'Menos'} de {c['line']} {LABEL[c['market']]}"
+            parts = []
+            if top:
+                parts.append(f"Melhor opção: {lab(top)}, P {top['p']:.2f} × {top['odd']:.2f} = {top['ev']:.2f} (< {MIN_EV}).")
+            if dis:
+                parts.append(f"{lab(dis)} parecia ter valor ({dis['ev']:.2f}), mas o modelo ({dis['p_model_over']:.2f}) e a 1xBet ({dis['p_mkt_over']:.2f}) discordam mais de {MAX_DISAGREE} (P Over): o mercado deve saber algo que o modelo não sabe.")
+            avoid.append({"match": match, "reason": " ".join(parts) or "Sem odds 1xBet utilizáveis."})
     allc.sort(key=lambda t: -t[0]["ev"])
     out = []
     for c, fx, E in allc[:MAX_PICKS]:
-        sel = f"{'Mais' if c['side'] == 'over' else 'Menos'} de {c['line']} {LABEL[c['market']]}"
+        if c["market"].startswith("btts"):
+            sel = f"{LABEL[c['market']].capitalize()}: {'Sim' if c['side'] == 'over' else 'Não'}"
+        else:
+            sel = f"{'Mais' if c['side'] == 'over' else 'Menos'} de {c['line']} {LABEL[c['market']]}"
         out.append({
             "match": f"{fx['home']} vs {fx['away']}", "competition": fx["competition"], "kickoff_maputo": fx["kickoff_maputo"],
             "market": f"{c['market']}_{c['side']}", "ruleset": "v2",
@@ -195,7 +224,30 @@ def picks(d, write=False):
     return res
 
 
-def backtest():
+def outcome_y(mk, y, st, fid=None):
+    """Total do mercado a partir de yesterday_results (e data/study para cantos da 1.ª parte). None se faltar."""
+    if not y:
+        return None
+    ht = y.get("halftime") or {}
+    ft = (y.get("goals_home"), y.get("goals_away"))
+    if None in ft:
+        return None
+    hth = (ht.get("home"), ht.get("away")) if ht else (None, None)
+    if mk == "corners_1h":
+        return _halftime_corners(fid or y.get("id"), y, st)
+    if mk == "corners_ft":
+        a, b = (y.get("stats_home") or {}).get("corners"), (y.get("stats_away") or {}).get("corners")
+        return None if a is None or b is None or (a == 0 and b == 0) else a + b
+    if mk in ("goals_ft",):
+        return sum(ft)
+    if mk == "btts":
+        return int(min(ft) > 0)
+    if None in hth:
+        return None
+    return {"goals_1h": sum(hth), "goals_2h": sum(ft) - sum(hth), "btts_1h": int(min(hth) > 0)}.get(mk)
+
+
+def backtest(per_market=False):
     model = json.load(open(MODEL))
     st = {}
     for f in glob.glob(os.path.join(ROOT, "data", "study", "*.json")):
@@ -211,15 +263,15 @@ def backtest():
             y, s = res.get(fx["id"]), st.get(str(fx["id"]))
             cands, *_ = evaluate(fx, model)
             ok = [c for c in cands if c["ev"] >= MIN_EV and ODD_MIN <= c["odd"] <= ODD_MAX and c["data_ok"]]
-            for c in sorted(ok, key=lambda c: -c["ev"])[:1]:
-                if c["market"] == "corners_1h":
-                    if not s or not s.get("corners_1h") or None in s["corners_1h"]:
-                        continue
-                    t = sum(s["corners_1h"])
-                elif not y or not y.get("halftime") or None in y["halftime"].values():
+            # per_market: a melhor opção de CADA mercado (para avaliar mercados); senão a melhor do jogo (regra real)
+            groups = defaultdict(list)
+            for c in ok:
+                groups[c["market"] if per_market else "all"].append(c)
+            for g in groups.values():
+                c = max(g, key=lambda c: c["ev"])
+                t = outcome_y(c["market"], y, st, fx["id"])
+                if t is None:
                     continue
-                else:
-                    t = sum(y["halftime"].values()) if c["market"] == "goals_1h" else y["goals_home"] + y["goals_away"]
                 win = (t > c["line"]) if c["side"] == "over" else (t < c["line"])
                 bets.append((c["market"], c["side"], win, c["odd"]))
     agg = defaultdict(lambda: [0, 0, 0.0])
@@ -228,17 +280,6 @@ def backtest():
             agg[k][0] += 1; agg[k][1] += w; agg[k][2] += (o - 1) if w else -1
     for k, (n, w, p) in sorted(agg.items()):
         print(f"{k:18s} n={n:3d} acerto={w / n:.2f} ROI={p / n:+.3f}")
-
-
-if __name__ == "__main__":
-    cmd = sys.argv[1] if len(sys.argv) > 1 else "build"
-    if cmd == "build":
-        build()
-    elif cmd == "picks":
-        r = picks(sys.argv[2], "--write" in sys.argv)
-        print(json.dumps(r, ensure_ascii=False, indent=1))
-    elif cmd == "backtest":
-        backtest()
 
 
 # ---------------------------------------------------------------- liquidação
@@ -284,19 +325,12 @@ def settle(d):
     def grade_pick(p, y):
         mk = p["market"]
         side = "under" if mk.endswith("_under") else "over"
-        if y is None:
-            return None, None
-        if mk.startswith("goals_1h"):
-            ht = y.get("halftime") or {}
-            if None in ht.values() or not ht:
-                return None, None
-            total = ht["home"] + ht["away"]
-        elif mk.startswith("corners_1h"):
-            total = _halftime_corners(y.get("id"), y, st)
-            if total is None:
-                return None, None
-        else:
+        base = mk.rsplit("_", 1)[0]
+        if base not in MARKETS:
             return "legacy", None
+        total = outcome_y(base, y, st)
+        if total is None:
+            return None, None
         return _grade(total, p["line"], side), total
 
     # 1) dia d (novo ficheiro) + 2) pendentes antigos
@@ -382,5 +416,14 @@ def rebuild_summary():
     return out
 
 
-if __name__ == "__main__" and len(sys.argv) > 1 and sys.argv[1] == "settle":
-    settle(sys.argv[2])
+if __name__ == "__main__":
+    cmd = sys.argv[1] if len(sys.argv) > 1 else "build"
+    if cmd == "build":
+        build()
+    elif cmd == "picks":
+        r = picks(sys.argv[2], "--write" in sys.argv)
+        print(json.dumps(r, ensure_ascii=False, indent=1))
+    elif cmd == "backtest":
+        backtest("--per-market" in sys.argv)
+    elif cmd == "settle":
+        settle(sys.argv[2])

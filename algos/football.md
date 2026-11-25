@@ -10,18 +10,21 @@ O Francisco pediu um reset completo das regras e deu liberdade total para as ref
 5. **Amostra.** 17 apostas não chegam para julgar regra nenhuma. Na v1, cada derrota levava a mudar regras. Na v2 a regra fica fixa até haver amostra.
 
 ## Regras v2
-**Mercados:** só totais da 1.ª parte, nos dois sentidos (Over e Under):
-- `goals_1h_over` / `goals_1h_under`: golos na 1.ª parte, linhas 0.5 e 1.5;
-- `corners_1h_over` / `corners_1h_under`: cantos na 1.ª parte, linhas 3.5, 4.5 e 5.5.
+**Mercados** (alargado a 25/11: o Francisco deu liberdade total para jogo todo, 1.ª e 2.ª parte). Todos são totais, nos dois sentidos:
+- `goals_1h_*` (0.5, 1.5), `goals_2h_*` (0.5, 1.5, 2.5), `goals_ft_*` (1.5, 2.5, 3.5);
+- `btts_*` e `btts_1h_*`: ambas marcam no jogo ou na 1.ª parte (over = Sim, under = Não);
+- `corners_1h_*` (3.5, 4.5, 5.5) e `corners_ft_*` (8.5, 9.5, 10.5, 11.5).
 
-Linhas inteiras ou asiáticas não entram (o modelo só está calibrado para linhas .5). Mercados do jogo todo, por equipa, vitória e handicap: não.
+O sufixo é `_over` ou `_under`. Linhas inteiras ou asiáticas não entram. Vitória, handicap e mercados por equipa ficam de fora, porque o modelo não tem informação melhor do que o mercado sobre a força das equipas.
 
 **Probabilidade** (`scripts/football_model.py`):
 1. Taxa base da prova para a linha (Over), calculada em `data/study` (2 609 jogos limpos) e encolhida para a média geral com 150 jogos de peso (`data/meta/football_model.json`).
 2. Ajuste do modelo: `logit P = logit(base) + w × (E − média)`. E = cantos ou golos esperados do jogo = (casa a favor + fora contra)/2 + (fora a favor + casa contra)/2, com os últimos jogos **sem taças nem particulares** e pelo menos 3 jogos com dados por equipa. O w foi ajustado no histórico e é pequeno de propósito (~0.1 por canto ou golo esperado).
-3. Mistura com o mercado: **P = 0.75 × modelo + 0.25 × 1xBet sem margem.** A 1xBet sabe coisas que o modelo não sabe (onzes, motivação).
+3. Mistura com o mercado: **P = w × modelo + (1 − w) × 1xBet sem margem**, com w = 0.75 nas partes (1.ª/2.ª) e nos cantos da 1.ª parte, e w = 0.60 no jogo todo (golos, ambas marcam, cantos), onde o mercado é mais afinado.
+4. **Filtro de desacordo:** se |P_modelo − P_1xBet| > 0.10 (em P Over), não entra. Quando o modelo discorda muito, quase sempre é porque o mercado sabe algo que ele não sabe (por exemplo, a diferença de força das equipas, que mexe muito nos golos). No backtest, este filtro passou o ROI de −17% para +14%, em amostras pequenas.
 
 **Entrada:**
+- passa o filtro de desacordo;
 - P × odd real da 1xBet ≥ **1.05**;
 - odd entre **1.40 e 2.60**;
 - só com odd real em data/ (sem odd real não há palpite);

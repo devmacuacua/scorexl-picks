@@ -128,6 +128,304 @@
      "Conference League": 69
     }
    }
+  },
+  "goals_2h": {
+   "0.5": {
+    "overall": 0.8133,
+    "w": 0.0982,
+    "base": {
+     "La Liga": 0.818,
+     "Ligue 1": 0.7993,
+     "Premier League": 0.7991,
+     "Bundesliga": 0.8422,
+     "Serie A": 0.7904,
+     "Champions League": 0.8317,
+     "Europa League": 0.8346,
+     "Conference League": 0.8219
+    },
+    "n": {
+     "La Liga": 504,
+     "Ligue 1": 403,
+     "Premier League": 487,
+     "Bundesliga": 395,
+     "Serie A": 494,
+     "Champions League": 147,
+     "Europa League": 110,
+     "Conference League": 69
+    }
+   },
+   "1.5": {
+    "overall": 0.4814,
+    "w": 0.052,
+    "base": {
+     "La Liga": 0.4575,
+     "Ligue 1": 0.4724,
+     "Premier League": 0.476,
+     "Bundesliga": 0.5564,
+     "Serie A": 0.446,
+     "Champions League": 0.5024,
+     "Europa League": 0.47,
+     "Conference League": 0.4941
+    },
+    "n": {
+     "La Liga": 504,
+     "Ligue 1": 403,
+     "Premier League": 487,
+     "Bundesliga": 395,
+     "Serie A": 494,
+     "Champions League": 147,
+     "Europa League": 110,
+     "Conference League": 69
+    }
+   },
+   "2.5": {
+    "overall": 0.225,
+    "w": 0.1063,
+    "base": {
+     "La Liga": 0.2091,
+     "Ligue 1": 0.231,
+     "Premier League": 0.2068,
+     "Bundesliga": 0.2527,
+     "Serie A": 0.1953,
+     "Champions League": 0.2719,
+     "Europa League": 0.2298,
+     "Conference League": 0.2591
+    },
+    "n": {
+     "La Liga": 504,
+     "Ligue 1": 403,
+     "Premier League": 487,
+     "Bundesliga": 395,
+     "Serie A": 494,
+     "Champions League": 147,
+     "Europa League": 110,
+     "Conference League": 69
+    }
+   }
+  },
+  "goals_ft": {
+   "1.5": {
+    "overall": 0.775,
+    "w": 0.1003,
+    "base": {
+     "La Liga": 0.7741,
+     "Ligue 1": 0.7509,
+     "Premier League": 0.7806,
+     "Bundesliga": 0.8096,
+     "Serie A": 0.7442,
+     "Champions League": 0.8022,
+     "Europa League": 0.7779,
+     "Conference League": 0.7865
+    },
+    "n": {
+     "La Liga": 504,
+     "Ligue 1": 403,
+     "Premier League": 487,
+     "Bundesliga": 395,
+     "Serie A": 494,
+     "Champions League": 147,
+     "Europa League": 110,
+     "Conference League": 69
+    }
+   },
+   "2.5": {
+    "overall": 0.5477,
+    "w": 0.1272,
+    "base": {
+     "La Liga": 0.5201,
+     "Ligue 1": 0.5374,
+     "Premier League": 0.5356,
+     "Bundesliga": 0.6168,
+     "Serie A": 0.5034,
+     "Champions League": 0.5931,
+     "Europa League": 0.5698,
+     "Conference League": 0.5624
+    },
+    "n": {
+     "La Liga": 504,
+     "Ligue 1": 403,
+     "Premier League": 487,
+     "Bundesliga": 395,
+     "Serie A": 494,
+     "Champions League": 147,
+     "Europa League": 110,
+     "Conference League": 69
+    }
+   },
+   "3.5": {
+    "overall": 0.3231,
+    "w": 0.1069,
+    "base": {
+     "La Liga": 0.2821,
+     "Ligue 1": 0.3281,
+     "Premier League": 0.299,
+     "Bundesliga": 0.4082,
+     "Serie A": 0.2616,
+     "Champions League": 0.3854,
+     "Europa League": 0.3287,
+     "Conference League": 0.3811
+    },
+    "n": {
+     "La Liga": 504,
+     "Ligue 1": 403,
+     "Premier League": 487,
+     "Bundesliga": 395,
+     "Serie A": 494,
+     "Champions League": 147,
+     "Europa League": 110,
+     "Conference League": 69
+    }
+   }
+  },
+  "corners_ft": {
+   "8.5": {
+    "overall": 0.5968,
+    "w": 0.1339,
+    "base": {
+     "La Liga": 0.5971,
+     "Ligue 1": 0.5868,
+     "Premier League": 0.6319,
+     "Bundesliga": 0.623,
+     "Serie A": 0.5489,
+     "Champions League": 0.5775,
+     "Europa League": 0.5905,
+     "Conference League": 0.6279
+    },
+    "n": {
+     "La Liga": 504,
+     "Ligue 1": 403,
+     "Premier League": 487,
+     "Bundesliga": 395,
+     "Serie A": 494,
+     "Champions League": 147,
+     "Europa League": 110,
+     "Conference League": 69
+    }
+   },
+   "9.5": {
+    "overall": 0.4849,
+    "w": 0.1241,
+    "base": {
+     "La Liga": 0.4889,
+     "Ligue 1": 0.4769,
+     "Premier League": 0.5286,
+     "Bundesliga": 0.5206,
+     "Serie A": 0.4328,
+     "Champions League": 0.4536,
+     "Europa League": 0.4797,
+     "Conference League": 0.4782
+    },
+    "n": {
+     "La Liga": 504,
+     "Ligue 1": 403,
+     "Premier League": 487,
+     "Bundesliga": 395,
+     "Serie A": 494,
+     "Champions League": 147,
+     "Europa League": 110,
+     "Conference League": 69
+    }
+   },
+   "10.5": {
+    "overall": 0.3729,
+    "w": 0.1426,
+    "base": {
+     "La Liga": 0.3837,
+     "Ligue 1": 0.3543,
+     "Premier League": 0.4096,
+     "Bundesliga": 0.3981,
+     "Serie A": 0.326,
+     "Champions League": 0.3601,
+     "Europa League": 0.369,
+     "Conference League": 0.3787
+    },
+    "n": {
+     "La Liga": 504,
+     "Ligue 1": 403,
+     "Premier League": 487,
+     "Bundesliga": 395,
+     "Serie A": 494,
+     "Champions League": 147,
+     "Europa League": 110,
+     "Conference League": 69
+    }
+   },
+   "11.5": {
+    "overall": 0.2748,
+    "w": 0.1046,
+    "base": {
+     "La Liga": 0.2878,
+     "Ligue 1": 0.2536,
+     "Premier League": 0.2892,
+     "Bundesliga": 0.3123,
+     "Serie A": 0.2364,
+     "Champions League": 0.2701,
+     "Europa League": 0.2701,
+     "Conference League": 0.2796
+    },
+    "n": {
+     "La Liga": 504,
+     "Ligue 1": 403,
+     "Premier League": 487,
+     "Bundesliga": 395,
+     "Serie A": 494,
+     "Champions League": 147,
+     "Europa League": 110,
+     "Conference League": 69
+    }
+   }
+  },
+  "btts": {
+   "0.5": {
+    "overall": 0.5439,
+    "w": 0.0199,
+    "base": {
+     "La Liga": 0.559,
+     "Ligue 1": 0.5327,
+     "Premier League": 0.5457,
+     "Bundesliga": 0.5901,
+     "Serie A": 0.4947,
+     "Champions League": 0.5575,
+     "Europa League": 0.5176,
+     "Conference League": 0.5643
+    },
+    "n": {
+     "La Liga": 504,
+     "Ligue 1": 403,
+     "Premier League": 487,
+     "Bundesliga": 395,
+     "Serie A": 494,
+     "Champions League": 147,
+     "Europa League": 110,
+     "Conference League": 69
+    }
+   }
+  },
+  "btts_1h": {
+   "0.5": {
+    "overall": 0.1947,
+    "w": 0.1218,
+    "base": {
+     "La Liga": 0.1853,
+     "Ligue 1": 0.2011,
+     "Premier League": 0.1777,
+     "Bundesliga": 0.2132,
+     "Serie A": 0.1742,
+     "Champions League": 0.233,
+     "Europa League": 0.1893,
+     "Conference League": 0.2247
+    },
+    "n": {
+     "La Liga": 504,
+     "Ligue 1": 403,
+     "Premier League": 487,
+     "Bundesliga": 395,
+     "Serie A": 494,
+     "Champions League": 147,
+     "Europa League": 110,
+     "Conference League": 69
+    }
+   }
   }
  }
 }
