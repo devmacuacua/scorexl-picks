@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-25",
+  "sport": "NBA",
+  "note": "Recolha fresca OK (generated_at 2026-11-25T19:47:55Z, odds Pinnacle dessa hora). 9 jogos; odds Pinnacle em 9/9; odds 1xBet em 7/9 (OKC-MIN e POR-SAS sem 1xBet). B0: nenhuma linha com valor >= 1.025. Melhor: Knicks-Cavaliers Under 219.5 @2.02 (Pinnacle 1.95/1.92, P_justa 0.504, valor 1.018, odd > 2.00); Under 220.5 @1.93 (Pinnacle 2.04/1.83, P 0.527, valor 1.017). Sem linhas 1xBet fora das da Pinnacle com valor >= 1.04 por interpolação. Sem palpites hoje. Sombra: 9 candidatos (B1/B2/B4), melhor valor vs Pinnacle 0.983 (Nets +2.5 @1.82). Lesões: Jalen Brunson (NYK) questionável; Giannis (MIL) na lista; Wembanyama (SAS) questionável; Ja Morant (MEM) fora. Fontes: relatório oficial NBA (PDF, só títulos), iHeart, TalkBasket, Cavaliers Nation, Blazer's Edge; detalhes não lidos na íntegra.",
+  "picks": [],
+  "shadow": [
+    {
+      "match": "Charlotte Hornets vs Chicago Bulls",
+      "strategy": "azarao",
+      "selection": "Chicago Bulls +3.5",
+      "odds_1xbet": 1.93,
+      "p_modelo": 0.615,
+      "p_pinnacle_justa": 0.5,
+      "valor_pinnacle": 0.965
+    },
+    {
+      "match": "Charlotte Hornets vs Chicago Bulls",
+      "strategy": "over_modelo",
+      "selection": "Over 221.5",
+      "odds_1xbet": 1.9,
+      "p_modelo": 0.599,
+      "p_pinnacle_justa": 0.512,
+      "valor_pinnacle": 0.972
+    },
+    {
+      "match": "New York Knicks vs Cleveland Cavaliers",
+      "strategy": "over_modelo",
+      "selection": "Over 220.5",
+      "odds_1xbet": 1.93,
+      "p_modelo": 0.568,
+      "p_pinnacle_justa": 0.473,
+      "valor_pinnacle": 0.913
+    },
+    {
+      "match": "Memphis Grizzlies vs Los Angeles Clippers",
+      "strategy": "favorito",
+      "selection": "Memphis Grizzlies -6.5",
+      "odds_1xbet": 1.93,
+      "p_modelo": 0.72,
+      "p_pinnacle_justa": 0.503,
+      "valor_pinnacle": 0.97
+    },
+    {
+      "match": "Milwaukee Bucks vs Brooklyn Nets",
+      "strategy": "azarao",
+      "selection": "Brooklyn Nets +2.5",
+      "odds_1xbet": 1.82,
+      "p_modelo": 0.554,
+      "p_pinnacle_justa": 0.54,
+      "valor_pinnacle": 0.983
+    },
+    {
+      "match": "Milwaukee Bucks vs Brooklyn Nets",
+      "strategy": "over_modelo",
+      "selection": "Over 228.5",
+      "odds_1xbet": 1.86,
+      "p_modelo": 0.558,
+      "p_pinnacle_justa": 0.522,
+      "valor_pinnacle": 0.971
+    },
+    {
+      "match": "Houston Rockets vs Phoenix Suns",
+      "strategy": "azarao",
+      "selection": "Phoenix Suns +8.5",
+      "odds_1xbet": 2.0,
+      "p_modelo": 0.503,
+      "p_pinnacle_justa": 0.481,
+      "valor_pinnacle": 0.961
+    },
+    {
+      "match": "Houston Rockets vs Phoenix Suns",
+      "strategy": "over_modelo",
+      "selection": "Over 223.5",
+      "odds_1xbet": 1.88,
+      "p_modelo": 0.618,
+      "p_pinnacle_justa": 0.512,
+      "valor_pinnacle": 0.962
+    },
+    {
+      "match": "Golden State Warriors vs Sacramento Kings",
+      "strategy": "over_modelo",
+      "selection": "Over 219.5",
+      "odds_1xbet": 1.97,
+      "p_modelo": 0.614,
+      "p_pinnacle_justa": 0.488,
+      "valor_pinnacle": 0.962
+    }
+  ],
+  "avoid": [
+    {
+      "match": "New York Knicks vs Cleveland Cavaliers",
+      "reason": "Melhor B0 do dia: Under 220.5 @1.93 valor 1.017 / Under 219.5 @2.02 valor 1.018 (< 1.025; 2.02 > 2.00). Brunson questionável: se for baixa, a linha pode descer. Entraria se a 1xBet der Under 220.5 >= 1.95 com a Pinnacle igual."
+    },
+    {
+      "match": "Oklahoma City Thunder vs Minnesota Timberwolves",
+      "reason": "sem odds 1xBet."
+    },
+    {
+      "match": "Portland Trail Blazers vs San Antonio Spurs",
+      "reason": "sem odds 1xBet; Wembanyama questionável."
+    }
+  ]
+}
