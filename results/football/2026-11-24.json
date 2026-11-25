@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-24",
+  "sport": "football",
+  "results": [
+    {
+      "match": "Slovan Bratislava vs Real Betis",
+      "competition": "UEFA Champions League",
+      "market": "corners_1h_over",
+      "selection": "Mais de 3.5 cantos na 1.ª parte",
+      "line": 3.5,
+      "final_score": "0-2",
+      "halftime_score": "0-1",
+      "final_stat": null,
+      "status": "pending",
+      "stake_units": 0.5,
+      "odds_ref": 1.4,
+      "odds_source": "real",
+      "profit_units": 0,
+      "confidence": "media",
+      "note": "Cantos do jogo todo 5 (Slovan 1, Betis 4, ESPN); pelo menos 1 na 1.ª parte (golo de canto aos 42'). Divisão por partes não encontrada (yesterday_results sem estatísticas da 1.ª parte; comentário ESPN bloqueado). Liquidar quando houver dados."
+    }
+  ],
+  "day": {
+    "bets": 0,
+    "wins": 0,
+    "losses": 0,
+    "pushes": 0,
+    "pending": 1,
+    "profit_units": 0
+  }
+}

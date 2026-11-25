@@ -19,14 +19,15 @@
     "2026-11-20",
     "2026-11-21",
     "2026-11-22",
-    "2026-11-23"
+    "2026-11-23",
+    "2026-11-24"
   ],
   "totals": {
     "bets": 17,
     "wins": 7,
     "losses": 10,
     "pushes": 0,
-    "pending": 0
+    "pending": 1
   },
   "hit_rate": 0.412,
   "staked_units": 9.5,
@@ -214,5 +215,15 @@
       "roi": -0.415
     },
     "nota": "min_odds = apostas sem odd real conhecida, liquidadas à odd mínima publicada: o lucro das vitórias fica subestimado (ROI é um limite inferior). O ROI justo é o de 'real'."
-  }
+  },
+  "pending": [
+    {
+      "date": "2026-11-24",
+      "match": "Slovan Bratislava vs Real Betis",
+      "market": "corners_1h_over",
+      "line": 3.5,
+      "stake_units": 0.5,
+      "odds_ref": 1.4
+    }
+  ]
 }
