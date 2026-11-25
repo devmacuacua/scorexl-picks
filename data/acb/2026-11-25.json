@@ -1,0 +1,71 @@
+{
+ "date": "2026-11-25",
+ "sport": "Liga ACB (Espanha)",
+ "league_key": "acb",
+ "league_id": 117,
+ "note": "date = data de Maputo; tipoff_maputo em hora de Maputo; odds incluem 1.ª parte quando há",
+ "games": [],
+ "yesterday_results": [],
+ "standings": [],
+ "season": "2026-2027",
+ "recent_results": [
+  {
+   "id": 513065,
+   "date": "2026-11-22",
+   "home": "Obradoiro CAB",
+   "away": "Basquet Girona",
+   "status": "FT",
+   "score_home": 91,
+   "score_away": 81
+  },
+  {
+   "id": 513066,
+   "date": "2026-11-22",
+   "home": "Bilbao",
+   "away": "Baskonia",
+   "status": "FT",
+   "score_home": 84,
+   "score_away": 80
+  },
+  {
+   "id": 513067,
+   "date": "2026-11-22",
+   "home": "Leyma Coruna",
+   "away": "Forca Lleida",
+   "status": "FT",
+   "score_home": 113,
+   "score_away": 100
+  },
+  {
+   "id": 513068,
+   "date": "2026-11-22",
+   "home": "Valencia",
+   "away": "Breogan",
+   "status": "FT",
+   "score_home": 129,
+   "score_away": 111
+  },
+  {
+   "id": 513069,
+   "date": "2026-11-22",
+   "home": "Tenerife",
+   "away": "Barcelona",
+   "status": "FT",
+   "score_home": 94,
+   "score_away": 82
+  },
+  {
+   "id": 513070,
+   "date": "2026-11-22",
+   "home": "Real Madrid",
+   "away": "Joventut Badalona",
+   "status": "FT",
+   "score_home": 91,
+   "score_away": 88
+  }
+ ],
+ "generated_at": "2026-11-25T09:18:49+00:00",
+ "source": "api-sports.io",
+ "api_calls": 5,
+ "errors": []
+}
