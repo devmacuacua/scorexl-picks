@@ -1,0 +1,35 @@
+{
+ "date": "2026-11-25",
+ "sport": "Basket League (Grécia)",
+ "league_key": "gbl",
+ "league_id": 45,
+ "note": "date = data de Maputo; tipoff_maputo em hora de Maputo; odds incluem 1.ª parte quando há",
+ "games": [],
+ "yesterday_results": [],
+ "standings": [],
+ "season": "2026-2027",
+ "recent_results": [
+  {
+   "id": 521970,
+   "date": "2026-11-22",
+   "home": "Mykonos",
+   "away": "Vikos",
+   "status": "FT",
+   "score_home": 96,
+   "score_away": 83
+  },
+  {
+   "id": 521971,
+   "date": "2026-11-22",
+   "home": "AS Karditsas",
+   "away": "Olympiacos",
+   "status": "FT",
+   "score_home": 75,
+   "score_away": 81
+  }
+ ],
+ "generated_at": "2026-11-25T10:29:54+00:00",
+ "source": "api-sports.io",
+ "api_calls": 5,
+ "errors": []
+}
