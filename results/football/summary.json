@@ -33,79 +33,53 @@
   "staked_units": 9.5,
   "profit_units": -3.055,
   "roi": -0.322,
-  "by_confidence": {
-    "media": {
-      "bets": 15,
-      "wins": 6,
-      "losses": 9,
+  "by_ruleset": {
+    "v1": {
+      "bets": 17,
+      "wins": 7,
+      "losses": 10,
       "pushes": 0,
-      "staked_units": 7.5,
-      "profit_units": -2.765,
-      "roi": -0.369
-    },
+      "pending": 1,
+      "staked_units": 9.5,
+      "profit_units": -3.055,
+      "hit_rate": 0.412,
+      "roi": -0.322
+    }
+  },
+  "by_confidence": {
     "alta": {
       "bets": 2,
       "wins": 1,
       "losses": 1,
       "pushes": 0,
+      "pending": 0,
       "staked_units": 2,
       "profit_units": -0.29,
+      "hit_rate": 0.5,
       "roi": -0.145
+    },
+    "media": {
+      "bets": 15,
+      "wins": 6,
+      "losses": 9,
+      "pushes": 0,
+      "pending": 1,
+      "staked_units": 7.5,
+      "profit_units": -2.765,
+      "hit_rate": 0.4,
+      "roi": -0.369
     }
   },
   "by_market": {
-    "moneyline": {
-      "bets": 2,
-      "wins": 1,
-      "losses": 1,
-      "pushes": 0,
-      "staked_units": 1.0,
-      "profit_units": -0.175,
-      "roi": -0.175
-    },
-    "handicap": {
-      "bets": 4,
-      "wins": 1,
-      "losses": 3,
-      "pushes": 0,
-      "staked_units": 2.0,
-      "profit_units": -1.175,
-      "roi": -0.588
-    },
-    "goals_over": {
-      "bets": 1,
-      "wins": 1,
-      "losses": 0,
-      "pushes": 0,
-      "staked_units": 0.5,
-      "profit_units": 0.275,
-      "roi": 0.55
-    },
-    "shots_on_target_over": {
-      "bets": 2,
-      "wins": 0,
-      "losses": 2,
-      "pushes": 0,
-      "staked_units": 1.0,
-      "profit_units": -1.0,
-      "roi": -1.0
-    },
-    "corners_over": {
-      "bets": 3,
-      "wins": 2,
-      "losses": 1,
-      "pushes": 0,
-      "staked_units": 2.5,
-      "profit_units": 0.145,
-      "roi": 0.058
-    },
     "cards_over": {
       "bets": 5,
       "wins": 2,
       "losses": 3,
       "pushes": 0,
+      "pending": 0,
       "staked_units": 2.5,
       "profit_units": -1.125,
+      "hit_rate": 0.4,
       "roi": -0.45
     },
     "corners_1h_over": {
@@ -113,20 +87,100 @@
       "wins": 0,
       "losses": 0,
       "pushes": 0,
+      "pending": 1,
       "staked_units": 0,
       "profit_units": 0,
-      "roi": 0
+      "hit_rate": null,
+      "roi": null
     },
-    "goals_1h_over": {
-      "bets": 0,
-      "wins": 0,
+    "corners_over": {
+      "bets": 3,
+      "wins": 2,
+      "losses": 1,
+      "pushes": 0,
+      "pending": 0,
+      "staked_units": 2.5,
+      "profit_units": 0.145,
+      "hit_rate": 0.667,
+      "roi": 0.058
+    },
+    "goals_over": {
+      "bets": 1,
+      "wins": 1,
       "losses": 0,
       "pushes": 0,
-      "staked_units": 0,
-      "profit_units": 0,
-      "roi": 0
+      "pending": 0,
+      "staked_units": 0.5,
+      "profit_units": 0.275,
+      "hit_rate": 1.0,
+      "roi": 0.55
+    },
+    "handicap": {
+      "bets": 4,
+      "wins": 1,
+      "losses": 3,
+      "pushes": 0,
+      "pending": 0,
+      "staked_units": 2.0,
+      "profit_units": -1.175,
+      "hit_rate": 0.25,
+      "roi": -0.588
+    },
+    "moneyline": {
+      "bets": 2,
+      "wins": 1,
+      "losses": 1,
+      "pushes": 0,
+      "pending": 0,
+      "staked_units": 1.0,
+      "profit_units": -0.175,
+      "hit_rate": 0.5,
+      "roi": -0.175
+    },
+    "shots_on_target_over": {
+      "bets": 2,
+      "wins": 0,
+      "losses": 2,
+      "pushes": 0,
+      "pending": 0,
+      "staked_units": 1.0,
+      "profit_units": -1.0,
+      "hit_rate": 0.0,
+      "roi": -1.0
     }
   },
+  "by_odds_source": {
+    "min_odds": {
+      "bets": 13,
+      "wins": 5,
+      "losses": 8,
+      "pushes": 0,
+      "pending": 0,
+      "staked_units": 6.5,
+      "profit_units": -2.7,
+      "hit_rate": 0.385,
+      "roi": -0.415
+    },
+    "real": {
+      "bets": 4,
+      "wins": 2,
+      "losses": 2,
+      "pushes": 0,
+      "pending": 1,
+      "staked_units": 3.0,
+      "profit_units": -0.355,
+      "hit_rate": 0.5,
+      "roi": -0.118
+    }
+  },
+  "pending": [
+    {
+      "date": "2026-11-24",
+      "match": "Slovan Bratislava vs Real Betis",
+      "market": "corners_1h_over",
+      "line": 3.5
+    }
+  ],
   "last_10": [
     {
       "date": "2026-11-08",
@@ -199,31 +253,5 @@
       "profit_units": -0.5
     }
   ],
-  "by_odds_source": {
-    "real": {
-      "bets": 4,
-      "wins": 2,
-      "staked_units": 3.0,
-      "profit_units": -0.355,
-      "roi": -0.118
-    },
-    "min_odds": {
-      "bets": 13,
-      "wins": 5,
-      "staked_units": 6.5,
-      "profit_units": -2.7,
-      "roi": -0.415
-    },
-    "nota": "min_odds = apostas sem odd real conhecida, liquidadas à odd mínima publicada: o lucro das vitórias fica subestimado (ROI é um limite inferior). O ROI justo é o de 'real'."
-  },
-  "pending": [
-    {
-      "date": "2026-11-24",
-      "match": "Slovan Bratislava vs Real Betis",
-      "market": "corners_1h_over",
-      "line": 3.5,
-      "stake_units": 0.5,
-      "odds_ref": 1.4
-    }
-  ]
+  "nota": "v1 = regras até 25/11/2026 (Over 1.ª parte com Poisson, sobreconfiante); v2 = reset de 25/11 (algos/football.md). O ROI justo é o de by_odds_source.real (min_odds subestima o lucro das vitórias)."
 }

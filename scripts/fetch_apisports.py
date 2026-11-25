@@ -336,6 +336,41 @@ def fixture_stats(fid):
     return res
 
 
+def _stat_dict(items):
+    vals = {}
+    for s in items or []:
+        k = STAT_KEYS.get(s.get("type"))
+        if k:
+            v = s.get("value")
+            if isinstance(v, str) and v.endswith("%"):
+                v = int(v[:-1])
+            vals[k] = v or 0
+    return vals
+
+
+def fixture_stats_halves(fid):
+    """Estatísticas do jogo + 1.ª parte (fixtures/statistics?half=true, mesmo custo: 1 pedido).
+    Devolve {team_id: {"full": {...}, "h1": {...} ou None}}. Aceita os formatos vistos no estudo (study_corners_1h.py)."""
+    res = {}
+    for team in get(FOOT, "fixtures/statistics", fixture=fid, half="true"):
+        full, h1 = _stat_dict(team.get("statistics")), None
+        for k, v in team.items():
+            kl = k.lower()
+            if isinstance(v, list) and k != "statistics" and ("1h" in kl or "first" in kl or kl.endswith("_1")):
+                h1 = _stat_dict(v)
+        if h1 is None:
+            alt = {}
+            for s in team.get("statistics") or []:
+                k = STAT_KEYS.get(s.get("type"))
+                for hk in ("1h", "first_half", "half1"):
+                    if k and hk in s:
+                        v = s[hk]
+                        alt[k] = int(v[:-1]) if isinstance(v, str) and v.endswith("%") else (v or 0)
+            h1 = alt or None
+        res[team["team"]["id"]] = {"full": full, "h1": h1}
+    return res
+
+
 def team_form(team_id, season):
     """Médias dos últimos LAST_N jogos terminados (todas as competições)."""
     fx = get(FOOT, "fixtures", team=team_id, last=LAST_N, status="FT-AET-PEN")
@@ -372,14 +407,16 @@ def football(d):
         for f in get(FOOT, "fixtures", league=lid, season=season, date=prev_day, timezone="Africa/Maputo"):
             if f["fixture"]["status"]["short"] not in ("FT", "AET", "PEN"):
                 continue
-            st = fixture_stats(f["fixture"]["id"])
+            st = fixture_stats_halves(f["fixture"]["id"])
             hid, aid = f["teams"]["home"]["id"], f["teams"]["away"]["id"]
+            h1h, h1a = (st.get(hid) or {}).get("h1"), (st.get(aid) or {}).get("h1")
             out["yesterday_results"].append({
                 "id": f["fixture"]["id"], "competition": lname,
                 "home": f["teams"]["home"]["name"], "away": f["teams"]["away"]["name"],
                 "goals_home": f["goals"]["home"], "goals_away": f["goals"]["away"],
                 "halftime": f["score"]["halftime"],
-                "stats_home": st.get(hid, {}), "stats_away": st.get(aid, {}),
+                "stats_home": (st.get(hid) or {}).get("full", {}), "stats_away": (st.get(aid) or {}).get("full", {}),
+                "stats_1h_home": h1h, "stats_1h_away": h1a,
             })
 
         fixtures = get(FOOT, "fixtures", league=lid, season=season, date=d.isoformat(), timezone="Africa/Maputo")

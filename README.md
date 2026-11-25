@@ -80,6 +80,8 @@ Todos os dias, a mesma tarefa liquida os palpites do dia anterior.
 
 ## Futebol
 
+> **Regras v2 desde 25/11/2026:** ver `algos/football.md` (regras), `studies/football_reset.md` (justificação) e `scripts/football_model.py` (`build`, `picks D --write`, `settle D-1`, `backtest`). Mercados v2: `goals_1h_over|under`, `corners_1h_over|under`; os picks têm `"ruleset": "v2"`. Em `yesterday_results`, `stats_1h_home/away` = estatísticas da 1.ª parte (half=true).
+
 - `picks/football/AAAA-MM-DD.json` — mesmo formato base, com campos extra:
   - `competition` (ex.: "UEFA Europa League"), `kickoff_maputo` (ISO 8601 com offset)
   - `market` = `moneyline` | `handicap` | `goals_over` | `corners_over` (antigo) | `corners_1h_over` (cantos da 1.ª parte, as duas equipas) | `goals_1h_over` (golos da 1.ª parte, liquidado com `halftime`) | `shots_on_target_over` | `cards_over` (amarelos no total do jogo, liquidado com `yellow_cards` de `yesterday_results`)
