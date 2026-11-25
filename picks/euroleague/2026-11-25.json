@@ -1,0 +1,25 @@
+{
+ "date": "2026-11-25",
+ "sport": "Euroleague",
+ "league_key": "euroleague",
+ "note": "Dados generated_at 2026-11-25T13:24:44+00:00 (recolha fresca). 4 jogos, nenhum passou os filtros (linhas -6.5/-7 sem valor; Baskonia-Efes favorito <62%). Sem palpites, revisão de lesões não necessária.",
+ "picks": [],
+ "avoid": [
+  {
+   "match": "Dubai vs Partizan Mozzart Bet",
+   "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Dubai 6.5, combinado 6.1)"
+  },
+  {
+   "match": "Olympiacos vs Hapoel Tel Aviv",
+   "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Olympiacos 7.0, combinado 6.8)"
+  },
+  {
+   "match": "Baskonia vs Anadolu Efes",
+   "reason": "favorito Anadolu Efes 58% < 62%"
+  },
+  {
+   "match": "Real Madrid vs Zalgiris Kaunas",
+   "reason": "sem linha 1.80-2.00 com P×odd ≥ 1.03 (mercado Real Madrid 7.0, combinado 6.8)"
+  }
+ ]
+}
