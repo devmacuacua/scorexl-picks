@@ -1,0 +1,35 @@
+{
+ "date": "2026-11-25",
+ "sport": "NBL (Austrália)",
+ "league_key": "nbl",
+ "league_id": 1,
+ "note": "date = data de Maputo; tipoff_maputo em hora de Maputo; odds incluem 1.ª parte quando há",
+ "games": [],
+ "yesterday_results": [],
+ "standings": [],
+ "season": "2026-2027",
+ "recent_results": [
+  {
+   "id": 501249,
+   "date": "2026-11-22",
+   "home": "South East Melbourne",
+   "away": "Cairns Taipans",
+   "status": "FT",
+   "score_home": 92,
+   "score_away": 95
+  },
+  {
+   "id": 501250,
+   "date": "2026-11-22",
+   "home": "Brisbane Bullets",
+   "away": "Sydney",
+   "status": "FT",
+   "score_home": 115,
+   "score_away": 104
+  }
+ ],
+ "generated_at": "2026-11-25T02:48:10+00:00",
+ "source": "api-sports.io",
+ "api_calls": 5,
+ "errors": []
+}
