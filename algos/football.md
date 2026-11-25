@@ -10,12 +10,12 @@ O Francisco pediu um reset completo das regras e deu liberdade total para as ref
 5. **Amostra.** 17 apostas não chegam para julgar regra nenhuma. Na v1, cada derrota levava a mudar regras. Na v2 a regra fica fixa até haver amostra.
 
 ## Regras v2
-**Mercados** (alargado a 25/11: o Francisco deu liberdade total para jogo todo, 1.ª e 2.ª parte). Todos são totais, nos dois sentidos:
-- `goals_1h_*` (0.5, 1.5), `goals_2h_*` (0.5, 1.5, 2.5), `goals_ft_*` (1.5, 2.5, 3.5);
-- `btts_*` e `btts_1h_*`: ambas marcam no jogo ou na 1.ª parte (over = Sim, under = Não);
-- `corners_1h_*` (3.5, 4.5, 5.5) e `corners_ft_*` (8.5, 9.5, 10.5, 11.5).
+**Mercados: SÓ JOGO INTEIRO** (decisão do Francisco a 25/11/2026). Todos são totais, nos dois sentidos:
+- `goals_ft_over|under`: golos no jogo (1.5, 2.5, 3.5);
+- `btts_over|under`: ambas marcam (over = Sim, under = Não);
+- `corners_ft_over|under`: cantos no jogo (8.5, 9.5, 10.5, 11.5).
 
-O sufixo é `_over` ou `_under`. Linhas inteiras ou asiáticas não entram. Vitória, handicap e mercados por equipa ficam de fora, porque o modelo não tem informação melhor do que o mercado sobre a força das equipas.
+Os mercados de 1.ª e 2.ª parte (goals_1h, corners_1h, goals_2h, btts_1h) estão desativados em `MARKETS`, mas continuam calibrados e podem ser reativados. Linhas inteiras ou asiáticas não entram. Vitória, handicap e mercados por equipa ficam de fora, porque o modelo não sabe mais do que o mercado sobre a força das equipas. Liquidação aos 90 minutos mais descontos (sem prolongamento).
 
 **Probabilidade** (`scripts/football_model.py`):
 1. Taxa base da prova para a linha (Over), calculada em `data/study` (2 609 jogos limpos) e encolhida para a média geral com 150 jogos de peso (`data/meta/football_model.json`).

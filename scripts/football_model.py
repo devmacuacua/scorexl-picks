@@ -15,13 +15,13 @@ MODEL = os.path.join(ROOT, "data", "meta", "football_model.json")
 # peso do modelo: nos mercados de margem alta (1.ª/2.ª parte, cantos) o mercado é menos afinado → mais peso ao modelo;
 # nos golos do jogo todo (margem ~4%, mercado afinado) o mercado manda.
 MARKETS = {
-    "goals_1h": ("Goals Over/Under First Half", [0.5, 1.5], "g", 0.75),
-    "corners_1h": ("Total Corners (1st Half)", [3.5, 4.5, 5.5], "c", 0.75),
-    "goals_2h": ("Goals Over/Under - Second Half", [0.5, 1.5, 2.5], "g", 0.75),
+    # "goals_1h": desativado a 25/11/2026 (decisão do Francisco: só jogo inteiro)
+    # "corners_1h": desativado a 25/11/2026 (decisão do Francisco: só jogo inteiro)
+    # "goals_2h": desativado a 25/11/2026 (decisão do Francisco: só jogo inteiro)
     "goals_ft": ("Goals Over/Under", [1.5, 2.5, 3.5], "g", 0.60),
     "corners_ft": ("Corners Over Under", [8.5, 9.5, 10.5, 11.5], "c", 0.60),
     "btts": ("Both Teams Score", [0.5], "g", 0.60),
-    "btts_1h": ("Both Teams Score - First Half", [0.5], "g", 0.75),
+    # "btts_1h": desativado a 25/11/2026 (decisão do Francisco: só jogo inteiro)
 }
 COMP_ALIAS = {"UEFA Champions League": "Champions League", "UEFA Europa League": "Europa League",
               "UEFA Europa Conference League": "Conference League", "UEFA Conference League": "Conference League"}

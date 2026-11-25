@@ -1,66 +1,28 @@
 {
   "date": "2026-11-25",
   "sport": "football",
-  "note": "Refeito de novo às ~11h com as regras v2 alargadas (o Francisco deu liberdade total: jogo todo, 1.ª ou 2.ª parte). Fonte data/football/2026-11-25.json (api-sports, 02:28 UTC, 9 jogos, 0 errors, odds 1xBet). Mercados: golos (1.ª parte, 2.ª parte, jogo), ambas marcam (jogo, 1.ª parte), cantos (1.ª parte, jogo), Over e Under. P = mistura do modelo calibrado (taxa base da prova + ajuste pelas médias sem taças) com a 1xBet sem margem. Entra se P × odd ≥ 1.05, odd 1.40–2.60, e se o modelo não discordar da 1xBet mais de 0.10. Máx. 3, 0.5 u. Substitui a versão das 10h45: Inter–Stuttgart (Menos 1.5 golos 1.ª parte) saiu porque o modelo discordava demasiado do mercado (0.44 vs 0.55); entrou PSG–Roma (Menos 1.5 golos 2.ª parte). Os 3 palpites v1 da manhã continuam retirados.",
+  "note": "Refeito às ~11h30: a partir de 25/11 SÓ JOGO INTEIRO (decisão do Francisco). Mercados: golos no jogo (1.5/2.5/3.5), ambas marcam e cantos no jogo (8.5–11.5), Over e Under. Fonte data/football/2026-11-25.json (api-sports, 02:28 UTC, 9 jogos, 0 errors, odds 1xBet). P = 0.6 × modelo calibrado + 0.4 × 1xBet sem margem; entra se P × odd ≥ 1.05, odd 1.40–2.60 e desacordo modelo/mercado ≤ 0.10. Os palpites de 1.ª/2.ª parte das versões anteriores de hoje foram RETIRADOS.",
   "picks": [
     {
       "match": "Paris Saint Germain vs AS Roma",
       "competition": "Champions League",
       "kickoff_maputo": "2026-11-25T22:00:00+02:00",
-      "market": "goals_2h_under",
+      "market": "goals_ft_under",
       "ruleset": "v2",
-      "selection": "Menos de 1.5 golos na 2.ª parte",
-      "line": 1.5,
-      "min_odds": 2.22,
-      "odds_ref": 2.48,
-      "win_prob": 0.451,
+      "selection": "Menos de 3.5 golos no jogo",
+      "line": 3.5,
+      "min_odds": 1.89,
+      "odds_ref": 2.08,
+      "win_prob": 0.53,
       "confidence": "media",
       "stake_units": 0.5,
-      "reason": "P 0.45 × 2.48 = 1.12. Taxa base da prova (Over) 0.50, modelo (Over) 0.53, 1xBet sem margem (Over) 0.62; esperado do jogo (golos, sem taças) 4.7."
-    },
-    {
-      "match": "Atletico Madrid vs Viking",
-      "competition": "Champions League",
-      "kickoff_maputo": "2026-11-25T22:00:00+02:00",
-      "market": "goals_1h_under",
-      "ruleset": "v2",
-      "selection": "Menos de 1.5 golos na 1.ª parte",
-      "line": 1.5,
-      "min_odds": 1.93,
-      "odds_ref": 2.07,
-      "win_prob": 0.517,
-      "confidence": "media",
-      "stake_units": 0.5,
-      "reason": "P 0.52 × 2.07 = 1.07. Taxa base da prova (Over) 0.43, modelo (Over) 0.46, 1xBet sem margem (Over) 0.54; esperado do jogo (golos, sem taças) 3.6."
-    },
-    {
-      "match": "Club Brugge KV vs Liverpool",
-      "competition": "Champions League",
-      "kickoff_maputo": "2026-11-25T22:00:00+02:00",
-      "market": "corners_1h_over",
-      "ruleset": "v2",
-      "selection": "Mais de 5.5 cantos na 1.ª parte",
-      "line": 5.5,
-      "min_odds": 2.46,
-      "odds_ref": 2.6,
-      "win_prob": 0.407,
-      "confidence": "media",
-      "stake_units": 0.5,
-      "reason": "P 0.41 × 2.60 = 1.06. Taxa base da prova (Over) 0.31, modelo (Over) 0.43, 1xBet sem margem (Over) 0.35; esperado do jogo (cantos, sem taças) 13.2."
+      "reason": "P 0.53 × 2.08 = 1.10. Taxa base da prova (Over) 0.39, modelo (Over) 0.43, 1xBet sem margem (Over) 0.53; esperado do jogo (golos, sem taças) 4.7."
     }
   ],
   "avoid": [
     {
-      "match": "Sabah FA vs Barcelona (v1: Mais de 3.5 cantos 1.ª parte @1.45) — RETIRADO",
-      "reason": "P calibrada 0.64 × 1.45 = 0.93."
-    },
-    {
-      "match": "Club Brugge KV vs Liverpool (v1: Mais de 4.5 cantos 1.ª parte @1.84) — RETIRADO",
-      "reason": "P calibrada 0.55 × 1.84 = 1.01 (< 1.05). Em v2 entra Mais de 5.5."
-    },
-    {
-      "match": "Paris Saint Germain vs AS Roma (v1: Mais de 1.5 golos 1.ª parte @1.87) — RETIRADO",
-      "reason": "P calibrada 0.51 × 1.87 = 0.95."
+      "match": "Palpites de 1.ª/2.ª parte publicados antes hoje (PSG–Roma Menos 1.5 golos 2.ª parte, Atlético–Viking Menos 1.5 golos 1.ª parte, Brugge–Liverpool Mais 5.5 cantos 1.ª parte, e os 3 v1 da manhã)",
+      "reason": "Retirados: agora só jogo inteiro."
     },
     {
       "match": "Slavia Praha vs Villarreal",
@@ -68,7 +30,7 @@
     },
     {
       "match": "Sabah FA vs Barcelona",
-      "reason": "Melhor opção: ambas marcam Não, P 0.43 × 2.24 = 0.96 (< 1.05). Menos de 2.5 golos na 2.ª parte parecia ter valor (1.30), mas o modelo (0.30) e a 1xBet (0.52) discordam mais de 0.1 (P Over): o mercado deve saber algo que o modelo não sabe."
+      "reason": "Melhor opção: ambas marcam Não, P 0.43 × 2.24 = 0.96 (< 1.05)."
     },
     {
       "match": "Lille vs Bayern München",
@@ -83,8 +45,16 @@
       "reason": "Melhor opção: Menos de 9.5 cantos no jogo, P 0.51 × 1.91 = 0.98 (< 1.05). Menos de 3.5 golos no jogo parecia ter valor (1.27), mas o modelo (0.39) e a 1xBet (0.59) discordam mais de 0.1 (P Over): o mercado deve saber algo que o modelo não sabe."
     },
     {
+      "match": "Atletico Madrid vs Viking",
+      "reason": "Melhor opção: ambas marcam Sim, P 0.52 × 2.00 = 1.05 (< 1.05). Menos de 3.5 golos no jogo parecia ter valor (1.21), mas o modelo (0.40) e a 1xBet (0.57) discordam mais de 0.1 (P Over): o mercado deve saber algo que o modelo não sabe."
+    },
+    {
       "match": "Shakhtar Donetsk vs Fenerbahçe",
-      "reason": "Melhor opção: Mais de 4.5 cantos na 1.ª parte, P 0.51 × 2.04 = 1.03 (< 1.05)."
+      "reason": "Melhor opção: Mais de 2.5 golos no jogo, P 0.56 × 1.81 = 1.02 (< 1.05)."
+    },
+    {
+      "match": "Club Brugge KV vs Liverpool",
+      "reason": "Melhor opção: Mais de 10.5 cantos no jogo, P 0.46 × 2.17 = 1.00 (< 1.05). Menos de 3.5 golos no jogo parecia ter valor (1.14), mas o modelo (0.41) e a 1xBet (0.54) discordam mais de 0.1 (P Over): o mercado deve saber algo que o modelo não sabe."
     }
   ]
 }
