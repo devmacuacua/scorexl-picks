@@ -20,19 +20,20 @@
     "2026-11-21",
     "2026-11-22",
     "2026-11-23",
-    "2026-11-24"
+    "2026-11-24",
+    "2026-11-25"
   ],
   "totals": {
-    "bets": 17,
+    "bets": 18,
     "wins": 7,
-    "losses": 10,
+    "losses": 11,
     "pushes": 0,
     "pending": 1
   },
-  "hit_rate": 0.412,
-  "staked_units": 9.5,
-  "profit_units": -3.055,
-  "roi": -0.322,
+  "hit_rate": 0.389,
+  "staked_units": 10.0,
+  "profit_units": -3.555,
+  "roi": -0.356,
   "by_ruleset": {
     "v1": {
       "bets": 17,
@@ -44,6 +45,17 @@
       "profit_units": -3.055,
       "hit_rate": 0.412,
       "roi": -0.322
+    },
+    "v2": {
+      "bets": 1,
+      "wins": 0,
+      "losses": 1,
+      "pushes": 0,
+      "pending": 0,
+      "staked_units": 0.5,
+      "profit_units": -0.5,
+      "hit_rate": 0.0,
+      "roi": -1.0
     }
   },
   "by_confidence": {
@@ -59,15 +71,15 @@
       "roi": -0.145
     },
     "media": {
-      "bets": 15,
+      "bets": 16,
       "wins": 6,
-      "losses": 9,
+      "losses": 10,
       "pushes": 0,
       "pending": 1,
-      "staked_units": 7.5,
-      "profit_units": -2.765,
-      "hit_rate": 0.4,
-      "roi": -0.369
+      "staked_units": 8.0,
+      "profit_units": -3.265,
+      "hit_rate": 0.375,
+      "roi": -0.408
     }
   },
   "by_market": {
@@ -103,6 +115,17 @@
       "profit_units": 0.145,
       "hit_rate": 0.667,
       "roi": 0.058
+    },
+    "goals_ft_under": {
+      "bets": 1,
+      "wins": 0,
+      "losses": 1,
+      "pushes": 0,
+      "pending": 0,
+      "staked_units": 0.5,
+      "profit_units": -0.5,
+      "hit_rate": 0.0,
+      "roi": -1.0
     },
     "goals_over": {
       "bets": 1,
@@ -162,15 +185,15 @@
       "roi": -0.415
     },
     "real": {
-      "bets": 4,
+      "bets": 5,
       "wins": 2,
-      "losses": 2,
+      "losses": 3,
       "pushes": 0,
       "pending": 1,
-      "staked_units": 3.0,
-      "profit_units": -0.355,
-      "hit_rate": 0.5,
-      "roi": -0.118
+      "staked_units": 3.5,
+      "profit_units": -0.855,
+      "hit_rate": 0.4,
+      "roi": -0.244
     }
   },
   "pending": [
@@ -182,13 +205,6 @@
     }
   ],
   "last_10": [
-    {
-      "date": "2026-11-08",
-      "match": "Villarreal vs Getafe",
-      "market": "moneyline",
-      "status": "win",
-      "profit_units": 0.325
-    },
     {
       "date": "2026-11-20",
       "match": "Athletic Club vs Espanyol",
@@ -249,6 +265,13 @@
       "date": "2026-11-23",
       "match": "Brentford vs Everton",
       "market": "cards_over",
+      "status": "loss",
+      "profit_units": -0.5
+    },
+    {
+      "date": "2026-11-25",
+      "match": "Paris Saint Germain vs AS Roma",
+      "market": "goals_ft_under",
       "status": "loss",
       "profit_units": -0.5
     }

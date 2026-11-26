@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-25",
+  "sport": "football",
+  "results": [
+    {
+      "match": "Paris Saint Germain vs AS Roma",
+      "competition": "Champions League",
+      "market": "goals_ft_under",
+      "selection": "Menos de 3.5 golos no jogo",
+      "line": 3.5,
+      "stake_units": 0.5,
+      "odds_ref": 2.08,
+      "confidence": "media",
+      "ruleset": "v2",
+      "status": "loss",
+      "profit_units": -0.5,
+      "odds_source": "real",
+      "odds_used": 2.08,
+      "final_stat": 4,
+      "final_score": "2-2",
+      "halftime_score": "1-1"
+    }
+  ],
+  "day": {
+    "bets": 1,
+    "wins": 0,
+    "losses": 1,
+    "pushes": 0,
+    "pending": 0,
+    "profit_units": -0.5
+  }
+}

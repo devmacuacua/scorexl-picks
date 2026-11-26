@@ -1,0 +1,186 @@
+{
+ "date": "2026-11-26",
+ "sport": "football",
+ "note": "Fonte data/football/2026-11-26.json (api-sports, gerado 00:20 UTC / 02:20 Maputo, 36 jogos, odds 1xBet). 2 erros HTTP 429 sem impacto relevante (estatísticas do fixture 1550169 e predictions do 1636386). Regras v2, só jogo inteiro: P = 0.6 × modelo + 0.4 × 1xBet sem margem; entra se P × odd ≥ 1.05, odd 1.40–2.60 e desacordo ≤ 0.10. Ficheiro novo. 3 palpites (limite diário); Iberia–Getafe e Sunderland–Jagiellonia cumpriam a regra mas ficaram de fora pelo limite de 3.",
+ "picks": [
+  {
+   "match": "Olympiakos Piraeus vs AC Milan",
+   "competition": "Europa League",
+   "kickoff_maputo": "2026-11-26T19:45:00+02:00",
+   "market": "goals_ft_over",
+   "ruleset": "v2",
+   "selection": "Mais de 2.5 golos no jogo",
+   "line": 2.5,
+   "min_odds": 1.76,
+   "odds_ref": 1.88,
+   "win_prob": 0.569,
+   "confidence": "media",
+   "stake_units": 0.5,
+   "reason": "P 0.57 × 1.88 = 1.07. Taxa base da prova (Over) 0.57, modelo (Over) 0.60, 1xBet sem margem (Over) 0.52; esperado do jogo (golos, sem taças) 4.0."
+  },
+  {
+   "match": "Sparta Praha vs AZ Alkmaar",
+   "competition": "Europa League",
+   "kickoff_maputo": "2026-11-26T22:00:00+02:00",
+   "market": "btts_under",
+   "ruleset": "v2",
+   "selection": "Ambas marcam: Não",
+   "line": 0.5,
+   "min_odds": 2.24,
+   "odds_ref": 2.37,
+   "win_prob": 0.445,
+   "confidence": "media",
+   "stake_units": 0.5,
+   "reason": "P 0.45 × 2.37 = 1.06. Taxa base da prova (Over) 0.52, modelo (Over) 0.52, 1xBet sem margem (Over) 0.61; esperado do jogo (golos, sem taças) 3.1."
+  },
+  {
+   "match": "Kauno Žalgiris vs Riga",
+   "competition": "Conference League",
+   "kickoff_maputo": "2026-11-26T19:45:00+02:00",
+   "market": "goals_ft_over",
+   "ruleset": "v2",
+   "selection": "Mais de 2.5 golos no jogo",
+   "line": 2.5,
+   "min_odds": 1.85,
+   "odds_ref": 1.95,
+   "win_prob": 0.541,
+   "confidence": "media",
+   "stake_units": 0.5,
+   "reason": "P 0.54 × 1.95 = 1.06. Taxa base da prova (Over) 0.56, modelo (Over) 0.57, 1xBet sem margem (Over) 0.49; esperado do jogo (golos, sem taças) 3.2."
+  }
+ ],
+ "avoid": [
+  {
+   "match": "Beşiktaş vs Hapoel Beer Sheva",
+   "reason": "Melhor opção: Menos de 8.5 cantos no jogo, P 0.45 × 2.20 = 1.00 (< 1.05). Menos de 3.5 golos no jogo parecia ter valor (1.15), mas o modelo (0.36) e a 1xBet (0.51) discordam mais de 0.1 (P Over): o mercado deve saber algo que o modelo não sabe."
+  },
+  {
+   "match": "Celta Vigo vs Bournemouth",
+   "reason": "Melhor opção: Mais de 2.5 golos no jogo, P 0.54 × 1.94 = 1.04 (< 1.05)."
+  },
+  {
+   "match": "Dinamo Zagreb vs Bayer Leverkusen",
+   "reason": "Melhor opção: Mais de 9.5 cantos no jogo, P 0.49 × 1.91 = 0.94 (< 1.05). ambas marcam Não parecia ter valor (1.09), mas o modelo (0.52) e a 1xBet (0.62) discordam mais de 0.1 (P Over): o mercado deve saber algo que o modelo não sabe."
+  },
+  {
+   "match": "Marseille vs Levski Sofia",
+   "reason": "Melhor opção: Menos de 2.5 golos no jogo, P 0.42 × 2.36 = 0.99 (< 1.05)."
+  },
+  {
+   "match": "Plzen vs Benfica",
+   "reason": "Melhor opção: ambas marcam Não, P 0.45 × 2.30 = 1.04 (< 1.05). Menos de 3.5 golos no jogo parecia ter valor (1.10), mas o modelo (0.33) e a 1xBet (0.45) discordam mais de 0.1 (P Over): o mercado deve saber algo que o modelo não sabe."
+  },
+  {
+   "match": "Union St. Gilloise vs Lech Poznan",
+   "reason": "Melhor opção: ambas marcam Não, P 0.47 × 2.05 = 0.96 (< 1.05). Menos de 3.5 golos no jogo parecia ter valor (1.09), mas o modelo (0.34) e a 1xBet (0.45) discordam mais de 0.1 (P Over): o mercado deve saber algo que o modelo não sabe."
+  },
+  {
+   "match": "Red Bull Salzburg vs Ararat-Armenia",
+   "reason": "Melhor opção: ambas marcam Sim, P 0.52 × 1.84 = 0.95 (< 1.05). Menos de 3.5 golos no jogo parecia ter valor (1.19), mas o modelo (0.35) e a 1xBet (0.53) discordam mais de 0.1 (P Over): o mercado deve saber algo que o modelo não sabe."
+  },
+  {
+   "match": "Crystal Palace vs Real Sociedad",
+   "reason": "Melhor opção: Mais de 10.5 cantos no jogo, P 0.43 × 2.40 = 1.04 (< 1.05). ambas marcam Não parecia ter valor (1.08), mas o modelo (0.52) e a 1xBet (0.62) discordam mais de 0.1 (P Over): o mercado deve saber algo que o modelo não sabe."
+  },
+  {
+   "match": "Ferencvarosi TC vs Celje",
+   "reason": "Melhor opção: Menos de 3.5 golos no jogo, P 0.63 × 1.64 = 1.04 (< 1.05)."
+  },
+  {
+   "match": "1899 Hoffenheim vs Sturm Graz",
+   "reason": "Melhor opção: Menos de 9.5 cantos no jogo, P 0.47 × 2.15 = 1.01 (< 1.05). Menos de 3.5 golos no jogo parecia ter valor (1.14), mas o modelo (0.33) e a 1xBet (0.48) discordam mais de 0.1 (P Over): o mercado deve saber algo que o modelo não sabe."
+  },
+  {
+   "match": "Juventus vs Omonia Nicosia",
+   "reason": "Melhor opção: ambas marcam Sim, P 0.50 × 1.98 = 0.99 (< 1.05). Menos de 3.5 golos no jogo parecia ter valor (1.14), mas o modelo (0.33) e a 1xBet (0.48) discordam mais de 0.1 (P Over): o mercado deve saber algo que o modelo não sabe."
+  },
+  {
+   "match": "Lyon vs Lillestrom",
+   "reason": "Melhor opção: ambas marcam Sim, P 0.50 × 1.92 = 0.96 (< 1.05). Menos de 3.5 golos no jogo parecia ter valor (1.18), mas o modelo (0.31) e a 1xBet (0.49) discordam mais de 0.1 (P Over): o mercado deve saber algo que o modelo não sabe."
+  },
+  {
+   "match": "NEC Nijmegen vs Rennes",
+   "reason": "Melhor opção: Menos de 3.5 golos no jogo, P 0.63 × 1.66 = 1.04 (< 1.05). ambas marcam Não parecia ter valor (1.12), mas o modelo (0.52) e a 1xBet (0.64) discordam mais de 0.1 (P Over): o mercado deve saber algo que o modelo não sabe."
+  },
+  {
+   "match": "OFI vs Anderlecht",
+   "reason": "Melhor opção: ambas marcam Não, P 0.46 × 2.17 = 1.01 (< 1.05)."
+  },
+  {
+   "match": "Torreense vs Celtic",
+   "reason": "Melhor opção: ambas marcam Não, P 0.45 × 2.32 = 1.04 (< 1.05)."
+  },
+  {
+   "match": "Kairat Almaty vs Mjallby AIF",
+   "reason": "Melhor opção: Mais de 2.5 golos no jogo, P 0.53 × 1.93 = 1.03 (< 1.05)."
+  },
+  {
+   "match": "Ajax vs FC Thun",
+   "reason": "Melhor opção: Menos de 9.5 cantos no jogo, P 0.52 × 1.84 = 0.95 (< 1.05). Menos de 3.5 golos no jogo parecia ter valor (1.16), mas o modelo (0.43) e a 1xBet (0.57) discordam mais de 0.1 (P Over): o mercado deve saber algo que o modelo não sabe."
+  },
+  {
+   "match": "Brann vs Aarhus",
+   "reason": "Melhor opção: Menos de 2.5 golos no jogo, P 0.40 × 2.56 = 1.04 (< 1.05)."
+  },
+  {
+   "match": "Brighton vs Universitatea Craiova",
+   "reason": "Melhor opção: Menos de 9.5 cantos no jogo, P 0.52 × 1.91 = 0.99 (< 1.05). ambas marcam Sim parecia ter valor (1.14), mas o modelo (0.56) e a 1xBet (0.41) discordam mais de 0.1 (P Over): o mercado deve saber algo que o modelo não sabe."
+  },
+  {
+   "match": "Egnatia Rrogozhinë vs Lincoln Red Imps FC",
+   "reason": "Melhor opção: Menos de 2.5 golos no jogo, P 0.42 × 2.32 = 0.98 (< 1.05)."
+  },
+  {
+   "match": "Heart Of Midlothian vs Monaco",
+   "reason": "Melhor opção: Menos de 9.5 cantos no jogo, P 0.53 × 1.93 = 1.03 (< 1.05)."
+  },
+  {
+   "match": "FK Jablonec vs FC Lugano",
+   "reason": "Melhor opção: Mais de 2.5 golos no jogo, P 0.56 × 1.78 = 1.00 (< 1.05)."
+  },
+  {
+   "match": "Pafos vs FC Midtjylland",
+   "reason": "Melhor opção: ambas marcam Não, P 0.41 × 2.50 = 1.02 (< 1.05)."
+  },
+  {
+   "match": "Borac Banja Luka vs Atalanta",
+   "reason": "Melhor opção: Menos de 2.5 golos no jogo, P 0.39 × 2.52 = 0.99 (< 1.05)."
+  },
+  {
+   "match": "SC Braga vs KuPS",
+   "reason": "Melhor opção: Mais de 8.5 cantos no jogo, P 0.61 × 1.64 = 1.00 (< 1.05). ambas marcam Sim parecia ter valor (1.12), mas o modelo (0.56) e a 1xBet (0.41) discordam mais de 0.1 (P Over): o mercado deve saber algo que o modelo não sabe."
+  },
+  {
+   "match": "CSKA Sofia vs Trabzonspor",
+   "reason": "Melhor opção: Menos de 2.5 golos no jogo, P 0.44 × 2.34 = 1.03 (< 1.05)."
+  },
+  {
+   "match": "SC Freiburg vs Twente",
+   "reason": "Melhor opção: ambas marcam Não, P 0.41 × 2.50 = 1.02 (< 1.05)."
+  },
+  {
+   "match": "Gent vs FK Crvena Zvezda",
+   "reason": "Melhor opção: Mais de 2.5 golos no jogo, P 0.54 × 1.84 = 0.99 (< 1.05)."
+  },
+  {
+   "match": "HNK Hajduk Split vs St. Truiden",
+   "reason": "Melhor opção: Mais de 2.5 golos no jogo, P 0.56 × 1.78 = 1.00 (< 1.05)."
+  },
+  {
+   "match": "Inter Club d'Escaldes vs FC Copenhagen",
+   "reason": "Melhor opção: Menos de 2.5 golos no jogo, P 0.42 × 2.39 = 1.01 (< 1.05). ambas marcam Sim parecia ter valor (1.08), mas o modelo (0.56) e a 1xBet (0.44) discordam mais de 0.1 (P Over): o mercado deve saber algo que o modelo não sabe."
+  },
+  {
+   "match": "FC Nordsjaelland vs Panathinaikos",
+   "reason": "Melhor opção: Mais de 3.5 golos no jogo, P 0.39 × 2.60 = 1.00 (< 1.05)."
+  },
+  {
+   "match": "FC Iberia 1999 vs Getafe",
+   "reason": "Cumpria a regra (EV 1.05) mas ficou fora do limite de 3 por dia."
+  },
+  {
+   "match": "Sunderland vs Jagiellonia",
+   "reason": "Cumpria a regra (EV 1.05) mas ficou fora do limite de 3 por dia."
+  }
+ ]
+}
