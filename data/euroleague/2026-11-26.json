@@ -1,0 +1,144 @@
+{
+ "date": "2026-11-26",
+ "sport": "Euroleague",
+ "league_key": "euroleague",
+ "league_id": 120,
+ "note": "date = data de Maputo; tipoff_maputo em hora de Maputo; odds incluem 1.ª parte quando há",
+ "games": [],
+ "yesterday_results": [
+  {
+   "id": 508718,
+   "date": "2026-11-25",
+   "home": "Dubai",
+   "away": "Partizan Mozzart Bet",
+   "status": "FT",
+   "score_home": 71,
+   "score_away": 84
+  },
+  {
+   "id": 508719,
+   "date": "2026-11-25",
+   "home": "Olympiacos",
+   "away": "Hapoel Tel Aviv",
+   "status": "FT",
+   "score_home": 104,
+   "score_away": 79
+  },
+  {
+   "id": 508720,
+   "date": "2026-11-25",
+   "home": "Baskonia",
+   "away": "Anadolu Efes",
+   "status": "FT",
+   "score_home": 86,
+   "score_away": 81
+  },
+  {
+   "id": 508721,
+   "date": "2026-11-25",
+   "home": "Real Madrid",
+   "away": "Zalgiris Kaunas",
+   "status": "FT",
+   "score_home": 108,
+   "score_away": 93
+  }
+ ],
+ "standings": [],
+ "season": 2026,
+ "recent_results": [
+  {
+   "id": 508718,
+   "date": "2026-11-25",
+   "home": "Dubai",
+   "away": "Partizan Mozzart Bet",
+   "status": "FT",
+   "score_home": 71,
+   "score_away": 84
+  },
+  {
+   "id": 508719,
+   "date": "2026-11-25",
+   "home": "Olympiacos",
+   "away": "Hapoel Tel Aviv",
+   "status": "FT",
+   "score_home": 104,
+   "score_away": 79
+  },
+  {
+   "id": 508720,
+   "date": "2026-11-25",
+   "home": "Baskonia",
+   "away": "Anadolu Efes",
+   "status": "FT",
+   "score_home": 86,
+   "score_away": 81
+  },
+  {
+   "id": 508721,
+   "date": "2026-11-25",
+   "home": "Real Madrid",
+   "away": "Zalgiris Kaunas",
+   "status": "FT",
+   "score_home": 108,
+   "score_away": 93
+  },
+  {
+   "id": 508712,
+   "date": "2026-11-24",
+   "home": "Besiktas",
+   "away": "Paris",
+   "status": "FT",
+   "score_home": 76,
+   "score_away": 88
+  },
+  {
+   "id": 508713,
+   "date": "2026-11-24",
+   "home": "Crvena Zvezda Meridianbet",
+   "away": "Virtus Bologna",
+   "status": "FT",
+   "score_home": 84,
+   "score_away": 108
+  },
+  {
+   "id": 508714,
+   "date": "2026-11-24",
+   "home": "Bayern",
+   "away": "Maccabi Tel Aviv",
+   "status": "FT",
+   "score_home": 79,
+   "score_away": 87
+  },
+  {
+   "id": 508715,
+   "date": "2026-11-24",
+   "home": "Valencia",
+   "away": "Panathinaikos",
+   "status": "FT",
+   "score_home": 83,
+   "score_away": 86
+  },
+  {
+   "id": 508716,
+   "date": "2026-11-24",
+   "home": "Lyon-Villeurbanne",
+   "away": "Olimpia Milano",
+   "status": "FT",
+   "score_home": 91,
+   "score_away": 95
+  },
+  {
+   "id": 508717,
+   "date": "2026-11-24",
+   "home": "Barcelona",
+   "away": "Fenerbahce",
+   "status": "FT",
+   "score_home": 77,
+   "score_away": 83
+  }
+ ],
+ "generated_at": "2026-11-26T13:24:23+00:00",
+ "source": "api-sports.io",
+ "api_calls": 5,
+ "errors": []
+}
