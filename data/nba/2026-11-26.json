@@ -9,9 +9,9 @@
    "id": 519794,
    "home": "Philadelphia 76ers",
    "away": "Miami Heat",
-   "status": "Q4",
-   "score_home": 106,
-   "score_away": 95,
+   "status": "FT",
+   "score_home": 111,
+   "score_away": 104,
    "quarters": {
     "q1": [
      29,
@@ -26,8 +26,8 @@
      28
     ],
     "q4": [
-     16,
-     14
+     21,
+     23
     ],
     "ot": [
      null,
@@ -39,25 +39,25 @@
    "id": 519795,
    "home": "Charlotte Hornets",
    "away": "Chicago Bulls",
-   "status": "Q1",
-   "score_home": 10,
-   "score_away": 7,
+   "status": "FT",
+   "score_home": 105,
+   "score_away": 107,
    "quarters": {
     "q1": [
-     10,
-     7
+     23,
+     21
     ],
     "q2": [
-     null,
-     null
+     25,
+     25
     ],
     "q3": [
-     null,
-     null
+     23,
+     27
     ],
     "q4": [
-     null,
-     null
+     34,
+     34
     ],
     "ot": [
      null,
@@ -69,25 +69,25 @@
    "id": 519796,
    "home": "New York Knicks",
    "away": "Cleveland Cavaliers",
-   "status": "NS",
-   "score_home": null,
-   "score_away": null,
+   "status": "FT",
+   "score_home": 121,
+   "score_away": 102,
    "quarters": {
     "q1": [
-     null,
-     null
+     23,
+     34
     ],
     "q2": [
-     null,
-     null
+     33,
+     27
     ],
     "q3": [
-     null,
-     null
+     26,
+     24
     ],
     "q4": [
-     null,
-     null
+     39,
+     17
     ],
     "ot": [
      null,
@@ -99,25 +99,25 @@
    "id": 519797,
    "home": "Oklahoma City Thunder",
    "away": "Minnesota Timberwolves",
-   "status": "NS",
-   "score_home": null,
-   "score_away": null,
+   "status": "FT",
+   "score_home": 106,
+   "score_away": 113,
    "quarters": {
     "q1": [
-     null,
-     null
+     16,
+     26
     ],
     "q2": [
-     null,
-     null
+     37,
+     21
     ],
     "q3": [
-     null,
-     null
+     30,
+     40
     ],
     "q4": [
-     null,
-     null
+     23,
+     26
     ],
     "ot": [
      null,
@@ -129,25 +129,25 @@
    "id": 519798,
    "home": "Memphis Grizzlies",
    "away": "Los Angeles Clippers",
-   "status": "NS",
-   "score_home": null,
-   "score_away": null,
+   "status": "FT",
+   "score_home": 115,
+   "score_away": 97,
    "quarters": {
     "q1": [
-     null,
-     null
+     32,
+     15
     ],
     "q2": [
-     null,
-     null
+     18,
+     28
     ],
     "q3": [
-     null,
-     null
+     32,
+     26
     ],
     "q4": [
-     null,
-     null
+     33,
+     28
     ],
     "ot": [
      null,
@@ -159,25 +159,25 @@
    "id": 519799,
    "home": "Milwaukee Bucks",
    "away": "Brooklyn Nets",
-   "status": "NS",
-   "score_home": null,
-   "score_away": null,
+   "status": "FT",
+   "score_home": 97,
+   "score_away": 104,
    "quarters": {
     "q1": [
-     null,
-     null
+     24,
+     28
     ],
     "q2": [
-     null,
-     null
+     23,
+     23
     ],
     "q3": [
-     null,
-     null
+     24,
+     26
     ],
     "q4": [
-     null,
-     null
+     26,
+     27
     ],
     "ot": [
      null,
@@ -189,25 +189,25 @@
    "id": 519800,
    "home": "Houston Rockets",
    "away": "Phoenix Suns",
-   "status": "NS",
-   "score_home": null,
-   "score_away": null,
+   "status": "FT",
+   "score_home": 116,
+   "score_away": 104,
    "quarters": {
     "q1": [
-     null,
-     null
+     29,
+     33
     ],
     "q2": [
-     null,
-     null
+     37,
+     23
     ],
     "q3": [
-     null,
-     null
+     26,
+     25
     ],
     "q4": [
-     null,
-     null
+     24,
+     23
     ],
     "ot": [
      null,
@@ -219,25 +219,25 @@
    "id": 519801,
    "home": "Golden State Warriors",
    "away": "Sacramento Kings",
-   "status": "NS",
-   "score_home": null,
-   "score_away": null,
+   "status": "FT",
+   "score_home": 129,
+   "score_away": 110,
    "quarters": {
     "q1": [
-     null,
-     null
+     44,
+     19
     ],
     "q2": [
-     null,
-     null
+     28,
+     34
     ],
     "q3": [
-     null,
-     null
+     29,
+     36
     ],
     "q4": [
-     null,
-     null
+     28,
+     21
     ],
     "ot": [
      null,
@@ -249,25 +249,25 @@
    "id": 519802,
    "home": "Portland Trail Blazers",
    "away": "San Antonio Spurs",
-   "status": "NS",
-   "score_home": null,
-   "score_away": null,
+   "status": "FT",
+   "score_home": 116,
+   "score_away": 111,
    "quarters": {
     "q1": [
-     null,
-     null
+     38,
+     35
     ],
     "q2": [
-     null,
-     null
+     22,
+     22
     ],
     "q3": [
-     null,
-     null
+     24,
+     30
     ],
     "q4": [
-     null,
-     null
+     32,
+     24
     ],
     "ot": [
      null,
@@ -278,19 +278,9 @@
  ],
  "standings": [
   {
-   "team": "San Antonio Spurs",
-   "group": "Western Conference",
-   "position": 1,
-   "won": 15,
-   "lost": 3,
-   "points_for": 2117,
-   "points_against": 1898,
-   "form": null
-  },
-  {
    "team": "Los Angeles Lakers",
    "group": "Western Conference",
-   "position": 2,
+   "position": 1,
    "won": 15,
    "lost": 3,
    "points_for": 2149,
@@ -298,43 +288,53 @@
    "form": null
   },
   {
+   "team": "San Antonio Spurs",
+   "group": "Western Conference",
+   "position": 2,
+   "won": 15,
+   "lost": 4,
+   "points_for": 2228,
+   "points_against": 2014,
+   "form": null
+  },
+  {
    "team": "Minnesota Timberwolves",
    "group": "Western Conference",
    "position": 3,
-   "won": 13,
+   "won": 14,
    "lost": 5,
-   "points_for": 2095,
-   "points_against": 1904,
+   "points_for": 2208,
+   "points_against": 2010,
    "form": null
   },
   {
    "team": "Memphis Grizzlies",
    "group": "Western Conference",
    "position": 4,
-   "won": 13,
+   "won": 14,
    "lost": 5,
-   "points_for": 2166,
-   "points_against": 2006,
+   "points_for": 2281,
+   "points_against": 2103,
    "form": null
   },
   {
    "team": "Houston Rockets",
    "group": "Western Conference",
    "position": 5,
-   "won": 13,
+   "won": 14,
    "lost": 5,
-   "points_for": 2126,
-   "points_against": 1984,
+   "points_for": 2242,
+   "points_against": 2088,
    "form": null
   },
   {
    "team": "Portland Trail Blazers",
    "group": "Western Conference",
    "position": 6,
-   "won": 11,
+   "won": 12,
    "lost": 6,
-   "points_for": 1986,
-   "points_against": 1876,
+   "points_for": 2102,
+   "points_against": 1987,
    "form": null
   },
   {
@@ -358,33 +358,33 @@
    "form": null
   },
   {
-   "team": "Phoenix Suns",
+   "team": "Golden State Warriors",
    "group": "Western Conference",
    "position": 9,
+   "won": 10,
+   "lost": 8,
+   "points_for": 2020,
+   "points_against": 2015,
+   "form": null
+  },
+  {
+   "team": "Phoenix Suns",
+   "group": "Western Conference",
+   "position": 10,
    "won": 9,
-   "lost": 7,
-   "points_for": 1831,
-   "points_against": 1840,
+   "lost": 8,
+   "points_for": 1935,
+   "points_against": 1956,
    "form": null
   },
   {
    "team": "Oklahoma City Thunder",
    "group": "Western Conference",
-   "position": 10,
-   "won": 10,
-   "lost": 8,
-   "points_for": 2041,
-   "points_against": 1984,
-   "form": null
-  },
-  {
-   "team": "Golden State Warriors",
-   "group": "Western Conference",
    "position": 11,
-   "won": 9,
-   "lost": 8,
-   "points_for": 1891,
-   "points_against": 1905,
+   "won": 10,
+   "lost": 9,
+   "points_for": 2147,
+   "points_against": 2097,
    "form": null
   },
   {
@@ -402,9 +402,9 @@
    "group": "Western Conference",
    "position": 13,
    "won": 4,
-   "lost": 12,
-   "points_for": 1771,
-   "points_against": 1880,
+   "lost": 13,
+   "points_for": 1868,
+   "points_against": 1995,
    "form": null
   },
   {
@@ -422,19 +422,19 @@
    "group": "Western Conference",
    "position": 15,
    "won": 2,
-   "lost": 15,
-   "points_for": 1816,
-   "points_against": 2029,
+   "lost": 16,
+   "points_for": 1926,
+   "points_against": 2158,
    "form": null
   },
   {
    "team": "Philadelphia 76ers",
    "group": "Eastern Conference",
    "position": 1,
-   "won": 14,
+   "won": 15,
    "lost": 4,
-   "points_for": 2075,
-   "points_against": 2042,
+   "points_for": 2186,
+   "points_against": 2146,
    "form": null
   },
   {
@@ -451,10 +451,10 @@
    "team": "New York Knicks",
    "group": "Eastern Conference",
    "position": 3,
-   "won": 11,
+   "won": 12,
    "lost": 6,
-   "points_for": 1852,
-   "points_against": 1755,
+   "points_for": 1973,
+   "points_against": 1857,
    "form": null
   },
   {
@@ -482,9 +482,9 @@
    "group": "Eastern Conference",
    "position": 6,
    "won": 10,
-   "lost": 6,
-   "points_for": 1931,
-   "points_against": 1911,
+   "lost": 7,
+   "points_for": 2035,
+   "points_against": 2022,
    "form": null
   },
   {
@@ -492,9 +492,9 @@
    "group": "Eastern Conference",
    "position": 7,
    "won": 9,
-   "lost": 9,
-   "points_for": 2128,
-   "points_against": 2102,
+   "lost": 10,
+   "points_for": 2230,
+   "points_against": 2223,
    "form": null
   },
   {
@@ -541,30 +541,30 @@
    "team": "Chicago Bulls",
    "group": "Eastern Conference",
    "position": 12,
-   "won": 5,
+   "won": 6,
    "lost": 12,
-   "points_for": 1988,
-   "points_against": 2101,
-   "form": null
-  },
-  {
-   "team": "Charlotte Hornets",
-   "group": "Eastern Conference",
-   "position": 13,
-   "won": 4,
-   "lost": 12,
-   "points_for": 1610,
-   "points_against": 1774,
+   "points_for": 2095,
+   "points_against": 2206,
    "form": null
   },
   {
    "team": "Brooklyn Nets",
    "group": "Eastern Conference",
-   "position": 14,
-   "won": 3,
+   "position": 13,
+   "won": 4,
    "lost": 13,
-   "points_for": 1779,
-   "points_against": 1924,
+   "points_for": 1883,
+   "points_against": 2021,
+   "form": null
+  },
+  {
+   "team": "Charlotte Hornets",
+   "group": "Eastern Conference",
+   "position": 14,
+   "won": 4,
+   "lost": 13,
+   "points_for": 1715,
+   "points_against": 1881,
    "form": null
   },
   {
@@ -572,19 +572,19 @@
    "group": "Eastern Conference",
    "position": 15,
    "won": 2,
-   "lost": 16,
-   "points_for": 1975,
-   "points_against": 2180,
+   "lost": 17,
+   "points_for": 2072,
+   "points_against": 2284,
    "form": null
   },
   {
    "team": "Philadelphia 76ers",
    "group": "Atlantic Division",
    "position": 1,
-   "won": 14,
+   "won": 15,
    "lost": 4,
-   "points_for": 2075,
-   "points_against": 2042,
+   "points_for": 2186,
+   "points_against": 2146,
    "form": null
   },
   {
@@ -601,10 +601,10 @@
    "team": "New York Knicks",
    "group": "Atlantic Division",
    "position": 3,
-   "won": 11,
+   "won": 12,
    "lost": 6,
-   "points_for": 1852,
-   "points_against": 1755,
+   "points_for": 1973,
+   "points_against": 1857,
    "form": null
   },
   {
@@ -621,10 +621,10 @@
    "team": "Brooklyn Nets",
    "group": "Atlantic Division",
    "position": 5,
-   "won": 3,
+   "won": 4,
    "lost": 13,
-   "points_for": 1779,
-   "points_against": 1924,
+   "points_for": 1883,
+   "points_against": 2021,
    "form": null
   },
   {
@@ -642,9 +642,9 @@
    "group": "Southeast Division",
    "position": 2,
    "won": 10,
-   "lost": 6,
-   "points_for": 1931,
-   "points_against": 1911,
+   "lost": 7,
+   "points_for": 2035,
+   "points_against": 2022,
    "form": null
   },
   {
@@ -672,9 +672,9 @@
    "group": "Southeast Division",
    "position": 5,
    "won": 4,
-   "lost": 12,
-   "points_for": 1610,
-   "points_against": 1774,
+   "lost": 13,
+   "points_for": 1715,
+   "points_against": 1881,
    "form": null
   },
   {
@@ -692,9 +692,9 @@
    "group": "Central Division",
    "position": 2,
    "won": 9,
-   "lost": 9,
-   "points_for": 2128,
-   "points_against": 2102,
+   "lost": 10,
+   "points_for": 2230,
+   "points_against": 2223,
    "form": null
   },
   {
@@ -711,10 +711,10 @@
    "team": "Chicago Bulls",
    "group": "Central Division",
    "position": 4,
-   "won": 5,
+   "won": 6,
    "lost": 12,
-   "points_for": 1988,
-   "points_against": 2101,
+   "points_for": 2095,
+   "points_against": 2206,
    "form": null
   },
   {
@@ -722,29 +722,29 @@
    "group": "Central Division",
    "position": 5,
    "won": 2,
-   "lost": 16,
-   "points_for": 1975,
-   "points_against": 2180,
+   "lost": 17,
+   "points_for": 2072,
+   "points_against": 2284,
    "form": null
   },
   {
    "team": "Minnesota Timberwolves",
    "group": "Northwest Division",
    "position": 1,
-   "won": 13,
+   "won": 14,
    "lost": 5,
-   "points_for": 2095,
-   "points_against": 1904,
+   "points_for": 2208,
+   "points_against": 2010,
    "form": null
   },
   {
    "team": "Portland Trail Blazers",
    "group": "Northwest Division",
    "position": 2,
-   "won": 11,
+   "won": 12,
    "lost": 6,
-   "points_for": 1986,
-   "points_against": 1876,
+   "points_for": 2102,
+   "points_against": 1987,
    "form": null
   },
   {
@@ -762,9 +762,9 @@
    "group": "Northwest Division",
    "position": 4,
    "won": 10,
-   "lost": 8,
-   "points_for": 2041,
-   "points_against": 1984,
+   "lost": 9,
+   "points_for": 2147,
+   "points_against": 2097,
    "form": null
   },
   {
@@ -788,23 +788,23 @@
    "form": null
   },
   {
-   "team": "Phoenix Suns",
+   "team": "Golden State Warriors",
    "group": "Pacific Division",
    "position": 2,
-   "won": 9,
-   "lost": 7,
-   "points_for": 1831,
-   "points_against": 1840,
+   "won": 10,
+   "lost": 8,
+   "points_for": 2020,
+   "points_against": 2015,
    "form": null
   },
   {
-   "team": "Golden State Warriors",
+   "team": "Phoenix Suns",
    "group": "Pacific Division",
    "position": 3,
    "won": 9,
    "lost": 8,
-   "points_for": 1891,
-   "points_against": 1905,
+   "points_for": 1935,
+   "points_against": 1956,
    "form": null
   },
   {
@@ -812,9 +812,9 @@
    "group": "Pacific Division",
    "position": 4,
    "won": 4,
-   "lost": 12,
-   "points_for": 1771,
-   "points_against": 1880,
+   "lost": 13,
+   "points_for": 1868,
+   "points_against": 1995,
    "form": null
   },
   {
@@ -822,9 +822,9 @@
    "group": "Pacific Division",
    "position": 5,
    "won": 2,
-   "lost": 15,
-   "points_for": 1816,
-   "points_against": 2029,
+   "lost": 16,
+   "points_for": 1926,
+   "points_against": 2158,
    "form": null
   },
   {
@@ -832,29 +832,29 @@
    "group": "Southwest Division",
    "position": 1,
    "won": 15,
-   "lost": 3,
-   "points_for": 2117,
-   "points_against": 1898,
+   "lost": 4,
+   "points_for": 2228,
+   "points_against": 2014,
    "form": null
   },
   {
    "team": "Memphis Grizzlies",
    "group": "Southwest Division",
    "position": 2,
-   "won": 13,
+   "won": 14,
    "lost": 5,
-   "points_for": 2166,
-   "points_against": 2006,
+   "points_for": 2281,
+   "points_against": 2103,
    "form": null
   },
   {
    "team": "Houston Rockets",
    "group": "Southwest Division",
    "position": 3,
-   "won": 13,
+   "won": 14,
    "lost": 5,
-   "points_for": 2126,
-   "points_against": 1984,
+   "points_for": 2242,
+   "points_against": 2088,
    "form": null
   },
   {
@@ -1210,63 +1210,63 @@
    }
   },
   "Brooklyn Nets": {
-   "games": 16,
+   "games": 17,
    "season": {
-    "q1_for": 26.56,
-    "q1_against": 29.56,
-    "q2_for": 29.06,
-    "q2_against": 33.31
-   },
-   "last_10": {
-    "q1_for": 26.7,
-    "q1_against": 32.1,
-    "q2_for": 31.2,
-    "q2_against": 34.6
-   }
-  },
-  "Charlotte Hornets": {
-   "games": 16,
-   "season": {
-    "q1_for": 26.19,
-    "q1_against": 26.56,
-    "q2_for": 28.31,
-    "q2_against": 29.12
+    "q1_for": 26.65,
+    "q1_against": 29.24,
+    "q2_for": 28.71,
+    "q2_against": 32.71
    },
    "last_10": {
     "q1_for": 27.4,
-    "q1_against": 27.4,
-    "q2_for": 28.4,
-    "q2_against": 30.4
+    "q1_against": 31.8,
+    "q2_for": 31.2,
+    "q2_against": 34.5
+   }
+  },
+  "Charlotte Hornets": {
+   "games": 17,
+   "season": {
+    "q1_for": 26.0,
+    "q1_against": 26.24,
+    "q2_for": 28.12,
+    "q2_against": 28.88
+   },
+   "last_10": {
+    "q1_for": 26.0,
+    "q1_against": 26.8,
+    "q2_for": 29.2,
+    "q2_against": 29.9
    }
   },
   "Chicago Bulls": {
-   "games": 17,
+   "games": 18,
    "season": {
-    "q1_for": 28.29,
-    "q1_against": 30.59,
-    "q2_for": 31.59,
-    "q2_against": 30.59
+    "q1_for": 27.89,
+    "q1_against": 30.17,
+    "q2_for": 31.22,
+    "q2_against": 30.28
    },
    "last_10": {
     "q1_for": 31.2,
-    "q1_against": 27.6,
-    "q2_for": 31.5,
-    "q2_against": 31.2
+    "q1_against": 25.6,
+    "q2_for": 30.9,
+    "q2_against": 29.6
    }
   },
   "Cleveland Cavaliers": {
-   "games": 18,
+   "games": 19,
    "season": {
-    "q1_for": 29.44,
-    "q1_against": 28.0,
-    "q2_for": 28.89,
-    "q2_against": 29.61
+    "q1_for": 29.68,
+    "q1_against": 27.74,
+    "q2_for": 28.79,
+    "q2_against": 29.79
    },
    "last_10": {
-    "q1_for": 30.0,
-    "q1_against": 27.9,
-    "q2_for": 29.6,
-    "q2_against": 31.9
+    "q1_for": 30.1,
+    "q1_against": 28.0,
+    "q2_for": 29.4,
+    "q2_against": 32.0
    }
   },
   "Dallas Mavericks": {
@@ -1315,33 +1315,33 @@
    }
   },
   "Golden State Warriors": {
-   "games": 17,
+   "games": 18,
    "season": {
-    "q1_for": 25.06,
-    "q1_against": 30.12,
-    "q2_for": 27.59,
-    "q2_against": 24.59
+    "q1_for": 26.11,
+    "q1_against": 29.5,
+    "q2_for": 27.61,
+    "q2_against": 25.11
    },
    "last_10": {
-    "q1_for": 23.2,
-    "q1_against": 29.3,
-    "q2_for": 26.1,
-    "q2_against": 24.0
+    "q1_for": 25.7,
+    "q1_against": 28.1,
+    "q2_for": 25.7,
+    "q2_against": 24.8
    }
   },
   "Houston Rockets": {
-   "games": 18,
+   "games": 19,
    "season": {
-    "q1_for": 29.33,
-    "q1_against": 27.22,
-    "q2_for": 28.72,
+    "q1_for": 29.32,
+    "q1_against": 27.53,
+    "q2_for": 29.16,
     "q2_against": 23.11
    },
    "last_10": {
-    "q1_for": 29.5,
+    "q1_for": 29.4,
     "q1_against": 27.3,
-    "q2_for": 27.0,
-    "q2_against": 24.2
+    "q2_for": 28.0,
+    "q2_against": 24.1
    }
   },
   "Indiana Pacers": {
@@ -1360,18 +1360,18 @@
    }
   },
   "Los Angeles Clippers": {
-   "games": 16,
+   "games": 17,
    "season": {
-    "q1_for": 26.5,
-    "q1_against": 27.12,
-    "q2_for": 28.31,
-    "q2_against": 28.31
+    "q1_for": 25.82,
+    "q1_against": 27.41,
+    "q2_for": 28.29,
+    "q2_against": 27.71
    },
    "last_10": {
-    "q1_for": 24.9,
-    "q1_against": 26.7,
-    "q2_for": 30.6,
-    "q2_against": 27.1
+    "q1_for": 23.1,
+    "q1_against": 27.7,
+    "q2_for": 30.4,
+    "q2_against": 25.9
    }
   },
   "Los Angeles Lakers": {
@@ -1390,63 +1390,63 @@
    }
   },
   "Memphis Grizzlies": {
-   "games": 18,
+   "games": 19,
    "season": {
-    "q1_for": 29.28,
-    "q1_against": 29.39,
-    "q2_for": 30.78,
-    "q2_against": 28.89
+    "q1_for": 29.42,
+    "q1_against": 28.63,
+    "q2_for": 30.11,
+    "q2_against": 28.84
    },
    "last_10": {
-    "q1_for": 30.6,
-    "q1_against": 30.3,
-    "q2_for": 28.8,
-    "q2_against": 30.2
+    "q1_for": 31.0,
+    "q1_against": 28.3,
+    "q2_for": 28.5,
+    "q2_against": 29.4
    }
   },
   "Miami Heat": {
-   "games": 16,
+   "games": 17,
    "season": {
-    "q1_for": 31.62,
+    "q1_for": 31.65,
     "q1_against": 29.12,
-    "q2_for": 30.44,
-    "q2_against": 30.06
+    "q2_for": 29.88,
+    "q2_against": 30.24
    },
    "last_10": {
-    "q1_for": 32.0,
-    "q1_against": 27.0,
-    "q2_for": 31.4,
-    "q2_against": 30.7
+    "q1_for": 32.2,
+    "q1_against": 26.2,
+    "q2_for": 29.3,
+    "q2_against": 29.8
    }
   },
   "Milwaukee Bucks": {
-   "games": 18,
+   "games": 19,
    "season": {
-    "q1_for": 24.89,
-    "q1_against": 26.11,
-    "q2_for": 24.56,
-    "q2_against": 32.67
+    "q1_for": 24.84,
+    "q1_against": 26.21,
+    "q2_for": 24.47,
+    "q2_against": 32.16
    },
    "last_10": {
-    "q1_for": 25.9,
-    "q1_against": 26.1,
-    "q2_for": 23.4,
-    "q2_against": 32.1
+    "q1_for": 25.4,
+    "q1_against": 26.5,
+    "q2_for": 22.6,
+    "q2_against": 31.7
    }
   },
   "Minnesota Timberwolves": {
-   "games": 18,
+   "games": 19,
    "season": {
-    "q1_for": 29.11,
-    "q1_against": 26.72,
-    "q2_for": 28.56,
-    "q2_against": 27.06
+    "q1_for": 28.95,
+    "q1_against": 26.16,
+    "q2_for": 28.16,
+    "q2_against": 27.58
    },
    "last_10": {
-    "q1_for": 28.7,
-    "q1_against": 27.8,
-    "q2_for": 28.4,
-    "q2_against": 26.2
+    "q1_for": 28.0,
+    "q1_against": 26.4,
+    "q2_for": 28.1,
+    "q2_against": 27.2
    }
   },
   "New Orleans Pelicans": {
@@ -1465,32 +1465,32 @@
    }
   },
   "New York Knicks": {
-   "games": 17,
+   "games": 18,
    "season": {
-    "q1_for": 28.06,
-    "q1_against": 25.88,
-    "q2_for": 28.12,
-    "q2_against": 24.35
+    "q1_for": 27.78,
+    "q1_against": 26.33,
+    "q2_for": 28.39,
+    "q2_against": 24.5
    },
    "last_10": {
-    "q1_for": 29.0,
-    "q1_against": 24.9,
-    "q2_for": 30.4,
-    "q2_against": 24.4
+    "q1_for": 27.0,
+    "q1_against": 26.2,
+    "q2_for": 29.6,
+    "q2_against": 24.0
    }
   },
   "Oklahoma City Thunder": {
-   "games": 18,
+   "games": 19,
    "season": {
-    "q1_for": 28.94,
-    "q1_against": 28.22,
-    "q2_for": 26.78,
-    "q2_against": 25.56
+    "q1_for": 28.26,
+    "q1_against": 28.11,
+    "q2_for": 27.32,
+    "q2_against": 25.32
    },
    "last_10": {
-    "q1_for": 28.8,
-    "q1_against": 28.8,
-    "q2_for": 26.7,
+    "q1_for": 26.9,
+    "q1_against": 28.6,
+    "q2_for": 26.8,
     "q2_against": 27.0
    }
   },
@@ -1510,78 +1510,78 @@
    }
   },
   "Philadelphia 76ers": {
-   "games": 18,
+   "games": 19,
    "season": {
-    "q1_for": 27.22,
-    "q1_against": 29.78,
-    "q2_for": 31.72,
-    "q2_against": 28.67
+    "q1_for": 27.32,
+    "q1_against": 29.89,
+    "q2_for": 31.79,
+    "q2_against": 28.26
    },
    "last_10": {
     "q1_for": 28.2,
-    "q1_against": 31.1,
-    "q2_for": 33.6,
+    "q1_against": 32.2,
+    "q2_for": 34.2,
     "q2_against": 28.9
    }
   },
   "Phoenix Suns": {
-   "games": 16,
+   "games": 17,
    "season": {
-    "q1_for": 28.12,
-    "q1_against": 27.94,
-    "q2_for": 28.06,
-    "q2_against": 29.75
+    "q1_for": 28.41,
+    "q1_against": 28.0,
+    "q2_for": 27.76,
+    "q2_against": 30.18
    },
    "last_10": {
     "q1_for": 28.7,
-    "q1_against": 26.6,
-    "q2_for": 28.0,
-    "q2_against": 27.0
+    "q1_against": 26.9,
+    "q2_for": 27.3,
+    "q2_against": 28.2
    }
   },
   "Portland Trail Blazers": {
-   "games": 17,
+   "games": 18,
    "season": {
-    "q1_for": 27.0,
-    "q1_against": 27.35,
-    "q2_for": 32.12,
-    "q2_against": 30.35
+    "q1_for": 27.61,
+    "q1_against": 27.78,
+    "q2_for": 31.56,
+    "q2_against": 29.89
    },
    "last_10": {
-    "q1_for": 25.7,
-    "q1_against": 27.4,
-    "q2_for": 30.2,
-    "q2_against": 30.6
+    "q1_for": 26.6,
+    "q1_against": 28.9,
+    "q2_for": 29.3,
+    "q2_against": 29.5
    }
   },
   "Sacramento Kings": {
-   "games": 17,
+   "games": 18,
    "season": {
-    "q1_for": 27.29,
-    "q1_against": 30.06,
-    "q2_for": 27.94,
-    "q2_against": 32.82
+    "q1_for": 26.83,
+    "q1_against": 30.83,
+    "q2_for": 28.28,
+    "q2_against": 32.56
    },
    "last_10": {
-    "q1_for": 27.5,
-    "q1_against": 31.0,
-    "q2_for": 26.3,
-    "q2_against": 31.0
+    "q1_for": 26.6,
+    "q1_against": 32.6,
+    "q2_for": 27.1,
+    "q2_against": 30.5
    }
   },
   "San Antonio Spurs": {
-   "games": 18,
+   "games": 19,
    "season": {
-    "q1_for": 29.89,
-    "q1_against": 27.44,
-    "q2_for": 31.11,
-    "q2_against": 26.44
+    "q1_for": 30.16,
+    "q1_against": 28.0,
+    "q2_for": 30.63,
+    "q2_against": 26.21
    },
    "last_10": {
-    "q1_for": 29.7,
-    "q1_against": 26.6,
-    "q2_for": 31.2,
-    "q2_against": 24.8
+    "q1_for": 29.4,
+    "q1_against": 27.5,
+    "q2_for": 29.7,
+    "q2_against": 24.3
    }
   },
   "Toronto Raptors": {
@@ -1630,7 +1630,7 @@
    }
   }
  },
- "generated_at": "2026-11-26T00:20:46+00:00",
+ "generated_at": "2026-11-26T10:53:15+00:00",
  "source": "api-sports.io",
  "api_calls": 4,
  "errors": []
