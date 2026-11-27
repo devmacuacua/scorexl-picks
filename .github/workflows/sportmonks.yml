@@ -11,7 +11,7 @@ on:
         description: "Data AAAA-MM-DD (vazio = hoje em Maputo)"
         required: false
       debug:
-        description: "true = grava também as respostas brutas em data/football/raw/"
+        description: "true = teste: grava em data/football/sportmonks_test/ + respostas brutas em data/football/raw/"
         required: false
 
 permissions:
@@ -37,6 +37,7 @@ jobs:
           ARGS=""
           if [ -n "${{ github.event.inputs.date }}" ]; then ARGS="$ARGS --date ${{ github.event.inputs.date }}"; fi
           if [ "${{ github.event.inputs.debug }}" = "true" ]; then ARGS="$ARGS --debug"; fi
+          if [ "${{ github.event.inputs.debug }}" = "true" ]; then ARGS="$ARGS --test"; fi
           python scripts/fetch_sportmonks.py $ARGS
       - name: Publicar
         run: |

@@ -1,0 +1,2829 @@
+{
+ "date": "2026-11-27",
+ "sport": "football",
+ "season": null,
+ "note": "kickoff em hora de Maputo; team_form = últimos 5 jogos (todas as provas). Fonte Sportmonks v3.",
+ "fixtures": [
+  {
+   "id": 19735100,
+   "competition": "Bundesliga",
+   "kickoff_maputo": "2026-11-27T21:30:00+02:00",
+   "status": "NS",
+   "home": "Werder Bremen",
+   "away": "Borussia Mönchengladbach",
+   "standings": null,
+   "prediction": null,
+   "odds": null,
+   "injuries": [],
+   "team_form": {
+    "home": {
+     "games_used": 5,
+     "avg": {
+      "for": {
+       "corners": 4.8,
+       "shots": 18.6,
+       "yellow_cards": 2.2,
+       "shots_on_target": 7.0,
+       "goals": 2.2
+      },
+      "against": {
+       "corners": 5.0,
+       "shots": 15.0,
+       "yellow_cards": 1.2,
+       "shots_on_target": 4.2,
+       "goals": 1.0
+      }
+     },
+     "last_games": [
+      {
+       "date": "2026-11-22",
+       "league": "Bundesliga",
+       "opponent": "Hamburger SV",
+       "venue": "home",
+       "goals_for": 4,
+       "goals_against": 0,
+       "stats_for": {
+        "corners": 1,
+        "shots": 18,
+        "possession": 53,
+        "yellow_cards": 3,
+        "shots_on_target": 7
+       },
+       "stats_against": {
+        "corners": 8,
+        "shots": 17,
+        "possession": 47,
+        "yellow_cards": 3,
+        "shots_on_target": 2
+       }
+      },
+      {
+       "date": "2026-11-07",
+       "league": "Bundesliga",
+       "opponent": "VfB Stuttgart",
+       "venue": "away",
+       "goals_for": 0,
+       "goals_against": 1,
+       "stats_for": {
+        "corners": 4,
+        "shots": 23,
+        "possession": 57,
+        "yellow_cards": 3,
+        "shots_on_target": 5
+       },
+       "stats_against": {
+        "corners": 4,
+        "shots": 13,
+        "possession": 43,
+        "yellow_cards": 0,
+        "shots_on_target": 5
+       }
+      },
+      {
+       "date": "2026-10-31",
+       "league": "Bundesliga",
+       "opponent": "TSG Hoffenheim",
+       "venue": "home",
+       "goals_for": 2,
+       "goals_against": 0,
+       "stats_for": {
+        "corners": 8,
+        "shots": 17,
+        "possession": 41,
+        "yellow_cards": 3,
+        "shots_on_target": 4
+       },
+       "stats_against": {
+        "corners": 4,
+        "shots": 16,
+        "possession": 59,
+        "yellow_cards": 0,
+        "shots_on_target": 2
+       }
+      },
+      {
+       "date": "2026-10-24",
+       "league": "Bundesliga",
+       "opponent": "FSV Mainz 05",
+       "venue": "away",
+       "goals_for": 3,
+       "goals_against": 2,
+       "stats_for": {
+        "corners": 6,
+        "shots": 17,
+        "possession": 46,
+        "yellow_cards": 1,
+        "shots_on_target": 8
+       },
+       "stats_against": {
+        "corners": 6,
+        "shots": 18,
+        "possession": 54,
+        "yellow_cards": 2,
+        "shots_on_target": 8
+       }
+      },
+      {
+       "date": "2026-10-17",
+       "league": "Bundesliga",
+       "opponent": "Paderborn",
+       "venue": "home",
+       "goals_for": 2,
+       "goals_against": 2,
+       "stats_for": {
+        "corners": 5,
+        "shots": 18,
+        "possession": 61,
+        "yellow_cards": 1,
+        "shots_on_target": 11
+       },
+       "stats_against": {
+        "corners": 3,
+        "shots": 11,
+        "possession": 39,
+        "yellow_cards": 1,
+        "shots_on_target": 4
+       }
+      }
+     ]
+    },
+    "away": {
+     "games_used": 5,
+     "avg": {
+      "for": {
+       "corners": 4.4,
+       "shots": 13.0,
+       "yellow_cards": 2.8,
+       "shots_on_target": 4.2,
+       "goals": 1.0
+      },
+      "against": {
+       "corners": 6.2,
+       "shots": 15.0,
+       "yellow_cards": 1.8,
+       "shots_on_target": 6.2,
+       "goals": 1.6
+      }
+     },
+     "last_games": [
+      {
+       "date": "2026-11-21",
+       "league": "Bundesliga",
+       "opponent": "Borussia Dortmund",
+       "venue": "home",
+       "goals_for": 0,
+       "goals_against": 1,
+       "stats_for": {
+        "corners": 7,
+        "shots": 9,
+        "possession": 43,
+        "yellow_cards": 2,
+        "shots_on_target": 2
+       },
+       "stats_against": {
+        "corners": 7,
+        "shots": 15,
+        "possession": 57,
+        "yellow_cards": 1,
+        "shots_on_target": 5
+       }
+      },
+      {
+       "date": "2026-11-06",
+       "league": "Bundesliga",
+       "opponent": "Hamburger SV",
+       "venue": "away",
+       "goals_for": 1,
+       "goals_against": 3,
+       "stats_for": {
+        "corners": 3,
+        "shots": 19,
+        "possession": 38,
+        "yellow_cards": 3,
+        "shots_on_target": 6
+       },
+       "stats_against": {
+        "corners": 5,
+        "shots": 18,
+        "possession": 62,
+        "yellow_cards": 1,
+        "shots_on_target": 9
+       }
+      },
+      {
+       "date": "2026-10-31",
+       "league": "Bundesliga",
+       "opponent": "Paderborn",
+       "venue": "home",
+       "goals_for": 0,
+       "goals_against": 0,
+       "stats_for": {
+        "corners": 4,
+        "shots": 12,
+        "possession": 43,
+        "yellow_cards": 2,
+        "shots_on_target": 4
+       },
+       "stats_against": {
+        "corners": 7,
+        "shots": 13,
+        "possession": 57,
+        "yellow_cards": 3,
+        "shots_on_target": 4
+       }
+      },
+      {
+       "date": "2026-10-23",
+       "league": "Bundesliga",
+       "opponent": "VfB Stuttgart",
+       "venue": "away",
+       "goals_for": 3,
+       "goals_against": 2,
+       "stats_for": {
+        "corners": 5,
+        "shots": 16,
+        "possession": 30,
+        "yellow_cards": 4,
+        "shots_on_target": 6
+       },
+       "stats_against": {
+        "corners": 6,
+        "shots": 15,
+        "possession": 70,
+        "yellow_cards": 2,
+        "shots_on_target": 5
+       }
+      },
+      {
+       "date": "2026-10-18",
+       "league": "Bundesliga",
+       "opponent": "TSG Hoffenheim",
+       "venue": "home",
+       "goals_for": 1,
+       "goals_against": 2,
+       "stats_for": {
+        "corners": 3,
+        "shots": 9,
+        "possession": 48,
+        "yellow_cards": 3,
+        "shots_on_target": 3
+       },
+       "stats_against": {
+        "corners": 6,
+        "shots": 14,
+        "possession": 52,
+        "yellow_cards": 2,
+        "shots_on_target": 8
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": 19713488,
+   "competition": "Serie A",
+   "kickoff_maputo": "2026-11-27T21:45:00+02:00",
+   "status": "NS",
+   "home": "Venezia",
+   "away": "Bologna",
+   "standings": null,
+   "prediction": null,
+   "odds": null,
+   "injuries": [],
+   "team_form": {
+    "home": {
+     "games_used": 5,
+     "avg": {
+      "for": {
+       "corners": 3.8,
+       "shots": 13.2,
+       "shots_on_target": 3.0,
+       "goals": 0.4,
+       "yellow_cards": 0.75
+      },
+      "against": {
+       "corners": 5.6,
+       "shots": 13.4,
+       "shots_on_target": 4.6,
+       "goals": 1.8,
+       "yellow_cards": 1.25
+      }
+     },
+     "last_games": [
+      {
+       "date": "2026-11-22",
+       "league": "Serie A",
+       "opponent": "Juventus",
+       "venue": "away",
+       "goals_for": 0,
+       "goals_against": 4,
+       "stats_for": {
+        "corners": 2,
+        "shots": 13,
+        "possession": 42,
+        "shots_on_target": 1
+       },
+       "stats_against": {
+        "corners": 5,
+        "shots": 12,
+        "possession": 58,
+        "shots_on_target": 8
+       }
+      },
+      {
+       "date": "2026-11-06",
+       "league": "Serie A",
+       "opponent": "Udinese",
+       "venue": "home",
+       "goals_for": 2,
+       "goals_against": 1,
+       "stats_for": {
+        "corners": 3,
+        "shots": 15,
+        "possession": 46,
+        "yellow_cards": 1,
+        "shots_on_target": 4
+       },
+       "stats_against": {
+        "corners": 7,
+        "shots": 13,
+        "possession": 54,
+        "yellow_cards": 1,
+        "shots_on_target": 5
+       }
+      },
+      {
+       "date": "2026-11-01",
+       "league": "Serie A",
+       "opponent": "Como",
+       "venue": "away",
+       "goals_for": 0,
+       "goals_against": 1,
+       "stats_for": {
+        "corners": 1,
+        "shots": 7,
+        "possession": 34,
+        "yellow_cards": 2,
+        "shots_on_target": 1
+       },
+       "stats_against": {
+        "corners": 8,
+        "shots": 19,
+        "possession": 66,
+        "yellow_cards": 1,
+        "shots_on_target": 4
+       }
+      },
+      {
+       "date": "2026-10-28",
+       "league": "Serie A",
+       "opponent": "Inter",
+       "venue": "home",
+       "goals_for": 0,
+       "goals_against": 2,
+       "stats_for": {
+        "corners": 3,
+        "shots": 12,
+        "possession": 35,
+        "yellow_cards": 0,
+        "shots_on_target": 4
+       },
+       "stats_against": {
+        "corners": 6,
+        "shots": 16,
+        "possession": 65,
+        "yellow_cards": 2,
+        "shots_on_target": 2
+       }
+      },
+      {
+       "date": "2026-10-25",
+       "league": "Serie A",
+       "opponent": "Genoa",
+       "venue": "away",
+       "goals_for": 0,
+       "goals_against": 1,
+       "stats_for": {
+        "corners": 10,
+        "shots": 19,
+        "possession": 55,
+        "yellow_cards": 0,
+        "shots_on_target": 5
+       },
+       "stats_against": {
+        "corners": 2,
+        "shots": 7,
+        "possession": 45,
+        "yellow_cards": 1,
+        "shots_on_target": 4
+       }
+      }
+     ]
+    },
+    "away": {
+     "games_used": 5,
+     "avg": {
+      "for": {
+       "corners": 7.4,
+       "shots": 16.0,
+       "yellow_cards": 2.0,
+       "shots_on_target": 5.8,
+       "goals": 2.2
+      },
+      "against": {
+       "corners": 2.0,
+       "shots": 8.0,
+       "yellow_cards": 2.2,
+       "shots_on_target": 2.6,
+       "goals": 1.0
+      }
+     },
+     "last_games": [
+      {
+       "date": "2026-11-22",
+       "league": "Serie A",
+       "opponent": "Udinese",
+       "venue": "home",
+       "goals_for": 1,
+       "goals_against": 1,
+       "stats_for": {
+        "corners": 8,
+        "shots": 18,
+        "possession": 52,
+        "yellow_cards": 1,
+        "shots_on_target": 4
+       },
+       "stats_against": {
+        "corners": 4,
+        "shots": 11,
+        "possession": 48,
+        "yellow_cards": 2,
+        "shots_on_target": 3
+       }
+      },
+      {
+       "date": "2026-11-07",
+       "league": "Serie A",
+       "opponent": "Parma",
+       "venue": "away",
+       "goals_for": 2,
+       "goals_against": 1,
+       "stats_for": {
+        "corners": 15,
+        "shots": 33,
+        "possession": 69,
+        "yellow_cards": 2,
+        "shots_on_target": 10
+       },
+       "stats_against": {
+        "corners": 1,
+        "shots": 11,
+        "possession": 31,
+        "yellow_cards": 3,
+        "shots_on_target": 2
+       }
+      },
+      {
+       "date": "2026-10-31",
+       "league": "Serie A",
+       "opponent": "Monza",
+       "venue": "home",
+       "goals_for": 2,
+       "goals_against": 1,
+       "stats_for": {
+        "corners": 5,
+        "shots": 10,
+        "possession": 59,
+        "yellow_cards": 4,
+        "shots_on_target": 5
+       },
+       "stats_against": {
+        "corners": 2,
+        "shots": 6,
+        "possession": 41,
+        "yellow_cards": 3,
+        "shots_on_target": 4
+       }
+      },
+      {
+       "date": "2026-10-28",
+       "league": "Serie A",
+       "opponent": "AC Milan",
+       "venue": "away",
+       "goals_for": 4,
+       "goals_against": 2,
+       "stats_for": {
+        "corners": 3,
+        "shots": 9,
+        "possession": 34,
+        "yellow_cards": 2,
+        "shots_on_target": 5
+       },
+       "stats_against": {
+        "corners": 2,
+        "shots": 8,
+        "possession": 66,
+        "yellow_cards": 0,
+        "shots_on_target": 3
+       }
+      },
+      {
+       "date": "2026-10-24",
+       "league": "Serie A",
+       "opponent": "Cagliari",
+       "venue": "away",
+       "goals_for": 2,
+       "goals_against": 0,
+       "stats_for": {
+        "corners": 6,
+        "shots": 10,
+        "possession": 43,
+        "yellow_cards": 1,
+        "shots_on_target": 5
+       },
+       "stats_against": {
+        "corners": 1,
+        "shots": 4,
+        "possession": 57,
+        "yellow_cards": 3,
+        "shots_on_target": 1
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": 19715536,
+   "competition": "Ligue 1",
+   "kickoff_maputo": "2026-11-27T21:45:00+02:00",
+   "status": "NS",
+   "home": "Brest",
+   "away": "Paris",
+   "standings": null,
+   "prediction": null,
+   "odds": null,
+   "injuries": [],
+   "team_form": {
+    "home": {
+     "games_used": 5,
+     "avg": {
+      "for": {
+       "corners": 1.8,
+       "shots": 12.4,
+       "yellow_cards": 1.8,
+       "shots_on_target": 4.2,
+       "goals": 1.4
+      },
+      "against": {
+       "corners": 7.2,
+       "shots": 13.2,
+       "yellow_cards": 2.6,
+       "shots_on_target": 2.8,
+       "goals": 0.6
+      }
+     },
+     "last_games": [
+      {
+       "date": "2026-11-21",
+       "league": "Ligue 1",
+       "opponent": "Strasbourg",
+       "venue": "away",
+       "goals_for": 1,
+       "goals_against": 0,
+       "stats_for": {
+        "corners": 1,
+        "shots": 16,
+        "possession": 31,
+        "yellow_cards": 1,
+        "shots_on_target": 2
+       },
+       "stats_against": {
+        "corners": 8,
+        "shots": 15,
+        "possession": 69,
+        "yellow_cards": 3,
+        "shots_on_target": 5
+       }
+      },
+      {
+       "date": "2026-11-08",
+       "league": "Ligue 1",
+       "opponent": "Olympique Lyonnais",
+       "venue": "home",
+       "goals_for": 2,
+       "goals_against": 0,
+       "stats_for": {
+        "corners": 1,
+        "shots": 13,
+        "possession": 31,
+        "yellow_cards": 1,
+        "shots_on_target": 6
+       },
+       "stats_against": {
+        "corners": 8,
+        "shots": 10,
+        "possession": 69,
+        "yellow_cards": 2,
+        "shots_on_target": 2
+       }
+      },
+      {
+       "date": "2026-11-02",
+       "league": "Ligue 1",
+       "opponent": "Lorient",
+       "venue": "away",
+       "goals_for": 2,
+       "goals_against": 0,
+       "stats_for": {
+        "corners": 2,
+        "shots": 12,
+        "possession": 48,
+        "yellow_cards": 1,
+        "shots_on_target": 4
+       },
+       "stats_against": {
+        "corners": 8,
+        "shots": 15,
+        "possession": 52,
+        "yellow_cards": 1,
+        "shots_on_target": 0
+       }
+      },
+      {
+       "date": "2026-10-23",
+       "league": "Ligue 1",
+       "opponent": "Nice",
+       "venue": "home",
+       "goals_for": 1,
+       "goals_against": 2,
+       "stats_for": {
+        "corners": 3,
+        "shots": 13,
+        "possession": 50,
+        "yellow_cards": 4,
+        "shots_on_target": 7
+       },
+       "stats_against": {
+        "corners": 7,
+        "shots": 9,
+        "possession": 50,
+        "yellow_cards": 6,
+        "shots_on_target": 2
+       }
+      },
+      {
+       "date": "2026-10-17",
+       "league": "Ligue 1",
+       "opponent": "LOSC Lille",
+       "venue": "away",
+       "goals_for": 1,
+       "goals_against": 1,
+       "stats_for": {
+        "corners": 2,
+        "shots": 8,
+        "possession": 33,
+        "yellow_cards": 2,
+        "shots_on_target": 2
+       },
+       "stats_against": {
+        "corners": 5,
+        "shots": 17,
+        "possession": 67,
+        "yellow_cards": 1,
+        "shots_on_target": 5
+       }
+      }
+     ]
+    },
+    "away": {
+     "games_used": 5,
+     "avg": {
+      "for": {
+       "corners": 4.4,
+       "shots": 14.0,
+       "yellow_cards": 2.0,
+       "shots_on_target": 6.4,
+       "goals": 2.6
+      },
+      "against": {
+       "corners": 3.0,
+       "shots": 9.2,
+       "yellow_cards": 2.6,
+       "shots_on_target": 3.0,
+       "goals": 1.2
+      }
+     },
+     "last_games": [
+      {
+       "date": "2026-11-22",
+       "league": "Ligue 1",
+       "opponent": "Angers SCO",
+       "venue": "home",
+       "goals_for": 4,
+       "goals_against": 0,
+       "stats_for": {
+        "corners": 10,
+        "shots": 18,
+        "possession": 65,
+        "yellow_cards": 1,
+        "shots_on_target": 9
+       },
+       "stats_against": {
+        "corners": 2,
+        "shots": 9,
+        "possession": 35,
+        "yellow_cards": 1,
+        "shots_on_target": 1
+       }
+      },
+      {
+       "date": "2026-11-07",
+       "league": "Ligue 1",
+       "opponent": "Auxerre",
+       "venue": "away",
+       "goals_for": 1,
+       "goals_against": 0,
+       "stats_for": {
+        "corners": 5,
+        "shots": 10,
+        "possession": 65,
+        "yellow_cards": 1,
+        "shots_on_target": 3
+       },
+       "stats_against": {
+        "corners": 1,
+        "shots": 7,
+        "possession": 35,
+        "yellow_cards": 3,
+        "shots_on_target": 2
+       }
+      },
+      {
+       "date": "2026-11-01",
+       "league": "Ligue 1",
+       "opponent": "Monaco",
+       "venue": "home",
+       "goals_for": 3,
+       "goals_against": 1,
+       "stats_for": {
+        "corners": 3,
+        "shots": 19,
+        "possession": 44,
+        "yellow_cards": 2,
+        "shots_on_target": 10
+       },
+       "stats_against": {
+        "corners": 2,
+        "shots": 9,
+        "possession": 56,
+        "yellow_cards": 2,
+        "shots_on_target": 2
+       }
+      },
+      {
+       "date": "2026-10-24",
+       "league": "Ligue 1",
+       "opponent": "Lens",
+       "venue": "away",
+       "goals_for": 1,
+       "goals_against": 2,
+       "stats_for": {
+        "corners": 1,
+        "shots": 4,
+        "possession": 44,
+        "yellow_cards": 3,
+        "shots_on_target": 1
+       },
+       "stats_against": {
+        "corners": 6,
+        "shots": 9,
+        "possession": 56,
+        "yellow_cards": 3,
+        "shots_on_target": 3
+       }
+      },
+      {
+       "date": "2026-10-18",
+       "league": "Ligue 1",
+       "opponent": "Rennes",
+       "venue": "home",
+       "goals_for": 4,
+       "goals_against": 3,
+       "stats_for": {
+        "corners": 3,
+        "shots": 19,
+        "possession": 52,
+        "yellow_cards": 3,
+        "shots_on_target": 9
+       },
+       "stats_against": {
+        "corners": 4,
+        "shots": 12,
+        "possession": 48,
+        "yellow_cards": 4,
+        "shots_on_target": 7
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": 19722085,
+   "competition": "Premier League",
+   "kickoff_maputo": "2026-11-27T22:00:00+02:00",
+   "status": "NS",
+   "home": "Nottingham Forest",
+   "away": "Chelsea",
+   "standings": null,
+   "prediction": null,
+   "odds": null,
+   "injuries": [],
+   "team_form": {
+    "home": {
+     "games_used": 5,
+     "avg": {
+      "for": {
+       "corners": 4.8,
+       "shots": 15.0,
+       "yellow_cards": 2.4,
+       "shots_on_target": 2.8,
+       "goals": 0.8
+      },
+      "against": {
+       "corners": 4.4,
+       "shots": 10.8,
+       "yellow_cards": 0.8,
+       "shots_on_target": 3.2,
+       "goals": 1.4
+      }
+     },
+     "last_games": [
+      {
+       "date": "2026-11-21",
+       "league": "Premier League",
+       "opponent": "AFC Bournemouth",
+       "venue": "away",
+       "goals_for": 0,
+       "goals_against": 2,
+       "stats_for": {
+        "corners": 4,
+        "shots": 18,
+        "possession": 49,
+        "yellow_cards": 3,
+        "shots_on_target": 1
+       },
+       "stats_against": {
+        "corners": 6,
+        "shots": 19,
+        "possession": 51,
+        "yellow_cards": 1,
+        "shots_on_target": 7
+       }
+      },
+      {
+       "date": "2026-11-07",
+       "league": "Premier League",
+       "opponent": "Manchester City",
+       "venue": "home",
+       "goals_for": 3,
+       "goals_against": 1,
+       "stats_for": {
+        "corners": 3,
+        "shots": 11,
+        "possession": 22,
+        "yellow_cards": 4,
+        "shots_on_target": 5
+       },
+       "stats_against": {
+        "corners": 7,
+        "shots": 12,
+        "possession": 78,
+        "yellow_cards": 0,
+        "shots_on_target": 4
+       }
+      },
+      {
+       "date": "2026-10-31",
+       "league": "Premier League",
+       "opponent": "Brentford",
+       "venue": "away",
+       "goals_for": 0,
+       "goals_against": 2,
+       "stats_for": {
+        "corners": 4,
+        "shots": 15,
+        "possession": 58,
+        "yellow_cards": 3,
+        "shots_on_target": 1
+       },
+       "stats_against": {
+        "corners": 3,
+        "shots": 7,
+        "possession": 42,
+        "yellow_cards": 1,
+        "shots_on_target": 1
+       }
+      },
+      {
+       "date": "2026-10-23",
+       "league": "Premier League",
+       "opponent": "Ipswich Town",
+       "venue": "away",
+       "goals_for": 1,
+       "goals_against": 1,
+       "stats_for": {
+        "corners": 5,
+        "shots": 17,
+        "possession": 51,
+        "yellow_cards": 1,
+        "shots_on_target": 5
+       },
+       "stats_against": {
+        "corners": 0,
+        "shots": 7,
+        "possession": 49,
+        "yellow_cards": 1,
+        "shots_on_target": 3
+       }
+      },
+      {
+       "date": "2026-10-18",
+       "league": "Premier League",
+       "opponent": "Arsenal",
+       "venue": "home",
+       "goals_for": 0,
+       "goals_against": 1,
+       "stats_for": {
+        "corners": 8,
+        "shots": 14,
+        "possession": 26,
+        "yellow_cards": 1,
+        "shots_on_target": 2
+       },
+       "stats_against": {
+        "corners": 6,
+        "shots": 9,
+        "possession": 74,
+        "yellow_cards": 1,
+        "shots_on_target": 1
+       }
+      }
+     ]
+    },
+    "away": {
+     "games_used": 5,
+     "avg": {
+      "for": {
+       "corners": 4.8,
+       "shots": 13.6,
+       "yellow_cards": 2.8,
+       "shots_on_target": 5.6,
+       "goals": 1.0
+      },
+      "against": {
+       "corners": 4.4,
+       "shots": 12.6,
+       "yellow_cards": 4.0,
+       "shots_on_target": 4.8,
+       "goals": 1.4
+      }
+     },
+     "last_games": [
+      {
+       "date": "2026-11-21",
+       "league": "Premier League",
+       "opponent": "Leeds United",
+       "venue": "home",
+       "goals_for": 1,
+       "goals_against": 4,
+       "stats_for": {
+        "corners": 3,
+        "shots": 14,
+        "possession": 57,
+        "yellow_cards": 1,
+        "shots_on_target": 3
+       },
+       "stats_against": {
+        "corners": 2,
+        "shots": 21,
+        "possession": 43,
+        "yellow_cards": 3,
+        "shots_on_target": 8
+       }
+      },
+      {
+       "date": "2026-11-08",
+       "league": "Premier League",
+       "opponent": "Sunderland",
+       "venue": "away",
+       "goals_for": 0,
+       "goals_against": 1,
+       "stats_for": {
+        "corners": 2,
+        "shots": 10,
+        "possession": 69,
+        "yellow_cards": 4,
+        "shots_on_target": 4
+       },
+       "stats_against": {
+        "corners": 2,
+        "shots": 9,
+        "possession": 31,
+        "yellow_cards": 5,
+        "shots_on_target": 2
+       }
+      },
+      {
+       "date": "2026-10-31",
+       "league": "Premier League",
+       "opponent": "Manchester United",
+       "venue": "home",
+       "goals_for": 2,
+       "goals_against": 0,
+       "stats_for": {
+        "corners": 8,
+        "shots": 19,
+        "possession": 58,
+        "yellow_cards": 1,
+        "shots_on_target": 10
+       },
+       "stats_against": {
+        "corners": 7,
+        "shots": 12,
+        "possession": 42,
+        "yellow_cards": 6,
+        "shots_on_target": 5
+       }
+      },
+      {
+       "date": "2026-10-24",
+       "league": "Premier League",
+       "opponent": "Tottenham Hotspur",
+       "venue": "home",
+       "goals_for": 0,
+       "goals_against": 2,
+       "stats_for": {
+        "corners": 4,
+        "shots": 7,
+        "possession": 31,
+        "yellow_cards": 4,
+        "shots_on_target": 4
+       },
+       "stats_against": {
+        "corners": 6,
+        "shots": 15,
+        "possession": 69,
+        "yellow_cards": 3,
+        "shots_on_target": 4
+       }
+      },
+      {
+       "date": "2026-10-17",
+       "league": "Premier League",
+       "opponent": "Everton",
+       "venue": "away",
+       "goals_for": 2,
+       "goals_against": 0,
+       "stats_for": {
+        "corners": 7,
+        "shots": 18,
+        "possession": 53,
+        "yellow_cards": 4,
+        "shots_on_target": 7
+       },
+       "stats_against": {
+        "corners": 5,
+        "shots": 6,
+        "possession": 47,
+        "yellow_cards": 3,
+        "shots_on_target": 5
+       }
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": 19732607,
+   "competition": "La Liga",
+   "kickoff_maputo": "2026-11-27T22:00:00+02:00",
+   "status": "NS",
+   "home": "Levante",
+   "away": "Racing Santander",
+   "standings": null,
+   "prediction": null,
+   "odds": null,
+   "injuries": [],
+   "team_form": {
+    "home": {
+     "games_used": 5,
+     "avg": {
+      "for": {
+       "corners": 3.4,
+       "shots": 12.4,
+       "yellow_cards": 2.6,
+       "shots_on_target": 3.0,
+       "goals": 1.0
+      },
+      "against": {
+       "corners": 4.2,
+       "shots": 15.2,
+       "yellow_cards": 1.0,
+       "shots_on_target": 4.4,
+       "goals": 1.2
+      }
+     },
+     "last_games": [
+      {
+       "date": "2026-11-23",
+       "league": "La Liga",
+       "opponent": "Elche",
+       "venue": "home",
+       "goals_for": 1,
+       "goals_against": 1,
+       "stats_for": {
+        "corners": 5,
+        "shots": 18,
+        "possession": 51,
+        "yellow_cards": 4,
+        "shots_on_target": 2
+       },
+       "stats_against": {
+        "corners": 1,
+        "shots": 4,
+        "possession": 49,
+        "yellow_cards": 1,
+        "shots_on_target": 2
+       }
+      },
+      {
+       "date": "2026-11-08",
+       "league": "La Liga",
+       "opponent": "Celta de Vigo",
+       "venue": "away",
+       "goals_for": 0,
+       "goals_against": 0,
+       "stats_for": {
+        "corners": 1,
+        "shots": 6,
+        "possession": 41,
+        "yellow_cards": 2,
+        "shots_on_target": 0
+       },
+       "stats_against": {
+        "corners": 6,
+        "shots": 23,
+        "possession": 59,
+        "yellow_cards": 1,
+        "shots_on_target": 8
+       }
+      },
+      {
+       "date": "2026-10-31",
+       "league": "La Liga",
+       "opponent": "Atlético de Madrid",
+       "venue": "home",
+       "goals_for": 0,
+       "goals_against": 2,
+       "stats_for": {
+        "corners": 5,
+        "shots": 20,
+        "possession": 46,
+        "yellow_cards": 1,
+        "shots_on_target": 4
+       },
+       "stats_against": {
+        "corners": 3,
+        "shots": 11,
+        "possession": 54,
+        "yellow_cards": 0,
+        "shots_on_target": 5
+       }
+      },
+      {
+       "date": "2026-10-25",
+       "league": "La Liga",
+       "opponent": "Real Sociedad",
+       "venue": "away",
+       "goals_for": 1,
+       "goals_against": 2,
+       "stats_for": {
+        "corners": 3,
+        "shots": 6,
+        "possession": 38,
+        "yellow_cards": 3,
+        "shots_on_target": 2
+       },
+       "stats_against": {
+        "corners": 2,
+        "shots": 17,
+        "possession": 62,
+        "yellow_cards": 1,
+        "shots_on_target": 3
+       }
+      },
+      {
+       "date": "2026-10-21",
+       "league": "La Liga",
+       "opponent": "Athletic Club",
+       "venue": "home",
+       "goals_for": 3,
+       "goals_against": 1,
+       "stats_for": {
+        "corners": 3,
+        "shots": 12,
+        "possession": 38,
+        "yellow_cards": 3,
+        "shots_on_target": 7
+       },
+       "stats_against": {
+        "corners": 9,
+        "shots": 21,
+        "possession": 62,
+        "yellow_cards": 2,
+        "shots_on_target": 4
+       }
+      }
+     ]
+    },
+    "away": {
+     "games_used": 5,
+     "avg": {
+      "for": {
+       "corners": 5.4,
+       "shots": 15.0,
+       "yellow_cards": 2.4,
+       "shots_on_target": 5.2,
+       "goals": 1.4
+      },
+      "against": {
+       "corners": 7.4,
+       "shots": 20.0,
+       "yellow_cards": 3.0,
+       "shots_on_target": 6.0,
+       "goals": 1.8
+      }
+     },
+     "last_games": [
+      {
+       "date": "2026-11-22",
+       "league": "La Liga",
+       "opponent": "Real Sociedad",
+       "venue": "home",
+       "goals_for": 3,
+       "goals_against": 2,
+       "stats_for": {
+        "corners": 7,
+        "shots": 12,
+        "possession": 37,
+        "yellow_cards": 2,
+        "shots_on_target": 8
+       },
+       "stats_against": {
+        "corners": 14,
+        "shots": 31,
+        "possession": 63,
+        "yellow_cards": 2,
+        "shots_on_target": 7
+       }
+      },
+      {
+       "date": "2026-11-07",
+       "league": "La Liga",
+       "opponent": "Málaga",
+       "venue": "away",
+       "goals_for": 2,
+       "goals_against": 1,
+       "stats_for": {
+        "corners": 3,
+        "shots": 21,
+        "possession": 53,
+        "yellow_cards": 2,
+        "shots_on_target": 7
+       },
+       "stats_against": {
+        "corners": 6,
+        "shots": 16,
+        "possession": 47,
+        "yellow_cards": 6,
+        "shots_on_target": 8
+       }
+      },
+      {
+       "date": "2026-11-01",
+       "league": "La Liga",
+       "opponent": "Real Madrid",
+       "venue": "home",
+       "goals_for": 0,
+       "goals_against": 3,
+       "stats_for": {
+        "corners": 4,
+        "shots": 10,
+        "possession": 46,
+        "yellow_cards": 2,
+        "shots_on_target": 1
+       },
+       "stats_against": {
+        "corners": 6,
+        "shots": 22,
+        "possession": 54,
+        "yellow_cards": 0,
+        "shots_on_target": 7
+       }
+      },
+      {
+       "date": "2026-10-24",
+       "league": "La Liga",
+       "opponent": "Espanyol",
+       "venue": "home",
+       "goals_for": 2,
+       "goals_against": 1,
+       "stats_for": {
+        "corners": 9,
+        "shots": 23,
+        "possession": 55,
+        "yellow_cards": 3,
+        "shots_on_target": 9
+       },
+       "stats_against": {
+        "corners": 4,
+        "shots": 11,
+        "possession": 45,
+        "yellow_cards": 5,
+        "shots_on_target": 1
+       }
+      },
+      {
+       "date": "2026-10-18",
+       "league": "La Liga",
+       "opponent": "Osasuna",
+       "venue": "away",
+       "goals_for": 0,
+       "goals_against": 2,
+       "stats_for": {
+        "corners": 4,
+        "shots": 9,
+        "possession": 56,
+        "yellow_cards": 3,
+        "shots_on_target": 1
+       },
+       "stats_against": {
+        "corners": 7,
+        "shots": 20,
+        "possession": 44,
+        "yellow_cards": 2,
+        "shots_on_target": 7
+       }
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "yesterday_results": [
+  {
+   "id": 19873960,
+   "competition": "Conference League",
+   "home": "Kairat",
+   "away": "Mjällby",
+   "goals_home": 1,
+   "goals_away": 0,
+   "halftime": {
+    "away": 0,
+    "home": 1
+   },
+   "stats_home": {
+    "corners": 3,
+    "shots": 16,
+    "possession": 44,
+    "yellow_cards": 2,
+    "shots_on_target": 6
+   },
+   "stats_away": {
+    "corners": 5,
+    "shots": 14,
+    "possession": 56,
+    "yellow_cards": 1,
+    "shots_on_target": 6
+   },
+   "stats_1h_home": {
+    "possession": 52,
+    "shots": 10,
+    "shots_on_target": 4,
+    "corners": 1
+   },
+   "stats_1h_away": {
+    "possession": 48,
+    "shots": 5,
+    "shots_on_target": 2,
+    "corners": 2
+   }
+  },
+  {
+   "id": 19873854,
+   "competition": "Europa League",
+   "home": "Beşiktaş",
+   "away": "Hapoel Be'er Sheva",
+   "goals_home": 2,
+   "goals_away": 1,
+   "halftime": {
+    "away": 0,
+    "home": 0
+   },
+   "stats_home": {
+    "corners": 11,
+    "shots": 28,
+    "possession": 54,
+    "yellow_cards": 5,
+    "shots_on_target": 10
+   },
+   "stats_away": {
+    "corners": 4,
+    "shots": 9,
+    "possession": 46,
+    "yellow_cards": 3,
+    "shots_on_target": 9
+   },
+   "stats_1h_home": {
+    "corners": 5,
+    "shots_on_target": 5,
+    "shots": 11,
+    "yellow_cards": 1,
+    "possession": 56
+   },
+   "stats_1h_away": {
+    "shots_on_target": 7,
+    "shots": 7,
+    "yellow_cards": 1,
+    "corners": 4,
+    "possession": 44
+   }
+  },
+  {
+   "id": 19873857,
+   "competition": "Europa League",
+   "home": "Olympique Marseille",
+   "away": "Levski Sofia",
+   "goals_home": 1,
+   "goals_away": 0,
+   "halftime": {
+    "home": 1,
+    "away": 0
+   },
+   "stats_home": {
+    "corners": 3,
+    "shots": 12,
+    "possession": 52,
+    "yellow_cards": 1,
+    "shots_on_target": 5
+   },
+   "stats_away": {
+    "corners": 2,
+    "shots": 8,
+    "possession": 48,
+    "yellow_cards": 2,
+    "shots_on_target": 1
+   },
+   "stats_1h_home": {
+    "possession": 54,
+    "yellow_cards": 0,
+    "shots": 5,
+    "corners": 3,
+    "shots_on_target": 2
+   },
+   "stats_1h_away": {
+    "possession": 46,
+    "yellow_cards": 1,
+    "shots": 5,
+    "corners": 1,
+    "shots_on_target": 1
+   }
+  },
+  {
+   "id": 19873861,
+   "competition": "Europa League",
+   "home": "Dinamo Zagreb",
+   "away": "Bayer 04 Leverkusen",
+   "goals_home": 0,
+   "goals_away": 2,
+   "halftime": {
+    "home": 0,
+    "away": 2
+   },
+   "stats_home": {
+    "corners": 6,
+    "shots": 14,
+    "possession": 38,
+    "yellow_cards": 3,
+    "shots_on_target": 3
+   },
+   "stats_away": {
+    "corners": 6,
+    "shots": 9,
+    "possession": 62,
+    "yellow_cards": 1,
+    "shots_on_target": 2
+   },
+   "stats_1h_home": {
+    "shots_on_target": 1,
+    "shots": 5,
+    "corners": 4,
+    "possession": 37,
+    "yellow_cards": 0
+   },
+   "stats_1h_away": {
+    "shots_on_target": 2,
+    "shots": 7,
+    "corners": 6,
+    "possession": 63,
+    "yellow_cards": 0
+   }
+  },
+  {
+   "id": 19873865,
+   "competition": "Europa League",
+   "home": "Viktoria Plzeň",
+   "away": "Benfica",
+   "goals_home": 4,
+   "goals_away": 0,
+   "halftime": {
+    "away": 0,
+    "home": 3
+   },
+   "stats_home": {
+    "corners": 4,
+    "shots": 15,
+    "possession": 31,
+    "yellow_cards": 1,
+    "shots_on_target": 11
+   },
+   "stats_away": {
+    "corners": 10,
+    "shots": 16,
+    "possession": 69,
+    "yellow_cards": 1,
+    "shots_on_target": 2
+   },
+   "stats_1h_home": {
+    "possession": 28,
+    "shots_on_target": 6,
+    "shots": 8,
+    "corners": 1,
+    "yellow_cards": 0
+   },
+   "stats_1h_away": {
+    "possession": 72,
+    "shots_on_target": 2,
+    "shots": 9,
+    "corners": 6,
+    "yellow_cards": 0
+   }
+  },
+  {
+   "id": 19873868,
+   "competition": "Europa League",
+   "home": "Union Saint-Gilloise",
+   "away": "Lech Poznań",
+   "goals_home": 2,
+   "goals_away": 2,
+   "halftime": {
+    "away": 2,
+    "home": 0
+   },
+   "stats_home": {
+    "corners": 9,
+    "shots": 24,
+    "possession": 59,
+    "yellow_cards": 2,
+    "shots_on_target": 10
+   },
+   "stats_away": {
+    "corners": 0,
+    "shots": 5,
+    "possession": 41,
+    "yellow_cards": 3,
+    "shots_on_target": 2
+   },
+   "stats_1h_home": {
+    "possession": 57,
+    "shots_on_target": 5,
+    "shots": 9,
+    "corners": 3,
+    "yellow_cards": 2
+   },
+   "stats_1h_away": {
+    "possession": 43,
+    "shots_on_target": 2,
+    "shots": 5,
+    "corners": 0,
+    "yellow_cards": 1
+   }
+  },
+  {
+   "id": 19873872,
+   "competition": "Europa League",
+   "home": "Celta de Vigo",
+   "away": "AFC Bournemouth",
+   "goals_home": 1,
+   "goals_away": 2,
+   "halftime": {
+    "home": 1,
+    "away": 0
+   },
+   "stats_home": {
+    "corners": 6,
+    "shots": 20,
+    "possession": 65,
+    "yellow_cards": 3,
+    "shots_on_target": 5
+   },
+   "stats_away": {
+    "corners": 5,
+    "shots": 10,
+    "possession": 35,
+    "yellow_cards": 2,
+    "shots_on_target": 6
+   },
+   "stats_1h_home": {
+    "possession": 56,
+    "corners": 0,
+    "shots": 11,
+    "shots_on_target": 4,
+    "yellow_cards": 0
+   },
+   "stats_1h_away": {
+    "possession": 44,
+    "corners": 4,
+    "shots": 3,
+    "shots_on_target": 2,
+    "yellow_cards": 2
+   }
+  },
+  {
+   "id": 19873875,
+   "competition": "Europa League",
+   "home": "Salzburg",
+   "away": "Ararat-Armenia",
+   "goals_home": 2,
+   "goals_away": 0,
+   "halftime": {
+    "home": 0,
+    "away": 0
+   },
+   "stats_home": {
+    "corners": 9,
+    "shots": 24,
+    "possession": 63,
+    "yellow_cards": 1,
+    "shots_on_target": 8
+   },
+   "stats_away": {
+    "corners": 3,
+    "shots": 8,
+    "possession": 37,
+    "yellow_cards": 4,
+    "shots_on_target": 1
+   },
+   "stats_1h_home": {
+    "possession": 63,
+    "shots_on_target": 4,
+    "shots": 12,
+    "corners": 6,
+    "yellow_cards": 0
+   },
+   "stats_1h_away": {
+    "possession": 37,
+    "shots_on_target": 0,
+    "shots": 1,
+    "corners": 3,
+    "yellow_cards": 1
+   }
+  },
+  {
+   "id": 19873879,
+   "competition": "Europa League",
+   "home": "Olympiacos F.C.",
+   "away": "AC Milan",
+   "goals_home": 2,
+   "goals_away": 4,
+   "halftime": {
+    "away": 0,
+    "home": 1
+   },
+   "stats_home": {
+    "corners": 6,
+    "shots": 18,
+    "possession": 41,
+    "yellow_cards": 3,
+    "shots_on_target": 5
+   },
+   "stats_away": {
+    "corners": 1,
+    "shots": 12,
+    "possession": 59,
+    "yellow_cards": 2,
+    "shots_on_target": 6
+   },
+   "stats_1h_home": {
+    "shots": 9,
+    "possession": 35,
+    "shots_on_target": 3,
+    "corners": 2,
+    "yellow_cards": 1
+   },
+   "stats_1h_away": {
+    "shots": 4,
+    "possession": 65,
+    "shots_on_target": 2,
+    "corners": 1,
+    "yellow_cards": 1
+   }
+  },
+  {
+   "id": 19873952,
+   "competition": "Conference League",
+   "home": "FC Iberia 1999",
+   "away": "Getafe",
+   "goals_home": 1,
+   "goals_away": 0,
+   "halftime": {
+    "away": 0,
+    "home": 1
+   },
+   "stats_home": {
+    "corners": 3,
+    "shots": 12,
+    "possession": 35,
+    "yellow_cards": 2,
+    "shots_on_target": 6
+   },
+   "stats_away": {
+    "corners": 5,
+    "shots": 18,
+    "possession": 65,
+    "yellow_cards": 5,
+    "shots_on_target": 5
+   },
+   "stats_1h_home": {
+    "shots": 5,
+    "possession": 35,
+    "corners": 2,
+    "shots_on_target": 4,
+    "yellow_cards": 1
+   },
+   "stats_1h_away": {
+    "shots": 10,
+    "possession": 65,
+    "corners": 2,
+    "shots_on_target": 3,
+    "yellow_cards": 2
+   }
+  },
+  {
+   "id": 19873955,
+   "competition": "Conference League",
+   "home": "Brighton & Hove Albion",
+   "away": "Universitatea Craiova",
+   "goals_home": 4,
+   "goals_away": 0,
+   "halftime": {
+    "home": 2,
+    "away": 0
+   },
+   "stats_home": {
+    "corners": 9,
+    "shots": 27,
+    "possession": 75,
+    "yellow_cards": 2,
+    "shots_on_target": 10
+   },
+   "stats_away": {
+    "corners": 0,
+    "shots": 4,
+    "possession": 25,
+    "yellow_cards": 2,
+    "shots_on_target": 2
+   },
+   "stats_1h_home": {
+    "possession": 80,
+    "shots": 11,
+    "shots_on_target": 3,
+    "corners": 2,
+    "yellow_cards": 0
+   },
+   "stats_1h_away": {
+    "possession": 20,
+    "shots_on_target": 2,
+    "shots": 2,
+    "corners": 0,
+    "yellow_cards": 0
+   }
+  },
+  {
+   "id": 19873957,
+   "competition": "Conference League",
+   "home": "Ajax",
+   "away": "Thun",
+   "goals_home": 4,
+   "goals_away": 0,
+   "halftime": {
+    "home": 2,
+    "away": 0
+   },
+   "stats_home": {
+    "corners": 6,
+    "shots": 21,
+    "possession": 65,
+    "yellow_cards": 1,
+    "shots_on_target": 9
+   },
+   "stats_away": {
+    "corners": 5,
+    "shots": 11,
+    "possession": 35,
+    "yellow_cards": 2,
+    "shots_on_target": 4
+   },
+   "stats_1h_home": {
+    "possession": 70,
+    "shots": 12,
+    "shots_on_target": 2,
+    "corners": 4,
+    "yellow_cards": 1
+   },
+   "stats_1h_away": {
+    "possession": 30,
+    "shots": 5,
+    "shots_on_target": 1,
+    "corners": 2,
+    "yellow_cards": 0
+   }
+  },
+  {
+   "id": 19874053,
+   "competition": "Conference League",
+   "home": "Brann",
+   "away": "AGF",
+   "goals_home": 1,
+   "goals_away": 4,
+   "halftime": {
+    "home": 0,
+    "away": 2
+   },
+   "stats_home": {
+    "corners": 3,
+    "shots": 12,
+    "possession": 56,
+    "shots_on_target": 3
+   },
+   "stats_away": {
+    "corners": 5,
+    "shots": 14,
+    "possession": 44,
+    "shots_on_target": 6
+   },
+   "stats_1h_home": {
+    "possession": 52,
+    "shots_on_target": 0,
+    "shots": 6,
+    "corners": 3
+   },
+   "stats_1h_away": {
+    "possession": 48,
+    "shots_on_target": 3,
+    "shots": 6,
+    "corners": 2
+   }
+  },
+  {
+   "id": 19874054,
+   "competition": "Conference League",
+   "home": "Pafos FC",
+   "away": "FC Midtjylland",
+   "goals_home": 0,
+   "goals_away": 2,
+   "halftime": {
+    "away": 1,
+    "home": 0
+   },
+   "stats_home": {
+    "corners": 5,
+    "shots": 14,
+    "possession": 58,
+    "yellow_cards": 3,
+    "shots_on_target": 3
+   },
+   "stats_away": {
+    "corners": 5,
+    "shots": 15,
+    "possession": 42,
+    "yellow_cards": 2,
+    "shots_on_target": 9
+   },
+   "stats_1h_home": {
+    "possession": 54,
+    "shots": 4,
+    "shots_on_target": 1,
+    "corners": 1,
+    "yellow_cards": 2
+   },
+   "stats_1h_away": {
+    "possession": 46,
+    "shots": 6,
+    "shots_on_target": 4,
+    "corners": 3,
+    "yellow_cards": 0
+   }
+  },
+  {
+   "id": 19874055,
+   "competition": "Conference League",
+   "home": "Egnatia Rrogozhinë",
+   "away": "Lincoln Red Imps",
+   "goals_home": 2,
+   "goals_away": 1,
+   "halftime": {
+    "away": 0,
+    "home": 0
+   },
+   "stats_home": {
+    "corners": 10,
+    "shots": 19,
+    "possession": 64,
+    "yellow_cards": 3,
+    "shots_on_target": 9
+   },
+   "stats_away": {
+    "corners": 0,
+    "shots": 6,
+    "possession": 36,
+    "yellow_cards": 2,
+    "shots_on_target": 3
+   },
+   "stats_1h_home": {
+    "corners": 7,
+    "possession": 70,
+    "shots_on_target": 6,
+    "shots": 14,
+    "yellow_cards": 0
+   },
+   "stats_1h_away": {
+    "corners": 0,
+    "possession": 30,
+    "shots_on_target": 1,
+    "shots": 1,
+    "yellow_cards": 0
+   }
+  },
+  {
+   "id": 19874056,
+   "competition": "Conference League",
+   "home": "Hearts",
+   "away": "Monaco",
+   "goals_home": 2,
+   "goals_away": 3,
+   "halftime": {
+    "home": 2,
+    "away": 2
+   },
+   "stats_home": {
+    "corners": 4,
+    "shots": 15,
+    "possession": 47,
+    "yellow_cards": 2,
+    "shots_on_target": 7
+   },
+   "stats_away": {
+    "corners": 7,
+    "shots": 16,
+    "possession": 53,
+    "yellow_cards": 4,
+    "shots_on_target": 6
+   },
+   "stats_1h_home": {
+    "shots": 8,
+    "corners": 1,
+    "yellow_cards": 0,
+    "shots_on_target": 5,
+    "possession": 42
+   },
+   "stats_1h_away": {
+    "shots": 6,
+    "corners": 2,
+    "yellow_cards": 2,
+    "shots_on_target": 2,
+    "possession": 58
+   }
+  },
+  {
+   "id": 19874057,
+   "competition": "Conference League",
+   "home": "Kauno Žalgiris",
+   "away": "Riga",
+   "goals_home": 2,
+   "goals_away": 0,
+   "halftime": {
+    "home": 0,
+    "away": 0
+   },
+   "stats_home": {
+    "corners": 4,
+    "shots": 14,
+    "possession": 58,
+    "yellow_cards": 1,
+    "shots_on_target": 7
+   },
+   "stats_away": {
+    "corners": 5,
+    "shots": 9,
+    "possession": 42,
+    "yellow_cards": 3,
+    "shots_on_target": 3
+   },
+   "stats_1h_home": {
+    "possession": 41,
+    "shots_on_target": 1,
+    "shots": 3,
+    "yellow_cards": 0,
+    "corners": 2
+   },
+   "stats_1h_away": {
+    "possession": 59,
+    "shots_on_target": 2,
+    "shots": 6,
+    "yellow_cards": 2,
+    "corners": 4
+   }
+  },
+  {
+   "id": 19874058,
+   "competition": "Conference League",
+   "home": "Jablonec",
+   "away": "Lugano",
+   "goals_home": 2,
+   "goals_away": 0,
+   "halftime": {
+    "home": 0,
+    "away": 0
+   },
+   "stats_home": {
+    "corners": 5,
+    "shots": 19,
+    "possession": 31,
+    "yellow_cards": 3,
+    "shots_on_target": 4
+   },
+   "stats_away": {
+    "corners": 3,
+    "shots": 14,
+    "possession": 69,
+    "yellow_cards": 1,
+    "shots_on_target": 4
+   },
+   "stats_1h_home": {
+    "shots": 7,
+    "possession": 31,
+    "yellow_cards": 1,
+    "corners": 2
+   },
+   "stats_1h_away": {
+    "shots": 5,
+    "possession": 69,
+    "yellow_cards": 1,
+    "corners": 0
+   }
+  },
+  {
+   "id": 19873821,
+   "competition": "Europa League",
+   "home": "Olympique Lyonnais",
+   "away": "Lillestrøm",
+   "goals_home": 0,
+   "goals_away": 0,
+   "halftime": {
+    "home": 0,
+    "away": 0
+   },
+   "stats_home": {
+    "corners": 9,
+    "shots": 22,
+    "possession": 64,
+    "yellow_cards": 2,
+    "shots_on_target": 7
+   },
+   "stats_away": {
+    "corners": 6,
+    "shots": 10,
+    "possession": 36,
+    "yellow_cards": 2,
+    "shots_on_target": 1
+   },
+   "stats_1h_home": {
+    "shots": 9,
+    "possession": 71,
+    "corners": 5,
+    "shots_on_target": 3,
+    "yellow_cards": 0
+   },
+   "stats_1h_away": {
+    "shots": 4,
+    "possession": 29,
+    "corners": 2,
+    "shots_on_target": 0,
+    "yellow_cards": 1
+   }
+  },
+  {
+   "id": 19873824,
+   "competition": "Europa League",
+   "home": "Torreense",
+   "away": "Celtic",
+   "goals_home": 1,
+   "goals_away": 2,
+   "halftime": {
+    "away": 1,
+    "home": 1
+   },
+   "stats_home": {
+    "corners": 3,
+    "shots": 11,
+    "possession": 38,
+    "yellow_cards": 3,
+    "shots_on_target": 3
+   },
+   "stats_away": {
+    "corners": 7,
+    "shots": 14,
+    "possession": 62,
+    "yellow_cards": 1,
+    "shots_on_target": 6
+   },
+   "stats_1h_home": {
+    "possession": 40,
+    "shots": 6,
+    "corners": 1,
+    "shots_on_target": 3,
+    "yellow_cards": 1
+   },
+   "stats_1h_away": {
+    "possession": 60,
+    "corners": 4,
+    "shots": 6,
+    "shots_on_target": 2,
+    "yellow_cards": 1
+   }
+  },
+  {
+   "id": 19873828,
+   "competition": "Europa League",
+   "home": "Sunderland",
+   "away": "Jagiellonia Białystok",
+   "goals_home": 1,
+   "goals_away": 1,
+   "halftime": {
+    "home": 0,
+    "away": 0
+   },
+   "stats_home": {
+    "corners": 8,
+    "shots": 16,
+    "possession": 50,
+    "yellow_cards": 1,
+    "shots_on_target": 7
+   },
+   "stats_away": {
+    "corners": 3,
+    "shots": 12,
+    "possession": 50,
+    "yellow_cards": 2,
+    "shots_on_target": 5
+   },
+   "stats_1h_home": {
+    "shots": 8,
+    "corners": 4,
+    "possession": 53,
+    "shots_on_target": 3,
+    "yellow_cards": 1
+   },
+   "stats_1h_away": {
+    "shots": 6,
+    "corners": 2,
+    "possession": 47,
+    "shots_on_target": 1,
+    "yellow_cards": 0
+   }
+  },
+  {
+   "id": 19873831,
+   "competition": "Europa League",
+   "home": "Juventus",
+   "away": "Omonia Nicosia",
+   "goals_home": 4,
+   "goals_away": 1,
+   "halftime": {
+    "away": 1,
+    "home": 2
+   },
+   "stats_home": {
+    "corners": 5,
+    "shots": 23,
+    "possession": 60,
+    "yellow_cards": 1,
+    "shots_on_target": 9
+   },
+   "stats_away": {
+    "corners": 3,
+    "shots": 13,
+    "possession": 40,
+    "yellow_cards": 2,
+    "shots_on_target": 5
+   },
+   "stats_1h_home": {
+    "corners": 5,
+    "shots_on_target": 5,
+    "shots": 10,
+    "possession": 62,
+    "yellow_cards": 1
+   },
+   "stats_1h_away": {
+    "corners": 1,
+    "shots_on_target": 4,
+    "shots": 8,
+    "possession": 38,
+    "yellow_cards": 1
+   }
+  },
+  {
+   "id": 19873834,
+   "competition": "Europa League",
+   "home": "Sparta Praha",
+   "away": "AZ Alkmaar",
+   "goals_home": 2,
+   "goals_away": 4,
+   "halftime": {
+    "away": 0,
+    "home": 2
+   },
+   "stats_home": {
+    "corners": 2,
+    "shots": 19,
+    "possession": 38,
+    "yellow_cards": 1,
+    "shots_on_target": 5
+   },
+   "stats_away": {
+    "corners": 0,
+    "shots": 18,
+    "possession": 62,
+    "yellow_cards": 3,
+    "shots_on_target": 6
+   },
+   "stats_1h_home": {
+    "possession": 43,
+    "shots": 11,
+    "shots_on_target": 4,
+    "yellow_cards": 1
+   },
+   "stats_1h_away": {
+    "shots": 7,
+    "shots_on_target": 1,
+    "possession": 57,
+    "yellow_cards": 0
+   }
+  },
+  {
+   "id": 19873837,
+   "competition": "Europa League",
+   "home": "TSG Hoffenheim",
+   "away": "Sturm Graz",
+   "goals_home": 3,
+   "goals_away": 1,
+   "halftime": {
+    "home": 0,
+    "away": 1
+   },
+   "stats_home": {
+    "corners": 10,
+    "shots": 24,
+    "possession": 62,
+    "yellow_cards": 0,
+    "shots_on_target": 7
+   },
+   "stats_away": {
+    "corners": 4,
+    "shots": 12,
+    "possession": 38,
+    "yellow_cards": 3,
+    "shots_on_target": 6
+   },
+   "stats_1h_home": {
+    "corners": 6,
+    "possession": 59,
+    "shots_on_target": 1,
+    "yellow_cards": 0,
+    "shots": 10
+   },
+   "stats_1h_away": {
+    "corners": 2,
+    "shots": 8,
+    "possession": 41,
+    "shots_on_target": 4,
+    "yellow_cards": 1
+   }
+  },
+  {
+   "id": 19873841,
+   "competition": "Europa League",
+   "home": "Ferencvárosi",
+   "away": "Celje",
+   "goals_home": 0,
+   "goals_away": 0,
+   "halftime": {
+    "home": 0,
+    "away": 0
+   },
+   "stats_home": {
+    "corners": 6,
+    "shots": 27,
+    "possession": 49,
+    "yellow_cards": 0,
+    "shots_on_target": 6
+   },
+   "stats_away": {
+    "corners": 2,
+    "shots": 6,
+    "possession": 51,
+    "yellow_cards": 1,
+    "shots_on_target": 2
+   },
+   "stats_1h_home": {
+    "possession": 50,
+    "corners": 3,
+    "shots": 15,
+    "shots_on_target": 3,
+    "yellow_cards": 0
+   },
+   "stats_1h_away": {
+    "possession": 50,
+    "corners": 1,
+    "shots": 4,
+    "shots_on_target": 1,
+    "yellow_cards": 1
+   }
+  },
+  {
+   "id": 19873844,
+   "competition": "Europa League",
+   "home": "OFI",
+   "away": "Anderlecht",
+   "goals_home": 1,
+   "goals_away": 3,
+   "halftime": {
+    "home": 0,
+    "away": 2
+   },
+   "stats_home": {
+    "corners": 3,
+    "shots": 6,
+    "possession": 49,
+    "yellow_cards": 3,
+    "shots_on_target": 2
+   },
+   "stats_away": {
+    "corners": 7,
+    "shots": 17,
+    "possession": 51,
+    "yellow_cards": 4,
+    "shots_on_target": 8
+   },
+   "stats_1h_home": {
+    "possession": 47,
+    "corners": 2,
+    "shots_on_target": 1,
+    "shots": 3,
+    "yellow_cards": 1
+   },
+   "stats_1h_away": {
+    "possession": 53,
+    "corners": 3,
+    "shots_on_target": 4,
+    "shots": 7,
+    "yellow_cards": 0
+   }
+  },
+  {
+   "id": 19873847,
+   "competition": "Europa League",
+   "home": "Crystal Palace",
+   "away": "Real Sociedad",
+   "goals_home": 2,
+   "goals_away": 1,
+   "halftime": {
+    "home": 0,
+    "away": 0
+   },
+   "stats_home": {
+    "corners": 2,
+    "shots": 16,
+    "possession": 43,
+    "yellow_cards": 2,
+    "shots_on_target": 4
+   },
+   "stats_away": {
+    "corners": 7,
+    "shots": 19,
+    "possession": 57,
+    "yellow_cards": 5,
+    "shots_on_target": 7
+   },
+   "stats_1h_home": {
+    "shots": 4,
+    "shots_on_target": 0,
+    "corners": 1,
+    "possession": 38,
+    "yellow_cards": 1
+   },
+   "stats_1h_away": {
+    "shots": 10,
+    "shots_on_target": 3,
+    "corners": 1,
+    "possession": 62,
+    "yellow_cards": 0
+   }
+  },
+  {
+   "id": 19873851,
+   "competition": "Europa League",
+   "home": "NEC Nijmegen",
+   "away": "Rennes",
+   "goals_home": 3,
+   "goals_away": 1,
+   "halftime": {
+    "home": 1,
+    "away": 1
+   },
+   "stats_home": {
+    "corners": 1,
+    "shots": 16,
+    "possession": 52,
+    "yellow_cards": 3,
+    "shots_on_target": 4
+   },
+   "stats_away": {
+    "corners": 5,
+    "shots": 21,
+    "possession": 48,
+    "yellow_cards": 3,
+    "shots_on_target": 8
+   },
+   "stats_1h_home": {
+    "corners": 1,
+    "possession": 58,
+    "shots": 9,
+    "shots_on_target": 2,
+    "yellow_cards": 1
+   },
+   "stats_1h_away": {
+    "shots": 9,
+    "corners": 1,
+    "possession": 42,
+    "shots_on_target": 4,
+    "yellow_cards": 0
+   }
+  },
+  {
+   "id": 19874036,
+   "competition": "Conference League",
+   "home": "SC Freiburg",
+   "away": "FC Twente",
+   "goals_home": 2,
+   "goals_away": 1,
+   "halftime": {
+    "away": 0,
+    "home": 1
+   },
+   "stats_home": {
+    "corners": 2,
+    "shots": 15,
+    "possession": 43,
+    "yellow_cards": 4,
+    "shots_on_target": 4
+   },
+   "stats_away": {
+    "corners": 2,
+    "shots": 10,
+    "possession": 57,
+    "yellow_cards": 3,
+    "shots_on_target": 5
+   },
+   "stats_1h_home": {
+    "corners": 1,
+    "shots_on_target": 2,
+    "shots": 5,
+    "possession": 36,
+    "yellow_cards": 1
+   },
+   "stats_1h_away": {
+    "corners": 2,
+    "shots_on_target": 4,
+    "shots": 8,
+    "possession": 64,
+    "yellow_cards": 0
+   }
+  },
+  {
+   "id": 19874038,
+   "competition": "Conference League",
+   "home": "Sporting Braga",
+   "away": "KuPS",
+   "goals_home": 4,
+   "goals_away": 0,
+   "halftime": {
+    "home": 2,
+    "away": 0
+   },
+   "stats_home": {
+    "corners": 7,
+    "shots": 23,
+    "possession": 60,
+    "yellow_cards": 1,
+    "shots_on_target": 10
+   },
+   "stats_away": {
+    "corners": 3,
+    "shots": 4,
+    "possession": 40,
+    "yellow_cards": 2,
+    "shots_on_target": 2
+   },
+   "stats_1h_home": {
+    "shots": 10,
+    "corners": 3,
+    "shots_on_target": 5,
+    "possession": 62,
+    "yellow_cards": 0
+   },
+   "stats_1h_away": {
+    "shots": 3,
+    "corners": 1,
+    "shots_on_target": 1,
+    "possession": 38,
+    "yellow_cards": 1
+   }
+  },
+  {
+   "id": 19874041,
+   "competition": "Conference League",
+   "home": "CSKA Sofia",
+   "away": "Trabzonspor",
+   "goals_home": 1,
+   "goals_away": 2,
+   "halftime": {
+    "home": 1,
+    "away": 0
+   },
+   "stats_home": {
+    "corners": 4,
+    "shots": 17,
+    "possession": 50,
+    "yellow_cards": 3,
+    "shots_on_target": 4
+   },
+   "stats_away": {
+    "corners": 1,
+    "shots": 10,
+    "possession": 50,
+    "yellow_cards": 3,
+    "shots_on_target": 6
+   },
+   "stats_1h_home": {
+    "possession": 49,
+    "shots_on_target": 1,
+    "shots": 7,
+    "corners": 1
+   },
+   "stats_1h_away": {
+    "possession": 51,
+    "shots_on_target": 3,
+    "shots": 4,
+    "corners": 0
+   }
+  },
+  {
+   "id": 19874043,
+   "competition": "Conference League",
+   "home": "Gent",
+   "away": "Crvena Zvezda",
+   "goals_home": 1,
+   "goals_away": 1,
+   "halftime": {
+    "home": 1,
+    "away": 0
+   },
+   "stats_home": {
+    "corners": 3,
+    "shots": 10,
+    "possession": 29,
+    "yellow_cards": 1,
+    "shots_on_target": 3
+   },
+   "stats_away": {
+    "corners": 10,
+    "shots": 25,
+    "possession": 71,
+    "yellow_cards": 3,
+    "shots_on_target": 3
+   },
+   "stats_1h_home": {
+    "possession": 27,
+    "shots_on_target": 2,
+    "yellow_cards": 1,
+    "corners": 1,
+    "shots": 4
+   },
+   "stats_1h_away": {
+    "possession": 73,
+    "shots_on_target": 1,
+    "yellow_cards": 2,
+    "corners": 6,
+    "shots": 11
+   }
+  },
+  {
+   "id": 19874045,
+   "competition": "Conference League",
+   "home": "Inter Club d'Escaldes",
+   "away": "FC København",
+   "goals_home": 2,
+   "goals_away": 0,
+   "halftime": {
+    "away": 0,
+    "home": 1
+   },
+   "stats_home": {
+    "corners": 1,
+    "shots": 4,
+    "possession": 70,
+    "yellow_cards": 1,
+    "shots_on_target": 2
+   },
+   "stats_away": {
+    "corners": 5,
+    "shots": 5,
+    "possession": 30,
+    "yellow_cards": 2,
+    "shots_on_target": 2
+   },
+   "stats_1h_home": {
+    "shots": 3,
+    "possession": 57,
+    "corners": 1,
+    "shots_on_target": 1,
+    "yellow_cards": 0
+   },
+   "stats_1h_away": {
+    "possession": 43,
+    "shots": 5,
+    "corners": 5,
+    "shots_on_target": 2,
+    "yellow_cards": 0
+   }
+  },
+  {
+   "id": 19874047,
+   "competition": "Conference League",
+   "home": "Hajduk Split",
+   "away": "Sint-Truiden",
+   "goals_home": 0,
+   "goals_away": 2,
+   "halftime": {
+    "away": 1,
+    "home": 0
+   },
+   "stats_home": {
+    "corners": 6,
+    "shots": 9,
+    "possession": 50,
+    "yellow_cards": 3,
+    "shots_on_target": 4
+   },
+   "stats_away": {
+    "corners": 2,
+    "shots": 9,
+    "possession": 50,
+    "yellow_cards": 2,
+    "shots_on_target": 4
+   },
+   "stats_1h_home": {
+    "shots": 6,
+    "possession": 37,
+    "corners": 4,
+    "shots_on_target": 3,
+    "yellow_cards": 1
+   },
+   "stats_1h_away": {
+    "shots": 3,
+    "possession": 63,
+    "corners": 2,
+    "shots_on_target": 1,
+    "yellow_cards": 2
+   }
+  },
+  {
+   "id": 19874049,
+   "competition": "Conference League",
+   "home": "Borac Banja Luka",
+   "away": "Atalanta",
+   "goals_home": 2,
+   "goals_away": 3,
+   "halftime": {
+    "away": 0,
+    "home": 2
+   },
+   "stats_home": {
+    "corners": 4,
+    "shots": 13,
+    "possession": 35,
+    "yellow_cards": 2,
+    "shots_on_target": 2
+   },
+   "stats_away": {
+    "corners": 6,
+    "shots": 22,
+    "possession": 65,
+    "yellow_cards": 2,
+    "shots_on_target": 7
+   },
+   "stats_1h_home": {
+    "shots_on_target": 2,
+    "shots": 7,
+    "possession": 44,
+    "corners": 2,
+    "yellow_cards": 2
+   },
+   "stats_1h_away": {
+    "shots_on_target": 2,
+    "shots": 7,
+    "possession": 56,
+    "corners": 3,
+    "yellow_cards": 1
+   }
+  },
+  {
+   "id": 19874051,
+   "competition": "Conference League",
+   "home": "Nordsjælland",
+   "away": "Panathinaikos",
+   "goals_home": 3,
+   "goals_away": 2,
+   "halftime": {
+    "away": 1,
+    "home": 0
+   },
+   "stats_home": {
+    "corners": 5,
+    "shots": 12,
+    "possession": 41,
+    "yellow_cards": 2,
+    "shots_on_target": 2
+   },
+   "stats_away": {
+    "corners": 3,
+    "shots": 17,
+    "possession": 59,
+    "yellow_cards": 2,
+    "shots_on_target": 8
+   },
+   "stats_1h_home": {
+    "possession": 49,
+    "shots": 4,
+    "shots_on_target": 0,
+    "yellow_cards": 0,
+    "corners": 1
+   },
+   "stats_1h_away": {
+    "possession": 51,
+    "shots": 10,
+    "shots_on_target": 4,
+    "yellow_cards": 1,
+    "corners": 0
+   }
+  }
+ ],
+ "bookmakers_available": [],
+ "markets_seen": [],
+ "generated_at": "2026-11-27T09:28:26+00:00",
+ "source": "sportmonks.com",
+ "api_calls": 17,
+ "errors": [
+  "fixtures/19735100 HTTP 403: {\"message\":\"You do not have access to the 'odds' include\",\"link\":\"https:\\/\\/docs.sportmonks.com\\/football\\/api\\/response-codes\\/other-exceptions\",\"code\":5002}",
+  "fixtures/19713488 HTTP 403: {\"message\":\"You do not have access to the 'odds' include\",\"link\":\"https:\\/\\/docs.sportmonks.com\\/football\\/api\\/response-codes\\/other-exceptions\",\"code\":5002}",
+  "fixtures/19715536 HTTP 403: {\"message\":\"You do not have access to the 'odds' include\",\"link\":\"https:\\/\\/docs.sportmonks.com\\/football\\/api\\/response-codes\\/other-exceptions\",\"code\":5002}",
+  "fixtures/19722085 HTTP 403: {\"message\":\"You do not have access to the 'odds' include\",\"link\":\"https:\\/\\/docs.sportmonks.com\\/football\\/api\\/response-codes\\/other-exceptions\",\"code\":5002}",
+  "fixtures/19732607 HTTP 403: {\"message\":\"You do not have access to the 'odds' include\",\"link\":\"https:\\/\\/docs.sportmonks.com\\/football\\/api\\/response-codes\\/other-exceptions\",\"code\":5002}",
+  "1xBet não veio nas odds da Sportmonks (ver bookmakers_available); o modelo exige odd real da 1xBet"
+ ]
+}

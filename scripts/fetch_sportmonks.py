@@ -338,6 +338,9 @@ def football(d):
             continue
         one = get(f"fixtures/{f['id']}", include="odds.bookmaker;odds.market")
         odds = one.get("odds") if isinstance(one, dict) else []
+        if not odds:   # alternativa: endpoint de odds pré-jogo (pode exigir o add-on de odds)
+            odds = get(f"odds/pre-match/fixtures/{f['id']}", include="bookmaker;market", per_page=50) or []
+            odds = odds if isinstance(odds, list) else []
         out["fixtures"].append({
             "id": f["id"], "competition": league_name(f),
             "kickoff_maputo": kickoff_maputo(f).isoformat(timespec="seconds"),
@@ -359,6 +362,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--date", help="AAAA-MM-DD (por omissão: hoje em Maputo)")
     ap.add_argument("--debug", action="store_true", help="grava também as respostas brutas em data/football/raw/")
+    ap.add_argument("--test", action="store_true", help="grava em data/football/sportmonks_test/ (não toca no ficheiro do dia)")
     args = ap.parse_args()
     if not TOKEN:
         sys.exit("SPORTMONKS_TOKEN em falta")
@@ -374,6 +378,9 @@ def main():
     data["errors"] = ERRORS[:50]
     os.makedirs(root, exist_ok=True)
     path = os.path.join(root, f"{d.isoformat()}.json")
+    if args.test:
+        os.makedirs(os.path.join(root, "sportmonks_test"), exist_ok=True)
+        path = os.path.join(root, "sportmonks_test", f"{d.isoformat()}.json")
     if not data.get("fixtures") and not data.get("yesterday_results") and os.path.exists(path):
         try:
             prev = json.load(open(path))
