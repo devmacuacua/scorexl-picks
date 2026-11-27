@@ -98,6 +98,10 @@ A GitHub Action `.github/workflows/apisports.yml` recolhe dados da api-sports.io
 
 Horários: de 2 em 2 horas, aos 17 minutos (00h17, 02h17, …, 22h17 de Maputo), só NBA (o futebol saiu em 27/11/2026, quando a subscrição API-Football terminou; passa para a Sportmonks). Os horários do GitHub podem atrasar; também corre à mão em Actions → "Dados api-sports" → Run workflow.
 
+### Futebol: Sportmonks (desde 28/11/2026)
+
+O futebol passa da API-Football para a Sportmonks: `scripts/fetch_sportmonks.py` grava `data/football/AAAA-MM-DD.json` no mesmo formato (o `football_model.py` não muda). Workflow `sportmonks.yml` (Actions → "Dados Sportmonks (futebol)"), por agora só à mão. Requer o secret `SPORTMONKS_TOKEN`. Na 1.ª recolha correr com debug=true e confirmar ids das ligas, nomes dos mercados (`markets_seen`) e se a 1xBet vem nas odds (`bookmakers_available`); sem 1xBet não há palpites (regra v2).
+
 Requer o secret `APISPORTS_KEY` (Settings → Secrets and variables → Actions). As tarefas de análise usam estes ficheiros como fonte principal.
 
 ## Outras ligas de basquetebol (fase de teste)
