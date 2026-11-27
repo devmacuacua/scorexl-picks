@@ -1,0 +1,468 @@
+{
+  "date": "2026-11-27",
+  "sport": "NBA",
+  "note": "Recolha fresca OK (generated_at 2026-11-27T19:47:52Z). 11 jogos, todos com odds 1xBet e Pinnacle (11/11). 155 linhas 1xBet entre 1.80 e 2.00 comparadas com a Pinnacle: nenhuma com valor >= 1.025. Melhor B0 rejeitado: Brooklyn Nets +8.5 (Toronto Raptors vs Brooklyn Nets) 1xBet 1.92 vs Pinnacle 2.04/1.84, P_justa 0.526, valor 1.010. Sombra: 51 candidatos ({'over_modelo': 31, 'azarao': 20}), melhor valor contra a Pinnacle 1.009 (Brooklyn Nets +8.5). Lesões: pesquisa web feita (relatório oficial NBA 27/11 13h ET, ESPN/CBS/Covers) mas sem detalhe legível nos resultados; sem palpites, não afeta. Sem palpites hoje.",
+  "picks": [],
+  "shadow": [
+    {
+      "match": "New York Knicks vs Miami Heat",
+      "strategy": "over_modelo",
+      "selection": "Over 221.5",
+      "odds_1xbet": 1.83,
+      "p_modelo": 0.593,
+      "p_pinnacle_justa": 0.521,
+      "valor_pinnacle": 0.953
+    },
+    {
+      "match": "New York Knicks vs Miami Heat",
+      "strategy": "over_modelo",
+      "selection": "Over 222.5",
+      "odds_1xbet": 1.9,
+      "p_modelo": 0.571,
+      "p_pinnacle_justa": 0.5,
+      "valor_pinnacle": 0.95
+    },
+    {
+      "match": "New York Knicks vs Miami Heat",
+      "strategy": "over_modelo",
+      "selection": "Over 223.5",
+      "odds_1xbet": 1.98,
+      "p_modelo": 0.549,
+      "p_pinnacle_justa": 0.477,
+      "valor_pinnacle": 0.944
+    },
+    {
+      "match": "Toronto Raptors vs Brooklyn Nets",
+      "strategy": "azarao",
+      "selection": "Brooklyn Nets +9",
+      "odds_1xbet": 1.85,
+      "p_modelo": 0.549,
+      "p_pinnacle_justa": 0.545,
+      "valor_pinnacle": 1.008
+    },
+    {
+      "match": "Toronto Raptors vs Brooklyn Nets",
+      "strategy": "azarao",
+      "selection": "Brooklyn Nets +8.5",
+      "odds_1xbet": 1.92,
+      "p_modelo": 0.532,
+      "p_pinnacle_justa": 0.526,
+      "valor_pinnacle": 1.009
+    },
+    {
+      "match": "Toronto Raptors vs Brooklyn Nets",
+      "strategy": "azarao",
+      "selection": "Brooklyn Nets +8",
+      "odds_1xbet": 1.97,
+      "p_modelo": 0.515,
+      "p_pinnacle_justa": 0.504,
+      "valor_pinnacle": 0.993
+    },
+    {
+      "match": "Toronto Raptors vs Brooklyn Nets",
+      "strategy": "over_modelo",
+      "selection": "Over 219",
+      "odds_1xbet": 1.82,
+      "p_modelo": 0.66,
+      "p_pinnacle_justa": 0.523,
+      "valor_pinnacle": 0.952
+    },
+    {
+      "match": "Toronto Raptors vs Brooklyn Nets",
+      "strategy": "over_modelo",
+      "selection": "Over 219.5",
+      "odds_1xbet": 1.87,
+      "p_modelo": 0.65,
+      "p_pinnacle_justa": 0.512,
+      "valor_pinnacle": 0.957
+    },
+    {
+      "match": "Toronto Raptors vs Brooklyn Nets",
+      "strategy": "over_modelo",
+      "selection": "Over 220",
+      "odds_1xbet": 1.91,
+      "p_modelo": 0.639,
+      "p_pinnacle_justa": 0.5,
+      "valor_pinnacle": 0.955
+    },
+    {
+      "match": "Toronto Raptors vs Brooklyn Nets",
+      "strategy": "over_modelo",
+      "selection": "Over 220.5",
+      "odds_1xbet": 1.93,
+      "p_modelo": 0.629,
+      "p_pinnacle_justa": 0.488,
+      "valor_pinnacle": 0.942
+    },
+    {
+      "match": "Toronto Raptors vs Brooklyn Nets",
+      "strategy": "over_modelo",
+      "selection": "Over 221",
+      "odds_1xbet": 1.97,
+      "p_modelo": 0.618,
+      "p_pinnacle_justa": 0.477,
+      "valor_pinnacle": 0.939
+    },
+    {
+      "match": "Toronto Raptors vs Brooklyn Nets",
+      "strategy": "over_modelo",
+      "selection": "Over 221.5",
+      "odds_1xbet": 2.0,
+      "p_modelo": 0.608,
+      "p_pinnacle_justa": 0.468,
+      "valor_pinnacle": 0.935
+    },
+    {
+      "match": "Indiana Pacers vs Philadelphia 76ers",
+      "strategy": "azarao",
+      "selection": "Indiana Pacers +2.5",
+      "odds_1xbet": 1.97,
+      "p_modelo": 0.549,
+      "p_pinnacle_justa": 0.488,
+      "valor_pinnacle": 0.962
+    },
+    {
+      "match": "Indiana Pacers vs Philadelphia 76ers",
+      "strategy": "azarao",
+      "selection": "Indiana Pacers +3.5",
+      "odds_1xbet": 1.86,
+      "p_modelo": 0.582,
+      "p_pinnacle_justa": 0.528,
+      "valor_pinnacle": 0.983
+    },
+    {
+      "match": "Detroit Pistons vs Milwaukee Bucks",
+      "strategy": "over_modelo",
+      "selection": "Over 218",
+      "odds_1xbet": 1.82,
+      "p_modelo": 0.644,
+      "p_pinnacle_justa": 0.521,
+      "valor_pinnacle": 0.948
+    },
+    {
+      "match": "Detroit Pistons vs Milwaukee Bucks",
+      "strategy": "over_modelo",
+      "selection": "Over 218.5",
+      "odds_1xbet": 1.86,
+      "p_modelo": 0.634,
+      "p_pinnacle_justa": 0.512,
+      "valor_pinnacle": 0.952
+    },
+    {
+      "match": "Detroit Pistons vs Milwaukee Bucks",
+      "strategy": "over_modelo",
+      "selection": "Over 219",
+      "odds_1xbet": 1.91,
+      "p_modelo": 0.623,
+      "p_pinnacle_justa": 0.5,
+      "valor_pinnacle": 0.955
+    },
+    {
+      "match": "Detroit Pistons vs Milwaukee Bucks",
+      "strategy": "over_modelo",
+      "selection": "Over 219.5",
+      "odds_1xbet": 1.94,
+      "p_modelo": 0.613,
+      "p_pinnacle_justa": 0.488,
+      "valor_pinnacle": 0.947
+    },
+    {
+      "match": "Detroit Pistons vs Milwaukee Bucks",
+      "strategy": "over_modelo",
+      "selection": "Over 220",
+      "odds_1xbet": 1.98,
+      "p_modelo": 0.602,
+      "p_pinnacle_justa": 0.477,
+      "valor_pinnacle": 0.944
+    },
+    {
+      "match": "Boston Celtics vs Atlanta Hawks",
+      "strategy": "azarao",
+      "selection": "Atlanta Hawks +10.5",
+      "odds_1xbet": 1.82,
+      "p_modelo": 0.627,
+      "p_pinnacle_justa": 0.551,
+      "valor_pinnacle": 1.003
+    },
+    {
+      "match": "Boston Celtics vs Atlanta Hawks",
+      "strategy": "azarao",
+      "selection": "Atlanta Hawks +9.5",
+      "odds_1xbet": 1.93,
+      "p_modelo": 0.595,
+      "p_pinnacle_justa": 0.514,
+      "valor_pinnacle": 0.992
+    },
+    {
+      "match": "Boston Celtics vs Atlanta Hawks",
+      "strategy": "over_modelo",
+      "selection": "Over 220.5",
+      "odds_1xbet": 1.85,
+      "p_modelo": 0.55,
+      "p_pinnacle_justa": 0.532,
+      "valor_pinnacle": 0.985
+    },
+    {
+      "match": "Minnesota Timberwolves vs Memphis Grizzlies",
+      "strategy": "azarao",
+      "selection": "Memphis Grizzlies +4",
+      "odds_1xbet": 1.89,
+      "p_modelo": 0.527,
+      "p_pinnacle_justa": 0.522,
+      "valor_pinnacle": 0.987
+    },
+    {
+      "match": "Minnesota Timberwolves vs Memphis Grizzlies",
+      "strategy": "azarao",
+      "selection": "Memphis Grizzlies +3.5",
+      "odds_1xbet": 1.94,
+      "p_modelo": 0.51,
+      "p_pinnacle_justa": 0.5,
+      "valor_pinnacle": 0.97
+    },
+    {
+      "match": "Minnesota Timberwolves vs Memphis Grizzlies",
+      "strategy": "azarao",
+      "selection": "Memphis Grizzlies +4.5",
+      "odds_1xbet": 1.82,
+      "p_modelo": 0.543,
+      "p_pinnacle_justa": 0.54,
+      "valor_pinnacle": 0.983
+    },
+    {
+      "match": "Minnesota Timberwolves vs Memphis Grizzlies",
+      "strategy": "over_modelo",
+      "selection": "Over 219",
+      "odds_1xbet": 1.8,
+      "p_modelo": 0.659,
+      "p_pinnacle_justa": 0.532,
+      "valor_pinnacle": 0.958
+    },
+    {
+      "match": "Minnesota Timberwolves vs Memphis Grizzlies",
+      "strategy": "over_modelo",
+      "selection": "Over 219.5",
+      "odds_1xbet": 1.84,
+      "p_modelo": 0.649,
+      "p_pinnacle_justa": 0.521,
+      "valor_pinnacle": 0.958
+    },
+    {
+      "match": "Minnesota Timberwolves vs Memphis Grizzlies",
+      "strategy": "over_modelo",
+      "selection": "Over 220",
+      "odds_1xbet": 1.88,
+      "p_modelo": 0.638,
+      "p_pinnacle_justa": 0.512,
+      "valor_pinnacle": 0.962
+    },
+    {
+      "match": "Minnesota Timberwolves vs Memphis Grizzlies",
+      "strategy": "over_modelo",
+      "selection": "Over 220.5",
+      "odds_1xbet": 1.93,
+      "p_modelo": 0.628,
+      "p_pinnacle_justa": 0.5,
+      "valor_pinnacle": 0.965
+    },
+    {
+      "match": "Minnesota Timberwolves vs Memphis Grizzlies",
+      "strategy": "over_modelo",
+      "selection": "Over 221",
+      "odds_1xbet": 1.95,
+      "p_modelo": 0.617,
+      "p_pinnacle_justa": 0.488,
+      "valor_pinnacle": 0.952
+    },
+    {
+      "match": "Minnesota Timberwolves vs Memphis Grizzlies",
+      "strategy": "over_modelo",
+      "selection": "Over 221.5",
+      "odds_1xbet": 1.99,
+      "p_modelo": 0.607,
+      "p_pinnacle_justa": 0.477,
+      "valor_pinnacle": 0.949
+    },
+    {
+      "match": "Phoenix Suns vs Dallas Mavericks",
+      "strategy": "azarao",
+      "selection": "Dallas Mavericks +3",
+      "odds_1xbet": 1.8,
+      "p_modelo": 0.564,
+      "p_pinnacle_justa": 0.537,
+      "valor_pinnacle": 0.967
+    },
+    {
+      "match": "Phoenix Suns vs Dallas Mavericks",
+      "strategy": "azarao",
+      "selection": "Dallas Mavericks +2",
+      "odds_1xbet": 1.93,
+      "p_modelo": 0.531,
+      "p_pinnacle_justa": 0.497,
+      "valor_pinnacle": 0.96
+    },
+    {
+      "match": "Phoenix Suns vs Dallas Mavericks",
+      "strategy": "azarao",
+      "selection": "Dallas Mavericks +1.5",
+      "odds_1xbet": 1.98,
+      "p_modelo": 0.514,
+      "p_pinnacle_justa": 0.477,
+      "valor_pinnacle": 0.944
+    },
+    {
+      "match": "Phoenix Suns vs Dallas Mavericks",
+      "strategy": "azarao",
+      "selection": "Dallas Mavericks +2.5",
+      "odds_1xbet": 1.87,
+      "p_modelo": 0.547,
+      "p_pinnacle_justa": 0.519,
+      "valor_pinnacle": 0.971
+    },
+    {
+      "match": "Los Angeles Clippers vs New Orleans Pelicans",
+      "strategy": "azarao",
+      "selection": "New Orleans Pelicans +4",
+      "odds_1xbet": 1.82,
+      "p_modelo": 0.532,
+      "p_pinnacle_justa": 0.54,
+      "valor_pinnacle": 0.983
+    },
+    {
+      "match": "Los Angeles Clippers vs New Orleans Pelicans",
+      "strategy": "azarao",
+      "selection": "New Orleans Pelicans +3.5",
+      "odds_1xbet": 1.89,
+      "p_modelo": 0.515,
+      "p_pinnacle_justa": 0.522,
+      "valor_pinnacle": 0.987
+    },
+    {
+      "match": "Los Angeles Clippers vs New Orleans Pelicans",
+      "strategy": "over_modelo",
+      "selection": "Over 230",
+      "odds_1xbet": 1.81,
+      "p_modelo": 0.547,
+      "p_pinnacle_justa": 0.532,
+      "valor_pinnacle": 0.963
+    },
+    {
+      "match": "Portland Trail Blazers vs Golden State Warriors",
+      "strategy": "azarao",
+      "selection": "Golden State Warriors +9.5",
+      "odds_1xbet": 1.85,
+      "p_modelo": 0.601,
+      "p_pinnacle_justa": 0.526,
+      "valor_pinnacle": 0.973
+    },
+    {
+      "match": "Portland Trail Blazers vs Golden State Warriors",
+      "strategy": "azarao",
+      "selection": "Golden State Warriors +9",
+      "odds_1xbet": 1.91,
+      "p_modelo": 0.585,
+      "p_pinnacle_justa": 0.504,
+      "valor_pinnacle": 0.962
+    },
+    {
+      "match": "Portland Trail Blazers vs Golden State Warriors",
+      "strategy": "azarao",
+      "selection": "Golden State Warriors +8.5",
+      "odds_1xbet": 1.96,
+      "p_modelo": 0.569,
+      "p_pinnacle_justa": 0.485,
+      "valor_pinnacle": 0.95
+    },
+    {
+      "match": "Portland Trail Blazers vs Golden State Warriors",
+      "strategy": "over_modelo",
+      "selection": "Over 219.5",
+      "odds_1xbet": 1.84,
+      "p_modelo": 0.634,
+      "p_pinnacle_justa": 0.532,
+      "valor_pinnacle": 0.979
+    },
+    {
+      "match": "Portland Trail Blazers vs Golden State Warriors",
+      "strategy": "over_modelo",
+      "selection": "Over 220",
+      "odds_1xbet": 1.87,
+      "p_modelo": 0.624,
+      "p_pinnacle_justa": 0.523,
+      "valor_pinnacle": 0.979
+    },
+    {
+      "match": "Portland Trail Blazers vs Golden State Warriors",
+      "strategy": "over_modelo",
+      "selection": "Over 220.5",
+      "odds_1xbet": 1.92,
+      "p_modelo": 0.613,
+      "p_pinnacle_justa": 0.512,
+      "valor_pinnacle": 0.982
+    },
+    {
+      "match": "Portland Trail Blazers vs Golden State Warriors",
+      "strategy": "over_modelo",
+      "selection": "Over 221",
+      "odds_1xbet": 1.94,
+      "p_modelo": 0.602,
+      "p_pinnacle_justa": 0.5,
+      "valor_pinnacle": 0.97
+    },
+    {
+      "match": "Portland Trail Blazers vs Golden State Warriors",
+      "strategy": "over_modelo",
+      "selection": "Over 221.5",
+      "odds_1xbet": 1.98,
+      "p_modelo": 0.592,
+      "p_pinnacle_justa": 0.488,
+      "valor_pinnacle": 0.967
+    },
+    {
+      "match": "Portland Trail Blazers vs Golden State Warriors",
+      "strategy": "over_modelo",
+      "selection": "Over 222",
+      "odds_1xbet": 2.0,
+      "p_modelo": 0.581,
+      "p_pinnacle_justa": 0.477,
+      "valor_pinnacle": 0.953
+    },
+    {
+      "match": "San Antonio Spurs vs Los Angeles Lakers",
+      "strategy": "azarao",
+      "selection": "Los Angeles Lakers +6.5",
+      "odds_1xbet": 1.82,
+      "p_modelo": 0.53,
+      "p_pinnacle_justa": 0.541,
+      "valor_pinnacle": 0.985
+    },
+    {
+      "match": "San Antonio Spurs vs Los Angeles Lakers",
+      "strategy": "over_modelo",
+      "selection": "Over 223.5",
+      "odds_1xbet": 1.8,
+      "p_modelo": 0.592,
+      "p_pinnacle_justa": 0.532,
+      "valor_pinnacle": 0.958
+    },
+    {
+      "match": "San Antonio Spurs vs Los Angeles Lakers",
+      "strategy": "over_modelo",
+      "selection": "Over 224.5",
+      "odds_1xbet": 1.88,
+      "p_modelo": 0.57,
+      "p_pinnacle_justa": 0.512,
+      "valor_pinnacle": 0.962
+    },
+    {
+      "match": "San Antonio Spurs vs Los Angeles Lakers",
+      "strategy": "over_modelo",
+      "selection": "Over 225.5",
+      "odds_1xbet": 1.97,
+      "p_modelo": 0.548,
+      "p_pinnacle_justa": 0.488,
+      "valor_pinnacle": 0.962
+    }
+  ],
+  "avoid": []
+}
