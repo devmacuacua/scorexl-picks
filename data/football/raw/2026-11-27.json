@@ -1,0 +1,564 @@
+{
+ "fixtures/between/2026-11-25/2026-11-28": [
+  {
+   "pagination": {
+    "count": 50,
+    "per_page": 50,
+    "has_more": true,
+    "current_page": 1,
+    "next_page": "https://api.sportmonks.com/v3/football/fixtures/between/2026-11-25/2026-11-28?filters=fixtureLeagues%3A8%2C564%2C384%2C82%2C301%2C2%2C5%2C2286%3BfixtureStatisticTypes%3A34%2C42%2C86%2C84%2C45&include=participants%3Bscores%3Bstate%3Bleague%3Bstatistics%3Bperiods.statistics&per_page=50&timezone=UTC&page=2",
+    "next_cursor": "https://api.sportmonks.com/v3/football/fixtures/between/2026-11-25/2026-11-28?filters=fixtureLeagues%3A8%2C564%2C384%2C82%2C301%2C2%2C5%2C2286%3BfixtureStatisticTypes%3A34%2C42%2C86%2C84%2C45&include=participants%3Bscores%3Bstate%3Bleague%3Bstatistics%3Bperiods.statistics&timezone=UTC&cursor=WzEsNTAsWyIyMDI2LTExLTI3IDIwOjAwOjAwIiwxOTczMjYwN10sW1sic3BvcnRzLmZpeHR1cmVzLnN0YXJ0aW5nX2F0IiwwXSxbInNwb3J0cy5maXh0dXJlcy5pZCIsMF1dXQ"
+   },
+   "subscription": [
+    {
+     "meta": {
+      "current_timestamp": 1795771698,
+      "next_billing_cycle": "2026-12-21T11:53:21 UTC"
+     },
+     "plans": [
+      {
+       "plan": "Starter",
+       "sport": "Football",
+       "category": "Advanced"
+      },
+      {
+       "plan": "Euro Club Tournaments",
+       "sport": "Football",
+       "category": "Advanced"
+      }
+     ],
+     "add_ons": [
+      {
+       "add_on": "9 Extra Leagues",
+       "sport": "Football",
+       "category": "Extra leagues"
+      }
+     ],
+     "widgets": [],
+     "bundles": []
+    }
+   ],
+   "rate_limit": {
+    "resets_in_seconds": 3143,
+    "remaining": 2313,
+    "requested_entity": "Fixture"
+   },
+   "timezone": "UTC"
+  },
+  {
+   "pagination": {
+    "count": 20,
+    "per_page": 50,
+    "has_more": false,
+    "current_page": 2,
+    "next_page": null,
+    "next_cursor": null
+   },
+   "subscription": [
+    {
+     "meta": {
+      "current_timestamp": 1795771699,
+      "next_billing_cycle": "2026-12-21T11:53:21 UTC"
+     },
+     "plans": [
+      {
+       "plan": "Starter",
+       "sport": "Football",
+       "category": "Advanced"
+      },
+      {
+       "plan": "Euro Club Tournaments",
+       "sport": "Football",
+       "category": "Advanced"
+      }
+     ],
+     "add_ons": [
+      {
+       "add_on": "9 Extra Leagues",
+       "sport": "Football",
+       "category": "Extra leagues"
+      }
+     ],
+     "widgets": [],
+     "bundles": []
+    }
+   ],
+   "rate_limit": {
+    "resets_in_seconds": 3142,
+    "remaining": 2312,
+    "requested_entity": "Fixture"
+   },
+   "timezone": "UTC"
+  }
+ ],
+ "fixtures/between/2026-09-28/2026-11-26/82": [
+  {
+   "pagination": {
+    "count": 6,
+    "per_page": 50,
+    "has_more": false,
+    "current_page": 1,
+    "next_page": null,
+    "next_cursor": null
+   },
+   "subscription": [
+    {
+     "meta": {
+      "current_timestamp": 1795771700,
+      "next_billing_cycle": "2026-12-21T11:53:21 UTC"
+     },
+     "plans": [
+      {
+       "plan": "Starter",
+       "sport": "Football",
+       "category": "Advanced"
+      },
+      {
+       "plan": "Euro Club Tournaments",
+       "sport": "Football",
+       "category": "Advanced"
+      }
+     ],
+     "add_ons": [
+      {
+       "add_on": "9 Extra Leagues",
+       "sport": "Football",
+       "category": "Extra leagues"
+      }
+     ],
+     "widgets": [],
+     "bundles": []
+    }
+   ],
+   "rate_limit": {
+    "resets_in_seconds": 3141,
+    "remaining": 2310,
+    "requested_entity": "Fixture"
+   },
+   "timezone": "UTC"
+  }
+ ],
+ "fixtures/between/2026-09-28/2026-11-26/683": [
+  {
+   "pagination": {
+    "count": 6,
+    "per_page": 50,
+    "has_more": false,
+    "current_page": 1,
+    "next_page": null,
+    "next_cursor": null
+   },
+   "subscription": [
+    {
+     "meta": {
+      "current_timestamp": 1795771701,
+      "next_billing_cycle": "2026-12-21T11:53:21 UTC"
+     },
+     "plans": [
+      {
+       "plan": "Starter",
+       "sport": "Football",
+       "category": "Advanced"
+      },
+      {
+       "plan": "Euro Club Tournaments",
+       "sport": "Football",
+       "category": "Advanced"
+      }
+     ],
+     "add_ons": [
+      {
+       "add_on": "9 Extra Leagues",
+       "sport": "Football",
+       "category": "Extra leagues"
+      }
+     ],
+     "widgets": [],
+     "bundles": []
+    }
+   ],
+   "rate_limit": {
+    "resets_in_seconds": 3140,
+    "remaining": 2309,
+    "requested_entity": "Fixture"
+   },
+   "timezone": "UTC"
+  }
+ ],
+ "fixtures/between/2026-09-28/2026-11-26/267": [
+  {
+   "pagination": {
+    "count": 7,
+    "per_page": 50,
+    "has_more": false,
+    "current_page": 1,
+    "next_page": null,
+    "next_cursor": null
+   },
+   "subscription": [
+    {
+     "meta": {
+      "current_timestamp": 1795771701,
+      "next_billing_cycle": "2026-12-21T11:53:21 UTC"
+     },
+     "plans": [
+      {
+       "plan": "Starter",
+       "sport": "Football",
+       "category": "Advanced"
+      },
+      {
+       "plan": "Euro Club Tournaments",
+       "sport": "Football",
+       "category": "Advanced"
+      }
+     ],
+     "add_ons": [
+      {
+       "add_on": "9 Extra Leagues",
+       "sport": "Football",
+       "category": "Extra leagues"
+      }
+     ],
+     "widgets": [],
+     "bundles": []
+    }
+   ],
+   "rate_limit": {
+    "resets_in_seconds": 3140,
+    "remaining": 2308,
+    "requested_entity": "Fixture"
+   },
+   "timezone": "UTC"
+  }
+ ],
+ "fixtures/between/2026-09-28/2026-11-26/8513": [
+  {
+   "pagination": {
+    "count": 7,
+    "per_page": 50,
+    "has_more": false,
+    "current_page": 1,
+    "next_page": null,
+    "next_cursor": null
+   },
+   "subscription": [
+    {
+     "meta": {
+      "current_timestamp": 1795771702,
+      "next_billing_cycle": "2026-12-21T11:53:21 UTC"
+     },
+     "plans": [
+      {
+       "plan": "Starter",
+       "sport": "Football",
+       "category": "Advanced"
+      },
+      {
+       "plan": "Euro Club Tournaments",
+       "sport": "Football",
+       "category": "Advanced"
+      }
+     ],
+     "add_ons": [
+      {
+       "add_on": "9 Extra Leagues",
+       "sport": "Football",
+       "category": "Extra leagues"
+      }
+     ],
+     "widgets": [],
+     "bundles": []
+    }
+   ],
+   "rate_limit": {
+    "resets_in_seconds": 3139,
+    "remaining": 2307,
+    "requested_entity": "Fixture"
+   },
+   "timezone": "UTC"
+  }
+ ],
+ "fixtures/between/2026-09-28/2026-11-26/266": [
+  {
+   "pagination": {
+    "count": 6,
+    "per_page": 50,
+    "has_more": false,
+    "current_page": 1,
+    "next_page": null,
+    "next_cursor": null
+   },
+   "subscription": [
+    {
+     "meta": {
+      "current_timestamp": 1795771703,
+      "next_billing_cycle": "2026-12-21T11:53:21 UTC"
+     },
+     "plans": [
+      {
+       "plan": "Starter",
+       "sport": "Football",
+       "category": "Advanced"
+      },
+      {
+       "plan": "Euro Club Tournaments",
+       "sport": "Football",
+       "category": "Advanced"
+      }
+     ],
+     "add_ons": [
+      {
+       "add_on": "9 Extra Leagues",
+       "sport": "Football",
+       "category": "Extra leagues"
+      }
+     ],
+     "widgets": [],
+     "bundles": []
+    }
+   ],
+   "rate_limit": {
+    "resets_in_seconds": 3138,
+    "remaining": 2306,
+    "requested_entity": "Fixture"
+   },
+   "timezone": "UTC"
+  }
+ ],
+ "fixtures/between/2026-09-28/2026-11-26/4508": [
+  {
+   "pagination": {
+    "count": 6,
+    "per_page": 50,
+    "has_more": false,
+    "current_page": 1,
+    "next_page": null,
+    "next_cursor": null
+   },
+   "subscription": [
+    {
+     "meta": {
+      "current_timestamp": 1795771703,
+      "next_billing_cycle": "2026-12-21T11:53:21 UTC"
+     },
+     "plans": [
+      {
+       "plan": "Starter",
+       "sport": "Football",
+       "category": "Advanced"
+      },
+      {
+       "plan": "Euro Club Tournaments",
+       "sport": "Football",
+       "category": "Advanced"
+      }
+     ],
+     "add_ons": [
+      {
+       "add_on": "9 Extra Leagues",
+       "sport": "Football",
+       "category": "Extra leagues"
+      }
+     ],
+     "widgets": [],
+     "bundles": []
+    }
+   ],
+   "rate_limit": {
+    "resets_in_seconds": 3138,
+    "remaining": 2304,
+    "requested_entity": "Fixture"
+   },
+   "timezone": "UTC"
+  }
+ ],
+ "fixtures/between/2026-09-28/2026-11-26/63": [
+  {
+   "pagination": {
+    "count": 6,
+    "per_page": 50,
+    "has_more": false,
+    "current_page": 1,
+    "next_page": null,
+    "next_cursor": null
+   },
+   "subscription": [
+    {
+     "meta": {
+      "current_timestamp": 1795771704,
+      "next_billing_cycle": "2026-12-21T11:53:21 UTC"
+     },
+     "plans": [
+      {
+       "plan": "Starter",
+       "sport": "Football",
+       "category": "Advanced"
+      },
+      {
+       "plan": "Euro Club Tournaments",
+       "sport": "Football",
+       "category": "Advanced"
+      }
+     ],
+     "add_ons": [
+      {
+       "add_on": "9 Extra Leagues",
+       "sport": "Football",
+       "category": "Extra leagues"
+      }
+     ],
+     "widgets": [],
+     "bundles": []
+    }
+   ],
+   "rate_limit": {
+    "resets_in_seconds": 3137,
+    "remaining": 2298,
+    "requested_entity": "Fixture"
+   },
+   "timezone": "UTC"
+  }
+ ],
+ "fixtures/between/2026-09-28/2026-11-26/18": [
+  {
+   "pagination": {
+    "count": 6,
+    "per_page": 50,
+    "has_more": false,
+    "current_page": 1,
+    "next_page": null,
+    "next_cursor": null
+   },
+   "subscription": [
+    {
+     "meta": {
+      "current_timestamp": 1795771705,
+      "next_billing_cycle": "2026-12-21T11:53:21 UTC"
+     },
+     "plans": [
+      {
+       "plan": "Starter",
+       "sport": "Football",
+       "category": "Advanced"
+      },
+      {
+       "plan": "Euro Club Tournaments",
+       "sport": "Football",
+       "category": "Advanced"
+      }
+     ],
+     "add_ons": [
+      {
+       "add_on": "9 Extra Leagues",
+       "sport": "Football",
+       "category": "Extra leagues"
+      }
+     ],
+     "widgets": [],
+     "bundles": []
+    }
+   ],
+   "rate_limit": {
+    "resets_in_seconds": 3136,
+    "remaining": 2297,
+    "requested_entity": "Fixture"
+   },
+   "timezone": "UTC"
+  }
+ ],
+ "fixtures/between/2026-09-28/2026-11-26/3457": [
+  {
+   "pagination": {
+    "count": 7,
+    "per_page": 50,
+    "has_more": false,
+    "current_page": 1,
+    "next_page": null,
+    "next_cursor": null
+   },
+   "subscription": [
+    {
+     "meta": {
+      "current_timestamp": 1795771705,
+      "next_billing_cycle": "2026-12-21T11:53:21 UTC"
+     },
+     "plans": [
+      {
+       "plan": "Starter",
+       "sport": "Football",
+       "category": "Advanced"
+      },
+      {
+       "plan": "Euro Club Tournaments",
+       "sport": "Football",
+       "category": "Advanced"
+      }
+     ],
+     "add_ons": [
+      {
+       "add_on": "9 Extra Leagues",
+       "sport": "Football",
+       "category": "Extra leagues"
+      }
+     ],
+     "widgets": [],
+     "bundles": []
+    }
+   ],
+   "rate_limit": {
+    "resets_in_seconds": 3136,
+    "remaining": 2296,
+    "requested_entity": "Fixture"
+   },
+   "timezone": "UTC"
+  }
+ ],
+ "fixtures/between/2026-09-28/2026-11-26/9818": [
+  {
+   "pagination": {
+    "count": 6,
+    "per_page": 50,
+    "has_more": false,
+    "current_page": 1,
+    "next_page": null,
+    "next_cursor": null
+   },
+   "subscription": [
+    {
+     "meta": {
+      "current_timestamp": 1795771706,
+      "next_billing_cycle": "2026-12-21T11:53:21 UTC"
+     },
+     "plans": [
+      {
+       "plan": "Starter",
+       "sport": "Football",
+       "category": "Advanced"
+      },
+      {
+       "plan": "Euro Club Tournaments",
+       "sport": "Football",
+       "category": "Advanced"
+      }
+     ],
+     "add_ons": [
+      {
+       "add_on": "9 Extra Leagues",
+       "sport": "Football",
+       "category": "Extra leagues"
+      }
+     ],
+     "widgets": [],
+     "bundles": []
+    }
+   ],
+   "rate_limit": {
+    "resets_in_seconds": 3135,
+    "remaining": 2295,
+    "requested_entity": "Fixture"
+   },
+   "timezone": "UTC"
+  }
+ ]
+}
