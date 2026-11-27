@@ -475,7 +475,9 @@ def main():
     root = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data")
     generated = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
 
-    only = [x.strip() for x in (args.only or "football,nba").split(",") if x.strip()]
+    # Futebol fora do default desde 27/11/2026: a subscrição API-Football terminou (passa para
+    # a Sportmonks). Ainda corre com --only football enquanto houver plano.
+    only = [x.strip() for x in (args.only or "nba").split(",") if x.strip()]
     if "basket" in only:
         only = [x for x in only if x != "basket"] + list(BASKET_LEAGUES)
     jobs = []

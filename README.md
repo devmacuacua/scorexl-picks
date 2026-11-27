@@ -96,7 +96,7 @@ A GitHub Action `.github/workflows/apisports.yml` recolhe dados da api-sports.io
 - `data/football/AAAA-MM-DD.json`: jogos do dia (hora de Maputo) nas 5 grandes ligas, Champions, Liga Europa e Conferência, com classificação, previsão, odds (1xBet quando disponível), lesões, médias dos últimos 5 jogos de cada equipa (cantos, remates enquadrados, golos, a favor e contra) e resultados com estatísticas de D-1.
 - `data/nba/AAAA-MM-DD.json`: jogos da data americana D (madrugada de D+1 em Maputo), odds (1xBet em `odds`; Pinnacle/Betfair como referência justa em `odds_sharp`), back-to-back, classificação, médias por quarto (`team_quarters`) e resultados de D-1.
 
-Horários: de 2 em 2 horas, aos 17 minutos (00h17, 02h17, …, 22h17 de Maputo), futebol + NBA, ~330 pedidos/dia. Os horários do GitHub podem atrasar; também corre à mão em Actions → "Dados api-sports" → Run workflow.
+Horários: de 2 em 2 horas, aos 17 minutos (00h17, 02h17, …, 22h17 de Maputo), só NBA (o futebol saiu em 27/11/2026, quando a subscrição API-Football terminou; passa para a Sportmonks). Os horários do GitHub podem atrasar; também corre à mão em Actions → "Dados api-sports" → Run workflow.
 
 Requer o secret `APISPORTS_KEY` (Settings → Secrets and variables → Actions). As tarefas de análise usam estes ficheiros como fonte principal.
 

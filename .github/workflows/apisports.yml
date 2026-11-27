@@ -3,8 +3,8 @@ name: Dados api-sports
 on:
   schedule:
     # De 2 em 2 horas (minuto 17 para fugir à hora certa, quando o GitHub mais atrasa):
-    # 00h17, 02h17, ..., 22h17 Maputo. Cada recolha completa gasta ~30 pedidos
-    # (futebol ~16 + NBA ~11) → ~330 pedidos/dia no total.
+    # 00h17, 02h17, ..., 22h17 Maputo. Só NBA (~11 pedidos por recolha): o futebol saiu
+    # em 27/11/2026, quando a subscrição API-Football terminou (passa para a Sportmonks).
     - cron: "17 */2 * * *"
   workflow_dispatch:
     inputs:
@@ -12,7 +12,7 @@ on:
         description: "Data AAAA-MM-DD (vazio = hoje em Maputo)"
         required: false
       only:
-        description: "Lista por vírgulas: nba, football, basket (todas as ligas), euroleague, eurocup, nbl, bleague, cba, acb, bsl, gbl, aba, leagues-index. Vazio = football,nba"
+        description: "Lista por vírgulas: nba, football, basket (todas as ligas), euroleague, eurocup, nbl, bleague, cba, acb, bsl, gbl, aba, leagues-index. Vazio = nba"
         required: false
 
 permissions:
