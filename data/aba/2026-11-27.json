@@ -1,0 +1,16 @@
+{
+ "date": "2026-11-27",
+ "sport": "ABA League",
+ "league_key": "aba",
+ "league_id": 198,
+ "note": "date = data de Maputo; tipoff_maputo em hora de Maputo; odds incluem 1.ª parte quando há",
+ "games": [],
+ "yesterday_results": [],
+ "standings": [],
+ "season": 2026,
+ "recent_results": [],
+ "generated_at": "2026-11-27T12:52:18+00:00",
+ "source": "api-sports.io",
+ "api_calls": 5,
+ "errors": []
+}
