@@ -1,0 +1,28 @@
+{
+ "date": "2026-11-27",
+ "sport": "football",
+ "note": "Fonte data/football/2026-11-27.json (api-sports, gerado 04:15 UTC / 06:15 Maputo, 5 jogos, odds 1xBet, 0 erros). Regras v2, só jogo inteiro: P = 0.6 × modelo + 0.4 × 1xBet sem margem; entra se P × odd ≥ 1.05, odd 1.40–2.60 e desacordo ≤ 0.10. Ficheiro novo. Sem palpites: nenhum dos 5 jogos chega a 1.05 (melhor: Venezia–Bologna, Mais de 2.5 golos, P 0.48 × 2.17 = 1.04).",
+ "picks": [],
+ "avoid": [
+  {
+   "match": "Nottingham Forest vs Chelsea",
+   "reason": "Melhor opção: Menos de 2.5 golos no jogo, P 0.48 × 2.05 = 0.98 (< 1.05)."
+  },
+  {
+   "match": "Levante vs Racing Santander",
+   "reason": "Melhor opção: Menos de 9.5 cantos no jogo, P 0.48 × 2.03 = 0.98 (< 1.05). Menos de 3.5 golos no jogo parecia ter valor (1.20), mas o modelo (0.28) e a 1xBet (0.47) discordam mais de 0.1 (P Over): o mercado deve saber algo que o modelo não sabe."
+  },
+  {
+   "match": "Venezia vs Bologna",
+   "reason": "Melhor opção: Mais de 2.5 golos no jogo, P 0.48 × 2.17 = 1.04 (< 1.05)."
+  },
+  {
+   "match": "Werder Bremen vs Borussia Mönchengladbach",
+   "reason": "Melhor opção: Menos de 3.5 golos no jogo, P 0.59 × 1.72 = 1.02 (< 1.05)."
+  },
+  {
+   "match": "Stade Brestois 29 vs Paris FC",
+   "reason": "Melhor opção: Mais de 2.5 golos no jogo, P 0.52 × 1.96 = 1.03 (< 1.05)."
+  }
+ ]
+}

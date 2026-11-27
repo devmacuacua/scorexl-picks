@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-26",
+  "sport": "football",
+  "results": [
+    {
+      "match": "Olympiakos Piraeus vs AC Milan",
+      "competition": "Europa League",
+      "market": "goals_ft_over",
+      "selection": "Mais de 2.5 golos no jogo",
+      "line": 2.5,
+      "stake_units": 0.5,
+      "odds_ref": 1.88,
+      "confidence": "media",
+      "ruleset": "v2",
+      "status": "win",
+      "profit_units": 0.44,
+      "odds_source": "real",
+      "odds_used": 1.88,
+      "final_stat": 6,
+      "final_score": "2-4",
+      "halftime_score": "1-0"
+    },
+    {
+      "match": "Sparta Praha vs AZ Alkmaar",
+      "competition": "Europa League",
+      "market": "btts_under",
+      "selection": "Ambas marcam: Não",
+      "line": 0.5,
+      "stake_units": 0.5,
+      "odds_ref": 2.37,
+      "confidence": "media",
+      "ruleset": "v2",
+      "status": "loss",
+      "profit_units": -0.5,
+      "odds_source": "real",
+      "odds_used": 2.37,
+      "final_stat": 1,
+      "final_score": "2-4",
+      "halftime_score": "2-0"
+    },
+    {
+      "match": "Kauno Žalgiris vs Riga",
+      "competition": "Conference League",
+      "market": "goals_ft_over",
+      "selection": "Mais de 2.5 golos no jogo",
+      "line": 2.5,
+      "stake_units": 0.5,
+      "odds_ref": 1.95,
+      "confidence": "media",
+      "ruleset": "v2",
+      "status": "loss",
+      "profit_units": -0.5,
+      "odds_source": "real",
+      "odds_used": 1.95,
+      "final_stat": 2,
+      "final_score": "2-0",
+      "halftime_score": "0-0"
+    }
+  ],
+  "day": {
+    "bets": 3,
+    "wins": 1,
+    "losses": 2,
+    "pushes": 0,
+    "pending": 0,
+    "profit_units": -0.56
+  }
+}

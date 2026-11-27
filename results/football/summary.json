@@ -21,19 +21,20 @@
     "2026-11-22",
     "2026-11-23",
     "2026-11-24",
-    "2026-11-25"
+    "2026-11-25",
+    "2026-11-26"
   ],
   "totals": {
-    "bets": 18,
-    "wins": 7,
-    "losses": 11,
+    "bets": 21,
+    "wins": 8,
+    "losses": 13,
     "pushes": 0,
     "pending": 1
   },
-  "hit_rate": 0.389,
-  "staked_units": 10.0,
-  "profit_units": -3.555,
-  "roi": -0.356,
+  "hit_rate": 0.381,
+  "staked_units": 11.5,
+  "profit_units": -4.115,
+  "roi": -0.358,
   "by_ruleset": {
     "v1": {
       "bets": 17,
@@ -47,15 +48,15 @@
       "roi": -0.322
     },
     "v2": {
-      "bets": 1,
-      "wins": 0,
-      "losses": 1,
+      "bets": 4,
+      "wins": 1,
+      "losses": 3,
       "pushes": 0,
       "pending": 0,
-      "staked_units": 0.5,
-      "profit_units": -0.5,
-      "hit_rate": 0.0,
-      "roi": -1.0
+      "staked_units": 2.0,
+      "profit_units": -1.06,
+      "hit_rate": 0.25,
+      "roi": -0.53
     }
   },
   "by_confidence": {
@@ -71,18 +72,29 @@
       "roi": -0.145
     },
     "media": {
-      "bets": 16,
-      "wins": 6,
-      "losses": 10,
+      "bets": 19,
+      "wins": 7,
+      "losses": 12,
       "pushes": 0,
       "pending": 1,
-      "staked_units": 8.0,
-      "profit_units": -3.265,
-      "hit_rate": 0.375,
-      "roi": -0.408
+      "staked_units": 9.5,
+      "profit_units": -3.825,
+      "hit_rate": 0.368,
+      "roi": -0.403
     }
   },
   "by_market": {
+    "btts_under": {
+      "bets": 1,
+      "wins": 0,
+      "losses": 1,
+      "pushes": 0,
+      "pending": 0,
+      "staked_units": 0.5,
+      "profit_units": -0.5,
+      "hit_rate": 0.0,
+      "roi": -1.0
+    },
     "cards_over": {
       "bets": 5,
       "wins": 2,
@@ -115,6 +127,17 @@
       "profit_units": 0.145,
       "hit_rate": 0.667,
       "roi": 0.058
+    },
+    "goals_ft_over": {
+      "bets": 2,
+      "wins": 1,
+      "losses": 1,
+      "pushes": 0,
+      "pending": 0,
+      "staked_units": 1.0,
+      "profit_units": -0.06,
+      "hit_rate": 0.5,
+      "roi": -0.06
     },
     "goals_ft_under": {
       "bets": 1,
@@ -185,15 +208,15 @@
       "roi": -0.415
     },
     "real": {
-      "bets": 5,
-      "wins": 2,
-      "losses": 3,
+      "bets": 8,
+      "wins": 3,
+      "losses": 5,
       "pushes": 0,
       "pending": 1,
-      "staked_units": 3.5,
-      "profit_units": -0.855,
-      "hit_rate": 0.4,
-      "roi": -0.244
+      "staked_units": 5.0,
+      "profit_units": -1.415,
+      "hit_rate": 0.375,
+      "roi": -0.283
     }
   },
   "pending": [
@@ -205,27 +228,6 @@
     }
   ],
   "last_10": [
-    {
-      "date": "2026-11-20",
-      "match": "Athletic Club vs Espanyol",
-      "market": "corners_over",
-      "status": "win",
-      "profit_units": 0.435
-    },
-    {
-      "date": "2026-11-21",
-      "match": "Parma vs AS Roma",
-      "market": "corners_over",
-      "status": "win",
-      "profit_units": 0.71
-    },
-    {
-      "date": "2026-11-21",
-      "match": "Nice vs Paris Saint Germain",
-      "market": "shots_on_target_over",
-      "status": "loss",
-      "profit_units": -0.5
-    },
     {
       "date": "2026-11-22",
       "match": "Juventus vs Venezia",
@@ -272,6 +274,27 @@
       "date": "2026-11-25",
       "match": "Paris Saint Germain vs AS Roma",
       "market": "goals_ft_under",
+      "status": "loss",
+      "profit_units": -0.5
+    },
+    {
+      "date": "2026-11-26",
+      "match": "Olympiakos Piraeus vs AC Milan",
+      "market": "goals_ft_over",
+      "status": "win",
+      "profit_units": 0.44
+    },
+    {
+      "date": "2026-11-26",
+      "match": "Sparta Praha vs AZ Alkmaar",
+      "market": "btts_under",
+      "status": "loss",
+      "profit_units": -0.5
+    },
+    {
+      "date": "2026-11-26",
+      "match": "Kauno Žalgiris vs Riga",
+      "market": "goals_ft_over",
       "status": "loss",
       "profit_units": -0.5
     }
