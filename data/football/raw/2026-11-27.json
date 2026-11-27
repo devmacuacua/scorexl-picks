@@ -12,7 +12,7 @@
    "subscription": [
     {
      "meta": {
-      "current_timestamp": 1795771698,
+      "current_timestamp": 1795771752,
       "next_billing_cycle": "2026-12-21T11:53:21 UTC"
      },
      "plans": [
@@ -39,8 +39,8 @@
     }
    ],
    "rate_limit": {
-    "resets_in_seconds": 3143,
-    "remaining": 2313,
+    "resets_in_seconds": 3089,
+    "remaining": 2285,
     "requested_entity": "Fixture"
    },
    "timezone": "UTC"
@@ -57,7 +57,7 @@
    "subscription": [
     {
      "meta": {
-      "current_timestamp": 1795771699,
+      "current_timestamp": 1795771753,
       "next_billing_cycle": "2026-12-21T11:53:21 UTC"
      },
      "plans": [
@@ -84,8 +84,8 @@
     }
    ],
    "rate_limit": {
-    "resets_in_seconds": 3142,
-    "remaining": 2312,
+    "resets_in_seconds": 3088,
+    "remaining": 2284,
     "requested_entity": "Fixture"
    },
    "timezone": "UTC"
@@ -104,7 +104,7 @@
    "subscription": [
     {
      "meta": {
-      "current_timestamp": 1795771700,
+      "current_timestamp": 1795771755,
       "next_billing_cycle": "2026-12-21T11:53:21 UTC"
      },
      "plans": [
@@ -131,8 +131,8 @@
     }
    ],
    "rate_limit": {
-    "resets_in_seconds": 3141,
-    "remaining": 2310,
+    "resets_in_seconds": 3086,
+    "remaining": 2282,
     "requested_entity": "Fixture"
    },
    "timezone": "UTC"
@@ -151,7 +151,7 @@
    "subscription": [
     {
      "meta": {
-      "current_timestamp": 1795771701,
+      "current_timestamp": 1795771756,
       "next_billing_cycle": "2026-12-21T11:53:21 UTC"
      },
      "plans": [
@@ -178,8 +178,8 @@
     }
    ],
    "rate_limit": {
-    "resets_in_seconds": 3140,
-    "remaining": 2309,
+    "resets_in_seconds": 3085,
+    "remaining": 2281,
     "requested_entity": "Fixture"
    },
    "timezone": "UTC"
@@ -198,7 +198,7 @@
    "subscription": [
     {
      "meta": {
-      "current_timestamp": 1795771701,
+      "current_timestamp": 1795771758,
       "next_billing_cycle": "2026-12-21T11:53:21 UTC"
      },
      "plans": [
@@ -225,8 +225,8 @@
     }
    ],
    "rate_limit": {
-    "resets_in_seconds": 3140,
-    "remaining": 2308,
+    "resets_in_seconds": 3083,
+    "remaining": 2280,
     "requested_entity": "Fixture"
    },
    "timezone": "UTC"
@@ -245,7 +245,7 @@
    "subscription": [
     {
      "meta": {
-      "current_timestamp": 1795771702,
+      "current_timestamp": 1795771759,
       "next_billing_cycle": "2026-12-21T11:53:21 UTC"
      },
      "plans": [
@@ -272,8 +272,8 @@
     }
    ],
    "rate_limit": {
-    "resets_in_seconds": 3139,
-    "remaining": 2307,
+    "resets_in_seconds": 3082,
+    "remaining": 2279,
     "requested_entity": "Fixture"
    },
    "timezone": "UTC"
@@ -292,7 +292,7 @@
    "subscription": [
     {
      "meta": {
-      "current_timestamp": 1795771703,
+      "current_timestamp": 1795771761,
       "next_billing_cycle": "2026-12-21T11:53:21 UTC"
      },
      "plans": [
@@ -319,8 +319,8 @@
     }
    ],
    "rate_limit": {
-    "resets_in_seconds": 3138,
-    "remaining": 2306,
+    "resets_in_seconds": 3080,
+    "remaining": 2278,
     "requested_entity": "Fixture"
    },
    "timezone": "UTC"
@@ -339,7 +339,7 @@
    "subscription": [
     {
      "meta": {
-      "current_timestamp": 1795771703,
+      "current_timestamp": 1795771761,
       "next_billing_cycle": "2026-12-21T11:53:21 UTC"
      },
      "plans": [
@@ -366,8 +366,8 @@
     }
    ],
    "rate_limit": {
-    "resets_in_seconds": 3138,
-    "remaining": 2304,
+    "resets_in_seconds": 3080,
+    "remaining": 2277,
     "requested_entity": "Fixture"
    },
    "timezone": "UTC"
@@ -386,7 +386,7 @@
    "subscription": [
     {
      "meta": {
-      "current_timestamp": 1795771704,
+      "current_timestamp": 1795771763,
       "next_billing_cycle": "2026-12-21T11:53:21 UTC"
      },
      "plans": [
@@ -413,8 +413,8 @@
     }
    ],
    "rate_limit": {
-    "resets_in_seconds": 3137,
-    "remaining": 2298,
+    "resets_in_seconds": 3078,
+    "remaining": 2275,
     "requested_entity": "Fixture"
    },
    "timezone": "UTC"
@@ -433,7 +433,7 @@
    "subscription": [
     {
      "meta": {
-      "current_timestamp": 1795771705,
+      "current_timestamp": 1795771764,
       "next_billing_cycle": "2026-12-21T11:53:21 UTC"
      },
      "plans": [
@@ -460,8 +460,8 @@
     }
    ],
    "rate_limit": {
-    "resets_in_seconds": 3136,
-    "remaining": 2297,
+    "resets_in_seconds": 3077,
+    "remaining": 2273,
     "requested_entity": "Fixture"
    },
    "timezone": "UTC"
@@ -480,7 +480,7 @@
    "subscription": [
     {
      "meta": {
-      "current_timestamp": 1795771705,
+      "current_timestamp": 1795771766,
       "next_billing_cycle": "2026-12-21T11:53:21 UTC"
      },
      "plans": [
@@ -507,8 +507,8 @@
     }
    ],
    "rate_limit": {
-    "resets_in_seconds": 3136,
-    "remaining": 2296,
+    "resets_in_seconds": 3075,
+    "remaining": 2272,
     "requested_entity": "Fixture"
    },
    "timezone": "UTC"
@@ -527,7 +527,7 @@
    "subscription": [
     {
      "meta": {
-      "current_timestamp": 1795771706,
+      "current_timestamp": 1795771766,
       "next_billing_cycle": "2026-12-21T11:53:21 UTC"
      },
      "plans": [
@@ -554,8 +554,8 @@
     }
    ],
    "rate_limit": {
-    "resets_in_seconds": 3135,
-    "remaining": 2295,
+    "resets_in_seconds": 3075,
+    "remaining": 2270,
     "requested_entity": "Fixture"
    },
    "timezone": "UTC"

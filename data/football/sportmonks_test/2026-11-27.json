@@ -2815,15 +2815,20 @@
  ],
  "bookmakers_available": [],
  "markets_seen": [],
- "generated_at": "2026-11-27T09:28:26+00:00",
+ "generated_at": "2026-11-27T09:29:26+00:00",
  "source": "sportmonks.com",
- "api_calls": 17,
+ "api_calls": 22,
  "errors": [
   "fixtures/19735100 HTTP 403: {\"message\":\"You do not have access to the 'odds' include\",\"link\":\"https:\\/\\/docs.sportmonks.com\\/football\\/api\\/response-codes\\/other-exceptions\",\"code\":5002}",
+  "odds/pre-match/fixtures/19735100 HTTP 403: {\"message\":\"You do not have access to this endpoint\",\"link\":\"https:\\/\\/docs.sportmonks.com\\/football\\/api\\/response-codes\\/other-exceptions\",\"code\":5007}",
   "fixtures/19713488 HTTP 403: {\"message\":\"You do not have access to the 'odds' include\",\"link\":\"https:\\/\\/docs.sportmonks.com\\/football\\/api\\/response-codes\\/other-exceptions\",\"code\":5002}",
+  "odds/pre-match/fixtures/19713488 HTTP 403: {\"message\":\"You do not have access to this endpoint\",\"link\":\"https:\\/\\/docs.sportmonks.com\\/football\\/api\\/response-codes\\/other-exceptions\",\"code\":5007}",
   "fixtures/19715536 HTTP 403: {\"message\":\"You do not have access to the 'odds' include\",\"link\":\"https:\\/\\/docs.sportmonks.com\\/football\\/api\\/response-codes\\/other-exceptions\",\"code\":5002}",
+  "odds/pre-match/fixtures/19715536 HTTP 403: {\"message\":\"You do not have access to this endpoint\",\"link\":\"https:\\/\\/docs.sportmonks.com\\/football\\/api\\/response-codes\\/other-exceptions\",\"code\":5007}",
   "fixtures/19722085 HTTP 403: {\"message\":\"You do not have access to the 'odds' include\",\"link\":\"https:\\/\\/docs.sportmonks.com\\/football\\/api\\/response-codes\\/other-exceptions\",\"code\":5002}",
+  "odds/pre-match/fixtures/19722085 HTTP 403: {\"message\":\"You do not have access to this endpoint\",\"link\":\"https:\\/\\/docs.sportmonks.com\\/football\\/api\\/response-codes\\/other-exceptions\",\"code\":5007}",
   "fixtures/19732607 HTTP 403: {\"message\":\"You do not have access to the 'odds' include\",\"link\":\"https:\\/\\/docs.sportmonks.com\\/football\\/api\\/response-codes\\/other-exceptions\",\"code\":5002}",
+  "odds/pre-match/fixtures/19732607 HTTP 403: {\"message\":\"You do not have access to this endpoint\",\"link\":\"https:\\/\\/docs.sportmonks.com\\/football\\/api\\/response-codes\\/other-exceptions\",\"code\":5007}",
   "1xBet não veio nas odds da Sportmonks (ver bookmakers_available); o modelo exige odd real da 1xBet"
  ]
 }
