@@ -374,6 +374,14 @@ def main():
     data["errors"] = ERRORS[:50]
     os.makedirs(root, exist_ok=True)
     path = os.path.join(root, f"{d.isoformat()}.json")
+    if not data.get("fixtures") and not data.get("yesterday_results") and os.path.exists(path):
+        try:
+            prev = json.load(open(path))
+        except Exception:  # noqa: BLE001
+            prev = {}
+        if prev.get("fixtures") or prev.get("yesterday_results"):
+            # recolha vazia/falhada não apaga um ficheiro bom; o erro fica num ficheiro à parte
+            path = os.path.join(root, f"{d.isoformat()}.sportmonks_error.json")
     with open(path, "w", encoding="utf-8") as fh:
         json.dump(data, fh, ensure_ascii=False, indent=1)
     if args.debug:
