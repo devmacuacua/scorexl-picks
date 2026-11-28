@@ -14,9 +14,355 @@
     "home": false,
     "away": false
    },
-   "odds": null,
-   "odds_sharp": null,
-   "bookmakers_available": []
+   "odds": {
+    "bookmaker": "1xBet",
+    "bets": {
+     "3Way Result": [
+      {
+       "value": "Home",
+       "odd": "2.56"
+      },
+      {
+       "value": "Draw",
+       "odd": "15.00"
+      },
+      {
+       "value": "Away",
+       "odd": "1.66"
+      }
+     ],
+     "Home/Away": [
+      {
+       "value": "Home",
+       "odd": "2.43"
+      },
+      {
+       "value": "Away",
+       "odd": "1.60"
+      }
+     ],
+     "Asian Handicap": [
+      {
+       "value": "Home -1",
+       "odd": "2.42"
+      },
+      {
+       "value": "Away -1",
+       "odd": "1.49"
+      },
+      {
+       "value": "Home -2",
+       "odd": "2.60"
+      },
+      {
+       "value": "Away -2",
+       "odd": "1.40"
+      },
+      {
+       "value": "Home +1",
+       "odd": "2.22"
+      },
+      {
+       "value": "Away +1",
+       "odd": "1.62"
+      },
+      {
+       "value": "Home +2",
+       "odd": "2.12"
+      },
+      {
+       "value": "Away +2",
+       "odd": "1.73"
+      },
+      {
+       "value": "Home -1.5",
+       "odd": "2.48"
+      },
+      {
+       "value": "Away -1.5",
+       "odd": "1.45"
+      },
+      {
+       "value": "Home +3",
+       "odd": "1.99"
+      },
+      {
+       "value": "Away +3",
+       "odd": "1.87"
+      },
+      {
+       "value": "Home +1.5",
+       "odd": "2.18"
+      },
+      {
+       "value": "Away +1.5",
+       "odd": "1.67"
+      },
+      {
+       "value": "Home +2.5",
+       "odd": "2.05"
+      },
+      {
+       "value": "Away +2.5",
+       "odd": "1.80"
+      },
+      {
+       "value": "Home +4",
+       "odd": "1.87"
+      },
+      {
+       "value": "Away +4",
+       "odd": "1.99"
+      },
+      {
+       "value": "Home +3.5",
+       "odd": "1.93"
+      },
+      {
+       "value": "Away +3.5",
+       "odd": "1.93"
+      },
+      {
+       "value": "Home +4.5",
+       "odd": "1.80"
+      },
+      {
+       "value": "Away +4.5",
+       "odd": "2.05"
+      },
+      {
+       "value": "Home +5.5",
+       "odd": "1.69"
+      },
+      {
+       "value": "Away +5.5",
+       "odd": "2.15"
+      },
+      {
+       "value": "Home +6.5",
+       "odd": "1.57"
+      },
+      {
+       "value": "Away +6.5",
+       "odd": "2.25"
+      },
+      {
+       "value": "Home +7.5",
+       "odd": "1.47"
+      },
+      {
+       "value": "Away +7.5",
+       "odd": "2.39"
+      },
+      {
+       "value": "Home +5",
+       "odd": "1.74"
+      },
+      {
+       "value": "Away +5",
+       "odd": "2.10"
+      },
+      {
+       "value": "Home +6",
+       "odd": "1.62"
+      },
+      {
+       "value": "Away +6",
+       "odd": "2.22"
+      },
+      {
+       "value": "Home +7",
+       "odd": "1.50"
+      },
+      {
+       "value": "Away +7",
+       "odd": "2.34"
+      }
+     ],
+     "Over/Under": [
+      {
+       "value": "Over 214.5",
+       "odd": "1.52"
+      },
+      {
+       "value": "Under 214.5",
+       "odd": "2.27"
+      },
+      {
+       "value": "Over 215",
+       "odd": "1.55"
+      },
+      {
+       "value": "Under 215",
+       "odd": "2.24"
+      },
+      {
+       "value": "Over 215.5",
+       "odd": "1.59"
+      },
+      {
+       "value": "Under 215.5",
+       "odd": "2.19"
+      },
+      {
+       "value": "Over 216",
+       "odd": "1.62"
+      },
+      {
+       "value": "Under 216",
+       "odd": "2.17"
+      },
+      {
+       "value": "Over 216.5",
+       "odd": "1.66"
+      },
+      {
+       "value": "Under 216.5",
+       "odd": "2.12"
+      },
+      {
+       "value": "Over 217",
+       "odd": "1.69"
+      },
+      {
+       "value": "Under 217",
+       "odd": "2.10"
+      },
+      {
+       "value": "Over 217.5",
+       "odd": "1.73"
+      },
+      {
+       "value": "Under 217.5",
+       "odd": "2.08"
+      },
+      {
+       "value": "Over 218",
+       "odd": "1.78"
+      },
+      {
+       "value": "Under 218",
+       "odd": "2.05"
+      },
+      {
+       "value": "Over 218.5",
+       "odd": "1.83"
+      },
+      {
+       "value": "Under 218.5",
+       "odd": "2.02"
+      },
+      {
+       "value": "Over 219",
+       "odd": "1.87"
+      },
+      {
+       "value": "Under 219",
+       "odd": "1.99"
+      },
+      {
+       "value": "Over 219.5",
+       "odd": "1.91"
+      },
+      {
+       "value": "Under 219.5",
+       "odd": "1.95"
+      },
+      {
+       "value": "Over 220",
+       "odd": "1.93"
+      },
+      {
+       "value": "Under 220",
+       "odd": "1.93"
+      },
+      {
+       "value": "Over 220.5",
+       "odd": "1.95"
+      },
+      {
+       "value": "Under 220.5",
+       "odd": "1.89"
+      },
+      {
+       "value": "Over 221",
+       "odd": "1.99"
+      },
+      {
+       "value": "Under 221",
+       "odd": "1.83"
+      },
+      {
+       "value": "Over 221.5",
+       "odd": "2.00"
+      },
+      {
+       "value": "Under 221.5",
+       "odd": "1.79"
+      },
+      {
+       "value": "Over 222",
+       "odd": "2.02"
+      },
+      {
+       "value": "Under 222",
+       "odd": "1.74"
+      },
+      {
+       "value": "Over 222.5",
+       "odd": "2.01"
+      },
+      {
+       "value": "Under 222.5",
+       "odd": "1.67"
+      }
+     ]
+    }
+   },
+   "odds_sharp": {
+    "bookmaker": "Betfair",
+    "bets": {
+     "Home/Away": [
+      {
+       "value": "Home",
+       "odd": "2.50"
+      },
+      {
+       "value": "Away",
+       "odd": "1.53"
+      }
+     ],
+     "Asian Handicap": [
+      {
+       "value": "Home +3.5",
+       "odd": "1.90"
+      },
+      {
+       "value": "Away +3.5",
+       "odd": "1.90"
+      }
+     ],
+     "Over/Under": [
+      {
+       "value": "Over 217.5",
+       "odd": "1.90"
+      },
+      {
+       "value": "Under 217.5",
+       "odd": "1.90"
+      }
+     ]
+    }
+   },
+   "bookmakers_available": [
+    "Marathon Bet",
+    "1xBet",
+    "Betano",
+    "WilliamHill",
+    "Bet365",
+    "Betfair",
+    "BetVictor"
+   ]
   },
   {
    "id": 519815,
@@ -28,9 +374,355 @@
     "home": false,
     "away": true
    },
-   "odds": null,
-   "odds_sharp": null,
-   "bookmakers_available": []
+   "odds": {
+    "bookmaker": "1xBet",
+    "bets": {
+     "3Way Result": [
+      {
+       "value": "Home",
+       "odd": "1.49"
+      },
+      {
+       "value": "Draw",
+       "odd": "16.50"
+      },
+      {
+       "value": "Away",
+       "odd": "3.08"
+      }
+     ],
+     "Home/Away": [
+      {
+       "value": "Home",
+       "odd": "1.44"
+      },
+      {
+       "value": "Away",
+       "odd": "2.92"
+      }
+     ],
+     "Asian Handicap": [
+      {
+       "value": "Home -3",
+       "odd": "1.60"
+      },
+      {
+       "value": "Away -3",
+       "odd": "2.26"
+      },
+      {
+       "value": "Home -4",
+       "odd": "1.71"
+      },
+      {
+       "value": "Away -4",
+       "odd": "2.15"
+      },
+      {
+       "value": "Home -2.5",
+       "odd": "1.54"
+      },
+      {
+       "value": "Away -2.5",
+       "odd": "2.30"
+      },
+      {
+       "value": "Home -3.5",
+       "odd": "1.65"
+      },
+      {
+       "value": "Away -3.5",
+       "odd": "2.21"
+      },
+      {
+       "value": "Home -5",
+       "odd": "1.84"
+      },
+      {
+       "value": "Away -5",
+       "odd": "2.02"
+      },
+      {
+       "value": "Home -6",
+       "odd": "1.95"
+      },
+      {
+       "value": "Away -6",
+       "odd": "1.91"
+      },
+      {
+       "value": "Home -4.5",
+       "odd": "1.78"
+      },
+      {
+       "value": "Away -4.5",
+       "odd": "2.08"
+      },
+      {
+       "value": "Home -5.5",
+       "odd": "1.90"
+      },
+      {
+       "value": "Away -5.5",
+       "odd": "1.96"
+      },
+      {
+       "value": "Home -6.5",
+       "odd": "2.01"
+      },
+      {
+       "value": "Away -6.5",
+       "odd": "1.84"
+      },
+      {
+       "value": "Home -10.5",
+       "odd": "2.50"
+      },
+      {
+       "value": "Away -10.5",
+       "odd": "1.43"
+      },
+      {
+       "value": "Home -10",
+       "odd": "2.45"
+      },
+      {
+       "value": "Away -10",
+       "odd": "1.46"
+      },
+      {
+       "value": "Home -9.5",
+       "odd": "2.35"
+      },
+      {
+       "value": "Away -9.5",
+       "odd": "1.51"
+      },
+      {
+       "value": "Home -9",
+       "odd": "2.32"
+      },
+      {
+       "value": "Away -9",
+       "odd": "1.54"
+      },
+      {
+       "value": "Home -8.5",
+       "odd": "2.22"
+      },
+      {
+       "value": "Away -8.5",
+       "odd": "1.60"
+      },
+      {
+       "value": "Home -8",
+       "odd": "2.17"
+      },
+      {
+       "value": "Away -8",
+       "odd": "1.64"
+      },
+      {
+       "value": "Home -7.5",
+       "odd": "2.11"
+      },
+      {
+       "value": "Away -7.5",
+       "odd": "1.71"
+      },
+      {
+       "value": "Home -7",
+       "odd": "2.06"
+      },
+      {
+       "value": "Away -7",
+       "odd": "1.78"
+      }
+     ],
+     "Over/Under": [
+      {
+       "value": "Over 213.5",
+       "odd": "1.93"
+      },
+      {
+       "value": "Under 213.5",
+       "odd": "1.93"
+      },
+      {
+       "value": "Over 214",
+       "odd": "1.96"
+      },
+      {
+       "value": "Under 214",
+       "odd": "1.90"
+      },
+      {
+       "value": "Over 214.5",
+       "odd": "1.99"
+      },
+      {
+       "value": "Under 214.5",
+       "odd": "1.85"
+      },
+      {
+       "value": "Over 215",
+       "odd": "2.01"
+      },
+      {
+       "value": "Under 215",
+       "odd": "1.81"
+      },
+      {
+       "value": "Over 215.5",
+       "odd": "2.03"
+      },
+      {
+       "value": "Under 215.5",
+       "odd": "1.77"
+      },
+      {
+       "value": "Over 216",
+       "odd": "2.05"
+      },
+      {
+       "value": "Under 216",
+       "odd": "1.72"
+      },
+      {
+       "value": "Over 216.5",
+       "odd": "2.07"
+      },
+      {
+       "value": "Under 216.5",
+       "odd": "1.66"
+      },
+      {
+       "value": "Over 217",
+       "odd": "2.10"
+      },
+      {
+       "value": "Under 217",
+       "odd": "1.62"
+      },
+      {
+       "value": "Over 217.5",
+       "odd": "2.13"
+      },
+      {
+       "value": "Under 217.5",
+       "odd": "1.59"
+      },
+      {
+       "value": "Over 210.5",
+       "odd": "1.66"
+      },
+      {
+       "value": "Under 210.5",
+       "odd": "2.09"
+      },
+      {
+       "value": "Over 211",
+       "odd": "1.71"
+      },
+      {
+       "value": "Under 211",
+       "odd": "2.07"
+      },
+      {
+       "value": "Over 211.5",
+       "odd": "1.75"
+      },
+      {
+       "value": "Under 211.5",
+       "odd": "2.05"
+      },
+      {
+       "value": "Over 212",
+       "odd": "1.80"
+      },
+      {
+       "value": "Under 212",
+       "odd": "2.02"
+      },
+      {
+       "value": "Over 212.5",
+       "odd": "1.84"
+      },
+      {
+       "value": "Under 212.5",
+       "odd": "2.00"
+      },
+      {
+       "value": "Over 213",
+       "odd": "1.90"
+      },
+      {
+       "value": "Under 213",
+       "odd": "1.96"
+      },
+      {
+       "value": "Over 209.5",
+       "odd": "1.59"
+      },
+      {
+       "value": "Under 209.5",
+       "odd": "2.13"
+      },
+      {
+       "value": "Over 210",
+       "odd": "1.62"
+      },
+      {
+       "value": "Under 210",
+       "odd": "2.11"
+      }
+     ]
+    }
+   },
+   "odds_sharp": {
+    "bookmaker": "Betfair",
+    "bets": {
+     "Home/Away": [
+      {
+       "value": "Home",
+       "odd": "1.40"
+      },
+      {
+       "value": "Away",
+       "odd": "2.88"
+      }
+     ],
+     "Asian Handicap": [
+      {
+       "value": "Home -5.5",
+       "odd": "1.90"
+      },
+      {
+       "value": "Away -5.5",
+       "odd": "1.90"
+      }
+     ],
+     "Over/Under": [
+      {
+       "value": "Over 213.5",
+       "odd": "1.90"
+      },
+      {
+       "value": "Under 213.5",
+       "odd": "1.90"
+      }
+     ]
+    }
+   },
+   "bookmakers_available": [
+    "Marathon Bet",
+    "1xBet",
+    "Betano",
+    "WilliamHill",
+    "Bet365",
+    "Betfair",
+    "BetVictor"
+   ]
   },
   {
    "id": 519816,
@@ -56,9 +748,355 @@
     "home": true,
     "away": false
    },
-   "odds": null,
-   "odds_sharp": null,
-   "bookmakers_available": []
+   "odds": {
+    "bookmaker": "1xBet",
+    "bets": {
+     "3Way Result": [
+      {
+       "value": "Home",
+       "odd": "5.76"
+      },
+      {
+       "value": "Draw",
+       "odd": "19.50"
+      },
+      {
+       "value": "Away",
+       "odd": "1.20"
+      }
+     ],
+     "Home/Away": [
+      {
+       "value": "Home",
+       "odd": "5.13"
+      },
+      {
+       "value": "Away",
+       "odd": "1.19"
+      }
+     ],
+     "Asian Handicap": [
+      {
+       "value": "Home +7.5",
+       "odd": "2.39"
+      },
+      {
+       "value": "Away +7.5",
+       "odd": "1.47"
+      },
+      {
+       "value": "Home +10.5",
+       "odd": "2.05"
+      },
+      {
+       "value": "Away +10.5",
+       "odd": "1.80"
+      },
+      {
+       "value": "Home +8",
+       "odd": "2.32"
+      },
+      {
+       "value": "Away +8",
+       "odd": "1.51"
+      },
+      {
+       "value": "Home +8.5",
+       "odd": "2.25"
+      },
+      {
+       "value": "Away +8.5",
+       "odd": "1.57"
+      },
+      {
+       "value": "Home +9",
+       "odd": "2.22"
+      },
+      {
+       "value": "Away +9",
+       "odd": "1.62"
+      },
+      {
+       "value": "Home +9.5",
+       "odd": "2.15"
+      },
+      {
+       "value": "Away +9.5",
+       "odd": "1.69"
+      },
+      {
+       "value": "Home +10",
+       "odd": "2.10"
+      },
+      {
+       "value": "Away +10",
+       "odd": "1.74"
+      },
+      {
+       "value": "Home +11",
+       "odd": "1.99"
+      },
+      {
+       "value": "Away +11",
+       "odd": "1.87"
+      },
+      {
+       "value": "Home +11.5",
+       "odd": "1.93"
+      },
+      {
+       "value": "Away +11.5",
+       "odd": "1.93"
+      },
+      {
+       "value": "Home +12",
+       "odd": "1.87"
+      },
+      {
+       "value": "Away +12",
+       "odd": "1.99"
+      },
+      {
+       "value": "Home +12.5",
+       "odd": "1.80"
+      },
+      {
+       "value": "Away +12.5",
+       "odd": "2.05"
+      },
+      {
+       "value": "Home +13",
+       "odd": "1.74"
+      },
+      {
+       "value": "Away +13",
+       "odd": "2.10"
+      },
+      {
+       "value": "Home +13.5",
+       "odd": "1.69"
+      },
+      {
+       "value": "Away +13.5",
+       "odd": "2.15"
+      },
+      {
+       "value": "Home +14",
+       "odd": "1.62"
+      },
+      {
+       "value": "Away +14",
+       "odd": "2.22"
+      },
+      {
+       "value": "Home +14.5",
+       "odd": "1.57"
+      },
+      {
+       "value": "Away +14.5",
+       "odd": "2.25"
+      },
+      {
+       "value": "Home +15",
+       "odd": "1.51"
+      },
+      {
+       "value": "Away +15",
+       "odd": "2.32"
+      },
+      {
+       "value": "Home +15.5",
+       "odd": "1.47"
+      },
+      {
+       "value": "Away +15.5",
+       "odd": "2.39"
+      }
+     ],
+     "Over/Under": [
+      {
+       "value": "Over 223.5",
+       "odd": "1.59"
+      },
+      {
+       "value": "Under 223.5",
+       "odd": "2.13"
+      },
+      {
+       "value": "Over 224",
+       "odd": "1.62"
+      },
+      {
+       "value": "Under 224",
+       "odd": "2.11"
+      },
+      {
+       "value": "Over 224.5",
+       "odd": "1.66"
+      },
+      {
+       "value": "Under 224.5",
+       "odd": "2.09"
+      },
+      {
+       "value": "Over 225",
+       "odd": "1.71"
+      },
+      {
+       "value": "Under 225",
+       "odd": "2.07"
+      },
+      {
+       "value": "Over 225.5",
+       "odd": "1.75"
+      },
+      {
+       "value": "Under 225.5",
+       "odd": "2.05"
+      },
+      {
+       "value": "Over 226",
+       "odd": "1.80"
+      },
+      {
+       "value": "Under 226",
+       "odd": "2.02"
+      },
+      {
+       "value": "Over 226.5",
+       "odd": "1.84"
+      },
+      {
+       "value": "Under 226.5",
+       "odd": "2.00"
+      },
+      {
+       "value": "Over 227",
+       "odd": "1.89"
+      },
+      {
+       "value": "Under 227",
+       "odd": "1.97"
+      },
+      {
+       "value": "Over 227.5",
+       "odd": "1.93"
+      },
+      {
+       "value": "Under 227.5",
+       "odd": "1.93"
+      },
+      {
+       "value": "Over 228",
+       "odd": "1.95"
+      },
+      {
+       "value": "Under 228",
+       "odd": "1.91"
+      },
+      {
+       "value": "Over 228.5",
+       "odd": "1.98"
+      },
+      {
+       "value": "Under 228.5",
+       "odd": "1.86"
+      },
+      {
+       "value": "Over 229",
+       "odd": "2.01"
+      },
+      {
+       "value": "Under 229",
+       "odd": "1.81"
+      },
+      {
+       "value": "Over 229.5",
+       "odd": "2.03"
+      },
+      {
+       "value": "Under 229.5",
+       "odd": "1.77"
+      },
+      {
+       "value": "Over 230",
+       "odd": "2.05"
+      },
+      {
+       "value": "Under 230",
+       "odd": "1.72"
+      },
+      {
+       "value": "Over 230.5",
+       "odd": "2.06"
+      },
+      {
+       "value": "Under 230.5",
+       "odd": "1.67"
+      },
+      {
+       "value": "Over 231",
+       "odd": "2.09"
+      },
+      {
+       "value": "Under 231",
+       "odd": "1.63"
+      },
+      {
+       "value": "Over 231.5",
+       "odd": "2.11"
+      },
+      {
+       "value": "Under 231.5",
+       "odd": "1.60"
+      }
+     ]
+    }
+   },
+   "odds_sharp": {
+    "bookmaker": "Betfair",
+    "bets": {
+     "Home/Away": [
+      {
+       "value": "Home",
+       "odd": "4.50"
+      },
+      {
+       "value": "Away",
+       "odd": "1.20"
+      }
+     ],
+     "Asian Handicap": [
+      {
+       "value": "Home +11.5",
+       "odd": "1.90"
+      },
+      {
+       "value": "Away +11.5",
+       "odd": "1.90"
+      }
+     ],
+     "Over/Under": [
+      {
+       "value": "Over 228.5",
+       "odd": "1.90"
+      },
+      {
+       "value": "Under 228.5",
+       "odd": "1.90"
+      }
+     ]
+    }
+   },
+   "bookmakers_available": [
+    "Marathon Bet",
+    "1xBet",
+    "Betano",
+    "WilliamHill",
+    "Bet365",
+    "Betfair",
+    "BetVictor"
+   ]
   },
   {
    "id": 519818,
@@ -80,25 +1118,25 @@
    "id": 519803,
    "home": "New York Knicks",
    "away": "Miami Heat",
-   "status": "NS",
-   "score_home": null,
-   "score_away": null,
+   "status": "FT",
+   "score_home": 105,
+   "score_away": 108,
    "quarters": {
     "q1": [
-     null,
-     null
+     21,
+     31
     ],
     "q2": [
-     null,
-     null
+     23,
+     29
     ],
     "q3": [
-     null,
-     null
+     35,
+     26
     ],
     "q4": [
-     null,
-     null
+     26,
+     22
     ],
     "ot": [
      null,
@@ -110,25 +1148,25 @@
    "id": 519804,
    "home": "Toronto Raptors",
    "away": "Brooklyn Nets",
-   "status": "NS",
-   "score_home": null,
-   "score_away": null,
+   "status": "FT",
+   "score_home": 124,
+   "score_away": 100,
    "quarters": {
     "q1": [
-     null,
-     null
+     31,
+     27
     ],
     "q2": [
-     null,
-     null
+     32,
+     28
     ],
     "q3": [
-     null,
-     null
+     39,
+     24
     ],
     "q4": [
-     null,
-     null
+     22,
+     21
     ],
     "ot": [
      null,
@@ -140,25 +1178,25 @@
    "id": 519805,
    "home": "Indiana Pacers",
    "away": "Philadelphia 76ers",
-   "status": "NS",
-   "score_home": null,
-   "score_away": null,
+   "status": "FT",
+   "score_home": 87,
+   "score_away": 111,
    "quarters": {
     "q1": [
-     null,
-     null
+     22,
+     30
     ],
     "q2": [
-     null,
-     null
+     22,
+     25
     ],
     "q3": [
-     null,
-     null
+     14,
+     30
     ],
     "q4": [
-     null,
-     null
+     29,
+     26
     ],
     "ot": [
      null,
@@ -170,25 +1208,25 @@
    "id": 519806,
    "home": "Detroit Pistons",
    "away": "Milwaukee Bucks",
-   "status": "NS",
-   "score_home": null,
-   "score_away": null,
+   "status": "FT",
+   "score_home": 113,
+   "score_away": 98,
    "quarters": {
     "q1": [
-     null,
-     null
+     24,
+     29
     ],
     "q2": [
-     null,
-     null
+     24,
+     21
     ],
     "q3": [
-     null,
-     null
+     42,
+     26
     ],
     "q4": [
-     null,
-     null
+     23,
+     22
     ],
     "ot": [
      null,
@@ -200,25 +1238,25 @@
    "id": 519807,
    "home": "Boston Celtics",
    "away": "Atlanta Hawks",
-   "status": "NS",
-   "score_home": null,
-   "score_away": null,
+   "status": "FT",
+   "score_home": 86,
+   "score_away": 87,
    "quarters": {
     "q1": [
-     null,
-     null
+     29,
+     14
     ],
     "q2": [
-     null,
-     null
+     22,
+     25
     ],
     "q3": [
-     null,
-     null
+     18,
+     31
     ],
     "q4": [
-     null,
-     null
+     17,
+     17
     ],
     "ot": [
      null,
@@ -230,25 +1268,25 @@
    "id": 519808,
    "home": "Minnesota Timberwolves",
    "away": "Memphis Grizzlies",
-   "status": "NS",
-   "score_home": null,
-   "score_away": null,
+   "status": "FT",
+   "score_home": 109,
+   "score_away": 114,
    "quarters": {
     "q1": [
-     null,
-     null
+     25,
+     32
     ],
     "q2": [
-     null,
-     null
+     25,
+     29
     ],
     "q3": [
-     null,
-     null
+     31,
+     21
     ],
     "q4": [
-     null,
-     null
+     28,
+     32
     ],
     "ot": [
      null,
@@ -260,25 +1298,25 @@
    "id": 519809,
    "home": "Phoenix Suns",
    "away": "Dallas Mavericks",
-   "status": "NS",
-   "score_home": null,
-   "score_away": null,
+   "status": "Q4",
+   "score_home": 98,
+   "score_away": 83,
    "quarters": {
     "q1": [
-     null,
-     null
+     29,
+     28
     ],
     "q2": [
-     null,
-     null
+     34,
+     25
     ],
     "q3": [
-     null,
-     null
+     32,
+     25
     ],
     "q4": [
-     null,
-     null
+     3,
+     5
     ],
     "ot": [
      null,
@@ -290,21 +1328,21 @@
    "id": 519810,
    "home": "Los Angeles Clippers",
    "away": "New Orleans Pelicans",
-   "status": "NS",
-   "score_home": null,
-   "score_away": null,
+   "status": "Q3",
+   "score_home": 59,
+   "score_away": 64,
    "quarters": {
     "q1": [
-     null,
-     null
+     28,
+     29
     ],
     "q2": [
-     null,
-     null
+     22,
+     25
     ],
     "q3": [
-     null,
-     null
+     9,
+     10
     ],
     "q4": [
      null,
@@ -320,21 +1358,21 @@
    "id": 519811,
    "home": "Portland Trail Blazers",
    "away": "Golden State Warriors",
-   "status": "NS",
-   "score_home": null,
-   "score_away": null,
+   "status": "Q3",
+   "score_home": 69,
+   "score_away": 44,
    "quarters": {
     "q1": [
-     null,
-     null
+     37,
+     11
     ],
     "q2": [
-     null,
-     null
+     30,
+     33
     ],
     "q3": [
-     null,
-     null
+     2,
+     0
     ],
     "q4": [
      null,
@@ -350,21 +1388,21 @@
    "id": 519812,
    "home": "San Antonio Spurs",
    "away": "Los Angeles Lakers",
-   "status": "NS",
-   "score_home": null,
-   "score_away": null,
+   "status": "Q3",
+   "score_home": 45,
+   "score_away": 59,
    "quarters": {
     "q1": [
-     null,
-     null
+     14,
+     27
     ],
     "q2": [
-     null,
-     null
+     24,
+     27
     ],
     "q3": [
-     null,
-     null
+     7,
+     5
     ],
     "q4": [
      null,
@@ -380,21 +1418,21 @@
    "id": 519813,
    "home": "Utah Jazz",
    "away": "Denver Nuggets",
-   "status": "NS",
-   "score_home": null,
-   "score_away": null,
+   "status": "Q3",
+   "score_home": 72,
+   "score_away": 70,
    "quarters": {
     "q1": [
-     null,
-     null
+     22,
+     27
     ],
     "q2": [
-     null,
-     null
+     31,
+     25
     ],
     "q3": [
-     null,
-     null
+     19,
+     18
     ],
     "q4": [
      null,
@@ -1313,46 +2351,46 @@
   "Atlanta Hawks": {
    "games": 17,
    "season": {
-    "q1_for": 26.88,
-    "q1_against": 31.12,
-    "q2_for": 32.41,
-    "q2_against": 27.12
+    "q1_for": 26.06,
+    "q1_against": 30.88,
+    "q2_for": 31.29,
+    "q2_against": 26.71
    },
    "last_10": {
-    "q1_for": 27.6,
+    "q1_for": 25.3,
     "q1_against": 31.7,
-    "q2_for": 32.8,
-    "q2_against": 27.0
+    "q2_for": 32.2,
+    "q2_against": 26.5
    }
   },
   "Boston Celtics": {
    "games": 18,
    "season": {
-    "q1_for": 29.56,
-    "q1_against": 24.33,
-    "q2_for": 29.56,
-    "q2_against": 24.11
+    "q1_for": 29.61,
+    "q1_against": 23.61,
+    "q2_for": 29.11,
+    "q2_against": 24.5
    },
    "last_10": {
-    "q1_for": 29.4,
-    "q1_against": 24.1,
-    "q2_for": 29.5,
-    "q2_against": 22.5
+    "q1_for": 28.3,
+    "q1_against": 23.5,
+    "q2_for": 28.7,
+    "q2_against": 23.1
    }
   },
   "Brooklyn Nets": {
    "games": 17,
    "season": {
-    "q1_for": 26.65,
-    "q1_against": 29.24,
-    "q2_for": 28.71,
-    "q2_against": 32.71
+    "q1_for": 26.88,
+    "q1_against": 29.47,
+    "q2_for": 28.88,
+    "q2_against": 33.0
    },
    "last_10": {
-    "q1_for": 27.4,
-    "q1_against": 31.8,
-    "q2_for": 31.2,
-    "q2_against": 34.5
+    "q1_for": 28.0,
+    "q1_against": 32.5,
+    "q2_for": 31.1,
+    "q2_against": 34.4
    }
   },
   "Charlotte Hornets": {
@@ -1433,16 +2471,16 @@
   "Detroit Pistons": {
    "games": 17,
    "season": {
-    "q1_for": 27.59,
-    "q1_against": 28.47,
-    "q2_for": 27.29,
-    "q2_against": 25.59
+    "q1_for": 27.41,
+    "q1_against": 28.53,
+    "q2_for": 27.65,
+    "q2_against": 25.06
    },
    "last_10": {
-    "q1_for": 26.0,
+    "q1_for": 26.3,
     "q1_against": 30.9,
-    "q2_for": 29.2,
-    "q2_against": 25.0
+    "q2_for": 29.5,
+    "q2_against": 24.4
    }
   },
   "Golden State Warriors": {
@@ -1478,16 +2516,16 @@
   "Indiana Pacers": {
    "games": 18,
    "season": {
-    "q1_for": 28.44,
-    "q1_against": 29.22,
-    "q2_for": 25.94,
-    "q2_against": 29.06
+    "q1_for": 27.56,
+    "q1_against": 29.17,
+    "q2_for": 26.17,
+    "q2_against": 28.5
    },
    "last_10": {
-    "q1_for": 27.9,
-    "q1_against": 27.6,
+    "q1_for": 26.9,
+    "q1_against": 28.2,
     "q2_for": 26.6,
-    "q2_against": 28.3
+    "q2_against": 28.0
    }
   },
   "Los Angeles Clippers": {
@@ -1523,61 +2561,61 @@
   "Memphis Grizzlies": {
    "games": 19,
    "season": {
-    "q1_for": 29.42,
-    "q1_against": 28.63,
-    "q2_for": 30.11,
-    "q2_against": 28.84
+    "q1_for": 29.58,
+    "q1_against": 28.32,
+    "q2_for": 29.79,
+    "q2_against": 29.11
    },
    "last_10": {
-    "q1_for": 31.0,
-    "q1_against": 28.3,
-    "q2_for": 28.5,
-    "q2_against": 29.4
+    "q1_for": 31.7,
+    "q1_against": 28.2,
+    "q2_for": 28.0,
+    "q2_against": 29.2
    }
   },
   "Miami Heat": {
    "games": 17,
    "season": {
-    "q1_for": 31.65,
-    "q1_against": 29.12,
-    "q2_for": 29.88,
-    "q2_against": 30.24
+    "q1_for": 31.59,
+    "q1_against": 28.35,
+    "q2_for": 30.0,
+    "q2_against": 29.53
    },
    "last_10": {
-    "q1_for": 32.2,
-    "q1_against": 26.2,
-    "q2_for": 29.3,
-    "q2_against": 29.8
+    "q1_for": 32.0,
+    "q1_against": 25.9,
+    "q2_for": 30.3,
+    "q2_against": 27.8
    }
   },
   "Milwaukee Bucks": {
    "games": 19,
    "season": {
-    "q1_for": 24.84,
-    "q1_against": 26.21,
-    "q2_for": 24.47,
-    "q2_against": 32.16
+    "q1_for": 25.16,
+    "q1_against": 26.16,
+    "q2_for": 23.84,
+    "q2_against": 32.05
    },
    "last_10": {
-    "q1_for": 25.4,
-    "q1_against": 26.5,
-    "q2_for": 22.6,
-    "q2_against": 31.7
+    "q1_for": 25.6,
+    "q1_against": 26.4,
+    "q2_for": 22.9,
+    "q2_against": 30.8
    }
   },
   "Minnesota Timberwolves": {
    "games": 19,
    "season": {
-    "q1_for": 28.95,
+    "q1_for": 28.47,
     "q1_against": 26.16,
-    "q2_for": 28.16,
-    "q2_against": 27.58
+    "q2_for": 27.63,
+    "q2_against": 27.68
    },
    "last_10": {
-    "q1_for": 28.0,
-    "q1_against": 26.4,
-    "q2_for": 28.1,
-    "q2_against": 27.2
+    "q1_for": 27.8,
+    "q1_against": 26.6,
+    "q2_for": 27.6,
+    "q2_against": 28.0
    }
   },
   "New Orleans Pelicans": {
@@ -1598,16 +2636,16 @@
   "New York Knicks": {
    "games": 18,
    "season": {
-    "q1_for": 27.78,
-    "q1_against": 26.33,
-    "q2_for": 28.39,
-    "q2_against": 24.5
+    "q1_for": 27.56,
+    "q1_against": 26.78,
+    "q2_for": 27.83,
+    "q2_against": 24.39
    },
    "last_10": {
-    "q1_for": 27.0,
-    "q1_against": 26.2,
-    "q2_for": 29.6,
-    "q2_against": 24.0
+    "q1_for": 26.5,
+    "q1_against": 26.6,
+    "q2_for": 28.2,
+    "q2_against": 24.3
    }
   },
   "Oklahoma City Thunder": {
@@ -1643,16 +2681,16 @@
   "Philadelphia 76ers": {
    "games": 19,
    "season": {
-    "q1_for": 27.32,
-    "q1_against": 29.89,
-    "q2_for": 31.79,
-    "q2_against": 28.26
+    "q1_for": 27.68,
+    "q1_against": 29.74,
+    "q2_for": 31.47,
+    "q2_against": 27.68
    },
    "last_10": {
-    "q1_for": 28.2,
-    "q1_against": 32.2,
-    "q2_for": 34.2,
-    "q2_against": 28.9
+    "q1_for": 29.0,
+    "q1_against": 31.1,
+    "q2_for": 33.5,
+    "q2_against": 28.2
    }
   },
   "Phoenix Suns": {
@@ -1718,16 +2756,16 @@
   "Toronto Raptors": {
    "games": 17,
    "season": {
-    "q1_for": 28.29,
-    "q1_against": 27.47,
-    "q2_for": 27.29,
-    "q2_against": 27.88
+    "q1_for": 27.59,
+    "q1_against": 27.71,
+    "q2_for": 27.65,
+    "q2_against": 28.29
    },
    "last_10": {
-    "q1_for": 27.9,
-    "q1_against": 26.6,
+    "q1_for": 27.5,
+    "q1_against": 26.0,
     "q2_for": 26.0,
-    "q2_against": 27.8
+    "q2_against": 27.5
    }
   },
   "Utah Jazz": {
@@ -1761,7 +2799,7 @@
    }
   }
  },
- "generated_at": "2026-11-27T22:42:45+00:00",
+ "generated_at": "2026-11-28T04:00:03+00:00",
  "source": "api-sports.io",
  "api_calls": 9,
  "errors": []
