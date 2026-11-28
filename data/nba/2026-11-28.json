@@ -1299,8 +1299,8 @@
    "home": "Phoenix Suns",
    "away": "Dallas Mavericks",
    "status": "Q4",
-   "score_home": 98,
-   "score_away": 83,
+   "score_home": 102,
+   "score_away": 94,
    "quarters": {
     "q1": [
      29,
@@ -1315,8 +1315,8 @@
      25
     ],
     "q4": [
-     3,
-     5
+     7,
+     16
     ],
     "ot": [
      null,
@@ -1329,8 +1329,8 @@
    "home": "Los Angeles Clippers",
    "away": "New Orleans Pelicans",
    "status": "Q3",
-   "score_home": 59,
-   "score_away": 64,
+   "score_home": 74,
+   "score_away": 76,
    "quarters": {
     "q1": [
      28,
@@ -1341,8 +1341,8 @@
      25
     ],
     "q3": [
-     9,
-     10
+     24,
+     22
     ],
     "q4": [
      null,
@@ -1359,8 +1359,8 @@
    "home": "Portland Trail Blazers",
    "away": "Golden State Warriors",
    "status": "Q3",
-   "score_home": 69,
-   "score_away": 44,
+   "score_home": 84,
+   "score_away": 66,
    "quarters": {
     "q1": [
      37,
@@ -1371,8 +1371,8 @@
      33
     ],
     "q3": [
-     2,
-     0
+     17,
+     22
     ],
     "q4": [
      null,
@@ -1389,8 +1389,8 @@
    "home": "San Antonio Spurs",
    "away": "Los Angeles Lakers",
    "status": "Q3",
-   "score_home": 45,
-   "score_away": 59,
+   "score_home": 59,
+   "score_away": 66,
    "quarters": {
     "q1": [
      14,
@@ -1401,8 +1401,8 @@
      27
     ],
     "q3": [
-     7,
-     5
+     21,
+     12
     ],
     "q4": [
      null,
@@ -1418,9 +1418,9 @@
    "id": 519813,
    "home": "Utah Jazz",
    "away": "Denver Nuggets",
-   "status": "Q3",
-   "score_home": 72,
-   "score_away": 70,
+   "status": "BT",
+   "score_home": 85,
+   "score_away": 85,
    "quarters": {
     "q1": [
      22,
@@ -1431,12 +1431,12 @@
      25
     ],
     "q3": [
-     19,
-     18
+     32,
+     33
     ],
     "q4": [
-     null,
-     null
+     0,
+     0
     ],
     "ot": [
      null,
@@ -1600,60 +1600,60 @@
    "team": "Philadelphia 76ers",
    "group": "Eastern Conference",
    "position": 1,
-   "won": 15,
+   "won": 16,
    "lost": 4,
-   "points_for": 2186,
-   "points_against": 2146,
-   "form": null
-  },
-  {
-   "team": "Boston Celtics",
-   "group": "Eastern Conference",
-   "position": 2,
-   "won": 12,
-   "lost": 6,
-   "points_for": 2022,
-   "points_against": 1852,
-   "form": null
-  },
-  {
-   "team": "New York Knicks",
-   "group": "Eastern Conference",
-   "position": 3,
-   "won": 12,
-   "lost": 6,
-   "points_for": 1973,
-   "points_against": 1857,
+   "points_for": 2297,
+   "points_against": 2233,
    "form": null
   },
   {
    "team": "Detroit Pistons",
    "group": "Eastern Conference",
-   "position": 4,
-   "won": 11,
+   "position": 2,
+   "won": 12,
    "lost": 6,
-   "points_for": 1918,
-   "points_against": 1823,
+   "points_for": 2031,
+   "points_against": 1921,
    "form": null
   },
   {
    "team": "Atlanta Hawks",
    "group": "Eastern Conference",
-   "position": 5,
-   "won": 11,
+   "position": 3,
+   "won": 12,
    "lost": 6,
-   "points_for": 1984,
-   "points_against": 1931,
+   "points_for": 2071,
+   "points_against": 2017,
+   "form": null
+  },
+  {
+   "team": "Boston Celtics",
+   "group": "Eastern Conference",
+   "position": 4,
+   "won": 12,
+   "lost": 7,
+   "points_for": 2108,
+   "points_against": 1939,
+   "form": null
+  },
+  {
+   "team": "New York Knicks",
+   "group": "Eastern Conference",
+   "position": 5,
+   "won": 12,
+   "lost": 7,
+   "points_for": 2078,
+   "points_against": 1965,
    "form": null
   },
   {
    "team": "Miami Heat",
    "group": "Eastern Conference",
    "position": 6,
-   "won": 10,
+   "won": 11,
    "lost": 7,
-   "points_for": 2035,
-   "points_against": 2022,
+   "points_for": 2143,
+   "points_against": 2127,
    "form": null
   },
   {
@@ -1677,9 +1677,19 @@
    "form": null
   },
   {
-   "team": "Washington Wizards",
+   "team": "Toronto Raptors",
    "group": "Eastern Conference",
    "position": 9,
+   "won": 7,
+   "lost": 11,
+   "points_for": 2020,
+   "points_against": 1998,
+   "form": null
+  },
+  {
+   "team": "Washington Wizards",
+   "group": "Eastern Conference",
+   "position": 10,
    "won": 7,
    "lost": 12,
    "points_for": 2102,
@@ -1687,29 +1697,9 @@
    "form": null
   },
   {
-   "team": "Toronto Raptors",
-   "group": "Eastern Conference",
-   "position": 10,
-   "won": 6,
-   "lost": 11,
-   "points_for": 1896,
-   "points_against": 1898,
-   "form": null
-  },
-  {
-   "team": "Indiana Pacers",
-   "group": "Eastern Conference",
-   "position": 11,
-   "won": 6,
-   "lost": 12,
-   "points_for": 2023,
-   "points_against": 2083,
-   "form": null
-  },
-  {
    "team": "Chicago Bulls",
    "group": "Eastern Conference",
-   "position": 12,
+   "position": 11,
    "won": 6,
    "lost": 12,
    "points_for": 2095,
@@ -1717,19 +1707,19 @@
    "form": null
   },
   {
-   "team": "Brooklyn Nets",
+   "team": "Indiana Pacers",
    "group": "Eastern Conference",
-   "position": 13,
-   "won": 4,
+   "position": 12,
+   "won": 6,
    "lost": 13,
-   "points_for": 1883,
-   "points_against": 2021,
+   "points_for": 2110,
+   "points_against": 2194,
    "form": null
   },
   {
    "team": "Charlotte Hornets",
    "group": "Eastern Conference",
-   "position": 14,
+   "position": 13,
    "won": 4,
    "lost": 13,
    "points_for": 1715,
@@ -1737,23 +1727,33 @@
    "form": null
   },
   {
+   "team": "Brooklyn Nets",
+   "group": "Eastern Conference",
+   "position": 14,
+   "won": 4,
+   "lost": 14,
+   "points_for": 1983,
+   "points_against": 2145,
+   "form": null
+  },
+  {
    "team": "Milwaukee Bucks",
    "group": "Eastern Conference",
    "position": 15,
    "won": 2,
-   "lost": 17,
-   "points_for": 2072,
-   "points_against": 2284,
+   "lost": 18,
+   "points_for": 2170,
+   "points_against": 2397,
    "form": null
   },
   {
    "team": "Philadelphia 76ers",
    "group": "Atlantic Division",
    "position": 1,
-   "won": 15,
+   "won": 16,
    "lost": 4,
-   "points_for": 2186,
-   "points_against": 2146,
+   "points_for": 2297,
+   "points_against": 2233,
    "form": null
   },
   {
@@ -1761,9 +1761,9 @@
    "group": "Atlantic Division",
    "position": 2,
    "won": 12,
-   "lost": 6,
-   "points_for": 2022,
-   "points_against": 1852,
+   "lost": 7,
+   "points_for": 2108,
+   "points_against": 1939,
    "form": null
   },
   {
@@ -1771,19 +1771,19 @@
    "group": "Atlantic Division",
    "position": 3,
    "won": 12,
-   "lost": 6,
-   "points_for": 1973,
-   "points_against": 1857,
+   "lost": 7,
+   "points_for": 2078,
+   "points_against": 1965,
    "form": null
   },
   {
    "team": "Toronto Raptors",
    "group": "Atlantic Division",
    "position": 4,
-   "won": 6,
+   "won": 7,
    "lost": 11,
-   "points_for": 1896,
-   "points_against": 1898,
+   "points_for": 2020,
+   "points_against": 1998,
    "form": null
   },
   {
@@ -1791,29 +1791,29 @@
    "group": "Atlantic Division",
    "position": 5,
    "won": 4,
-   "lost": 13,
-   "points_for": 1883,
-   "points_against": 2021,
+   "lost": 14,
+   "points_for": 1983,
+   "points_against": 2145,
    "form": null
   },
   {
    "team": "Atlanta Hawks",
    "group": "Southeast Division",
    "position": 1,
-   "won": 11,
+   "won": 12,
    "lost": 6,
-   "points_for": 1984,
-   "points_against": 1931,
+   "points_for": 2071,
+   "points_against": 2017,
    "form": null
   },
   {
    "team": "Miami Heat",
    "group": "Southeast Division",
    "position": 2,
-   "won": 10,
+   "won": 11,
    "lost": 7,
-   "points_for": 2035,
-   "points_against": 2022,
+   "points_for": 2143,
+   "points_against": 2127,
    "form": null
   },
   {
@@ -1850,10 +1850,10 @@
    "team": "Detroit Pistons",
    "group": "Central Division",
    "position": 1,
-   "won": 11,
+   "won": 12,
    "lost": 6,
-   "points_for": 1918,
-   "points_against": 1823,
+   "points_for": 2031,
+   "points_against": 1921,
    "form": null
   },
   {
@@ -1867,19 +1867,9 @@
    "form": null
   },
   {
-   "team": "Indiana Pacers",
-   "group": "Central Division",
-   "position": 3,
-   "won": 6,
-   "lost": 12,
-   "points_for": 2023,
-   "points_against": 2083,
-   "form": null
-  },
-  {
    "team": "Chicago Bulls",
    "group": "Central Division",
-   "position": 4,
+   "position": 3,
    "won": 6,
    "lost": 12,
    "points_for": 2095,
@@ -1887,13 +1877,23 @@
    "form": null
   },
   {
+   "team": "Indiana Pacers",
+   "group": "Central Division",
+   "position": 4,
+   "won": 6,
+   "lost": 13,
+   "points_for": 2110,
+   "points_against": 2194,
+   "form": null
+  },
+  {
    "team": "Milwaukee Bucks",
    "group": "Central Division",
    "position": 5,
    "won": 2,
-   "lost": 17,
-   "points_for": 2072,
-   "points_against": 2284,
+   "lost": 18,
+   "points_for": 2170,
+   "points_against": 2397,
    "form": null
   },
   {
@@ -2349,12 +2349,12 @@
  ],
  "team_quarters": {
   "Atlanta Hawks": {
-   "games": 17,
+   "games": 18,
    "season": {
-    "q1_for": 26.06,
-    "q1_against": 30.88,
-    "q2_for": 31.29,
-    "q2_against": 26.71
+    "q1_for": 26.17,
+    "q1_against": 31.0,
+    "q2_for": 32.0,
+    "q2_against": 26.83
    },
    "last_10": {
     "q1_for": 25.3,
@@ -2364,12 +2364,12 @@
    }
   },
   "Boston Celtics": {
-   "games": 18,
+   "games": 19,
    "season": {
-    "q1_for": 29.61,
-    "q1_against": 23.61,
-    "q2_for": 29.11,
-    "q2_against": 24.5
+    "q1_for": 29.53,
+    "q1_against": 23.79,
+    "q2_for": 29.16,
+    "q2_against": 24.16
    },
    "last_10": {
     "q1_for": 28.3,
@@ -2379,12 +2379,12 @@
    }
   },
   "Brooklyn Nets": {
-   "games": 17,
+   "games": 18,
    "season": {
-    "q1_for": 26.88,
-    "q1_against": 29.47,
-    "q2_for": 28.88,
-    "q2_against": 33.0
+    "q1_for": 26.67,
+    "q1_against": 29.33,
+    "q2_for": 28.67,
+    "q2_against": 32.67
    },
    "last_10": {
     "q1_for": 28.0,
@@ -2469,12 +2469,12 @@
    }
   },
   "Detroit Pistons": {
-   "games": 17,
+   "games": 18,
    "season": {
-    "q1_for": 27.41,
-    "q1_against": 28.53,
-    "q2_for": 27.65,
-    "q2_against": 25.06
+    "q1_for": 27.39,
+    "q1_against": 28.5,
+    "q2_for": 27.11,
+    "q2_against": 25.33
    },
    "last_10": {
     "q1_for": 26.3,
@@ -2514,12 +2514,12 @@
    }
   },
   "Indiana Pacers": {
-   "games": 18,
+   "games": 19,
    "season": {
-    "q1_for": 27.56,
-    "q1_against": 29.17,
-    "q2_for": 26.17,
-    "q2_against": 28.5
+    "q1_for": 28.11,
+    "q1_against": 29.26,
+    "q2_for": 25.74,
+    "q2_against": 28.84
    },
    "last_10": {
     "q1_for": 26.9,
@@ -2574,12 +2574,12 @@
    }
   },
   "Miami Heat": {
-   "games": 17,
+   "games": 18,
    "season": {
-    "q1_for": 31.59,
-    "q1_against": 28.35,
-    "q2_for": 30.0,
-    "q2_against": 29.53
+    "q1_for": 31.61,
+    "q1_against": 28.67,
+    "q2_for": 29.83,
+    "q2_against": 29.83
    },
    "last_10": {
     "q1_for": 32.0,
@@ -2589,12 +2589,12 @@
    }
   },
   "Milwaukee Bucks": {
-   "games": 19,
+   "games": 20,
    "season": {
-    "q1_for": 25.16,
-    "q1_against": 26.16,
-    "q2_for": 23.84,
-    "q2_against": 32.05
+    "q1_for": 25.05,
+    "q1_against": 26.1,
+    "q2_for": 24.3,
+    "q2_against": 31.75
    },
    "last_10": {
     "q1_for": 25.6,
@@ -2634,12 +2634,12 @@
    }
   },
   "New York Knicks": {
-   "games": 18,
+   "games": 19,
    "season": {
-    "q1_for": 27.56,
-    "q1_against": 26.78,
-    "q2_for": 27.83,
-    "q2_against": 24.39
+    "q1_for": 27.42,
+    "q1_against": 26.58,
+    "q2_for": 28.11,
+    "q2_against": 24.74
    },
    "last_10": {
     "q1_for": 26.5,
@@ -2679,12 +2679,12 @@
    }
   },
   "Philadelphia 76ers": {
-   "games": 19,
+   "games": 20,
    "season": {
-    "q1_for": 27.68,
-    "q1_against": 29.74,
-    "q2_for": 31.47,
-    "q2_against": 27.68
+    "q1_for": 27.45,
+    "q1_against": 29.5,
+    "q2_for": 31.45,
+    "q2_against": 27.95
    },
    "last_10": {
     "q1_for": 29.0,
@@ -2754,12 +2754,12 @@
    }
   },
   "Toronto Raptors": {
-   "games": 17,
+   "games": 18,
    "season": {
-    "q1_for": 27.59,
-    "q1_against": 27.71,
-    "q2_for": 27.65,
-    "q2_against": 28.29
+    "q1_for": 28.44,
+    "q1_against": 27.44,
+    "q2_for": 27.56,
+    "q2_against": 27.89
    },
    "last_10": {
     "q1_for": 27.5,
@@ -2799,7 +2799,7 @@
    }
   }
  },
- "generated_at": "2026-11-28T04:00:03+00:00",
+ "generated_at": "2026-11-28T04:17:08+00:00",
  "source": "api-sports.io",
  "api_calls": 9,
  "errors": []
